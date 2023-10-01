@@ -1,9 +1,8 @@
-import { ref } from 'vue';
-import { useLocalizationDataStore } from '../stores/LocalizationDataStore';
+import { useDataStore } from '../stores/DataStore';
 
 export function translate(group, key, ...replacements) {
-    const localizations = useLocalizationDataStore().data
-    return localizations[group][key]?.replace(/\{([0-9]+)\}/g, (match, p1) => (p1 < replacements.length) ? replacements[p1] : '');   
+    const localizations = useDataStore().localization.data;
+    return localizations[group][''+key]?.replace(/\{([0-9]+)\}/g, (match, p1) => (p1 < replacements.length) ? replacements[p1] : '') ?? `[${group}:${key}]`;   
 }
 
 export function translateUi(key, ...replacements) {

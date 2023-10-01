@@ -2,12 +2,14 @@
 import { translate, translateUi } from '../../composables/Localization';
 import { getStudentById, studentMap } from '../../composables/Student';
 import { useSettingsStore } from '../../stores/SettingsStore';
+import { useStudentStore } from '../../stores/StudentStore';
 
 import StudentRenderSkills from './StudentRenderSkills.vue';
 import StudentRenderProfile from './StudentRenderProfile.vue';
 import StudentRenderStats from './StudentRenderStats.vue';
 import StudentRenderWeapon from './StudentRenderWeapon.vue';
 import StudentRenderGear from './StudentRenderGear.vue';
+import { computed } from 'vue';
 
 const props = defineProps({
     student: {
@@ -21,6 +23,23 @@ const props = defineProps({
 });
 
 const settings = useSettingsStore().settings;
+const studentStore = useStudentStore();
+
+const inCollection = computed(() => {
+    return studentStore.collectionExists(props.student.Id);
+})
+
+const isLocked = computed(() => {
+    return studentStore.collectionLocked(props.student.Id);
+})
+
+function toggleCollection() {
+    if (inCollection.value) {
+        studentStore.collectionRemove(props.student.Id);
+    } else {
+        studentStore.collectionUpdate(props.student.Id, ...props.student.FavorAlts);
+    }
+}
 
 </script>
 
@@ -32,13 +51,20 @@ const settings = useSettingsStore().settings;
                     <img id="ba-student-img" :src="`/images/student/portrait/${student.Id}.webp`">
                 </div>
                 <div class="student-portrait-buttons">
-                    <RouterLink id="ba-student-list-btn" tag="button" class="btn btn-dark" :to="{name: 'studentlistview'}">
-                        <font-awesome-icon :icon="['fas', 'chevron-left']" />
-                        <span class="ms-2 d-none d-md-inline">{{ translateUi('student_list') }}</span>
-                        <span class="d-inline d-md-none">{{ translateUi('student_list_short') }}</span>
+                    <RouterLink id="ba-student-list-btn" tag="button" class="btn-pill" :to="{name: 'studentlistview'}">
+                        <font-awesome-icon :icon="['fas', 'arrow-left']" class="ms-2"/>
+                        <span class="label d-none d-md-inline">{{ translateUi('student_list') }}</span>
+                        <span class="label d-inline d-md-none">{{ translateUi('student_list_short') }}</span>
                     </RouterLink>
-                    <!-- <button id="ba-student-collection-btn" type="button" class="btn btn-dark" onclick="toggleOwned()"></button>
-                    <div class="d-md-none flex-fill"></div>
+                    <button type="button" class="btn-pill" :class="{active: inCollection}" @click="toggleCollection">
+                        <fa :icon="inCollection ? 'circle-check' : 'circle-plus'" class="ms-2" />
+                        <span class="label" v-html="inCollection ? 'Remove' : 'Add'"></span>
+                    </button>
+                    <button v-if="inCollection" type="button" class="btn-pill" :class="{active: isLocked}" @click="studentStore.collectionLock(student.Id);">
+                        <fa :icon="isLocked ? 'lock' : 'lock-open'" class="ms-2" />
+                        <span class="label" v-html="isLocked ? 'Unlock' : 'Lock'"></span>
+                    </button>
+                    <!-- 
                     <button id="ba-student-toggle-sprite-btn" type="button" class="btn btn-dark tooltip-button" data-tooltip-id="ui,tooltip_sprite_toggle"><font-awesome-icon :icon="['fas', 'repeat']" /></button>
                     <button id="student-voice-btn" type="button" class="btn btn-dark tooltip-button" data-tooltip-id="ui,voicegallery"><font-awesome-icon :icon="['fas', 'microphone']" /></button>
                     <button id="btn-midokuni-link" class="btn btn-dark tooltip-button py-1 px-2" v-tooltip="translateUi('midokuni_link')">
@@ -54,7 +80,7 @@ const settings = useSettingsStore().settings;
             </div>
             <div id="ba-student" class="col-12 col-md-6 ba-page">
                 <div class="px-0 ps-xl-3">
-                    <div class="card p-2">
+                    <div class="card p-2 m-auto" style="max-width: 660px;">
                         <div class="card-header">
                             <div class="d-flex flex-row align-items-top pt-2 pb-3">
                                 <div class="flex-grow-1 me-2">
@@ -110,3 +136,13 @@ const settings = useSettingsStore().settings;
         </div>
     </div>
 </template>
+
+<style lang="scss">
+
+.student-portrait-buttons .btn-pill {
+    height: 40px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+</style>

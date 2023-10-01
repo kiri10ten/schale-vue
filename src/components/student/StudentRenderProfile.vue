@@ -41,7 +41,14 @@ const lobbyTooltip = computed(() => {
         <img id="ba-profile-portrait-img" class="drop-shadow me-3" :src="`/images/student/collection/${student.Id}.webp`">
         <div>
             <div class="my-1">
-                <h3 id="ba-student-fullname" class="d-inline">{{ student.FamilyName }} {{ student.PersonalName }}</h3>
+                <h3 id="ba-student-fullname" class="d-inline">
+                    <ruby v-if="settings.language === 'jp'">
+                        {{ student.FamilyName }}
+                        <rp>(</rp><rt>{{ student.FamilyNameRuby }}</rt><rp>)</rp>
+                    </ruby>
+                    <template v-else>{{ student.FamilyName }}</template>
+                    {{ student.PersonalName }}                    
+                </h3>
             </div>
 
             <div class="d-flex flex-column">
@@ -162,10 +169,5 @@ const lobbyTooltip = computed(() => {
 </template>
 
 <style>
-
-tbody {
-    --bs-table-bg: initial;
-    --bs-table-color: initial;
-}
 
 </style>

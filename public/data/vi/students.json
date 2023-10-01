@@ -45,7 +45,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1988,
         "AttackPower1": 369,
         "AttackPower100": 3690,
@@ -698,7 +698,7 @@
         "Illustrator": "ポップキュン",
         "Designer": "ポップキュン",
         "CharHeightMetric": "167cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 2044,
         "AttackPower1": 113,
         "AttackPower100": 1133,
@@ -1295,7 +1295,7 @@
         "Illustrator": "whoisshe",
         "Designer": "whoisshe",
         "CharHeightMetric": "163cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1944,
         "AttackPower1": 374,
         "AttackPower100": 3747,
@@ -1813,7 +1813,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "158cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1400,
         "AttackPower1": 195,
         "AttackPower100": 1953,
@@ -2368,7 +2368,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "142cm",
-        "CharHeightImperial": "4&#x27;7&quot;",
+        "CharHeightImperial": "4'7\"",
         "StabilityPoint": 1404,
         "AttackPower1": 254,
         "AttackPower100": 2545,
@@ -2887,7 +2887,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "145cm",
-        "CharHeightImperial": "4&#x27;9&quot;",
+        "CharHeightImperial": "4'9\"",
         "StabilityPoint": 1948,
         "AttackPower1": 174,
         "AttackPower100": 1749,
@@ -3228,7 +3228,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    11205,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -3428,7 +3433,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 2056,
         "AttackPower1": 320,
         "AttackPower100": 3204,
@@ -3931,7 +3936,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1424,
         "AttackPower1": 226,
         "AttackPower100": 2265,
@@ -4480,7 +4485,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "146cm",
-        "CharHeightImperial": "4&#x27;9&quot;",
+        "CharHeightImperial": "4'9\"",
         "StabilityPoint": 1400,
         "AttackPower1": 208,
         "AttackPower100": 2081,
@@ -5257,7 +5262,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1428,
         "AttackPower1": 195,
         "AttackPower100": 1950,
@@ -5908,7 +5913,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1384,
         "AttackPower1": 278,
         "AttackPower100": 2788,
@@ -6267,7 +6272,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    11207,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -6497,7 +6507,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "174cm",
-        "CharHeightImperial": "5&#x27;8&quot;",
+        "CharHeightImperial": "5'8\"",
         "StabilityPoint": 1980,
         "AttackPower1": 322,
         "AttackPower100": 3224,
@@ -7047,7 +7057,7 @@
         "Illustrator": "Fame",
         "Designer": "Fame",
         "CharHeightMetric": "167cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 2016,
         "AttackPower1": 189,
         "AttackPower100": 1894,
@@ -7558,7 +7568,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "162cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 2052,
         "AttackPower1": 386,
         "AttackPower100": 3864,
@@ -8184,7 +8194,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "164cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 980,
         "AttackPower1": 98,
         "AttackPower100": 983,
@@ -8714,7 +8724,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "159cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1000,
         "AttackPower1": 222,
         "AttackPower100": 2220,
@@ -9230,7 +9240,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "167cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 1400,
         "AttackPower1": 275,
         "AttackPower100": 2754,
@@ -9733,7 +9743,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "179cm",
-        "CharHeightImperial": "5&#x27;10&quot;",
+        "CharHeightImperial": "5'10\"",
         "StabilityPoint": 2004,
         "AttackPower1": 342,
         "AttackPower100": 3426,
@@ -10236,7 +10246,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1408,
         "AttackPower1": 263,
         "AttackPower100": 2631,
@@ -10550,7 +10560,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    11204,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -10750,7 +10765,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1008,
         "AttackPower1": 105,
         "AttackPower100": 1053,
@@ -11293,7 +11308,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "144cm",
-        "CharHeightImperial": "4&#x27;8&quot;",
+        "CharHeightImperial": "4'8\"",
         "StabilityPoint": 1404,
         "AttackPower1": 190,
         "AttackPower100": 1900,
@@ -11807,7 +11822,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1408,
         "AttackPower1": 274,
         "AttackPower100": 2741,
@@ -12370,7 +12385,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 1364,
         "AttackPower1": 282,
         "AttackPower100": 2829,
@@ -12746,7 +12761,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    11208,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -12981,7 +13001,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "162cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1420,
         "AttackPower1": 171,
         "AttackPower100": 1719,
@@ -13492,7 +13512,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1396,
         "AttackPower1": 108,
         "AttackPower100": 1084,
@@ -14125,7 +14145,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 2020,
         "AttackPower1": 116,
         "AttackPower100": 1164,
@@ -14447,7 +14467,12 @@
                     3
                 ]
             ],
-            [],
+            [
+                [
+                    209301,
+                    3
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -14647,7 +14672,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "167cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 1436,
         "AttackPower1": 266,
         "AttackPower100": 2661,
@@ -15185,7 +15210,7 @@
         "Illustrator": "三脚たこ",
         "Designer": "三脚たこ",
         "CharHeightMetric": "151cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1404,
         "AttackPower1": 186,
         "AttackPower100": 1865,
@@ -15712,7 +15737,7 @@
         "Illustrator": "Empew",
         "Designer": "Empew",
         "CharHeightMetric": "162cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1416,
         "AttackPower1": 192,
         "AttackPower100": 1926,
@@ -16350,7 +16375,7 @@
         "Illustrator": "OSUK2",
         "Designer": "OSUK2",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1432,
         "AttackPower1": 253,
         "AttackPower100": 2538,
@@ -16893,7 +16918,7 @@
         "Illustrator": "ミミトケ",
         "Designer": "ミミトケ",
         "CharHeightMetric": "154cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 1141,
         "AttackPower1": 246,
         "AttackPower100": 2463,
@@ -17377,7 +17402,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "170cm",
-        "CharHeightImperial": "5&#x27;6&quot;",
+        "CharHeightImperial": "5'6\"",
         "StabilityPoint": 2364,
         "AttackPower1": 276,
         "AttackPower100": 2762,
@@ -17899,7 +17924,7 @@
         "Illustrator": "whoisshe",
         "Designer": "whoisshe",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1168,
         "AttackPower1": 194,
         "AttackPower100": 1941,
@@ -18411,7 +18436,7 @@
         "Illustrator": "まきあっと",
         "Designer": "まきあっと",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1615,
         "AttackPower1": 167,
         "AttackPower100": 1674,
@@ -18486,7 +18511,7 @@
                             ]
                         ],
                         "Stat": "MoveSpeed_Coefficient",
-                        "Channel": 612
+                        "Channel": 11512
                     },
                     {
                         "Type": "BuffTarget",
@@ -18948,7 +18973,7 @@
         "Illustrator": "ヌードル",
         "Designer": "ヌードル",
         "CharHeightMetric": "159cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1638,
         "AttackPower1": 145,
         "AttackPower100": 1454,
@@ -19427,7 +19452,7 @@
         "Illustrator": "tonito",
         "Designer": "tonito",
         "CharHeightMetric": "150cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1647,
         "AttackPower1": 162,
         "AttackPower100": 1625,
@@ -19907,7 +19932,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 1573,
         "AttackPower1": 192,
         "AttackPower100": 1927,
@@ -20524,7 +20549,7 @@
         "Illustrator": "やまかわ",
         "Designer": "やまかわ",
         "CharHeightMetric": "162cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1638,
         "AttackPower1": 232,
         "AttackPower100": 2324,
@@ -21019,7 +21044,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 1178,
         "AttackPower1": 120,
         "AttackPower100": 1204,
@@ -21303,7 +21328,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    11206,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -21502,7 +21532,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "159cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1155,
         "AttackPower1": 122,
         "AttackPower100": 1227,
@@ -21994,7 +22024,7 @@
         "Illustrator": "mona",
         "Designer": "mona",
         "CharHeightMetric": "158cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1145,
         "AttackPower1": 140,
         "AttackPower100": 1402,
@@ -22486,7 +22516,7 @@
         "Illustrator": "nino",
         "Designer": "nino",
         "CharHeightMetric": "170cm",
-        "CharHeightImperial": "5&#x27;6&quot;",
+        "CharHeightImperial": "5'6\"",
         "StabilityPoint": 2263,
         "AttackPower1": 170,
         "AttackPower100": 1704,
@@ -22966,7 +22996,7 @@
         "Illustrator": "RONOPU",
         "Designer": "RONOPU",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1596,
         "AttackPower1": 167,
         "AttackPower100": 1678,
@@ -23460,7 +23490,7 @@
         "Illustrator": "あやみ",
         "Designer": "あやみ",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1578,
         "AttackPower1": 192,
         "AttackPower100": 1922,
@@ -23948,7 +23978,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "146cm",
-        "CharHeightImperial": "4&#x27;9&quot;",
+        "CharHeightImperial": "4'9\"",
         "StabilityPoint": 1596,
         "AttackPower1": 268,
         "AttackPower100": 2689,
@@ -24451,7 +24481,7 @@
         "Illustrator": "ポップキュン",
         "Designer": "ポップキュン",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 2300,
         "AttackPower1": 284,
         "AttackPower100": 2845,
@@ -24953,7 +24983,7 @@
         "Illustrator": "はねこと",
         "Designer": "はねこと",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1416,
         "AttackPower1": 184,
         "AttackPower100": 1846,
@@ -25481,7 +25511,7 @@
         "Illustrator": "whoisshe",
         "Designer": "whoisshe",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 2286,
         "AttackPower1": 168,
         "AttackPower100": 1687,
@@ -26003,7 +26033,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "152cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1188,
         "AttackPower1": 421,
         "AttackPower100": 4212,
@@ -26586,7 +26616,7 @@
         "Illustrator": "キキ",
         "Designer": "キキ",
         "CharHeightMetric": "143cm",
-        "CharHeightImperial": "4&#x27;8&quot;",
+        "CharHeightImperial": "4'8\"",
         "StabilityPoint": 1972,
         "AttackPower1": 315,
         "AttackPower100": 3152,
@@ -27149,7 +27179,7 @@
         "Illustrator": "キキ",
         "Designer": "キキ",
         "CharHeightMetric": "143cm",
-        "CharHeightImperial": "4&#x27;8&quot;",
+        "CharHeightImperial": "4'8\"",
         "StabilityPoint": 1436,
         "AttackPower1": 211,
         "AttackPower100": 2118,
@@ -27716,7 +27746,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "128cm",
-        "CharHeightImperial": "4&#x27;2&#x27;&#x27;",
+        "CharHeightImperial": "4'2''",
         "StabilityPoint": 980,
         "AttackPower1": 172,
         "AttackPower100": 1727,
@@ -28269,7 +28299,7 @@
         "Illustrator": "日下雲",
         "Designer": "日下雲",
         "CharHeightMetric": "147cm",
-        "CharHeightImperial": "4&#x27;10&#x27;&#x27;",
+        "CharHeightImperial": "4'10''",
         "StabilityPoint": 1628,
         "AttackPower1": 165,
         "AttackPower100": 1658,
@@ -28775,7 +28805,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "150cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 976,
         "AttackPower1": 356,
         "AttackPower100": 3568,
@@ -29234,7 +29264,7 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 54,
         "PathName": "Azusa",
@@ -29275,7 +29305,7 @@
         "Illustrator": "NAMYO",
         "Designer": "NAMYO",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1384,
         "AttackPower1": 189,
         "AttackPower100": 1894,
@@ -29774,7 +29804,7 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 55,
         "PathName": "Hanako",
@@ -29815,7 +29845,7 @@
         "Illustrator": "Hwansang",
         "Designer": "Hwansang",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1628,
         "AttackPower1": 164,
         "AttackPower100": 1646,
@@ -30297,7 +30327,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "148cm",
-        "CharHeightImperial": "4&#x27;10&#x27;&#x27;",
+        "CharHeightImperial": "4'10''",
         "StabilityPoint": 1948,
         "AttackPower1": 208,
         "AttackPower100": 2085,
@@ -30814,7 +30844,7 @@
         "Illustrator": "NAMYO",
         "Designer": "NAMYO",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1224,
         "AttackPower1": 211,
         "AttackPower100": 2111,
@@ -31350,7 +31380,7 @@
         "Illustrator": "ポップキュン",
         "Designer": "ポップキュン",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 2024,
         "AttackPower1": 318,
         "AttackPower100": 3182,
@@ -31863,7 +31893,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "162cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 2028,
         "AttackPower1": 345,
         "AttackPower100": 3453,
@@ -32414,7 +32444,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "158cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1546,
         "AttackPower1": 276,
         "AttackPower100": 2768,
@@ -32975,7 +33005,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "142cm",
-        "CharHeightImperial": "4&#x27;7&quot;",
+        "CharHeightImperial": "4'7\"",
         "StabilityPoint": 1364,
         "AttackPower1": 300,
         "AttackPower100": 3001,
@@ -33639,7 +33669,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1784,
         "AttackPower1": 351,
         "AttackPower100": 3511,
@@ -34171,7 +34201,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1344,
         "AttackPower1": 232,
         "AttackPower100": 2327,
@@ -34697,7 +34727,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1316,
         "AttackPower1": 288,
         "AttackPower100": 2889,
@@ -35035,7 +35065,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    11301,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -35854,7 +35889,7 @@
         "Illustrator": "DoReMi",
         "Designer": "日下雲",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 904,
         "AttackPower1": 112,
         "AttackPower100": 1126,
@@ -36405,7 +36440,7 @@
         "Illustrator": "whoisshe",
         "Designer": "whoisshe",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1090,
         "AttackPower1": 207,
         "AttackPower100": 2076,
@@ -37003,7 +37038,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "146cm",
-        "CharHeightImperial": "4&#x27;9&quot;",
+        "CharHeightImperial": "4'9\"",
         "StabilityPoint": 1264,
         "AttackPower1": 151,
         "AttackPower100": 1515,
@@ -37599,7 +37634,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "170cm",
-        "CharHeightImperial": "5&#x27;6&quot;",
+        "CharHeightImperial": "5'6\"",
         "StabilityPoint": 2000,
         "AttackPower1": 344,
         "AttackPower100": 3446,
@@ -38147,7 +38182,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "167cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 1324,
         "AttackPower1": 203,
         "AttackPower100": 2038,
@@ -38767,7 +38802,7 @@
         "Illustrator": "kokosando",
         "Designer": "kokosando",
         "CharHeightMetric": "152cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1100,
         "AttackPower1": 141,
         "AttackPower100": 1416,
@@ -39279,7 +39314,7 @@
         "Illustrator": "DoReMi",
         "Designer": "Vinoker",
         "CharHeightMetric": "151cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1086,
         "AttackPower1": 147,
         "AttackPower100": 1473,
@@ -39768,7 +39803,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "158cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1040,
         "AttackPower1": 183,
         "AttackPower100": 1839,
@@ -40287,7 +40322,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1086,
         "AttackPower1": 147,
         "AttackPower100": 1477,
@@ -40812,7 +40847,7 @@
         "Illustrator": "kokosando",
         "Designer": "kokosando",
         "CharHeightMetric": "128cm",
-        "CharHeightImperial": "4&#x27;2&#x27;&#x27;",
+        "CharHeightImperial": "4'2''",
         "StabilityPoint": 1136,
         "AttackPower1": 199,
         "AttackPower100": 1995,
@@ -41400,7 +41435,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "159cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 908,
         "AttackPower1": 111,
         "AttackPower100": 1116,
@@ -41922,7 +41957,7 @@
         "Illustrator": "mery",
         "Designer": "mery",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1900,
         "AttackPower1": 260,
         "AttackPower100": 2608,
@@ -42501,7 +42536,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "147cm",
-        "CharHeightImperial": "4&#x27;10&#x27;&#x27;",
+        "CharHeightImperial": "4'10''",
         "StabilityPoint": 1472,
         "AttackPower1": 160,
         "AttackPower100": 1607,
@@ -42984,7 +43019,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1976,
         "AttackPower1": 316,
         "AttackPower100": 3160,
@@ -43510,7 +43545,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "144cm",
-        "CharHeightImperial": "4&#x27;8&quot;",
+        "CharHeightImperial": "4'8\"",
         "StabilityPoint": 1328,
         "AttackPower1": 372,
         "AttackPower100": 3725,
@@ -44081,7 +44116,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 1463,
         "AttackPower1": 206,
         "AttackPower100": 2061,
@@ -44604,7 +44639,7 @@
         "Illustrator": "NAMYO",
         "Designer": "NAMYO",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1976,
         "AttackPower1": 349,
         "AttackPower100": 3498,
@@ -45212,7 +45247,7 @@
         "Illustrator": "ミミトケ",
         "Designer": "ミミトケ",
         "CharHeightMetric": "148cm",
-        "CharHeightImperial": "4&#x27;10&#x27;&#x27;",
+        "CharHeightImperial": "4'10''",
         "StabilityPoint": 1980,
         "AttackPower1": 247,
         "AttackPower100": 2476,
@@ -45772,7 +45807,7 @@
         "Illustrator": "イコモチ",
         "Designer": "イコモチ",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1053,
         "AttackPower1": 151,
         "AttackPower100": 1516,
@@ -46273,7 +46308,7 @@
         "Illustrator": "ni02",
         "Designer": "ni02",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1587,
         "AttackPower1": 270,
         "AttackPower100": 2701,
@@ -46780,7 +46815,7 @@
         "Illustrator": "tokki",
         "Designer": "tokki",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 948,
         "AttackPower1": 134,
         "AttackPower100": 1347,
@@ -47419,7 +47454,7 @@
         "Illustrator": "CHILD",
         "Designer": "CHILD",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1908,
         "AttackPower1": 238,
         "AttackPower100": 2388,
@@ -47939,7 +47974,7 @@
         "Illustrator": "tonito",
         "Designer": "tonito",
         "CharHeightMetric": "166cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 984,
         "AttackPower1": 174,
         "AttackPower100": 1741,
@@ -48567,7 +48602,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "166cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 1264,
         "AttackPower1": 145,
         "AttackPower100": 1456,
@@ -49105,7 +49140,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "日下雲",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1272,
         "AttackPower1": 129,
         "AttackPower100": 1299,
@@ -49647,7 +49682,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1582,
         "AttackPower1": 288,
         "AttackPower100": 2887,
@@ -50197,7 +50232,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1888,
         "AttackPower1": 264,
         "AttackPower100": 2645,
@@ -50703,7 +50738,7 @@
         "Illustrator": "kokosando",
         "Designer": "kokosando",
         "CharHeightMetric": "142cm",
-        "CharHeightImperial": "4&#x27;7&quot;",
+        "CharHeightImperial": "4'7\"",
         "StabilityPoint": 1090,
         "AttackPower1": 147,
         "AttackPower100": 1472,
@@ -51203,7 +51238,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "151cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 2309,
         "AttackPower1": 275,
         "AttackPower100": 2753,
@@ -51680,7 +51715,7 @@
         "Illustrator": "seicoh",
         "Designer": "seicoh",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 1976,
         "AttackPower1": 276,
         "AttackPower100": 2767,
@@ -52264,7 +52299,7 @@
         "Illustrator": "にぎりうさぎ",
         "Designer": "にぎりうさぎ",
         "CharHeightMetric": "180cm",
-        "CharHeightImperial": "5&#x27;11&quot;",
+        "CharHeightImperial": "5'11\"",
         "StabilityPoint": 1268,
         "AttackPower1": 134,
         "AttackPower100": 1341,
@@ -52829,7 +52864,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "163cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 988,
         "AttackPower1": 549,
         "AttackPower100": 5495,
@@ -53459,7 +53494,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 2171,
         "AttackPower1": 212,
         "AttackPower100": 2126,
@@ -54014,7 +54049,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "158cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1284,
         "AttackPower1": 136,
         "AttackPower100": 1368,
@@ -54521,7 +54556,7 @@
         "Illustrator": "NAMYO",
         "Designer": "NAMYO",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1968,
         "AttackPower1": 368,
         "AttackPower100": 3685,
@@ -55176,7 +55211,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1392,
         "AttackPower1": 273,
         "AttackPower100": 2739,
@@ -55777,7 +55812,7 @@
         "Illustrator": "7peach",
         "Designer": "7peach",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 2194,
         "AttackPower1": 289,
         "AttackPower100": 2890,
@@ -56289,7 +56324,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "145cm",
-        "CharHeightImperial": "4&#x27;9&quot;",
+        "CharHeightImperial": "4'9\"",
         "StabilityPoint": 1824,
         "AttackPower1": 199,
         "AttackPower100": 1999,
@@ -56932,7 +56967,7 @@
         "Illustrator": "whoisshe",
         "Designer": "whoisshe",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 2093,
         "AttackPower1": 182,
         "AttackPower100": 1829,
@@ -57422,7 +57457,7 @@
         "Illustrator": "はねこと",
         "Designer": "はねこと",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1324,
         "AttackPower1": 194,
         "AttackPower100": 1942,
@@ -57976,7 +58011,7 @@
         "Illustrator": "CHILD",
         "Designer": "CHILD",
         "CharHeightMetric": "159cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 988,
         "AttackPower1": 226,
         "AttackPower100": 2262,
@@ -58757,7 +58792,7 @@
         "Illustrator": "9ml",
         "Designer": "9ml",
         "CharHeightMetric": "167cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 1372,
         "AttackPower1": 216,
         "AttackPower100": 2164,
@@ -59330,7 +59365,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "163cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1136,
         "AttackPower1": 199,
         "AttackPower100": 1998,
@@ -59892,7 +59927,7 @@
         "Illustrator": "Mx2J",
         "Designer": "mimo",
         "CharHeightMetric": "155cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1388,
         "AttackPower1": 241,
         "AttackPower100": 2415,
@@ -60444,7 +60479,7 @@
         "Illustrator": "seicoh",
         "Designer": "seicoh",
         "CharHeightMetric": "139cm",
-        "CharHeightImperial": "4&#x27;5&quot;",
+        "CharHeightImperial": "4'5\"",
         "StabilityPoint": 1264,
         "AttackPower1": 206,
         "AttackPower100": 2061,
@@ -60964,7 +60999,7 @@
         "Illustrator": "Paruru",
         "Designer": "Paruru",
         "CharHeightMetric": "162cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1384,
         "AttackPower1": 347,
         "AttackPower100": 3473,
@@ -61550,7 +61585,7 @@
         "Illustrator": "DoReMi",
         "Designer": "Hwansang",
         "CharHeightMetric": "161cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 988,
         "AttackPower1": 108,
         "AttackPower100": 1086,
@@ -62074,7 +62109,7 @@
         "Illustrator": "ミミトケ",
         "Designer": "ミミトケ",
         "CharHeightMetric": "154cm",
-        "CharHeightImperial": "5&#x27;0&quot;",
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 944,
         "AttackPower1": 659,
         "AttackPower100": 6594,
@@ -62634,7 +62669,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "164cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1141,
         "AttackPower1": 289,
         "AttackPower100": 2897,
@@ -63129,7 +63164,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1284,
         "AttackPower1": 142,
         "AttackPower100": 1426,
@@ -63684,7 +63719,7 @@
         "Illustrator": "CHILD",
         "Designer": "CHILD",
         "CharHeightMetric": "151cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 904,
         "AttackPower1": 120,
         "AttackPower100": 1200,
@@ -64221,7 +64256,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
         "CharHeightMetric": "179cm",
-        "CharHeightImperial": "5&#x27;10&quot;",
+        "CharHeightImperial": "5'10\"",
         "StabilityPoint": 1972,
         "AttackPower1": 305,
         "AttackPower100": 3056,
@@ -64772,7 +64807,7 @@
         "Illustrator": "MISOM150",
         "Designer": "MISOM150",
         "CharHeightMetric": "162cm",
-        "CharHeightImperial": "5&#x27;3&quot;",
+        "CharHeightImperial": "5'3\"",
         "StabilityPoint": 1201,
         "AttackPower1": 219,
         "AttackPower100": 2197,
@@ -65292,7 +65327,7 @@
         "Illustrator": "ミミトケ",
         "Designer": "ミミトケ",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 940,
         "AttackPower1": 270,
         "AttackPower100": 2702,
@@ -65872,7 +65907,7 @@
         "Illustrator": "CHILD",
         "Designer": "CHILD",
         "CharHeightMetric": "156cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1268,
         "AttackPower1": 208,
         "AttackPower100": 2080,
@@ -66660,7 +66695,7 @@
         "Illustrator": "kokosando",
         "Designer": "kokosando",
         "CharHeightMetric": "150cm",
-        "CharHeightImperial": "4&#x27;11&quot;",
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1463,
         "AttackPower1": 188,
         "AttackPower100": 1881,
@@ -67405,7 +67440,7 @@
         "Illustrator": "whoisshe",
         "Designer": "whoisshe",
         "CharHeightMetric": "163cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1908,
         "AttackPower1": 333,
         "AttackPower100": 3339,
@@ -67964,7 +67999,7 @@
         "Illustrator": "7peach",
         "Designer": "7peach",
         "CharHeightMetric": "159cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1477,
         "AttackPower1": 249,
         "AttackPower100": 2494,
@@ -68455,7 +68490,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1368,
         "AttackPower1": 300,
         "AttackPower100": 3009,
@@ -68981,7 +69016,7 @@
         "Illustrator": "ni02",
         "Designer": "ni02",
         "CharHeightMetric": "168cm",
-        "CharHeightImperial": "5&#x27;6&quot;",
+        "CharHeightImperial": "5'6\"",
         "StabilityPoint": 1816,
         "AttackPower1": 166,
         "AttackPower100": 1663,
@@ -69646,7 +69681,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": "5&#x27;1&quot;",
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 1376,
         "AttackPower1": 247,
         "AttackPower100": 2477,
@@ -70263,7 +70298,7 @@
         "Illustrator": "NAMYO",
         "Designer": "NAMYO",
         "CharHeightMetric": "164cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1336,
         "AttackPower1": 172,
         "AttackPower100": 1726,
@@ -70887,7 +70922,7 @@
         "Illustrator": "kokosando",
         "Designer": "kokosando",
         "CharHeightMetric": "166cm",
-        "CharHeightImperial": "5&#x27;5&quot;",
+        "CharHeightImperial": "5'5\"",
         "StabilityPoint": 1081,
         "AttackPower1": 207,
         "AttackPower100": 2071,
@@ -71450,7 +71485,7 @@
         "Illustrator": "Mx2J",
         "Designer": "Crab D",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1396,
         "AttackPower1": 268,
         "AttackPower100": 2687,
@@ -72013,7 +72048,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": "5&#x27;4&quot;",
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1388,
         "AttackPower1": 232,
         "AttackPower100": 2326,
@@ -72956,7 +72991,7 @@
         "Illustrator": "DoReMi",
         "Designer": "Fame",
         "CharHeightMetric": "160cm",
-        "CharHeightImperial": "5&#x27;2&quot;",
+        "CharHeightImperial": "5'2\"",
         "StabilityPoint": 1132,
         "AttackPower1": 280,
         "AttackPower100": 2801,
@@ -73536,7 +73571,7 @@
         "Illustrator": "MISOM150",
         "Designer": "MISOM150",
         "CharHeightMetric": "149cm",
-        "CharHeightImperial": "4&#x27;10&quot;",
+        "CharHeightImperial": "4'10\"",
         "StabilityPoint": 1332,
         "AttackPower1": 347,
         "AttackPower100": 3471,
@@ -74178,7 +74213,7 @@
         "Id": 10064,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 133,
@@ -74207,7 +74242,7 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "鬼方",
-        "FamilyNameRuby": "おにかた",
+        "FamilyNameRuby": "",
         "PersonalName": "カヨコ",
         "SchoolYear": "3年生",
         "CharacterAge": "18歳",
@@ -74220,7 +74255,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 948,
         "AttackPower1": 126,
         "AttackPower100": 1262,
@@ -74264,7 +74299,7 @@
             },
             {
                 "SkillType": "ex",
-                "Name": "New Year Omamori",
+                "Name": "New Year's Amulet",
                 "Desc": "Increases the <b:EnhanceMysticRate> of one ally except self by <?1> for 40s and grants them the <s:Omamori> status effect.",
                 "Parameters": [
                     [
@@ -74319,7 +74354,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "Cat's Blessing",
+                "Name": "Kitty Cat Time",
                 "Desc": "Every 40s, increases the <b:CriticalChance> of one ally except self by <?1> for 25s.",
                 "Parameters": [
                     [
@@ -74367,7 +74402,7 @@
             },
             {
                 "SkillType": "passive",
-                "Name": "Increased Misunderstandings",
+                "Name": "A New Misunderstanding",
                 "Desc": "Increases <b:ATK> by <?1>.",
                 "Parameters": [
                     [
@@ -74405,7 +74440,7 @@
             },
             {
                 "SkillType": "weaponpassive",
-                "Name": "Increased Misunderstandings+",
+                "Name": "A New Misunderstanding+",
                 "Desc": "Increases <b:ExtendBuffDuration> by <?1> and <b:ATK> by <?2>.",
                 "Parameters": [
                     [
@@ -74455,7 +74490,7 @@
             },
             {
                 "SkillType": "sub",
-                "Name": "Omamori Bonds",
+                "Name": "Reciprocal Relationship",
                 "Desc": "Every 200 times a critical hit is landed by allies, increases own <b:ATK> by <?1> and increases the <b:EnhanceMysticRate> of all allies with the <s:Omamori> status by <?2> for 50s.\n(The <s:Omamori> status is removed from all allies after activation)",
                 "Parameters": [
                     [
@@ -74579,7 +74614,7 @@
         ],
         "MemoryLobby": [
             3,
-            0,
+            3,
             0
         ],
         "MemoryLobbyBGM": "someday, sometime",
@@ -74590,7 +74625,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    7100,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -74751,7 +74791,7 @@
         "Id": 20025,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 134,
@@ -74780,7 +74820,7 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "伊草",
-        "FamilyNameRuby": "いぐさ",
+        "FamilyNameRuby": "",
         "PersonalName": "ハルカ",
         "SchoolYear": "1年生",
         "CharacterAge": "15歳",
@@ -74793,7 +74833,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "157cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5'1\"",
         "StabilityPoint": 2084,
         "AttackPower1": 214,
         "AttackPower100": 2141,
@@ -74814,7 +74854,7 @@
         "Skills": [
             {
                 "SkillType": "ex",
-                "Name": "Who Gave You Permission...?",
+                "Name": "Who Approved This...?!",
                 "Desc": "Decreases the <d:CriticalChanceResistPoint> and <d:CriticalDamageRateResist> of one enemy by <?1> for 50s, and deals <?2> damage to them.",
                 "Parameters": [
                     [
@@ -74915,7 +74955,7 @@
             },
             {
                 "SkillType": "normal",
-                "Name": "Proper Greetings",
+                "Name": "A Proper Greeting",
                 "Desc": "Every 30s, decreases the <d:CriticalDamageRateResist> of one enemy by <?1> for 20s.",
                 "Parameters": [
                     [
@@ -74956,7 +74996,7 @@
             },
             {
                 "SkillType": "passive",
-                "Name": "Unforgiveable, Unforgiveable!",
+                "Name": "Unforgivable, Unforgivable!!",
                 "Desc": "Increases <b:ATK> by <?1>.",
                 "Parameters": [
                     [
@@ -74994,7 +75034,7 @@
             },
             {
                 "SkillType": "weaponpassive",
-                "Name": "Unforgiveable, Unforgiveable!+",
+                "Name": "Unforgivable, Unforgivable!!+",
                 "Desc": "Increases <b:ExtendDebuffDuration> by <?1> and <b:ATK> by <?2>.",
                 "Parameters": [
                     [
@@ -75044,7 +75084,7 @@
             },
             {
                 "SkillType": "sub",
-                "Name": "With Sincerity",
+                "Name": "All Her Courage",
                 "Desc": "Increases all allies' <b:CostRegen> by <?1>.",
                 "Parameters": [
                     [
@@ -75123,7 +75163,7 @@
         ],
         "MemoryLobby": [
             2,
-            0,
+            2,
             0
         ],
         "MemoryLobbyBGM": "Water Drop",
@@ -75134,7 +75174,12 @@
                     3
                 ]
             ],
-            [],
+            [
+                [
+                    209301,
+                    3
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -77896,7 +77941,7 @@
             [
                 [
                     9106,
-                    0
+                    3
                 ]
             ],
             [],
@@ -87001,6 +87046,1070 @@
                 12,
                 7,
                 13
+            ]
+        ]
+    },
+    {
+        "Id": 10077,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 156,
+        "PathName": "Ichika",
+        "DevName": "CH0071",
+        "Name": "Ichika",
+        "School": "Trinity",
+        "Club": "Justice",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Sonic",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 0,
+        "WeaponType": "AR",
+        "WeaponImg": "weapon_icon_ch0071",
+        "Cover": true,
+        "Equipment": [
+            "Hat",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Trinity_Collection",
+        "FamilyName": "仲正",
+        "FamilyNameRuby": "なかまさ",
+        "PersonalName": "イチカ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "11月11日",
+        "CharacterSSRNew": "あれ？約束の時間ってまだっすよね？\n待たせちゃったっすか？",
+        "ProfileIntroduction": "いつも穏やかな表情のトリニティ総合学園所属、正義実現委員会の一員。\n\n様々な生徒が所属する正義実現委員会の中で、仲裁を主に担当している。他学園との関係も比較的良い方。人当たりの良い性格は、生来のものではなく努力の賜物なのだとか。",
+        "Hobby": "人助け、色々手を出している最中",
+        "CharacterVoice": "鷲見友美ジェナ",
+        "BirthDay": "11/11",
+        "Illustrator": "7peach",
+        "Designer": "7peach",
+        "CharHeightMetric": "163cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1380,
+        "AttackPower1": 280,
+        "AttackPower100": 2803,
+        "MaxHP1": 2223,
+        "MaxHP100": 22230,
+        "DefensePower1": 19,
+        "DefensePower100": 118,
+        "HealPower1": 1416,
+        "HealPower100": 4249,
+        "DodgePoint": 790,
+        "AccuracyPoint": 708,
+        "CriticalPoint": 202,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 20,
+        "AmmoCost": 4,
+        "Range": 650,
+        "RegenCost": 700,
+        "Skills": [
+            {
+                "SkillType": "autoattack",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "Hits": [
+                            2500,
+                            2500,
+                            2500,
+                            2500
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 0,
+                            "AttackStartDuration": 0,
+                            "AttackEndDuration": 0,
+                            "AttackBurstRoundOverDelay": 0,
+                            "AttackIngDuration": 0,
+                            "AttackReloadDuration": 0
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            {
+                "SkillType": "ex",
+                "Name": "ちょっと失礼するっす",
+                "Desc": "Deals <?1> damage to enemies in a fan-shaped area.",
+                "Parameters": [
+                    [
+                        "726%",
+                        "835%",
+                        "1053%",
+                        "1162%",
+                        "1380%",
+                        "1489%",
+                        "1707%",
+                        "1816%",
+                        "2034%",
+                        "2143%"
+                    ]
+                ],
+                "Cost": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                "Icon": "COMMON_SKILLICON_FAN",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            72674,
+                            83573,
+                            105378,
+                            116277,
+                            138075,
+                            148981,
+                            170779,
+                            181678,
+                            203483,
+                            214382
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "normal",
+                "Name": "正義実現委員会の連絡網",
+                "Desc": "Every 30s, increases <b:EnhanceSonicRate> by <?1> for <?2>.",
+                "Parameters": [
+                    [
+                        "32.9%",
+                        "34.6%",
+                        "36.2%",
+                        "42.8%",
+                        "44.5%",
+                        "46.1%",
+                        "52.7%",
+                        "54.3%",
+                        "56%",
+                        "63.1%"
+                    ],
+                    [
+                        "20s",
+                        "20s",
+                        "20s",
+                        "20s",
+                        "20s",
+                        "20s",
+                        "20s",
+                        "20s",
+                        "20s",
+                        "25s"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Value": [
+                            [
+                                3296,
+                                3460,
+                                3626,
+                                4284,
+                                4450,
+                                4614,
+                                5273,
+                                5438,
+                                5602,
+                                6313
+                            ]
+                        ],
+                        "Stat": "EnhanceSonicRate_Base",
+                        "Channel": 43
+                    }
+                ]
+            },
+            {
+                "SkillType": "passive",
+                "Name": "鋭い本能",
+                "Desc": "Increases <b:HIT> by <?1>.",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AccuracyPoint_Coefficient",
+                        "Scale": [
+                            1400,
+                            1470,
+                            1540,
+                            1820,
+                            1890,
+                            1960,
+                            2240,
+                            2310,
+                            2380,
+                            2660
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "weaponpassive",
+                "Name": "鋭い本能+",
+                "Desc": "Increases <b:ATK> by <?1> and <b:HIT> by <?2>.",
+                "Parameters": [
+                    [
+                        "336",
+                        "353",
+                        "370",
+                        "437",
+                        "454",
+                        "471",
+                        "538",
+                        "555",
+                        "572",
+                        "639"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Base",
+                        "Scale": [
+                            336,
+                            353,
+                            370,
+                            437,
+                            454,
+                            471,
+                            538,
+                            555,
+                            572,
+                            639
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "sub",
+                "Name": "そういう時もあるっすよね",
+                "Desc": "Deals <?1> damage as an additional hit to enemies not taking cover.",
+                "Parameters": [
+                    [
+                        "2.3%",
+                        "2.4%",
+                        "2.5%",
+                        "3%",
+                        "3.1%",
+                        "3.2%",
+                        "3.7%",
+                        "3.8%",
+                        "3.9%",
+                        "4.4%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_EXTRADAMAGE",
+                "Effects": [
+                    {
+                        "Type": "DMGEcho",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            238,
+                            245,
+                            259,
+                            308,
+                            315,
+                            329,
+                            378,
+                            385,
+                            399,
+                            448
+                        ]
+                    }
+                ]
+            }
+        ],
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                56
+            ],
+            [
+                7,
+                67
+            ],
+            [
+                2,
+                11
+            ],
+            [
+                3,
+                17
+            ],
+            [
+                4,
+                28
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            6,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": "Theme 192",
+        "FurnitureInteraction": [
+            [
+                [
+                    10206,
+                    0
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [
+            "Electronic",
+            "Fashion",
+            "Cosmetics"
+        ],
+        "FavorItemUniqueTags": [
+            "F_Ichika",
+            "F_Ichika2"
+        ],
+        "IsLimited": 0,
+        "Weapon": {
+            "Name": "レッドドラゴン",
+            "Desc": "あらゆる苦難を共にしてきたイチカのアサルトライフル。\n\n丁寧に整えられた外見とは裏腹に、内面は苛烈で、どんなことでもできるよう整備されている。",
+            "AdaptationType": "Street",
+            "AdaptationValue": 1,
+            "AttackPower1": 123,
+            "AttackPower100": 1231,
+            "MaxHP1": 639,
+            "MaxHP100": 6392,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3020,
+                170
+            ],
+            [
+                3021,
+                3020,
+                171,
+                230
+            ],
+            [
+                3022,
+                3021,
+                172,
+                231
+            ],
+            [
+                3023,
+                3022,
+                173,
+                232
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                17
+            ],
+            [
+                12,
+                18,
+                16,
+                27
+            ],
+            [
+                12,
+                18,
+                9,
+                25
+            ],
+            [
+                8,
+                18,
+                10,
+                23
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4020
+            ],
+            [
+                4020
+            ],
+            [
+                4021,
+                4020,
+                170
+            ],
+            [
+                4021,
+                171,
+                230
+            ],
+            [
+                4022,
+                4021,
+                171,
+                230
+            ],
+            [
+                4022,
+                172,
+                231
+            ],
+            [
+                4023,
+                4022,
+                173,
+                232
+            ],
+            [
+                4023,
+                173,
+                232
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                4,
+                14
+            ],
+            [
+                5,
+                12,
+                9,
+                18
+            ],
+            [
+                8,
+                3,
+                15
+            ],
+            [
+                8,
+                12,
+                4,
+                10
+            ],
+            [
+                12,
+                8,
+                12
+            ]
+        ]
+    },
+    {
+        "Id": 10078,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 157,
+        "PathName": "Kasumi",
+        "DevName": "CH0089",
+        "Name": "Kasumi",
+        "School": "Gehenna",
+        "Club": "HotSpringsDepartment",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Sonic",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 0,
+        "WeaponType": "HG",
+        "WeaponImg": "weapon_icon_ch0089",
+        "Cover": true,
+        "Equipment": [
+            "Gloves",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Gehenna_Collection",
+        "FamilyName": "鬼怒川",
+        "FamilyNameRuby": "きぬがわ",
+        "PersonalName": "カスミ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "5月24日",
+        "CharacterSSRNew": "温泉開発の定義なんて、話したことあっただろうか？",
+        "ProfileIntroduction": "ゲヘナ学園所属、温泉開発部の部長。\n\n源泉が流れる土地は全て温泉にしなければならないと主張し、一度決めたらどこであろうと手段を選ばず爆破してしまう。部員からは全面的な支持を得ているが、実際の言動や行動は指名手配中の犯罪者である。",
+        "Hobby": "爆破、温泉開発",
+        "CharacterVoice": "上坂すみれ ",
+        "BirthDay": "5/24",
+        "Illustrator": "Mx2J",
+        "Designer": "Mx2J",
+        "CharHeightMetric": "148cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 956,
+        "AttackPower1": 208,
+        "AttackPower100": 2089,
+        "MaxHP1": 2153,
+        "MaxHP100": 24950,
+        "DefensePower1": 19,
+        "DefensePower100": 114,
+        "HealPower1": 1459,
+        "HealPower100": 4378,
+        "DodgePoint": 1053,
+        "AccuracyPoint": 104,
+        "CriticalPoint": 208,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 8,
+        "AmmoCost": 2,
+        "Range": 550,
+        "RegenCost": 700,
+        "Skills": [
+            {
+                "SkillType": "autoattack",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "Hits": [
+                            5000,
+                            5000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 0,
+                            "AttackStartDuration": 0,
+                            "AttackEndDuration": 0,
+                            "AttackBurstRoundOverDelay": 0,
+                            "AttackIngDuration": 0,
+                            "AttackReloadDuration": 0
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            {
+                "SkillType": "ex",
+                "Name": "ジャイアントヒール・クラッシュ",
+                "Desc": "Decreases the <d:DEF> of enemies in a circular area by <?1> for 25s and deals <?2> damage to them.",
+                "Parameters": [
+                    [
+                        "17.6%",
+                        "20.3%",
+                        "25.6%",
+                        "28.2%",
+                        "33.5%",
+                        "36.1%",
+                        "41.4%",
+                        "44.1%",
+                        "49.4%",
+                        "52%"
+                    ],
+                    [
+                        "227.6%",
+                        "261.9%",
+                        "330.1%",
+                        "363.9%",
+                        "432.5%",
+                        "466.4%",
+                        "534.5%",
+                        "568.8%",
+                        "637%",
+                        "671.3%"
+                    ]
+                ],
+                "Cost": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            1428,
+                            1428,
+                            1428,
+                            1428,
+                            1428,
+                            1428,
+                            1428
+                        ],
+                        "HitsParameter": 2,
+                        "Scale": [
+                            22764,
+                            26194,
+                            33012,
+                            36393,
+                            43253,
+                            46641,
+                            53452,
+                            56882,
+                            63700,
+                            67130
+                        ]
+                    },
+                    {
+                        "Type": "BuffTarget",
+                        "Value": [
+                            [
+                                -1766,
+                                -2030,
+                                -2560,
+                                -2825,
+                                -3354,
+                                -3619,
+                                -4149,
+                                -4413,
+                                -4942,
+                                -5208
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 603
+                    }
+                ]
+            },
+            {
+                "SkillType": "normal",
+                "Name": "大切なメッセージだよ",
+                "Desc": "Every 35s, deals <?1> damage to enemies in a circular area.",
+                "Parameters": [
+                    [
+                        "227%",
+                        "238%",
+                        "250%",
+                        "295%",
+                        "307%",
+                        "318%",
+                        "363%",
+                        "375%",
+                        "386%",
+                        "432%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            22741,
+                            23880,
+                            25019,
+                            29561,
+                            30701,
+                            31840,
+                            36382,
+                            37521,
+                            38661,
+                            43210
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "passive",
+                "Name": "狂人の戦略",
+                "Desc": "Increases <b:CriticalChance> by <?1>.",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "CriticalPoint_Coefficient",
+                        "Scale": [
+                            1400,
+                            1470,
+                            1540,
+                            1820,
+                            1890,
+                            1960,
+                            2240,
+                            2310,
+                            2380,
+                            2660
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "weaponpassive",
+                "Name": "狂人の戦略+",
+                "Desc": "Increases <b:CriticalDamage> by <?1> and <b:CriticalChance> by <?2>.",
+                "Parameters": [
+                    [
+                        "2000",
+                        "2100",
+                        "2200",
+                        "2600",
+                        "2700",
+                        "2800",
+                        "3200",
+                        "3300",
+                        "3400",
+                        "3800"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "CriticalDamageRate_Base",
+                        "Scale": [
+                            2000,
+                            2100,
+                            2200,
+                            2600,
+                            2700,
+                            2800,
+                            3200,
+                            3300,
+                            3400,
+                            3800
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "sub",
+                "Name": "ドリルの音は止まったのか？",
+                "Desc": "Each use of Kasumi's EX skill grants 1 <s:CH0089_ExtraPassive> stack. Upon reaching 3 stacks, deals an additional <?1> damage to the target(s) of Kasumi's EX skill.\nAll <s:CH0089_ExtraPassive> stacks are removed after activation.",
+                "Parameters": [
+                    [
+                        "633%",
+                        "665%",
+                        "697%",
+                        "824%",
+                        "855%",
+                        "887%",
+                        "1014%",
+                        "1045%",
+                        "1077%",
+                        "1204%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH0089_EXTRAPASSIVESKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            63391,
+                            66556,
+                            69728,
+                            82404,
+                            85576,
+                            88741,
+                            101416,
+                            104589,
+                            107761,
+                            120436
+                        ]
+                    }
+                ]
+            }
+        ],
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                62
+            ],
+            [
+                5,
+                75
+            ],
+            [
+                1,
+                12
+            ],
+            [
+                2,
+                18
+            ],
+            [
+                3,
+                31
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            2,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": "Shady Girls",
+        "FurnitureInteraction": [
+            [
+                [
+                    9106,
+                    3
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [
+            "Observational",
+            "Mystery",
+            "Roman"
+        ],
+        "FavorItemUniqueTags": [
+            "F_Kasumi",
+            "F_Kasumi2"
+        ],
+        "IsLimited": 0,
+        "Weapon": {
+            "Name": "レッド·レクター",
+            "Desc": "カスミが持ち歩いている拳銃。\n\n普段は場を盛り上げるために空に向けて発砲することが多い。小さくて可愛らしい見た目とは裏腹に、実際の火力も申し分ない。",
+            "AdaptationType": "Street",
+            "AdaptationValue": 1,
+            "AttackPower1": 92,
+            "AttackPower100": 918,
+            "MaxHP1": 714,
+            "MaxHP100": 7139,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3030,
+                150
+            ],
+            [
+                3031,
+                3030,
+                151,
+                260
+            ],
+            [
+                3032,
+                3031,
+                152,
+                261
+            ],
+            [
+                3033,
+                3032,
+                153,
+                262
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                15
+            ],
+            [
+                12,
+                18,
+                16,
+                27
+            ],
+            [
+                12,
+                18,
+                9,
+                24
+            ],
+            [
+                8,
+                18,
+                10,
+                22
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4030
+            ],
+            [
+                4030
+            ],
+            [
+                4031,
+                4030,
+                150
+            ],
+            [
+                4031,
+                151,
+                260
+            ],
+            [
+                4032,
+                4031,
+                151,
+                260
+            ],
+            [
+                4032,
+                152,
+                261
+            ],
+            [
+                4033,
+                4032,
+                153,
+                262
+            ],
+            [
+                4033,
+                153,
+                262
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                7
+            ],
+            [
+                8,
+                4,
+                12
+            ],
+            [
+                5,
+                12,
+                10,
+                17
+            ],
+            [
+                8,
+                5,
+                15
+            ],
+            [
+                8,
+                12,
+                6,
+                9
+            ],
+            [
+                12,
+                6,
+                11
             ]
         ]
     }

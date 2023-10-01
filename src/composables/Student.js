@@ -1,4 +1,6 @@
-import studentData from '../assets/data/en/students.json';
+import { useDataStore } from "../stores/DataStore";
+
+const studentData = useDataStore().students.data;
 
 export const studentMap = {};
 

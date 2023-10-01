@@ -1,6 +1,4 @@
-import { ref } from 'vue'
 import { defineStore } from 'pinia'
-import { useLocalStorage } from '@vueuse/core'
 import { useSettingsStore } from './SettingsStore'
 
 export const useLocalizationDataStore = defineStore('localizationdatastore', {

@@ -5,9 +5,12 @@ import StudentRender from '../components/student/StudentRender.vue';
 
 import { getStudentById } from '../composables/Student.js';
 import { setBackground } from '../composables/Utilities';
+import { useStudentStore } from '../stores/StudentStore';
 
 const route = useRoute();
 const router = useRouter();
+
+const studentStore = useStudentStore();
 
 let studentId;
 
@@ -39,6 +42,10 @@ watch(() => route.params.studentid,
 function initialiseStudentPage(student) {
     setBackground(student.CollectionBG + '.jpg');
     localStorage.setItem('student_last', student.Id);
+
+    if (studentStore.collectionExists(student.Id)) {
+        studentStore.collectionLoad(student.Id, ...student.FavorAlts);
+    }
 
     document.title = `${student.Name} | Schale`
 }

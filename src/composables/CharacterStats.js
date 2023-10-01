@@ -1,5 +1,10 @@
 import { ref, reactive, computed, toValue } from "vue";
 import { getStudentById } from "./Student";
+import { regionSettings } from "./RegionSettings";
+import { getEquipmentStats } from "./Equipment";
+import { useStudentStore } from "../stores/StudentStore";
+import { clamp } from "lodash";
+import { useSettingsStore } from "../stores/SettingsStore";
 
 export function useCharacterStats(charRef, level, starGrade) {
 
@@ -42,8 +47,6 @@ export function useCharacterStats(charRef, level, starGrade) {
         }
     });
 
-    console.log('created new stats', stats)
-
     const growthType = ref('Standard');
     const transcendence = {
         AttackPower: char.Transcendence?.[0] ?? [0, 1000, 1200, 1400, 1700],
@@ -72,7 +75,7 @@ export function useCharacterStats(charRef, level, starGrade) {
         let base = stats.value[stat];
 
         if (Array.isArray(base)) {
-            base = interpolateStat(base, level.value, 1 + ((transcendence[stat]?.slice(0, starGrade.value).reduce((pv, cv) => pv + cv, 0) ?? 0) / 10000), growthType);
+            base = interpolateStat(base, toValue(level), 1 + ((transcendence[stat]?.slice(0, toValue(starGrade)).reduce((pv, cv) => pv + cv, 0) ?? 0) / 10000), growthType);
         }
 
         const bonuses = {
@@ -163,7 +166,7 @@ export function useWeaponStats(weapon, level) {
         const calculated = {};
 
         for (const stat in stats.value) {
-            const total = interpolateStat(stats.value[stat], level.value, 1, growthType)
+            const total = interpolateStat(stats.value[stat], toValue(level), 1, growthType)
             calculated[stat] = {total: total, totalStr: '+'+total.toLocaleString()}
         }
 
@@ -245,6 +248,19 @@ export function interpolateStat([stat1, stat100], level, transcendence = 1, grow
     return Math.ceil((Math.round((stat1 + (stat100 - stat1) * scale).toFixed(4)) * transcendence).toFixed(4))
 }
 
+export function criticalChance(crit, critRes) {
+    return clamp(1 - (4000000 / (Math.max(crit - critRes, 0) * 6000 + 4000000)), 0, 1);
+}
+
+export function defMitigation(def, penetrationBase = 0, ignoreRate = 10000) {
+    const defense = Math.max((def - penetrationBase) * (ignoreRate / 10000), 0);
+    return (10000000 / (defense * 6000 + 10000000));
+}
+
+export function stabilityMinimum(stabilityPoint, stabilityRate) {
+    return clamp((stabilityPoint / (stabilityPoint + 1000)) + (stabilityRate / 10000), 0, 1);
+}
+
 export function getLevelScale(level, growthType) {
     switch (growthType) {
         case 'TimeAttack':
@@ -278,6 +294,131 @@ export function getLevelScale(level, growthType) {
             return parseFloat(((level-1) / 99).toFixed(4));
     }
 
+}
+
+export function getMaximumAttributes(student, useCollection = false) {
+
+    const statTypes = ['MaxHP', 'AttackPower', 'HealPower', 'DefensePower', 'AccuracyPoint', 'DodgePoint', 'CriticalPoint', 'StabilityPoint', 'Range'];
+
+    let level;
+    let starGrade;
+    let equipLevel;
+    let weaponStarGrade;
+    let weaponLevel;
+    let bondLevel;
+    let gearLevel;
+
+    if (useCollection) {
+        const inCollection = useStudentStore().collectionExists(student.Id);
+
+        if (inCollection) {
+
+            const collectionStats = useStudentStore().collectionGet(student.Id);
+
+            level = collectionStats.Level;
+            starGrade = collectionStats.StarGrade;
+            equipLevel = collectionStats.Equipment;
+            weaponStarGrade = collectionStats.WeaponStarGrade;
+            weaponLevel = collectionStats.WeaponLevel;
+            bondLevel = collectionStats.BondLevel;
+            gearLevel = collectionStats.Gear ? 1 : 0;
+
+        } else {
+
+            const result = {};
+
+            statTypes.forEach((stat) => {
+                result[stat] = 0;
+            })
+        
+            return result;
+
+        }
+
+    } else {
+
+        level = regionSettings.value.AccountMaxLevel;
+        starGrade = 5;
+        equipLevel = regionSettings.value.EquipmentMaxLevel;
+        weaponStarGrade = regionSettings.value.WeaponMaxStarGrade;
+        weaponLevel = regionSettings.value.WeaponMaxLevel;
+        bondLevel = [regionSettings.value.BondMaxLevel, ...student.FavorAlts.map(() => regionSettings.value.BondMaxLevel)]
+        gearLevel = 1;
+
+    }
+    
+
+    const stats = useCharacterStats(student, level, starGrade);
+
+    for (let i = 0; i < 3; i++) {
+        const equipmentStats = getEquipmentStats(student.Equipment[i], equipLevel[i], 1);
+        const equipmentBuffList = [];
+        for (const stat in equipmentStats) {
+            equipmentBuffList.push({
+                stat: stat.split('_')[0],
+                enabled: true,
+                type: stat.split('_')[1],
+                amount: equipmentStats[stat]
+            });
+        }
+        stats.setBuff(`Student_Equipment${i}`, equipmentBuffList)        
+    }
+
+    if (weaponStarGrade > 0) {
+
+        const weaponStats = useWeaponStats(student.Weapon, weaponLevel);
+
+        const weaponBuffList = []
+        for (const stat in weaponStats.calculatedStats.value) {
+            weaponBuffList.push({
+                stat: stat,
+                enabled: true,
+                type: 'Base',
+                amount: weaponStats.calculatedStats.value[stat].total
+            });
+        }
+        
+        stats.setBuff(`Student_UniqueWeapon`, weaponBuffList);
+
+    }
+
+    const bondStats = useStudentBondStats(student, bondLevel, true)
+    const bondBuffList = [];
+
+    for (const stat in bondStats.calculatedStats.value) {
+        bondBuffList.push({
+            stat: stat,
+            enabled: true,
+            type: 'Base',
+            amount: bondStats.calculatedStats.value[stat].total
+        });
+    }
+
+    stats.setBuff(`Student_BondBonus`, bondBuffList);
+        
+    if (student.Gear.Released?.[useSettingsStore().settings.server]) {
+        const gearStats = useGearStats(student.Gear, gearLevel);
+
+        const gearBuffList = [];
+    
+        for (const stat in gearStats.calculatedStats.value) {
+            gearBuffList.push({
+                stat: stat.split('_')[0],
+                enabled: true,
+                type: stat.split('_')[1],
+                amount: gearStats.calculatedStats.value[stat].total
+            });
+        }
+    
+        stats.setBuff(`Student_Gear`, gearBuffList);
+    }
+
+    const result = {};
+    statTypes.forEach((stat) => {
+        result[stat] = stats.calculatedStats.value[stat].total;
+    })
+
+    return result;
 }
 
 export const adaptation = {

@@ -4,7 +4,7 @@ import { createPinia } from 'pinia'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 
-import './assets/css/main.css'
+import './styles/main.scss'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -14,6 +14,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import App from './App.vue'
 import router from './router'
 import { tooltip } from './utilities/directives'
+import VueVirtualScroller from 'vue-virtual-scroller'
 
 const app = createApp(App)
 
@@ -25,6 +26,7 @@ config.styleDefault = 'solid';
 app.directive('tooltip', tooltip)
 
 app.use(createPinia())
+app.use(VueVirtualScroller)
 app.use(router)
 
 app.mount('#app')

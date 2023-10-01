@@ -1,9 +1,13 @@
 <script setup>
-import { computed, toRef, toRefs } from 'vue';
+import { watchDebounced } from '@vueuse/core';
+import { computed, ref, toRef, toRefs } from 'vue';
+
 import { useCharacterStats, useGearStats, useStudentBondStats, useWeaponStats } from "../../composables/CharacterStats";
 import { getEquipmentByType, getEquipmentStats } from '../../composables/Equipment';
 import { translate, translateUi } from '../../composables/Localization';
 import { regionSettings } from '../../composables/RegionSettings';
+import { getSummonById } from '../../composables/Summon';
+import { terrainList, terrainTooltip } from '../../composables/TerrainHelper';
 import { useArmorTypeTooltip, useBulletTypeTooltip } from '../../composables/TypeHelper';
 
 import { useSettingsStore } from '../../stores/SettingsStore';
@@ -16,7 +20,6 @@ import InputBond from '../inputs/InputBond.vue';
 import SelectEquipment from '../inputs/SelectEquipment.vue';
 import StarGrade from '../inputs/StarGrade.vue';
 import ToggleGear from '../inputs/ToggleGear.vue';
-import { terrainTooltip } from '../../composables/TerrainHelper';
 
 const props = defineProps({
     student: {
@@ -24,18 +27,47 @@ const props = defineProps({
         required: true
     }
 });
-const terrains = ["Street", "Outdoor", "Indoor"];
-const adaptationGrade = {0: "D", 1: "C", 2: "B", 3: "A", 4: "S", 5: "SS"};
-const adaptationDamage = {0: 0.8, 1: 0.9, 2: 1, 3: 1.1, 4: 1.2, 5: 1.3}
-const adaptationBlock = {0: 0, 1: 15, 2: 30, 3: 45, 4: 60, 5: 75}
 
 const settings = useSettingsStore().settings;
 
 const studentDisplay = useStudentStore().studentDisplay;
 const refStudentDisplay = toRefs(studentDisplay);
 
+const inCollection = computed(() => {
+    return useStudentStore().collectionExists(props.student.Id);
+})
+
+const studentSummons = computed(() => {
+    return props.student.Summons.map((summon) => {
+        const summonInfo = getSummonById(summon.Id);
+        const sourceSkill = props.student.Skills.find((skill) => skill.SkillType == summon.SourceSkill);
+        return {summonInfo, sourceSkill};
+    })
+})
+
 const studentRef = toRef(props, 'student');
-const studentStats = useCharacterStats(studentRef, refStudentDisplay.Level, refStudentDisplay.StarGrade, studentRef.value.Id);
+
+const selectedSummon = ref(0);
+const selectedCharacter = computed(() => {
+    if (selectedSummon.value == 0) {
+        return props.student;
+    } else {
+        const summon = studentSummons.value[selectedSummon.value - 1].summonInfo;
+
+        if (summon.Id == 99999) {
+            summon.MaxHP1 = props.student.Summons[selectedSummon.value - 1].ObstacleMaxHP1;
+            summon.MaxHP100 = props.student.Summons[selectedSummon.value - 1].ObstacleMaxHP100;
+        }
+
+        return summon;
+    }
+});
+
+const statsStarGrade = computed(() => {
+    return selectedSummon.value == 0 ? studentDisplay.StarGrade : 1;
+})
+
+const studentStats = useCharacterStats(selectedCharacter, refStudentDisplay.Level, statsStarGrade);
 const studentStatList = ['MaxHP','AttackPower','DefensePower','HealPower','AccuracyPoint','DodgePoint','CriticalPoint','CriticalChanceResistPoint','CriticalDamageRate','CriticalDamageResistRate','StabilityPoint','Range','OppressionPower','OppressionResist', 'HealEffectivenessRate','AmmoCount'];
 
 const weaponStats = useWeaponStats(computed(() => {return props.student.Weapon}), refStudentDisplay.WeaponLevel);
@@ -44,7 +76,7 @@ const weaponBuffList = []
 for (const stat in weaponStats.calculatedStats.value) {
     weaponBuffList.push({
         stat: stat,
-        enabled: computed(() => {return refStudentDisplay.WeaponStarGrade.value > 0}),
+        enabled: computed(() => {return refStudentDisplay.WeaponStarGrade.value > 0 && selectedCharacter.value.Id != 99999}),
         type: 'Base',
         amount: computed(() => {return weaponStats.calculatedStats.value[stat].total})
     });
@@ -63,7 +95,7 @@ for (let i = 0; i < 3; i++) {
         for (const stat in equipmentStats) {
             equipmentBuffList.push({
                 stat: stat.split('_')[0],
-                enabled: true,
+                enabled: selectedCharacter.value.Id != 99999,
                 type: stat.split('_')[1],
                 amount: equipmentStats[stat]
             });
@@ -82,7 +114,7 @@ const bondBuffList = computed(() => {
     for (const stat in bondStats.calculatedStats.value) {
         buffList.push({
             stat: stat,
-            enabled: true,
+            enabled: selectedCharacter.value.Id != 99999,
             type: 'Base',
             amount: bondStats.calculatedStats.value[stat].total
         });
@@ -131,7 +163,7 @@ const terrainAffinityTooltip = computed(() => {
 
     const tooltips = {};
 
-    for (const terrain of terrains) {
+    for (const terrain of terrainList) {
         tooltips[terrain] = terrainTooltip(terrain, terrainAffinity.value[terrain]);
     }
 
@@ -147,6 +179,13 @@ const gearTooltip = computed(() => {
         body: props.student.Gear.Desc
     }
 })
+
+watchDebounced(studentDisplay, () => {
+    if (inCollection.value) {
+        console.log('saved collection stats')
+        useStudentStore().collectionUpdate(props.student.Id, ...props.student.FavorAlts);
+    }
+}, { debounce: 500, maxWait: 2000 })
 
 </script>
 
@@ -164,7 +203,7 @@ const gearTooltip = computed(() => {
             <span id="ba-student-academy" class="ba-info-pill bg-theme m-0 position-relative"><img id="ba-student-academy-icon" class="invert-light" :src="`/images/schoolicon/${student.School}.png`" style="height:26px;"><span class="label">{{ translate('School', student.School) + ' / ' + translate('Club', student.Club) }}</span></span>
         </div>
         <div id="ba-student-terrain" class="terrain-group">
-            <Tooltip v-for="terrain in terrains" v-bind="terrainAffinityTooltip[terrain]" class="terrain-info ba-panel">
+            <Tooltip v-for="terrain in terrainList" v-bind="terrainAffinityTooltip[terrain]" class="terrain-info ba-panel">
                 <span class="terrain-icon"><img class="invert-light" :src="`/images/ui/Terrain_${terrain}.png`"></span><br>
                 <img class="affinity-icon" :src="`/images/ui/Adaptresult${terrainAffinity[terrain]}.png`">
             </Tooltip>
@@ -199,11 +238,36 @@ const gearTooltip = computed(() => {
         <div class="d-flex flex-row justify-content-between align-items-stretch gap-2">
             <div id="student-summon-list" class="summon-list dropdown-character-list" :class="{disabled: student.Summons.length == 0}">
                 <button class="btn-pill" data-bs-toggle="dropdown">
-                    <div class="icon active-icon"><img :src="`/images/student/icon/${student.Id}.webp`" width="28" height="28"></div>
-                    <span class="active-name label">{{ student.Name }}</span>
-                    <fa v-if="student.Summons.length" icon="caret-down" class="me-2"></fa>
+                    <template v-if="selectedSummon == 0">
+                        <div class="icon active-icon"><img :src="`/images/student/icon/${student.Id}.webp`" width="28" height="28"></div>
+                        <span class="active-name label">{{ student.Name }}</span>
+                    </template>
+                    <template v-else>
+                        <div class="icon active-icon">
+                            <img
+                                :class="`bg-atk-${student.BulletType.toLowerCase()}`"
+                                :src="`/images/skill/${studentSummons[selectedSummon - 1].sourceSkill.Icon}.webp`"
+                                width="28" height="28">
+                        </div>
+                        <span class="active-name label">{{ studentSummons[selectedSummon - 1].summonInfo.Name }}</span>
+                    </template>
+                    <fa v-if="studentSummons.length" icon="caret-down" class="me-2"></fa>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start">
+                    <li v-if="studentSummons.length">
+                        <button class="dropdown-item dropdown-item-icon" :class="{active: selectedSummon == 0}" @click="selectedSummon = 0">
+                            <div class="icon"><img :src="`/images/student/icon/${student.Id}.webp`"></div>
+                            <span>{{ student.Name }}</span>
+                        </button>
+                    </li>
+                    <li v-for="summon, index in studentSummons">
+                        <button class="dropdown-item dropdown-item-icon" :class="{active: selectedSummon == index + 1}" @click="selectedSummon = index + 1">
+                            <div class="icon">
+                                <img :class="`bg-atk-${student.BulletType.toLowerCase()}`" :src="`/images/skill/${summon.sourceSkill.Icon}.webp`">
+                            </div>
+                            <span>{{ summon.summonInfo.Name }}</span>
+                        </button>
+                    </li>
                 </ul>
             </div>
             <div class="d-flex flex-row align-items-end gap-2">
@@ -219,7 +283,7 @@ const gearTooltip = computed(() => {
     <div class="row g-1 mt-1">
         <div class="col">
             <div id="ba-student-stat-table" class="student-stat-table ba-panel ba-stats mb-0">
-                <StatsTable :character-stats="studentStats" :stat-list="studentStatList" :level="studentDisplay.Level"></StatsTable>
+                <StatsTable :character-stats="studentStats" :stat-list="studentStatList" :level="studentDisplay.Level" :enable-derived-tooltip="true" :hide-ammo-count="student.SquadType == 'Support'"></StatsTable>
             </div>
         </div>
     </div>

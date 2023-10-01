@@ -1,4 +1,6 @@
-import currencyData from "../assets/data/en/currency.json";
+import { useDataStore } from "../stores/DataStore";
+
+const currencyData = useDataStore().currency.data;
 
 export const currencyMap = {};
 

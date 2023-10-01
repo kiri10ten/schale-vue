@@ -34,6 +34,11 @@ export function setTheme() {
     
 }
 
+export function setHighContrast() {
+    const settings = useSettingsStore().settings;
+    document.body.classList.toggle('high-contrast', settings.highcontrast);
+}
+
 export function abbreviateNumber(number) {
     let result = number, divisions = 0
     const suffix = ['', 'K', 'M', 'B', 'T']
@@ -42,4 +47,9 @@ export function abbreviateNumber(number) {
         result /= 1000;
     }
     return result + suffix[divisions]
+}
+
+export function extractNumber(string) {
+    let result = parseInt(string.replace(/[^0-9]/g));
+    return isNaN(result) ? 0 : result;
 }

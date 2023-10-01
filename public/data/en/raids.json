@@ -10,7 +10,7 @@
             "MaxDifficulty": [
                 6,
                 6,
-                3
+                4
             ],
             "PathName": "Binah",
             "GroupName": "Binah",
@@ -320,7 +320,7 @@
                 180
             ],
             "Name": "Binah",
-            "Profile": "Decagrammaton is an artificial intelligence system claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\n\nBinah, the third prophet of Decagrammaton, was first seen in the desert district of Abydos.\nWhy Binah came here is unknown, but it's too dangerous to be left to do as it pleases."
+            "Profile": "Decagrammaton is an artificial intelligence system claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\n\nBinah, the third prophet of Decagrammaton, was first seen in the desert district of Abyd"
         },
         {
             "Id": 2,
@@ -574,7 +574,7 @@
                 240
             ],
             "Name": "Chesed",
-            "Profile": "Decagrammaton is an artificial intelligence system claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\n\nChesed, the fourth prophet of Decagrammaton, has control of an abandoned munitions factory on the outskirts of Millennium.\nKivotos will face unprecedented disaster if Chesed produces an unlimited supply of troops."
+            "Profile": "Decagrammaton is an artificial intelligence system claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\n\nChesed, the fourth prophet of Decagrammaton, has control of an abandoned munitions facto"
         },
         {
             "Id": 3,
@@ -586,7 +586,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                3
+                4
             ],
             "PathName": "Shirokuro",
             "GroupName": "ShiroKuro",
@@ -1350,19 +1350,19 @@
                 240
             ],
             "Name": "Shiro & Kuro",
-            "Profile": "A mysterious phenomenon has been reported in Slumpia, a theme park that went bankrupt long ago. Rumor has it that the animatronics and other attractions have now come back to life in the middle of the night to attack people.\n\nIt is unknown why the animatronics, Shiro and Kuro, are active again, but it seems clear that they are trying to recreate the wonderful festivals of the theme park's past."
+            "Profile": "A mysterious phenomenon has been reported in Slumpia, a theme park that went bankrupt long ago. Rumor has it that the animatronics and other attractions have now come back to life in the middle of the night to attack people.\n\nIt is unknown why the ani"
         },
         {
             "Id": 4,
             "IsReleased": [
                 true,
                 true,
-                false
+                true
             ],
             "MaxDifficulty": [
                 6,
                 6,
-                3
+                4
             ],
             "PathName": "Hieronymus",
             "GroupName": "Hieronymus_Street",
@@ -1767,7 +1767,7 @@
                 240
             ],
             "Name": "Hieronymus",
-            "Profile": "An unknown entity was discovered beneath the old cathedral ruins in Trinity, supposedly a test subject created by Gematria based on ancient doctrines.\nIt is Hieronymus, the final form of the artificial angel Communio Sanctorum. We can't leave its incredible power unchecked. For the safety of Kivotos!"
+            "Profile": "An unknown entity was discovered beneath the old cathedral ruins in Trinity, supposedly a test subject created by Gematria based on ancient doctrines.\nIt is Hieronymus, the final form of the artificial angel Communio Sanctorum. We can't leave its incredi"
         },
         {
             "Id": 5,
@@ -1779,7 +1779,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                3
+                4
             ],
             "PathName": "KaitenFxMk0",
             "GroupName": "Kaitenger",
@@ -2463,7 +2463,7 @@
                             "Channel": 527
                         }
                     ],
-                    "Name": "Villains! How Cowardly!",
+                    "Name": "Villains! How sneaky you are!",
                     "Desc": "Before boarding KAITEN FX Mk.0, whenever a Kaitenger is inflicted with a CC effect, increases their <d:DamagedRatio> by 40% for 15s."
                 }
             ],
@@ -2514,7 +2514,7 @@
                 180
             ],
             "Name": "KAITEN FX Mk.0",
-            "Profile": "The Kaitengers' secret weapon has appeared to block the road to their base. The Kaitengers plan to use the stolen funds and technologies to build a giant combination mecha: KAITEN FX Mk.0. It may look cool, but no good can come of letting them have something like that. Time to put a stop to it."
+            "Profile": "The Kaitengers' secret weapon has appeared to block the road to their base. The Kaitengers plan to use the stolen funds and technologies to build a giant combination mecha: KAITEN FX Mk.0. It may look cool, but no good can come of letting them have someth"
         },
         {
             "Id": 6,
@@ -2526,7 +2526,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                3
+                4
             ],
             "PathName": "Perorozilla",
             "GroupName": "Perorozilla",
@@ -2990,7 +2990,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                3
+                4
             ],
             "PathName": "HOD",
             "GroupName": "HOD",
@@ -3427,7 +3427,7 @@
                 240
             ],
             "Name": "Hod",
-            "Profile": "Decagrammaton is an AI claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\nHod was originally a built-in network unit at Millennium, but now claims to be the eighth prophet of Decagrammaton since being hacked by an unidentified AI.\nThe district's safety is in jeopardy until this computing unit powered by Millennium technology is stopped."
+            "Profile": "Decagrammaton is an AI claiming to be a divine seeker of truth. It is followed by ten prophets who make appearances all over Kivotos.\nHod was originally a built-in network unit at Millennium, but now claims to be the eighth prophet of Decagrammaton sinc"
         },
         {
             "Id": 8,
@@ -3439,7 +3439,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                3
+                5
             ],
             "PathName": "Goz",
             "GroupName": "Goz",
@@ -4237,7 +4237,7 @@
                 240
             ],
             "Name": "Goz",
-            "Profile": "A mysterious phenomenon has been reported in Slumpia, a now-desolate theme park that went bankrupt long ago. Rumor has it that the park's decaying animatronics and other attractions are coming to life in the middle of the night, and they have violent streak.\n\nIn the midst of this mystery, Goz seems intent on keeping the show running. What intentions are hidden behind that bizarre smile? It will be a challenge to find out."
+            "Profile": "A mysterious phenomenon has been reported in Slumpia, a now-desolate theme park that went bankrupt long ago. Rumor has it that the park's decaying animatronics and other attractions are coming to life in the middle of the night, and they have violent stre"
         },
         {
             "Id": 9,
@@ -4413,7 +4413,7 @@
                         }
                     ],
                     "Name": "Solemn Repentance",
-                    "Desc": "Inflicts the following effects depending on Gregorio's number of debuffs.\n<b><?1> or fewer debuffs</b>: Removes 1 debuff from all allies.\n<b><?2> or more debuffs</b>: Reduces the <d:ATK> of all allies by 10% for 120s.",
+                    "Desc": "Inflicts the following effects depending on Gregorius' number of debuffs.\n<b><?1> or fewer debuffs</b>: Removes 1 debuff from all allies.\n<b><?2> or more debuffs</b>: Reduces the <d:ATK> of all allies by 10% for 120s.",
                     "Parameters": [
                         [
                             "4",
@@ -4604,7 +4604,7 @@
                         ]
                     },
                     "Name": "Servant of the Servants of the Saint",
-                    "Desc": "Applies the following effects to Gregorio and all Choir Members depending on the number of debuffs inflicted on Gregorio.\n<s:DebuffCountGreen> (<?1> debuffs): Increases incoming damage by <?2>.\n<s:DebuffCountYellow> (<?3> or <?4> debuffs): Increases incoming damage by 100% and ATK by 20%.\n<s:DebuffCountRed> (<?5> or fewer/<?6> or more debuffs): Increases ATK by 40%.",
+                    "Desc": "Applies the following effects to Gregorius and all Choir Members depending on the number of debuffs inflicted on Gregorius.\n<s:DebuffCountGreen> (<?1> debuffs): Increases incoming damage by <?2>.\n<s:DebuffCountYellow> (<?3> or <?4> debuffs): Increases incoming damage by 100% and ATK by 20%.\n<s:DebuffCountRed> (<?5> or fewer/<?6> or more debuffs): Increases ATK by 40%.",
                     "Parameters": [
                         [
                             "4~5",
@@ -4690,7 +4690,7 @@
                         }
                     ],
                     "Name": "The Majestic Choir",
-                    "Desc": "Choir Members on the left and right podiums will sing for 40s after they appear, increasing their <b:ATK> by 100% after finishing singing.\nIf a Choir Member's HP falls below 1%, they will be knocked down, become unable to attack and increase Gregorio's groggy gauge by 5%."
+                    "Desc": "Choir Members on the left and right podiums will sing for 40s after they appear, increasing their <b:ATK> by 100% after finishing singing.\nIf a Choir Member's HP falls below 1%, they will be knocked down, become unable to attack and increase Gregorius' groggy gauge by 5%."
                 },
                 {
                     "Id": "EN0005_Passive03",
@@ -4738,7 +4738,7 @@
                         }
                     ],
                     "Name": "Sanctus",
-                    "Desc": "If Gregorio is inflicted with a stat-reducing debuff, the same effect is replicated on all Choir Members.\n100% of the damage taken by Choir Members will also be taken by Gregorio.\nImmediately after the start of battle, Gregorio and all Choir Members' <d:ATK> is decreased by 30% for 30s.\nFor the final part of the performance, all Choir Members move to Gregorio's side and sing in chorus. During this, all enemies and allies are gradually strengthened.\nIncreases the <b:AttackSpeed> of all Choir Members by 10% every 10s. (effect stacks multiple times).\nIncreases all enemies' (including Special students) <b:CostRegen> by <b>300</b> every 10s. (effect stacks multiple times)"
+                    "Desc": "If Gregorius is inflicted with a stat-reducing debuff, the same effect is replicated on all Choir Members.\n100% of the damage taken by Choir Members will also be taken by Gregorius.\nImmediately after the start of battle, Gregorius and all Choir Members' <d:ATK> is decreased by 30% for 30s.\nFor the final part of the performance, all Choir Members move to Gregorius' side and sing in chorus. During this, all enemies and allies are gradually strengthened.\nIncreases the <b:AttackSpeed> of all Choir Members by 10% every 10s. (effect stacks multiple times).\nIncreases all enemies' (including Special students) <b:CostRegen> by <b>300</b> every 10s. (effect stacks multiple times)"
                 },
                 {
                     "Id": "EN0005_Passive04",
@@ -4760,7 +4760,7 @@
                 240,
                 240
             ],
-            "Name": "Gregorio",
+            "Name": "Gregorius",
             "Profile": "キヴォトスのどこかに存在する廃墟となった地下神殿にて、歪んだ神秘によって顕現した人工天使が観測されました。\n\nグレゴリオは「聖徒の交わり」と呼ばれる人工天使シリーズの完成形であり、ゲマトリアの実験で生まれた謎の怪物です。今もその怪物は地下神殿でオルガンの演奏を続けています。旋律の終わりに何が待ち受けているのか……それは誰も知りません。"
         },
         {
@@ -28146,8 +28146,8 @@
                     "Season": 0,
                     "RaidId": 1,
                     "Terrain": "Outdoor",
-                    "Start": 1691650800,
-                    "End": 1691938800,
+                    "Start": 1691654400,
+                    "End": 1691942400,
                     "RewardSet": 700,
                     "RewardSetMax": 36
                 },
@@ -28155,8 +28155,8 @@
                     "Season": 1,
                     "RaidId": 3,
                     "Terrain": "Street",
-                    "Start": 1692248400,
-                    "End": 1692802800,
+                    "Start": 1692252000,
+                    "End": 1692806400,
                     "RewardSet": 300,
                     "RewardSetMax": 36
                 },
@@ -28164,8 +28164,8 @@
                     "Season": 2,
                     "RaidId": 1,
                     "Terrain": "Outdoor",
-                    "Start": 1693458000,
-                    "End": 1694012400,
+                    "Start": 1693461600,
+                    "End": 1694016000,
                     "RewardSet": 400,
                     "RewardSetMax": 36
                 },
@@ -28173,10 +28173,19 @@
                     "Season": 3,
                     "RaidId": 2,
                     "Terrain": "Outdoor",
-                    "Start": 1694667600,
-                    "End": 1695222000,
+                    "Start": 1694671200,
+                    "End": 1695225600,
                     "RewardSet": 500,
                     "RewardSetMax": 36
+                },
+                {
+                    "Season": 4,
+                    "RaidId": 4,
+                    "Terrain": "Indoor",
+                    "Start": 1695880800,
+                    "End": 1696449600,
+                    "RewardSet": 600,
+                    "RewardSetMax": 40
                 }
             ],
             "EliminateSeasons": [],
@@ -29913,6 +29922,476 @@
                             [
                                 23,
                                 20
+                            ]
+                        ]
+                    ]
+                ],
+                "600": [
+                    [
+                        250000,
+                        [
+                            [
+                                2000001,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        500000,
+                        [
+                            [
+                                10,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        750000,
+                        [
+                            [
+                                130,
+                                6
+                            ],
+                            [
+                                100,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1000000,
+                        [
+                            [
+                                3000001,
+                                300000
+                            ]
+                        ]
+                    ],
+                    [
+                        1250000,
+                        [
+                            [
+                                2000002,
+                                8
+                            ]
+                        ]
+                    ],
+                    [
+                        1500000,
+                        [
+                            [
+                                11,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1750000,
+                        [
+                            [
+                                131,
+                                3
+                            ],
+                            [
+                                101,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        2000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        2500000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ]
+                        ]
+                    ],
+                    [
+                        3000000,
+                        [
+                            [
+                                12,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        3500000,
+                        [
+                            [
+                                132,
+                                2
+                            ],
+                            [
+                                102,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        4000000,
+                        [
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        4500000,
+                        [
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5000000,
+                        [
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5500000,
+                        [
+                            [
+                                133,
+                                1
+                            ],
+                            [
+                                103,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        6000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        7000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        8000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        9000000,
+                        [
+                            [
+                                130,
+                                12
+                            ],
+                            [
+                                100,
+                                12
+                            ],
+                            [
+                                131,
+                                6
+                            ],
+                            [
+                                101,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        10000000,
+                        [
+                            [
+                                3000001,
+                                500000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        12000000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ],
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        14000000,
+                        [
+                            [
+                                12,
+                                3
+                            ],
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        16000000,
+                        [
+                            [
+                                132,
+                                2
+                            ],
+                            [
+                                102,
+                                2
+                            ],
+                            [
+                                133,
+                                1
+                            ],
+                            [
+                                103,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        18000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        20000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        22000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        24000000,
+                        [
+                            [
+                                130,
+                                12
+                            ],
+                            [
+                                100,
+                                12
+                            ],
+                            [
+                                131,
+                                6
+                            ],
+                            [
+                                101,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        26000000,
+                        [
+                            [
+                                3000001,
+                                1200000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        29000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        32000000,
+                        [
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        35000000,
+                        [
+                            [
+                                132,
+                                4
+                            ],
+                            [
+                                102,
+                                4
+                            ],
+                            [
+                                133,
+                                2
+                            ],
+                            [
+                                103,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        38000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        41000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        44000000,
+                        [
+                            [
+                                2000002,
+                                32
+                            ],
+                            [
+                                2000003,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        47000000,
+                        [
+                            [
+                                3000003,
+                                200
+                            ]
+                        ]
+                    ],
+                    [
+                        50000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        62500000,
+                        [
+                            [
+                                3000001,
+                                1000000
+                            ]
+                        ]
+                    ],
+                    [
+                        75000000,
+                        [
+                            [
+                                3000001,
+                                1500000
+                            ]
+                        ]
+                    ],
+                    [
+                        87500000,
+                        [
+                            [
+                                3000001,
+                                2000000
+                            ]
+                        ]
+                    ],
+                    [
+                        100000000,
+                        [
+                            [
+                                3000001,
+                                3000000
                             ]
                         ]
                     ]

@@ -220,6 +220,20 @@
     padding: 0.5rem;
 }
 
+.offcanvas, .offcanvas-sm, .offcanvas-md, .offcanvas-lg {
+    @include backdrop-filter(var(--var-glass-filter));
+    background-color: var(--col-theme-glass);
+    color: var(--col-theme-text);
+    border-right: none !important;
+}
+
+.offcanvas-md {
+    @include md-up {
+        @include backdrop-filter(none);
+        background-color: transparent !important;
+    }
+}
+
 // Range Input
 
 ::-webkit-slider-thumb {
@@ -328,4 +342,9 @@
 
 .gap-3 {
     gap:1rem;
+}
+
+tbody {
+    --bs-table-bg: initial;
+    --bs-table-color: initial;
 }

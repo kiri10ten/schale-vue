@@ -726,13 +726,7 @@ a.nav-link.disabled {
     margin-right: 0.5rem;
 }
 
-#ba-student-search-filters-panel {
-    @include promote-layer;
-    @include scrollable(auto);
-}
-
 #ba-student-search-results {
-    @include promote-layer;
     @include scrollable-nostyle(auto);
 
     @include md-up {
@@ -781,7 +775,6 @@ a.nav-link.disabled {
 
     #ba-student-search-filters-panel {
         overflow-y: hidden;
-        padding-bottom: 1rem;
     }
 }
 

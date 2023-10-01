@@ -1,4 +1,6 @@
-import itemData from "../assets/data/en/items.json";
+import { useDataStore } from "../stores/DataStore";
+
+const itemData = useDataStore().items.data;
 
 export const itemMap = {};
 

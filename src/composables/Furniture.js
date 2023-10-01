@@ -1,4 +1,6 @@
-import furnitureData from "../assets/data/en/furniture.json";
+import { useDataStore } from "../stores/DataStore";
+
+const furnitureData = useDataStore().furniture.data;
 
 export const furnitureMap = {};
 

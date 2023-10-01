@@ -1,6 +1,6 @@
 <script setup>
 import { translate, translateUi } from '../../composables/Localization';
-import { setTheme } from '../../composables/Utilities';
+import { setHighContrast, setTheme } from '../../composables/Utilities';
 import { useSettingsStore } from '../../stores/SettingsStore';
 
 const settings = useSettingsStore().settings;
@@ -10,6 +10,7 @@ const languages = {
     "kr": "한국어",
     "tw": "繁體中文",
     "cn": "简体中文",
+    "zh": "简体中文(民译)",
     "th": "ภาษาไทย",
     "vi": "Tiếng Việt"
 }
@@ -19,6 +20,14 @@ function set(setting, value) {
 
     if (setting == 'theme') {
         setTheme();
+    }
+
+    if (setting == 'highcontrast') {
+        setHighContrast();
+    }
+
+    if (setting == 'language') {
+        window.location.reload();
     }
 }
 

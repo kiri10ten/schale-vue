@@ -8,7 +8,7 @@ document.title = `Students | Schale`
 </script>
 
 <template>
-    <div class="container-fluid p-3">
+    <div class="container-fluid mt-3">
         <StudentList></StudentList>
     </div>
     

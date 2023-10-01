@@ -3,10 +3,11 @@ import { Tooltip } from "bootstrap";
 import { onUpdated, provide, ref } from 'vue';
 import { RouterView } from 'vue-router';
 import NavbarHeader from './components/navbar/NavbarHeader.vue';
-import { setTheme } from './composables/Utilities';
-import { useLocalizationDataStore } from './stores/LocalizationDataStore';
+import { setHighContrast, setTheme } from './composables/Utilities';
 import { useSettingsStore } from './stores/SettingsStore';
 import { bindTooltips } from "./composables/Tooltips";
+import { promiseTimeout } from "@vueuse/core";
+import { useDataStore } from "./stores/DataStore";
 
 const settings = useSettingsStore().settings;
 const jsonDataLoaded = ref(false);
@@ -15,13 +16,17 @@ const background = ref('');
 provide('background', background);
 
 setTheme();
+setHighContrast();
+
+document.body.classList.add(`font-${settings.language}`);
+
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
 
 onUpdated(bindTooltips);
 
-console.log('start fetch')
-const localizationDataStore = useLocalizationDataStore();
-localizationDataStore.fetchData().then(() => {
+const jsonDataStore = useDataStore();
+
+jsonDataStore.ensureData('localization').then(() => {
     jsonDataLoaded.value = true;
 })
 
@@ -29,7 +34,7 @@ localizationDataStore.fetchData().then(() => {
 
 <template>
 
-  <div v-if="jsonDataLoaded" :class="{'high-contrast': settings.highcontrast}">
+  <div v-if="jsonDataLoaded">
         <div id="ba-background" :style="{ position: 'fixed'}"></div>
 
         <div id="ba-content" class="container-fluid p-0">

@@ -13,9 +13,17 @@
     --col-theme-textshadow: rgba(255, 255, 255, 0.8);
 
     --col-bg-explosive: rgba(167, 12, 25, 1);
+    --col-bg-Explosion: var(--col-bg-explosive);
+    --col-bg-LightArmor: var(--col-bg-explosive);
     --col-bg-piercing: rgba(178, 109, 31, 1);
+    --col-bg-Pierce: var(--col-bg-piercing);
+    --col-bg-HeavyArmor: var(--col-bg-piercing);
     --col-bg-mystic: rgba(33, 111, 156, 1);
+    --col-bg-Mystic: var(--col-bg-mystic);
+    --col-bg-Unarmed: var(--col-bg-mystic);
     --col-bg-sonic: rgba(148, 49, 165, 1);
+    --col-bg-Sonic: var(--col-bg-sonic);
+    --col-bg-ElasticArmor: var(--col-bg-sonic);
     --col-bg-explosive-t: rgba(167, 12, 25, 0.835);
     --col-bg-piercing-t: rgba(178, 109, 31, 0.835);
     --col-bg-mystic-t: rgba(33, 111, 156, 0.835);

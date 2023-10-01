@@ -125,7 +125,7 @@ audio {
 //utilities
 
 .screen-height {
-    max-height: calc(100vh - 2rem - 58px);
+    max-height: calc(100vh - 2rem - 56px);
     overflow: hidden;
 
     .card-body {
@@ -274,7 +274,7 @@ p a {
         font-weight: bold;
         @include circular;
         padding: 0.25rem 0.5rem 0.25rem 34px;
-        max-width: 80px;
+        width: 80px;
         text-align: center;
     }
 
@@ -552,7 +552,7 @@ p a {
 
 .stat-icon {
 
-    //@include box-shadow;
+    position: relative;
     margin-top: -2px;
     width: 26px;
     min-width: 26px;
@@ -564,11 +564,12 @@ p a {
     
 
     img {
+        position: absolute;
+        top: 0;
         height: 100%;
         width: 100%;
         object-fit: cover;
-        opacity: 0.85;
-        
+        opacity: 0.85;        
     }
 }
 
