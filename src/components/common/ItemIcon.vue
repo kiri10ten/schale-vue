@@ -52,7 +52,7 @@ const tooltip = computed(() => {
 
 <template>
     <component :is="itemType.toLowerCase() == 'currency' ? 'div' : 'RouterLink'" :to="{name: itemType.toLowerCase() + 'view', params: { [itemType.toLowerCase() + 'id']: renderItem.Id }}">
-        <Tooltip v-bind="tooltip" class="item-drop drop-shadow position-relative">
+        <Tooltip v-bind="tooltip" class="item-drop position-relative">
             <img class="ba-item-icon" :class="{[`ba-item-${renderItem.Rarity?.toLowerCase()}`]: true, ['mb-0']: !primaryLabel && !iconLabel}" :src="`/images/${iconPath}/icon/${renderItem.Icon}.webp`" :alt="renderItem.Name">
             <span v-if="primaryLabel" class="ba-material-label">{{ primaryLabel }}</span>
             <span v-if="secondaryLabel" class="label-droptype">{{ secondaryLabel }}</span>

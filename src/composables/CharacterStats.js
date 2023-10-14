@@ -41,9 +41,10 @@ export function useCharacterStats(charRef, level, starGrade) {
             EnhanceExplosionRate: char.EnhanceExplosionRate ?? 10000,
             EnhancePierceRate: char.EnhancePierceRate ?? 10000,
             EnhanceMysticRate: char.EnhanceMysticRate ?? 10000,
+            EnhanceSonicRate: char.EnhanceSonicRate ?? 10000,
             ExtendBuffDuration: char.ExtendBuffDuration ?? 10000,
             ExtendDebuffDuration: char.ExtendDebuffDuration ?? 10000,
-            ExtendCCDuration: char.ExtendCCDuration ?? 10000
+            ExtendCrowdControlDuration: char.ExtendCrowdControlDuration ?? 10000
         }
     });
 
@@ -82,6 +83,7 @@ export function useCharacterStats(charRef, level, starGrade) {
             Base: 0,
             Coefficient: 1,
             BaseOuter: 0,
+            BonusList: []
         }
 
         
@@ -92,11 +94,21 @@ export function useCharacterStats(charRef, level, starGrade) {
 
                 if (buff.stat == stat && toValue(buff.enabled)) {
     
+                    let amount = 0;
+
                     if (buff.type == 'Coefficient') {
-                        bonuses[buff.type] += toValue(buff.amount) / 10000;
+                        amount += toValue(buff.amount) / 10000;
                     } else {
-                        bonuses[buff.type] += toValue(buff.amount);
+                        amount += toValue(buff.amount);
                     }
+
+                    bonuses[buff.type] += amount
+
+                    bonuses.BonusList.push({
+                        Name: buff.label,
+                        Type: buff.type,
+                        Amount: buff.amount
+                    })
                     
                 }
 
@@ -119,19 +131,24 @@ export function useCharacterStats(charRef, level, starGrade) {
 
         const total = Math.round(((base + bonuses.Base) * bonuses.Coefficient).toFixed(4)) + bonuses.BaseOuter;
 
+        let baseStr;
         let totalStr;
 
         if (stat == 'DamagedRatio') {
-            totalStr = ((total - 10000) / 100).toFixed(0).toLocaleString() + "%";
-        } else if (stat == 'AttackSpeed' || stat.slice(-4) == 'Rate') {
-            totalStr = (total/100).toFixed(0).toLocaleString() + "%"
+            totalStr = (+((total - 10000) / 100).toFixed(2)).toLocaleString() + "%";
+            baseStr = (+((base - 10000) / 100).toFixed(2)).toLocaleString() + "%";
+        } else if (isRateStat(stat)) {
+            totalStr = (+(total/100).toFixed(2)).toLocaleString() + "%"
+            baseStr = (+(base/100).toFixed(2)).toLocaleString() + "%"
         } else if (stat == 'AmmoCount') {
             totalStr = total.toLocaleString() + ` (${stats.value.AmmoCost})`
+            baseStr = base.toLocaleString()
         } else {
             totalStr = total.toLocaleString()
+            baseStr = base.toLocaleString()
         }
 
-        return { base, bonuses, total: allowNegative ? total : Math.max(total, 0), totalStr }
+        return { base, baseStr, bonuses, total: allowNegative ? total : Math.max(total, 0), totalStr }
     }
 
     const calculatedStats = computed(() => {
@@ -147,6 +164,10 @@ export function useCharacterStats(charRef, level, starGrade) {
     })
 
     return {level, starGrade, buffs, setBuff, removeBuff, calculate, calculatedStats}
+}
+
+export function isRateStat(stat) {
+    return (stat == 'AttackSpeed' || stat.endsWith('Ratio') || stat.endsWith('Rate') || stat.startsWith('Extend'))
 }
 
 export function useWeaponStats(weapon, level) {

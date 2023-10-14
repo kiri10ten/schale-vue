@@ -3,7 +3,11 @@ import { useSettingsStore } from '../../stores/SettingsStore';
 
 
 const props = defineProps({
-    student: Object
+    student: Object,
+    useReplace: {
+        type: Boolean,
+        default: false
+    }
 })
 
 const smallTextChars = {
@@ -22,9 +26,9 @@ const settings = useSettingsStore().settings;
 </script>
 
 <template>
-    <RouterLink :to="{name: 'studentview', params: {studentid: student.Id }}" class="selection-grid-card">
+    <RouterLink :to="{name: 'studentview', params: {studentid: student.Id }}" class="selection-grid-card" :replace="useReplace">
         <div class="card-img">
-            <img :src="`/images/student/collection/${student.Id}.webp`">
+            <img :src="`/images/student/collection/${student.Id}.webp`" loading="lazy">
         </div>
         <span class="card-badge student-role top-left" :class="[`bg-atk-${student.BulletType.toLowerCase()}`, `bg-hover-${student.SquadType.toLowerCase()}`]"><img :src="`/images/ui/Role_${student.TacticRole}.png`"></span>
         <span class="card-badge student-type atk" :class="`bg-atk-${student.BulletType.toLowerCase()}`"><img :src="'/images/ui/Type_Attack_s.png'"></span>

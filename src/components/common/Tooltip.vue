@@ -19,6 +19,10 @@ const props = defineProps({
         type: String,
         default: '',
     },
+    placement: {
+        type: String,
+        default: 'top'
+    }
 });
 
 const bsTooltip = ref(null);
@@ -43,7 +47,8 @@ function hookTooltip(element, tooltip) {
     bsTooltip.value = new Tooltip(element, {
         title: tooltip,
         html: true,
-        template: '<div class="tooltip" role="tooltip"><div class="tooltip-inner"></div></div>'
+        template: '<div class="tooltip" role="tooltip"><div class="tooltip-inner"></div></div>',
+        placement: props.placement
     });
 
     tooltip.remove();

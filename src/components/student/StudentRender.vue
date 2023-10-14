@@ -9,7 +9,8 @@ import StudentRenderProfile from './StudentRenderProfile.vue';
 import StudentRenderStats from './StudentRenderStats.vue';
 import StudentRenderWeapon from './StudentRenderWeapon.vue';
 import StudentRenderGear from './StudentRenderGear.vue';
-import { computed } from 'vue';
+import { computed, toRefs, watch } from 'vue';
+import { breakpointsBootstrapV5, useBreakpoints, useMediaQuery } from '@vueuse/core';
 
 const props = defineProps({
     student: {
@@ -22,8 +23,13 @@ const props = defineProps({
 
 });
 
+const breakpoints = useBreakpoints(breakpointsBootstrapV5);
+const useThreeCol = useMediaQuery('(min-width: 1800px)');
+const mobileView = breakpoints.smaller('md');
+
 const settings = useSettingsStore().settings;
 const studentStore = useStudentStore();
+const activeTab = toRefs(studentStore.studentDisplay).ActiveTab;
 
 const inCollection = computed(() => {
     return studentStore.collectionExists(props.student.Id);
@@ -41,12 +47,22 @@ function toggleCollection() {
     }
 }
 
+if (useThreeCol.value && activeTab.value == 'stats') {
+    activeTab.value = 'skills';
+}
+
+watch(useThreeCol, (newVal) => {
+    if (newVal && activeTab.value == 'stats') {
+        activeTab.value = 'skills';
+    }
+})
+
 </script>
 
 <template>
-    <div class="container-xl py-md-3">
-        <div class="row">
-            <div id="student-portrait-panel" class="col-12 col-md-6 ba-page">
+    <div class="py-md-3 page" :class="{'g-0': mobileView, 'container-fluid' : useThreeCol, 'container-xl': !useThreeCol}">
+        <div class="d-flex h-100" :class="{'flex-column': mobileView}">
+            <div id="student-portrait-panel" class="ba-page">
                 <div class="d-flex pe-xl-3" style="justify-content: center;">
                     <img id="ba-student-img" :src="`/images/student/portrait/${student.Id}.webp`">
                 </div>
@@ -71,18 +87,13 @@ function toggleCollection() {
                         <div class="icon"><img src="/images/ui/midokuni.png" width="25" height="25"></div>
                     </button> -->
                 </div>
-                <!-- <div class="d-flex flex-wrap gap-1">
-                    <RouterLink v-for="student in studentMap" :to="{name: 'studentview', params: {studentid: student.Id }}" tag="button" class="btn btn-dark">
-                        <span>{{ student.Name }}</span>
-                    </RouterLink>
-                </div> -->
                 <div class="d-block d-md-none" style="height: 412px;"></div>
             </div>
-            <div id="ba-student" class="col-12 col-md-6 ba-page">
-                <div class="px-0 ps-xl-3">
-                    <div class="card p-2 m-auto" style="max-width: 660px;">
-                        <div class="card-header">
-                            <div class="d-flex flex-row align-items-top pt-2 pb-3">
+            <div class="flex-fill card ba-page h-100">
+                <div class="d-flex h-100 main-panel">
+                    <div class="left-column">
+                        <div class="d-flex flex-column gap-2 h-100">
+                            <div class="d-flex flex-row align-items-top p-2">
                                 <div class="flex-grow-1 me-2">
                                     <h1 id="ba-student-name" class="title-text px-1 mb-3" v-html="student.Name.replace(/([(（].+[)）])/,'<small>$1</small>')"></h1>
                                     <div class="d-flex flex-row flex-wrap gap-1">
@@ -95,40 +106,30 @@ function toggleCollection() {
                                         <span id="ba-student-class" class="ba-info-pill-s" :class="`ba-class-${student.SquadType.toLowerCase()}`"><span class="label">{{ translate('SquadType', student.SquadType) }}</span></span>
                                     </div>
                                 </div>
-                                <div id="ba-student-school">
+                                <div id="ba-student-school" v-show="!useThreeCol">
                                     <img id="ba-student-school-img" class="invert-light" width="84" height="76" :src="`/images/schoolicon/${student.School}.png`">
                                 </div>
                             </div>
-                            <nav id="ba-item-list-tabs" class="nav nav-pills justify-content-left">
-                                <a class="nav-link active" data-bs-toggle="tab" href="#stats">{{ translateUi('attributes') }}</a>
-                                <a class="nav-link" data-bs-toggle="tab" href="#skills">{{ translateUi('skills') }}</a>
-                                <a class="nav-link" data-bs-toggle="tab" href="#weapon">{{ translateUi('ex_weapon') }}</a>
-                                <a v-if="student.Gear.Released?.[settings.server]" class="nav-link" data-bs-toggle="tab" href="#gear">{{ translateUi('ex_gear') }}</a>
-                                <a class="nav-link" data-bs-toggle="tab" href="#profile">{{ translateUi('profile') }}</a>
-                            </nav>
+                            <div v-if="useThreeCol" class="p-2 scroll-auto">
+                                <StudentRenderStats :student="student" />
+                            </div>                            
                         </div>
-                        <div class="card-body">
-                            <div class="tab-content">
-                                <div id="stats" class="tab-pane show active">
-                                    <StudentRenderStats :student="student" />
-                                </div>
 
-                                <div id="skills" class="tab-pane">
-                                    <StudentRenderSkills :student="student" />
-                                </div>
-
-                                <div id="weapon" class="tab-pane">
-                                    <StudentRenderWeapon :student="student" />
-                                </div>
-
-                                <div id="gear" class="tab-pane">
-                                    <StudentRenderGear v-if="student.Gear.Released?.[settings.server]" :student="student" />
-                                </div>
-
-                                <div id="profile" class="tab-pane">
-                                    <StudentRenderProfile :student="student" />
-                                </div>
-                            </div>
+                    </div>
+                    <div class="flex-fill d-flex flex-column h-100">
+                        <nav id="ba-item-list-tabs" class="nav nav-pills p-2" :class="{'justify-content-center mb-2': useThreeCol}">
+                            <button class="nav-link" v-if="!useThreeCol" @click="activeTab = 'stats'" :class="{'active': activeTab == 'stats'}">{{ translateUi('attributes') }}</button>
+                            <button class="nav-link" @click="activeTab = 'skills'" :class="{'active': activeTab == 'skills'}">{{ translateUi('skills') }}</button>
+                            <button class="nav-link" @click="activeTab = 'weapon'" :class="{'active': activeTab == 'weapon'}">{{ translateUi('ex_weapon') }}</button>
+                            <button class="nav-link" @click="activeTab = 'gear'" :class="{'active': activeTab == 'gear'}" v-if="student.Gear.Released?.[settings.server]">{{ translateUi('ex_gear') }}</button>
+                            <button class="nav-link" @click="activeTab = 'profile'" :class="{'active': activeTab == 'profile'}">{{ translateUi('profile') }}</button>
+                        </nav>
+                        <div class="tab-content flex-fill p-2 scroll-auto">
+                                <StudentRenderStats v-if="activeTab == 'stats' && !useThreeCol" :student="student" />
+                                <StudentRenderSkills v-if="activeTab == 'skills'" :student="student" />
+                                <StudentRenderWeapon v-if="activeTab == 'weapon'" :student="student" />
+                                <StudentRenderGear v-if="activeTab == 'gear'" :student="student" />
+                                <StudentRenderProfile v-if="activeTab == 'profile'" :student="student" />
                         </div>
                     </div>
                 </div>
@@ -137,12 +138,66 @@ function toggleCollection() {
     </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
+@import '../../styles/_mixins.scss';
+
+@mixin three-col() {
+    @media only screen and (min-width: (1800px)) {
+        @content;
+    }
+}
+
+
+
+.card {
+    
+    padding: 0.5rem;
+
+    @include sm-down {
+        border-radius: 0px;
+        padding: 0.5rem 0;
+    }
+}
+
+.page {
+    @include three-col{
+        height: calc(100vh - 56px);
+    }
+}
+
+.left-column {
+    @include three-col{
+        min-width: 582px;
+        max-width: 582px
+    } 
+}
+
+.main-panel {
+    flex-direction: column;
+
+    @include three-col{
+        gap: 1rem;
+        flex-direction: row;
+    } 
+}
+
+#student-portrait-panel {
+
+    min-width: 50%;
+
+    @include three-col{
+        min-width: 720px;
+    }
+}
 
 .student-portrait-buttons .btn-pill {
-    height: 40px;
+    height: 38px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+}
+
+.scroll-auto {
+    @include scrollable(auto);
 }
 
 </style>

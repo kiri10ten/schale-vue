@@ -53,3 +53,51 @@ export function extractNumber(string) {
     let result = parseInt(string.replace(/[^0-9]/g));
     return isNaN(result) ? 0 : result;
 }
+
+export function getDuration(seconds) {
+    const result = {
+        seconds: 0,
+        minutes: 0,
+        hours: 0,
+        days: 0
+    }
+
+    if (seconds < 0) {
+        return result;
+    }
+
+    let totalSeconds = seconds;
+
+    result.days = Math.floor(totalSeconds/86400);
+    totalSeconds -= result.days*86400;
+
+    result.hours = Math.floor(totalSeconds/3600);
+    totalSeconds -= result.hours*3600;
+
+    result.minutes = Math.floor(totalSeconds/60);
+    totalSeconds -= result.minutes*60;
+
+    result.seconds = totalSeconds;
+
+    return result;
+}
+
+export function distanceString(value, longUnit = false) {
+    const settings = useSettingsStore().settings;
+
+    if (settings.distanceUnit == 'metric') {
+        return `${value / 100}m`
+    } else {
+        return longUnit ? value.toLocaleString() + ' units' : value.toLocaleString();
+    }
+}
+
+export function framesString(value) {
+    const settings = useSettingsStore().settings;
+
+    if (settings.durationUnit == 'seconds') {
+        return translateUi('time_seconds', +(value / 30).toFixed(2)); 
+    } else {
+        return `${value}f`;
+    }
+}

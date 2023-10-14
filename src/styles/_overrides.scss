@@ -100,6 +100,7 @@
         color: var(--col-theme-text);
         word-break: keep-all;
         white-space: nowrap;
+        @include circular;
 
         &.active {
             color: var(--col-btn-active-primary);
@@ -268,21 +269,21 @@
 
 // Toggle Input
 
-.form-check-input:checked {
-    background-color: rgb(0, 0, 0);
-    border-color: rgb(0, 0, 0);
-}
+// .form-check-input:checked {
+//     background-color: rgb(0, 0, 0);
+//     border-color: rgb(0, 0, 0);
+// }
 
-.form-check-input:focus {
-    border-color: transparent;
-    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e") !important;
-}
+// .form-check-input:focus {
+//     border-color: transparent;
+//     box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+//     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e") !important;
+// }
 
-.form-check-input:checked {
-    background-position: right center;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
-}
+// .form-check-input:checked {
+//     background-position: right center;
+//     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+// }
 
 // Modals
 

@@ -1,7 +1,6 @@
 <script setup>
 import { computed, toRefs } from 'vue';
 import { useStudentStore } from '../../stores/StudentStore';
-import SkillPanel from './skills/SkillPanel.vue';
 import { translate, translateUi } from '../../composables/Localization';
 import { regionSettings } from '../../composables/RegionSettings';
 import { useSettingsStore } from '../../stores/SettingsStore';

@@ -4968,7 +4968,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 550,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Marks one enemy. After 10s, deals 1750% damage to them."
+        ]
     },
     {
         "Id": 7002301,
@@ -5034,7 +5037,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 750,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Grants one ally except self a <b:Shield> equal to 150% of Healing and increases their <b:DEF> by 30% for 20s.\nIf the target is a sentry gun, increases their <b:CriticalChance> and <b:ATK> by 30% for 20s instead."
+        ]
     },
     {
         "Id": 7002403,
@@ -5068,7 +5074,11 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 1200,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Summons sentry guns that are untargetable and immune to all damage.",
+            "This enemy and all summoned sentry guns are <s:ImmuneCC>."
+        ]
     },
     {
         "Id": 7010001,
@@ -9893,6 +9903,39 @@
         "DamagedRatio": 10000
     },
     {
+        "Id": 7030003,
+        "DevName": "Terror_YustinaSwim_FT_C",
+        "Name": "狂信的な水着信徒（FT）",
+        "SquadType": "Main",
+        "Rank": "Champion",
+        "BulletType": "Normal",
+        "ArmorType": "ElasticArmor",
+        "WeaponType": "FT",
+        "Tags": [
+            "EnemyMedium",
+            "Boss"
+        ],
+        "Icon": "enemyinfo_terror_yustinaswim_ft",
+        "StabilityPoint": 450,
+        "StabilityRate": 7500,
+        "AttackPower1": 188,
+        "AttackPower100": 1881,
+        "MaxHP1": 3240,
+        "MaxHP100": 200070,
+        "DefensePower1": 200,
+        "DefensePower100": 1200,
+        "HealPower1": 1400,
+        "HealPower100": 4200,
+        "DodgePoint": 120,
+        "AccuracyPoint": 1000,
+        "CriticalPoint": 200,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "Range": 400,
+        "DamagedRatio": 10000
+    },
+    {
         "Id": 7030011,
         "DevName": "Terror_YustinaSwim_AR_M",
         "Name": "水着信徒（AR）",
@@ -9957,6 +10000,39 @@
         "DamagedRatio": 10000
     },
     {
+        "Id": 7030013,
+        "DevName": "Terror_YustinaSwim_AR_C",
+        "Name": "慎重な水着信徒（AR）",
+        "SquadType": "Main",
+        "Rank": "Champion",
+        "BulletType": "Normal",
+        "ArmorType": "ElasticArmor",
+        "WeaponType": "AR",
+        "Tags": [
+            "EnemyMedium",
+            "Boss"
+        ],
+        "Icon": "enemyinfo_terror_yustinaswim_ar",
+        "StabilityPoint": 350,
+        "StabilityRate": 7500,
+        "AttackPower1": 282,
+        "AttackPower100": 2820,
+        "MaxHP1": 2160,
+        "MaxHP100": 92632,
+        "DefensePower1": 25,
+        "DefensePower100": 150,
+        "HealPower1": 1400,
+        "HealPower100": 4200,
+        "DodgePoint": 400,
+        "AccuracyPoint": 700,
+        "CriticalPoint": 500,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "Range": 600,
+        "DamagedRatio": 10000
+    },
+    {
         "Id": 7030021,
         "DevName": "Terror_YustinaSwim_SR_M",
         "Name": "水着信徒（SR）",
@@ -9980,6 +10056,38 @@
         "HealPower1": 1400,
         "HealPower100": 4200,
         "DodgePoint": 50,
+        "AccuracyPoint": 900,
+        "CriticalPoint": 500,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "Range": 800,
+        "DamagedRatio": 10000
+    },
+    {
+        "Id": 7030022,
+        "DevName": "Terror_YustinaSwim_SR_E",
+        "Name": "水着信徒（SR）",
+        "SquadType": "Main",
+        "Rank": "Elite",
+        "BulletType": "Normal",
+        "ArmorType": "ElasticArmor",
+        "WeaponType": "SR",
+        "Tags": [
+            "EnemyMedium"
+        ],
+        "Icon": "enemyinfo_terror_yustinaswim_sr",
+        "StabilityPoint": 500,
+        "StabilityRate": 7500,
+        "AttackPower1": 413,
+        "AttackPower100": 4134,
+        "MaxHP1": 360,
+        "MaxHP100": 10240,
+        "DefensePower1": 25,
+        "DefensePower100": 150,
+        "HealPower1": 1400,
+        "HealPower100": 4200,
+        "DodgePoint": 70,
         "AccuracyPoint": 900,
         "CriticalPoint": 500,
         "CriticalDamageRate": 20000,
@@ -12912,6 +13020,62 @@
         "DamagedRatio": 10000
     },
     {
+        "Id": 7050744,
+        "DevName": "Mari_default_E",
+        "Name": "Mari",
+        "Transcendence": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "SquadType": "Support",
+        "Rank": "Elite",
+        "BulletType": "Mystic",
+        "ArmorType": "Unarmed",
+        "WeaponType": "HG",
+        "Tags": [
+            "Trinity",
+            "EnemyMedium",
+            "Uncover"
+        ],
+        "Icon": "enemyinfo_mari_hg",
+        "StabilityPoint": 1086,
+        "AttackPower1": 147,
+        "AttackPower100": 1473,
+        "MaxHP1": 2130,
+        "MaxHP100": 15916,
+        "DefensePower1": 18,
+        "DefensePower100": 113,
+        "HealPower1": 1695,
+        "HealPower100": 5086,
+        "DodgePoint": 1041,
+        "AccuracyPoint": 105,
+        "CriticalPoint": 210,
+        "CriticalDamageRate": 20000,
+        "CriticalResistPoint": 100,
+        "CriticalDamageResistRate": 5000,
+        "Range": 1000,
+        "DamagedRatio": 10000
+    },
+    {
         "Id": 7090001,
         "DevName": "UnNamedGuardian_Front_M",
         "Name": "Thủ hộ giả vô danh loại F",
@@ -14817,7 +14981,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 200000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 100000
+            }
+        ]
     },
     {
         "Id": 7300200,
@@ -14856,7 +15032,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 500000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 200000
+            }
+        ]
     },
     {
         "Id": 7300300,
@@ -14895,7 +15083,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 700000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 300000
+            }
+        ]
     },
     {
         "Id": 7300400,
@@ -14934,7 +15134,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 1200000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 400000
+            }
+        ]
     },
     {
         "Id": 7300500,
@@ -14973,7 +15185,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 3500000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 1000000
+            }
+        ]
     },
     {
         "Id": 7300600,
@@ -15012,7 +15236,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 4000000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 1500000
+            }
+        ]
     },
     {
         "Id": 7300700,
@@ -15051,7 +15287,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 13200000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 4900000
+            }
+        ]
     },
     {
         "Id": 7301100,
@@ -15087,7 +15335,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 79999
+            }
+        ]
     },
     {
         "Id": 7301101,
@@ -15303,7 +15558,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 310999
+            }
+        ]
     },
     {
         "Id": 7301201,
@@ -15519,7 +15781,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 503999
+            }
+        ]
     },
     {
         "Id": 7301301,
@@ -15735,7 +16004,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 779999
+            }
+        ]
     },
     {
         "Id": 7301401,
@@ -15951,7 +16227,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 3399999
+            }
+        ]
     },
     {
         "Id": 7301501,
@@ -16167,7 +16450,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 6399999
+            }
+        ]
     },
     {
         "Id": 7301601,
@@ -16419,7 +16709,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 20999999
+            }
+        ]
     },
     {
         "Id": 7301701,
@@ -17147,7 +17444,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 200000
+            }
+        ]
     },
     {
         "Id": 7303200,
@@ -17181,7 +17485,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 450000
+            }
+        ]
     },
     {
         "Id": 7303300,
@@ -17215,7 +17526,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 675000
+            }
+        ]
     },
     {
         "Id": 7303400,
@@ -17249,7 +17567,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 1250000
+            }
+        ]
     },
     {
         "Id": 7303500,
@@ -17283,7 +17608,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 3000000
+            }
+        ]
     },
     {
         "Id": 7303600,
@@ -17317,7 +17649,14 @@
         "GroggyGauge": 5000000,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 12000000
+            }
+        ]
     },
     {
         "Id": 7303900,
@@ -20222,7 +20561,14 @@
         "GroggyGauge": 240000,
         "GroggyTime": 10000,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 180000
+            }
+        ]
     },
     {
         "Id": 7308101,
@@ -20358,7 +20704,14 @@
         "GroggyGauge": 661500,
         "GroggyTime": 10000,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 567000
+            }
+        ]
     },
     {
         "Id": 7308201,
@@ -20424,7 +20777,14 @@
         "GroggyGauge": 1470000,
         "GroggyTime": 10000,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 1260000
+            }
+        ]
     },
     {
         "Id": 7308301,
@@ -20490,7 +20850,14 @@
         "GroggyGauge": 2205000,
         "GroggyTime": 10000,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 1890000
+            }
+        ]
     },
     {
         "Id": 7308401,
@@ -20626,7 +20993,14 @@
         "GroggyGauge": 10400000,
         "GroggyTime": 10000,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 7800000
+            }
+        ]
     },
     {
         "Id": 7308501,
@@ -20692,7 +21066,14 @@
         "GroggyGauge": 24000000,
         "GroggyTime": 10000,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 18000000
+            }
+        ]
     },
     {
         "Id": 7308601,
@@ -20828,7 +21209,14 @@
         "GroggyGauge": 40000000,
         "GroggyTime": 10000,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 30000000
+            }
+        ]
     },
     {
         "Id": 7308701,
@@ -22365,7 +22753,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 200000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 100000
+            }
+        ]
     },
     {
         "Id": 7960100,
@@ -22403,7 +22803,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 500000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 200000
+            }
+        ]
     },
     {
         "Id": 7960200,
@@ -22441,7 +22853,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 700000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 300000
+            }
+        ]
     },
     {
         "Id": 7960300,
@@ -22479,7 +22903,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 1200000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 400000
+            }
+        ]
     },
     {
         "Id": 7960400,
@@ -22517,7 +22953,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 3500000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 1000000
+            }
+        ]
     },
     {
         "Id": 7960500,
@@ -22555,7 +23003,19 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 0,
         "Range": 3000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 4000000
+            },
+            {
+                "Phase": 2,
+                "Trigger": "HPUnder",
+                "Argument": 1500000
+            }
+        ]
     },
     {
         "Id": 7961000,
@@ -22623,7 +23083,14 @@
         "GroggyGauge": 172000,
         "GroggyTime": 10000,
         "Range": 1500,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 7,
+                "Trigger": "HPUnder",
+                "Argument": 319999
+            }
+        ]
     },
     {
         "Id": 7961100,
@@ -22691,7 +23158,14 @@
         "GroggyGauge": 320000,
         "GroggyTime": 10000,
         "Range": 2000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 7,
+                "Trigger": "HPUnder",
+                "Argument": 599999
+            }
+        ]
     },
     {
         "Id": 7961200,
@@ -22759,7 +23233,14 @@
         "GroggyGauge": 440000,
         "GroggyTime": 10000,
         "Range": 2000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 7,
+                "Trigger": "HPUnder",
+                "Argument": 734999
+            }
+        ]
     },
     {
         "Id": 7961300,
@@ -22827,7 +23308,14 @@
         "GroggyGauge": 800000,
         "GroggyTime": 10000,
         "Range": 2000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 7,
+                "Trigger": "HPUnder",
+                "Argument": 1329999
+            }
+        ]
     },
     {
         "Id": 7961400,
@@ -22895,7 +23383,14 @@
         "GroggyGauge": 6000000,
         "GroggyTime": 10000,
         "Range": 2000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 7,
+                "Trigger": "HPUnder",
+                "Argument": 5999999
+            }
+        ]
     },
     {
         "Id": 7961500,
@@ -22963,7 +23458,14 @@
         "GroggyGauge": 17000000,
         "GroggyTime": 10000,
         "Range": 2000,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "PhaseChange": [
+            {
+                "Phase": 7,
+                "Trigger": "HPUnder",
+                "Argument": 9999999
+            }
+        ]
     },
     {
         "Id": 7962000,
@@ -22997,7 +23499,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 200000
+            }
+        ]
     },
     {
         "Id": 7962100,
@@ -23031,7 +23540,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 450000
+            }
+        ]
     },
     {
         "Id": 7962200,
@@ -23065,7 +23581,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 675000
+            }
+        ]
     },
     {
         "Id": 7962300,
@@ -23099,7 +23622,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 1250000
+            }
+        ]
     },
     {
         "Id": 7962400,
@@ -23133,7 +23663,14 @@
         "GroggyGauge": 99999999,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 3000000
+            }
+        ]
     },
     {
         "Id": 7962500,
@@ -23167,7 +23704,14 @@
         "GroggyGauge": 5000000,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 12000000
+            }
+        ]
     },
     {
         "Id": 7962501,
@@ -23232,7 +23776,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 79999
+            }
+        ]
     },
     {
         "Id": 7963001,
@@ -23441,7 +23992,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 310999
+            }
+        ]
     },
     {
         "Id": 7963101,
@@ -23650,7 +24208,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 503999
+            }
+        ]
     },
     {
         "Id": 7963201,
@@ -23859,7 +24424,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 779999
+            }
+        ]
     },
     {
         "Id": 7963301,
@@ -24068,7 +24640,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 3399999
+            }
+        ]
     },
     {
         "Id": 7963401,
@@ -24277,7 +24856,14 @@
         "GroggyGauge": 1000000000,
         "GroggyTime": 20000,
         "Range": 2000,
-        "DamagedRatio": 19000
+        "DamagedRatio": 19000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 6399999
+            }
+        ]
     },
     {
         "Id": 7963501,
@@ -25374,7 +25960,14 @@
         "GroggyGauge": 9000000,
         "GroggyTime": 5000,
         "Range": 2000,
-        "DamagedRatio": 16000
+        "DamagedRatio": 16000,
+        "PhaseChange": [
+            {
+                "Phase": 1,
+                "Trigger": "HPUnder",
+                "Argument": 21000000
+            }
+        ]
     },
     {
         "Id": 8010001,
@@ -40022,7 +40615,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 350,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300302,
@@ -40055,7 +40651,11 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 550,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Marks one enemy. After 10s, deals 1750% damage to them.",
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300303,
@@ -40088,7 +40688,11 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 750,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Grants one ally except self a <b:Shield> equal to 150% of Healing and increases their <b:DEF> by 30% for 20s.\nIf the target is a sentry gun, increases their <b:CriticalChance> and <b:ATK> by 30% for 20s instead.",
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300304,
@@ -40121,7 +40725,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 400,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300305,
@@ -40154,7 +40761,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 700,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300306,
@@ -40187,7 +40797,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 800,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300308,
@@ -40220,7 +40833,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 600,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300309,
@@ -40253,7 +40869,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 800,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Generates <b>0.25</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300401,
@@ -40287,7 +40906,12 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 1200,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Increases the <b:ATK> and <b:AttackSpeed> of nearby sentry guns by 100% for 9s and deals 450% damage to one enemy.",
+            "Increases <b:ATK> by 30% and summons 4 sentry guns.\nSentry guns are untargetable, immune to all damage and their normal attacks have a 3.5% chance to decrease the target's <d:DEF> by <b>150</b> for 15s and a 4.5% chance to decrease the target's <d:Dodge> by <b>180</b> for 15s. Both debuffs stack up to 99 times and cannot be dispelled.",
+            "This enemy and all summoned sentry guns are <s:ImmuneCC>."
+        ]
     },
     {
         "Id": 8300403,
@@ -40320,7 +40944,10 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 350,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Generates <b>1.5</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300404,
@@ -40353,7 +40980,11 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 550,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Marks one enemy. After 10s, deals 1750% damage to them.",
+            "Generates <b>1.5</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 8300405,
@@ -40386,7 +41017,11 @@
         "CriticalResistPoint": 100,
         "CriticalDamageResistRate": 5000,
         "Range": 750,
-        "DamagedRatio": 10000
+        "DamagedRatio": 10000,
+        "Skills": [
+            "Grants one ally except self a <b:Shield> equal to 150% of Healing and increases their <b:DEF> by 30% for 20s.\nIf the target is a sentry gun, increases their <b:CriticalChance> and <b:ATK> by 30% for 20s instead.",
+            "Generates <b>1.5</b> units of skill cost for all nearby Strikers when defeated."
+        ]
     },
     {
         "Id": 7611013,

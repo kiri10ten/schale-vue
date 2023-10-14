@@ -1,6 +1,6 @@
 <script setup>
 import { watchDebounced } from '@vueuse/core';
-import { computed, ref, toRef, toRefs } from 'vue';
+import { computed, ref, toRef, toRefs, toValue } from 'vue';
 
 import { useCharacterStats, useGearStats, useStudentBondStats, useWeaponStats } from "../../composables/CharacterStats";
 import { getEquipmentByType, getEquipmentStats } from '../../composables/Equipment';
@@ -20,6 +20,9 @@ import InputBond from '../inputs/InputBond.vue';
 import SelectEquipment from '../inputs/SelectEquipment.vue';
 import StarGrade from '../inputs/StarGrade.vue';
 import ToggleGear from '../inputs/ToggleGear.vue';
+import Modal from '../common/Modal.vue';
+import StatsTableFull from '../common/StatsTableFull.vue';
+import InputSkillLevel from '../inputs/InputSkillLevel.vue';
 
 const props = defineProps({
     student: {
@@ -27,6 +30,11 @@ const props = defineProps({
         required: true
     }
 });
+
+const fullStatsModal = ref(null);
+function showFullStats() {
+    fullStatsModal.value.show();
+}
 
 const settings = useSettingsStore().settings;
 
@@ -40,12 +48,10 @@ const inCollection = computed(() => {
 const studentSummons = computed(() => {
     return props.student.Summons.map((summon) => {
         const summonInfo = getSummonById(summon.Id);
-        const sourceSkill = props.student.Skills.find((skill) => skill.SkillType == summon.SourceSkill);
+        const sourceSkill = props.student.Skills[summon.SourceSkill];
         return {summonInfo, sourceSkill};
     })
 })
-
-const studentRef = toRef(props, 'student');
 
 const selectedSummon = ref(0);
 const selectedCharacter = computed(() => {
@@ -63,18 +69,25 @@ const selectedCharacter = computed(() => {
     }
 });
 
-const statsStarGrade = computed(() => {
-    return selectedSummon.value == 0 ? studentDisplay.StarGrade : 1;
+const selectedCharacterStats = computed(() => {
+    if (selectedSummon.value == 0) {
+        return studentStats;
+    } else {
+        return summonStats.value;
+    }
 })
 
-const studentStats = useCharacterStats(selectedCharacter, refStudentDisplay.Level, statsStarGrade);
+const studentStats = useCharacterStats(props.student, refStudentDisplay.Level, refStudentDisplay.StarGrade);
+
 const studentStatList = ['MaxHP','AttackPower','DefensePower','HealPower','AccuracyPoint','DodgePoint','CriticalPoint','CriticalChanceResistPoint','CriticalDamageRate','CriticalDamageResistRate','StabilityPoint','Range','OppressionPower','OppressionResist', 'HealEffectivenessRate','AmmoCount'];
+const studentStatListFull = ['MaxHP','AttackPower','DefensePower','HealPower','AccuracyPoint','DodgePoint','CriticalPoint','CriticalChanceResistPoint','CriticalDamageRate','CriticalDamageResistRate','StabilityPoint','Range','OppressionPower','OppressionResist','HealEffectivenessRate','RegenCost','AttackSpeed','BlockRate','DefensePenetration', 'AmmoCount', 'DamageRatio', 'DamagedRatio', 'EnhanceExplosionRate', 'EnhancePierceRate', 'EnhanceMysticRate', 'EnhanceSonicRate', 'ExtendBuffDuration', 'ExtendDebuffDuration', 'ExtendCrowdControlDuration'];
 
 const weaponStats = useWeaponStats(computed(() => {return props.student.Weapon}), refStudentDisplay.WeaponLevel);
 
 const weaponBuffList = []
 for (const stat in weaponStats.calculatedStats.value) {
     weaponBuffList.push({
+        label: translateUi('student_weapon'),
         stat: stat,
         enabled: computed(() => {return refStudentDisplay.WeaponStarGrade.value > 0 && selectedCharacter.value.Id != 99999}),
         type: 'Base',
@@ -84,28 +97,6 @@ for (const stat in weaponStats.calculatedStats.value) {
 
 studentStats.setBuff(`Student_UniqueWeapon`, weaponBuffList);
 
-const equipment = computed(() => {
-    return props.student.Equipment.map((e, i) => getEquipmentByType(e, Math.max(1, studentDisplay.Equipment[i])));
-})
-
-for (let i = 0; i < 3; i++) {
-    const equipmentBuffList = computed(() => {
-        const equipmentStats = getEquipmentStats(props.student.Equipment[i], studentDisplay.Equipment[i], 1);
-        const equipmentBuffList = [];
-        for (const stat in equipmentStats) {
-            equipmentBuffList.push({
-                stat: stat.split('_')[0],
-                enabled: selectedCharacter.value.Id != 99999,
-                type: stat.split('_')[1],
-                amount: equipmentStats[stat]
-            });
-        }
-        return equipmentBuffList;
-    })
-
-    studentStats.setBuff(`Student_Equipment${i}`, equipmentBuffList)
-}
-
 const bondStats = useStudentBondStats(computed(() => {return props.student}), refStudentDisplay.BondLevel, true)
 
 const bondBuffList = computed(() => {
@@ -113,8 +104,9 @@ const bondBuffList = computed(() => {
 
     for (const stat in bondStats.calculatedStats.value) {
         buffList.push({
+            label: translateUi('student_bond'),
             stat: stat,
-            enabled: selectedCharacter.value.Id != 99999,
+            enabled: true,
             type: 'Base',
             amount: bondStats.calculatedStats.value[stat].total
         });
@@ -123,6 +115,36 @@ const bondBuffList = computed(() => {
     return buffList;
 })
 
+studentStats.setBuff(`Student_BondBonus`, bondBuffList);
+
+const equipment = computed(() => {
+    return props.student.Equipment.map((e, i) => getEquipmentByType(e, Math.max(1, studentDisplay.Equipment[i])));
+})
+
+const equipmentsBuffList = [];
+
+for (let i = 0; i < 3; i++) {
+    const equipmentBuffList = computed(() => {
+        const equipment = getEquipmentByType(props.student.Equipment[i], studentDisplay.Equipment[i]);
+        const equipmentStats = getEquipmentStats(props.student.Equipment[i], studentDisplay.Equipment[i], 1);
+        const equipmentBuffList = [];
+        for (const stat in equipmentStats) {
+            equipmentBuffList.push({
+                label: equipment.Name,
+                stat: stat.split('_')[0],
+                enabled: true,
+                type: stat.split('_')[1],
+                amount: equipmentStats[stat]
+            });
+        }
+        return equipmentBuffList;
+    })
+
+    equipmentsBuffList.push(equipmentBuffList)
+
+    studentStats.setBuff(`Student_Equipment${i}`, equipmentBuffList)
+}
+
 const gearStats = useGearStats(computed(() => {return props.student.Gear}), 1);
 
 const gearBuffList = computed(() => {
@@ -130,6 +152,7 @@ const gearBuffList = computed(() => {
 
     for (const stat in gearStats.calculatedStats.value) {
         buffList.push({
+            label: props.student.Gear.Name,
             stat: stat.split('_')[0],
             enabled: computed(() => {return refStudentDisplay.Gear.value}),
             type: stat.split('_')[1],
@@ -140,8 +163,88 @@ const gearBuffList = computed(() => {
     return buffList;
 })
 
-studentStats.setBuff(`Student_BondBonus`, bondBuffList);
 studentStats.setBuff(`Student_Gear`, gearBuffList);
+
+const passiveBuffList = computed(() => {
+    const buffList = [];
+    const usePassivePlus = toValue(refStudentDisplay.WeaponStarGrade) >= 2
+    const passiveLevel = toValue(refStudentDisplay.SkillPassive);
+
+    if (passiveLevel > 0) {
+        for (const effect of props.student.Skills.Passive.Effects) {
+            buffList.push({
+                label: props.student.Skills.Passive.Name,
+                stat: effect.Stat.split('_')[0],
+                enabled: true,
+                type: effect.Stat.split('_')[1],
+                amount: effect.Scale[passiveLevel - 1]
+            });
+        }
+
+        if (usePassivePlus) {
+            for (const effect of props.student.Skills.WeaponPassive.Effects) {
+                buffList.push({
+                    label: props.student.Skills.WeaponPassive.Name,
+                    stat: effect.Stat.split('_')[0],
+                    enabled: true,
+                    type: effect.Stat.split('_')[1],
+                    amount: effect.Scale[passiveLevel - 1]
+                });
+            }
+        }
+    }
+
+    return buffList;
+})
+
+studentStats.setBuff(`Student_SkillPassive`, passiveBuffList);
+
+const summonBuffList = computed(() => {
+
+    const buffList = [];
+
+    if (selectedSummon.value > 0) {
+
+        const summon = props.student.Summons[selectedSummon.value - 1]
+        const skillLevel = toValue(refStudentDisplay['Skill' + summon.SourceSkill]);
+
+        if (skillLevel > 0) {
+
+            for (let i = 0; i < summon.InheritCasterStat.length; i++) {
+                buffList.push({
+                    label: props.student.Skills[summon.SourceSkill].Name,
+                    stat: summon.InheritCasterStat[i],
+                    enabled: true,
+                    type: 'Base',
+                    amount: Math.round(studentStats.calculatedStats.value[summon.InheritCasterStat[i]].total * (summon.InheritCasterAmount[i][skillLevel - 1] / 10000))
+                });
+            }
+
+        }
+    }
+
+    return buffList;
+})
+
+const summonStats = computed(() => {
+    if (selectedSummon.value > 0) {
+        const summonStats = useCharacterStats(selectedCharacter, refStudentDisplay.Level, 1);
+
+        if (selectedCharacter.value.Id != 99999) {
+            summonStats.setBuff(`Student_UniqueWeapon`, weaponBuffList);
+            summonStats.setBuff(`Student_Gear`, gearBuffList);
+
+            equipmentsBuffList.forEach((list, i) => {
+                summonStats.setBuff(`Student_Equipment${i}`, list)
+            });
+        }
+
+        summonStats.setBuff(`Summon_Inheritance`, summonBuffList);
+
+        return summonStats;
+
+    } else return null;
+})
 
 const terrainAffinity = computed(() => {
     const affinities = {
@@ -272,6 +375,12 @@ watchDebounced(studentDisplay, () => {
             </div>
             <div class="d-flex flex-row align-items-end gap-2">
 
+                <button class="btn-pill" @click="showFullStats()">
+                    <span class="label">
+                        <fa icon="magnifying-glass" class="me-2" />
+                        {{ translateUi('details') }}
+                    </span>
+                </button>
                 <!-- <button v-if="student.SquadType == 'Support'" id="ba-statpreview-status-strikerbonus" class="btn-pill tooltip-button deactivated" >
                     <div class="icon" style="padding:3px"><img src="/images/ui/Special_StatBonus.png" class="invert-light" width="22" height="22" style="border-radius:0!important;"></div>
                 </button> -->
@@ -283,7 +392,7 @@ watchDebounced(studentDisplay, () => {
     <div class="row g-1 mt-1">
         <div class="col">
             <div id="ba-student-stat-table" class="student-stat-table ba-panel ba-stats mb-0">
-                <StatsTable :character-stats="studentStats" :stat-list="studentStatList" :level="studentDisplay.Level" :enable-derived-tooltip="true" :hide-ammo-count="student.SquadType == 'Support'"></StatsTable>
+                <StatsTable :character-stats="selectedCharacterStats" :stat-list="studentStatList" :enable-derived-tooltip="true" :hide-ammo-count="student.SquadType == 'Support'"></StatsTable>
             </div>
         </div>
     </div>
@@ -310,21 +419,19 @@ watchDebounced(studentDisplay, () => {
         <div class="d-flex flex-row flex-wrap align-items-stretch gap-2 mb-1">
             <InputBond :student-id="student.Id" v-model:bond-level="studentDisplay.BondLevel[0]"></InputBond>
             <InputBond v-for="(alt, index) in student.FavorAlts" :student-id="alt" v-model:bond-level="studentDisplay.BondLevel[index + 1]"></InputBond>
-            <!-- <button id="ba-statpreview-status-passive-level" onclick="togglePassiveSkill()" class="btn-pill tooltip-button">
-                <div class="icon statpreview-passive bg-skill"><img id="ba-statpreview-status-passive-icon" src="" width="28" height="28"></div>
-                <span class="label"></span>
-            </button>
-
-            <button id="ba-statpreview-status-buffs" onclick="toggleBuffs()" class="btn-pill tooltip-button">
-                <span class="label">
-                    <i class="fa-regular fa-square off"></i>
-                    <i class="fa-solid fa-square-check on"></i>
-                    <span class="ps-2" data-localize-id="ui,buffs"></span>
-                    <span class="ps-1" id="ba-statpreview-status-buffs-count"></span>
-                </span>
-            </button>
             <div class="flex-fill"></div>
-            <div id="ba-statpreview-active-buffs" class="active-buffs px-2 ba-panel"></div> -->
+            <InputSkillLevel v-if="selectedSummon > 0 && student.Summons[selectedSummon - 1].SourceSkill == 'Ex'" :skill="student.Skills.Ex" type="Ex" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillEx"></InputSkillLevel>
+            <InputSkillLevel v-if="selectedSummon > 0 && student.Summons[selectedSummon - 1].SourceSkill == 'Public'" :skill="student.Skills.Public" type="Public" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillPublic"></InputSkillLevel>
+            <InputSkillLevel :skill="student.Skills.Passive" type="Passive" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillPassive"></InputSkillLevel>
+            <!-- <InputSkillLevel :skill="student.Skills.ExtraPassive" type="ExtraPassive" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillExtraPassive"></InputSkillLevel> -->
         </div>
     </div>
+
+    <Modal title="Detailed Character Stats" ref="fullStatsModal">
+        <template v-slot:body>
+            <div class="student-stat-table ba-panel ba-stats striped mb-0">
+                <StatsTableFull :character-stats="selectedCharacterStats" :stat-list="studentStatListFull" :hide-ammo-count="student.SquadType == 'Support'"></StatsTableFull>
+            </div>
+        </template>
+    </Modal>
 </template>

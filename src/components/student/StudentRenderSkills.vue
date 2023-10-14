@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue';
+import { computed, toRefs } from 'vue';
 import { useStudentStore } from '../../stores/StudentStore';
 import SkillPanel from './skills/SkillPanel.vue';
 import { translateUi } from '../../composables/Localization';
@@ -17,7 +17,7 @@ const props = defineProps({
 });
 
 const exSkills = computed(() => {
-    return props.student.Skills.filter((skill) => skill.SkillType == 'ex')
+    return [{type: 'Ex', skill: props.student.Skills.Ex}]
 });
 
 const exSkillMaterials = computed(() => {
@@ -28,18 +28,18 @@ const otherSkills = computed(() => {
     const skills = [];
 
     if (skillDisplay.ShowUpgrades && regionSettings.value.GearUnlocked && props.student.Gear.Released?.[settings.server]) {
-        skills.push(props.student.Skills.find((skill) => skill.SkillType == 'gearnormal'))
+        skills.push({type: 'GearPublic', skill: props.student.Skills.GearPublic})
     } else {
-        skills.push(props.student.Skills.find((skill) => skill.SkillType == 'normal'))
+        skills.push({type: 'Public', skill: props.student.Skills.Public})
     }
 
     if (skillDisplay.ShowUpgrades && regionSettings.value.WeaponUnlocked) {
-        skills.push(props.student.Skills.find((skill) => skill.SkillType == 'weaponpassive'))
+        skills.push({type: 'WeaponPassive', skill: props.student.Skills.WeaponPassive})
     } else {
-        skills.push(props.student.Skills.find((skill) => skill.SkillType == 'passive'))
+        skills.push({type: 'Passive', skill: props.student.Skills.Passive})
     }
 
-    skills.push(props.student.Skills.find((skill) => skill.SkillType == 'sub'))
+    skills.push({type: 'ExtraPassive', skill: props.student.Skills.ExtraPassive})
     
     return skills;
 });
@@ -51,8 +51,8 @@ const otherSkillMaterials = computed(() => {
 </script>
 
 <template>
-    <div class="d-flex flex-column gap-2">
-        <div class="d-flex">
+    <div class="d-flex flex-column">
+        <div class="d-flex mb-2">
             <button id="skills-show-upgrades" class="btn-pill tooltip-button" :class="{deactivated: !skillDisplay.ShowUpgrades}" @click="skillDisplay.ShowUpgrades = !skillDisplay.ShowUpgrades">
                 <span class="label">
                     <fa icon="square" class="off" />
@@ -69,9 +69,22 @@ const otherSkillMaterials = computed(() => {
             </button> -->
         </div>
 
-        <SkillPanel class="mb-2" :skills="exSkills" v-model:skill-level="skillDisplay.Ex" :materials="exSkillMaterials" :bullet-type="student.BulletType" :max-level="5"></SkillPanel>
-        <SkillPanel :skills="otherSkills" v-model:skill-level="skillDisplay.PublicPassiveSub" :materials="otherSkillMaterials" :bullet-type="student.BulletType" :max-level="10"></SkillPanel>
-
+        <SkillPanel class="mb-2"
+            v-model:skill-level="skillDisplay.Ex"
+            :skills="exSkills"
+            :materials="exSkillMaterials"
+            :bullet-type="student.BulletType"
+            :max-level="5"
+            v-model:materials-show="skillDisplay.ExShowMaterials"
+            v-model:show-cumulative="skillDisplay.ExShowCumulative"/>
+        <SkillPanel
+            v-model:skill-level="skillDisplay.PublicPassiveSub"
+            :skills="otherSkills"
+            :materials="otherSkillMaterials"
+            :bullet-type="student.BulletType"
+            :max-level="10"
+            v-model:materials-show="skillDisplay.PublicPassiveSubShowMaterials"
+            v-model:show-cumulative="skillDisplay.PublicPassiveSubShowCumulative"/>
     </div>
 
 </template>

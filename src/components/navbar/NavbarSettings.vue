@@ -82,9 +82,35 @@ function set(setting, value) {
         </span>
     </div>
     <div class="text-muted mb-3">
-        <small>{{ translateUi('navbar_settings_contrast_description') }}</small>
+        <small v-html="translateUi('navbar_settings_contrast_description')"></small>
+    </div>
+    <div class="d-flex align-items-center mb-3">
+        <label class="flex-fill me-4" for="collectionPerServer">Separate Collection per Server</label>
+        <span class="d-flex align-items-center">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="collectionPerServer" v-model="settings.collectionPerServer">
+            </div>
+        </span>
+    </div>
+    <div class="d-flex align-items-center mb-2">
+        <span class="flex-fill me-4">Distance Units</span>
+        <span class="d-flex align-items-center">
+            <select class="form-select" v-model="settings.distanceUnit">
+                <option value="metric">Metric</option>
+                <option value="raw">Raw</option>
+            </select>
+        </span>
     </div>
     <div class="d-flex align-items-center">
+        <span class="flex-fill me-4">Animation Units</span>
+        <span class="d-flex align-items-center">
+            <select class="form-select" v-model="settings.durationUnit">
+                <option value="seconds">Seconds</option>
+                <option value="raw">Frames</option>
+            </select>
+        </span>
+    </div>
+    <!-- <div class="d-flex align-items-center">
         <span class="flex-fill me-4">{{ translateUi('navbar_settings_collection') }}</span>
         <span class="d-flex align-items-center">
             <div class="btn-group">
@@ -94,7 +120,7 @@ function set(setting, value) {
     </div>
     <div class="text-muted mb-3">
         <small>{{ translateUi('navbar_settings_collection_description') }}</small>
-    </div>
+    </div> -->
     <small id="navbar-version" class="text-muted"></small>
 </template>
 

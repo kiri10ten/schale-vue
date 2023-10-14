@@ -11,8 +11,6 @@ import ItemIcon from '../common/ItemIcon.vue';
 import { abbreviateNumber } from '../../composables/Utilities';
 
 const studentDisplay = useStudentStore().studentDisplay;
-const refStudentDisplay = toRefs(studentDisplay);
-const settings = useSettingsStore().settings;
 
 const props = defineProps({
     student: {
@@ -22,7 +20,7 @@ const props = defineProps({
 });
 
 const gearPublicSkills = computed(() => {
-    return props.student.Skills.filter((skill) => skill.SkillType == 'gearnormal')
+    return [{type: 'GearPublic', skill: props.student.Skills.GearPublic}]
 });
 
 const gearStats = useGearStats(computed(() => {return props.student.Gear}), 1);
@@ -61,12 +59,6 @@ const upgradeMaterials = computed(() => {
         </div>
         <p class="p-2">{{ student.Gear.Desc }}</p>
     </div>
-
-    <!-- <ul class="mt-3 nav nav-pills justify-content-left">
-        <li class="nav-item ba-gear-rank-tab">
-            <a class="nav-link active" data-bs-toggle="tab" href="#gear-t2">T2</a>
-        </li>
-    </ul> -->
 
     <div class="tab-content">
         <div id="gear-t2" class="tab-pane active show">

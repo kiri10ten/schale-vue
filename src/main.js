@@ -15,12 +15,16 @@ import App from './App.vue'
 import router from './router'
 import { tooltip } from './utilities/directives'
 import VueVirtualScroller from 'vue-virtual-scroller'
+import InlineSvg from 'vue-inline-svg'
+
 
 const app = createApp(App)
 
 library.add(fas)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.component('fa', FontAwesomeIcon)
+app.component('inline-svg', InlineSvg);
+
 config.styleDefault = 'solid';
 
 app.directive('tooltip', tooltip)

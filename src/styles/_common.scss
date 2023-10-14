@@ -553,14 +553,13 @@ p a {
 .stat-icon {
 
     position: relative;
-    margin-top: -2px;
-    width: 26px;
-    min-width: 26px;
-    height: 26px;
-    margin-right: 0.5rem;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    //margin-right: 0.5rem;
     @include circular;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.35);
+    //background-color: rgba(255, 255, 255, 0.35);
     
 
     img {
@@ -569,13 +568,65 @@ p a {
         height: 100%;
         width: 100%;
         object-fit: cover;
-        opacity: 0.85;        
+        //opacity: 0.85;        
     }
 }
 
-.theme-dark {
-    .stat-icon {
-        background-color: rgba(0, 0, 0, 0.35);
+.stat-icon-svg {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    padding: 3px;
+
+    path.fill-primary {
+        fill: var(--col-theme-svgicon-primary);
+    }
+
+    path.fill-secondary {
+        fill: var(--col-theme-svgicon-secondary);
+    }
+
+    radialGradient.gradient-primary stop {
+        stop-color: var(--col-theme-svgicon-primary);
+    }
+
+    radialGradient.gradient-secondary stop {
+        stop-color: var(--col-theme-svgicon-secondary);
+    }
+
+    &.explosion-rate, &.lightarmor-rate {
+        --col-theme-svgicon-primary: #820008;
+        --col-theme-svgicon-secondary: #ffcccc;
+    }
+
+    &.pierce-rate, &.heavyarmor-rate {
+        --col-theme-svgicon-primary: #7c5900;
+        --col-theme-svgicon-secondary: #ffe338;
+    }
+
+    &.mystic-rate, &.unarmed-rate {
+        --col-theme-svgicon-primary: #0c557e;
+        --col-theme-svgicon-secondary: #57e9f9;
+    }
+
+    &.sonic-rate, &.elasticarmor-rate {
+        --col-theme-svgicon-primary: #761e93;
+        --col-theme-svgicon-secondary: #e4afff;
+    }
+
+    &.buff-duration {
+        --col-theme-svgicon-primary: #ffa97f;
+        --col-theme-svgicon-secondary: #54130d;
+    }
+
+    &.debuff-duration {
+        --col-theme-svgicon-primary: #7cd6ed;
+        --col-theme-svgicon-secondary: #0c264c;
+    }
+
+    &.crowdcontrol-duration {
+        --col-theme-svgicon-primary: #c994ff;
+        --col-theme-svgicon-secondary: #2c0b4d;
     }
 }
 
@@ -664,7 +715,10 @@ p a {
 
     .row >div {
         position: relative;
-        padding: 0.5rem;
+    }
+
+    &.striped .row > div:nth-child(even) {
+        background-color: var(--col-theme-row-stripe);
     }
 
     .stat-name {
@@ -707,13 +761,13 @@ p a {
 
         .stat-coefficient {
             display: inline-block;
-            min-width: 4rem;
+            min-width: 5rem;
             font-weight: 400;
             color: var(--col-text-emphasis)
         }
         .stat-final {
             display: inline-block;
-            min-width: 4.5rem;
+            min-width: 5rem;
         }
 
         .stat-cap {
@@ -918,4 +972,8 @@ textarea {
     border: none;
     outline: 0;
     resize: none;
+}
+
+.animate-transform {
+    @include transition(transform);
 }

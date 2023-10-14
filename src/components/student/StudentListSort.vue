@@ -57,7 +57,10 @@ const sortOrderIcon = computed(() => {
                     </button>
                 </li>
                 <li v-else>
-                    <button class="dropdown-item" :class="{active: option.key === sortOption.SortKey}" @click="sortOption.SortKey = option.key">{{ option.label }}</button>
+                    <button class="dropdown-item" :class="{active: option.key === sortOption.SortKey}" @click="sortOption.SortKey = option.key">
+                        <img v-if="option.type == 'stat'" class="inline-img" :src="`/images/staticon/svg/${option.key}.svg`" />
+                        {{ option.label }}
+                    </button>
                 </li>
             </template>
         </ul>

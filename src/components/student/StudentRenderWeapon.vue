@@ -1,17 +1,15 @@
 <script setup>
 import { computed, toRefs } from 'vue';
-import { useStudentStore } from '../../stores/StudentStore';
-import SkillPanel from './skills/SkillPanel.vue';
-import { translate, translateUi } from '../../composables/Localization';
-import { regionSettings } from '../../composables/RegionSettings';
-import { useSettingsStore } from '../../stores/SettingsStore';
 import { useWeaponStats } from '../../composables/CharacterStats';
-import StatsTable from '../common/StatsTable.vue';
+import { translateUi } from '../../composables/Localization';
+import { regionSettings } from '../../composables/RegionSettings';
 import { terrainUpgradeText } from '../../composables/TerrainHelper';
+import { useStudentStore } from '../../stores/StudentStore';
+import StatsTable from '../common/StatsTable.vue';
+import SkillPanel from './skills/SkillPanel.vue';
 
 const studentDisplay = useStudentStore().studentDisplay;
 const refStudentDisplay = toRefs(studentDisplay);
-const adaptationGrade = {0: "D", 1: "C", 2: "B", 3: "A", 4: "S", 5: "SS"};
 
 const props = defineProps({
     student: {
@@ -21,7 +19,7 @@ const props = defineProps({
 });
 
 const weaponPassiveSkills = computed(() => {
-    return props.student.Skills.filter((skill) => skill.SkillType == 'weaponpassive')
+    return [{type: 'WeaponPassive', skill: props.student.Skills.WeaponPassive}]
 });
 
 const weaponStats = useWeaponStats(computed(() => {return props.student.Weapon}), refStudentDisplay.WeaponLevelDisplay);
@@ -40,16 +38,17 @@ const weaponStatsList = computed(() => {
 </script>
 
 <template>
-    <div class="d-flex flex-row align-items-center px-1">
+    <div class="w-100 px-1">
         <span class="flex-grow-1">
-            <h3 id="ba-student-weapon-name">{{ student.Weapon.Name }}</h3>
+            <h3>{{ student.Weapon.Name }}</h3>
+            <p class="text-italic mb-2">{{ translateUi('student_weapon') }} / <b>{{ student.WeaponType }}</b></p>
         </span>
-        <span class="me-1">
+        <!-- <span class="me-1">
             <img src="/images/ui/Common_Icon_CharacterWeapon_off.png" style="height: 28px; width:auto;">
         </span>
-        <h4 class="d-inline-block mb-0 text-italic">{{ student.WeaponType }}</h4>
+        <h4 class="d-inline-block mb-0 text-italic">{{ student.WeaponType }}</h4> -->
     </div>
-    <div class="ba-panel ba-stats mt-2">
+    <div class="ba-panel ba-stats">
         <img id="ba-student-weapon-img" class="p-2" :src="`/images/weapon/${student.WeaponImg}.webp`">
         <StatsTable :character-stats="weaponStats" :stat-list="weaponStatsList"></StatsTable>
         <div id="ba-weapon-stat-table">

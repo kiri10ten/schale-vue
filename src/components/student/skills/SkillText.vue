@@ -2,6 +2,7 @@
 import { computed } from 'vue';
 import { translateUi } from '../../../composables/Localization';
 import SkillTextPart from './SkillTextPart.vue';
+import { distanceString } from '../../../composables/Utilities';
 
 const buffTagType = {
     b: 'Buff',
@@ -71,6 +72,10 @@ const textParts = computed(() => {
 function getPartObj(part) {
     let partType = 'text';
     let partContent = part.replace(/[0-9.]+(?:%|s|秒|초| วินาที)/g, (match) => {return `<b>${match}</b>`});
+    partContent = part.replace(/<kb:(\d+)>/g, (match, p1) => {
+        const knockbackEffect = props.skill.Effects.filter(e => e.Type == 'Knockback')[p1 - 1]
+        return `<b>${distanceString(knockbackEffect.Scale[props.skillLevel - 1] * 2, true)}</b>`
+    });
 
     const numberedParam = part.match(/^<\?([0-9]+)>$/);
     if (numberedParam && numberedParam[1] - 1 < textParameters.value.length) {

@@ -2,6 +2,7 @@
 import { computed } from "vue";
 import { translate, translateUi } from '../../composables/Localization';
 import { criticalChance, defMitigation, stabilityMinimum } from "../../composables/CharacterStats";
+import { getStatIconClass, getStatIconName } from "../../composables/Icon";
 
 const props = defineProps({
     characterStats: {
@@ -48,9 +49,9 @@ const columnClass = 'col-' + parseInt(12 / props.columns)
 <template>
     <div class="row g-0">
         <div v-for="stat in statRows" :class="columnClass">
-            <div :class="'stat-' + stat" class="d-flex align-items-center">
-                <span class="stat-icon"><img class="invert-light" :src="`/images/staticon/Stat_${stat.split('_')[0]}.png`"></span>
-                <span class="stat-name">{{ translate('Stat', stat.split('_')[0]) }}</span>
+            <div :class="'stat-' + stat" class="d-flex align-items-center pe-2">
+                <inline-svg class="stat-icon-svg mx-1" :class="getStatIconClass(stat)" :src="`/images/staticon/svg/${getStatIconName(stat)}.svg`"></inline-svg>
+                <span class="stat-name py-2">{{ translate('Stat', stat.split('_')[0]) }}</span>
                 <span class="flex-fill"></span>
                 <template v-if="enableDerivedTooltip && derivedStats[stat]">
                     <span class="stat-value has-tooltip" v-tooltip="derivedStats[stat](characterStats.calculatedStats.value[stat].total)">
@@ -62,8 +63,13 @@ const columnClass = 'col-' + parseInt(12 / props.columns)
                         {{ stat == 'AmmoCount' && hideAmmoCount ? '-' : characterStats.calculatedStats.value[stat].totalStr }}
                     </span>
                 </template>
-
             </div>
         </div>
     </div>
 </template>
+
+<style lang="scss">
+.stat-value {
+    cursor: default;
+}
+</style>

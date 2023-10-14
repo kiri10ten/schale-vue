@@ -6,9 +6,12 @@ import StudentRender from '../components/student/StudentRender.vue';
 import { getStudentById } from '../composables/Student.js';
 import { setBackground } from '../composables/Utilities';
 import { useStudentStore } from '../stores/StudentStore';
+import { useSettingsStore } from '../stores/SettingsStore';
 
 const route = useRoute();
 const router = useRouter();
+
+const settings = useSettingsStore().settings;
 
 const studentStore = useStudentStore();
 
@@ -45,6 +48,10 @@ function initialiseStudentPage(student) {
 
     if (studentStore.collectionExists(student.Id)) {
         studentStore.collectionLoad(student.Id, ...student.FavorAlts);
+    }
+
+    if (!student.Gear.Released?.[settings.server] && studentStore.studentDisplay.ActiveTab == 'gear') {
+        studentStore.studentDisplay.ActiveTab = 'stats';
     }
 
     document.title = `${student.Name} | Schale`

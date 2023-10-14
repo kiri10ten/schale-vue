@@ -1,9 +1,10 @@
 <script setup>
 import StudentList from '../components/student/StudentList.vue';
+import { translateUi } from '../composables/Localization';
 import { setBackground } from '../composables/Utilities';
 
 setBackground('BG_MainOffice_Night.jpg');
-document.title = `Students | Schale`
+document.title = `${translateUi('navbar_students')} | Schale`;
 
 </script>
 

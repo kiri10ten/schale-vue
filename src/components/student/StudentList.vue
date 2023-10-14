@@ -50,10 +50,10 @@ const sortOptions = [
     {
         key: 'EXCost',
         sortOrderFunc: (student) => {
-            return student.Skills.find((skill) => skill.SkillType == 'ex').Cost[4];
+            return student.Skills.Ex.Cost[4];
         },
         labelTextFunc: (student) => {
-            const cost = student.Skills.find((skill) => skill.SkillType == 'ex').Cost;
+            const cost = student.Skills.Ex.Cost;
             return cost[0] == cost[4] ? `${cost[4]}` : `${cost[0]} → ${cost[4]}`;
         },
         label: translate('Stat', 'SkillCost'),
@@ -62,7 +62,7 @@ const sortOptions = [
     {
         key: 'NormalHits',
         sortOrderFunc: (student) => {
-            return getSkillHits(student.Skills.find((skill) => skill.SkillType == 'autoattack'));
+            return getSkillHits(student.Skills.Normal);
         },
         label: translate('Stat', 'NormalHits'),
         type: 'number',
@@ -71,7 +71,7 @@ const sortOptions = [
     {
         key: 'EXHits',
         sortOrderFunc: (student) => {
-            return getSkillHits(student.Skills.find((skill) => skill.SkillType == 'ex'));
+            return getSkillHits(student.Skills.Ex);
         },
         label: translate('Stat', 'EXHits'),
         type: 'number',
@@ -80,15 +80,15 @@ const sortOptions = [
     {
         key: 'PublicHits',
         sortOrderFunc: (student) => {
-            return getSkillHits(student.Skills.find((skill) => skill.SkillType == (student.Gear.Released?.[settings.server] ? 'gearnormal' : 'normal')));
+            return getSkillHits(student.Gear.Released?.[settings.server] ? student.Skills.GearPublic : student.Skills.Public);
         },
         labelTextFunc: (student) => {
             if (student.Gear.Released?.[settings.server]) {
-                const publicHits = getSkillHits(student.Skills.find((skill) => skill.SkillType == 'normal'));
-                const gearPublicHits = getSkillHits(student.Skills.find((skill) => skill.SkillType == 'gearnormal'));
+                const publicHits = getSkillHits(student.Skills.Public);
+                const gearPublicHits = getSkillHits(student.Skills.GearPublic);
                 return gearPublicHits > publicHits ? `${publicHits} → ${gearPublicHits}` : gearPublicHits;
             } else {
-                return getSkillHits(student.Skills.find((skill) => skill.SkillType == 'normal'));
+                return getSkillHits(student.Skills.Public);
             }
         },
         label: translate('Stat', 'PublicHits'),
@@ -177,7 +177,7 @@ const activeFilters = computed(() => {
 
 
     }
-    console.log('filters', activeFilters)
+    //console.log('filters', activeFilters)
     return activeFilters;
 })
 
@@ -348,7 +348,7 @@ const currentSortOption = computed(() => {
     return sortOptions.find(({key}) => key === sortOption.SortKey);
 })
 
-watch(toRefs(useSettingsStore().settings).server, (oldVal, newVal) => {
+watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
     if (oldVal != newVal) {
         statCache.max = {};
         statCache.collection = {};
@@ -613,7 +613,7 @@ watch(toRefs(useSettingsStore().settings).server, (oldVal, newVal) => {
             <div class="mb-3" :class="{card: !useOffCanvas, 'p-2': !useOffCanvas}">
                 <div id="ba-student-search-results" class="flex-fill" :class="{'p-3': !useOffCanvas}" style="overflow-y: auto;">
                     <div id="student-select-grid" class="selection-grid student align-top flex-fill" :class="{'show-info': filters.ShowInfo}">
-                        <StudentListItem v-for="student in sortedStudentList" :student="student" v-show="visibleStudents.includes(student.Id)"></StudentListItem>
+                        <StudentListItem v-for="student in sortedStudentList" :student="student" :use-replace="true" v-show="visibleStudents.includes(student.Id)"></StudentListItem>
                     </div>
                     <p v-show="visibleStudents.length == 0" class="text-center m-0">{{ translateUi('no_results') }}</p>
                 </div>

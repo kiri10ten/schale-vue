@@ -18,7 +18,9 @@ export const useStudentStore = defineStore('studentstore', {
             Gear: false,
             BondLevel: [20, 20, 20],
             SkillEx: 5,
+            SkillPublic: 10,
             SkillPassive: 10,
+            SkillExtraPassive: 10,
 
             IncludePassive: false,
             IncludeEquipment: false,
@@ -32,6 +34,8 @@ export const useStudentStore = defineStore('studentstore', {
                 GearPublic: 1,
                 ExShowMaterials: false,
                 PublicPassiveSubShowMaterials: false,
+                ExShowCumulative: false,
+                PublicPassiveSubShowCumulative: false
             },
             WeaponLevelDisplay: 1,
             BondLevelDisplay: 1,
