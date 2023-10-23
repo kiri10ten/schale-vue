@@ -3,7 +3,7 @@ import { Tooltip } from "bootstrap";
 import { onUpdated, provide, ref } from 'vue';
 import { RouterView } from 'vue-router';
 import NavbarHeader from './components/navbar/NavbarHeader.vue';
-import { setHighContrast, setTheme } from './composables/Utilities';
+import { setHighContrast, setNoBackground, setTheme } from './composables/Utilities';
 import { useSettingsStore } from './stores/SettingsStore';
 import { bindTooltips } from "./composables/Tooltips";
 import { promiseTimeout } from "@vueuse/core";
@@ -17,6 +17,7 @@ provide('background', background);
 
 setTheme();
 setHighContrast();
+setNoBackground();
 
 document.body.classList.add(`font-${settings.language}`);
 
@@ -43,7 +44,7 @@ jsonDataStore.ensureData('localization').then(() => {
                 <NavbarHeader />
             </header>
 
-            <main id="loaded-module">
+            <main>
                 <RouterView />
             </main>
 

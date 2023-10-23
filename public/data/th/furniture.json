@@ -25,10 +25,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Floor",
         "SetGroupId": 0,
         "Name": "พื้นไม้ธรรมชาติ",
@@ -65,10 +66,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Wallpaper",
         "SetGroupId": 0,
         "Name": "ผนังไม้ธรรมชาติ",
@@ -105,10 +107,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Background",
         "SetGroupId": 0,
         "Name": "พื้นหลังไล่สีฟ้า",
@@ -155,10 +158,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "ไวท์บอร์ด",
@@ -202,10 +206,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hiyori"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ชั้นวางของไม้",
@@ -242,10 +247,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 0,
         "Name": "พรมเรียบสีน้ำเงิน",
@@ -288,10 +294,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้ไม้",
@@ -328,10 +335,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้เสริมไม้",
@@ -368,10 +376,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "โต๊ะข้างไม้",
@@ -409,10 +418,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Sena"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "โต๊ะไม้ขนาดใหญ่",
@@ -449,10 +459,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "หน้าต่างติดม่าน",
@@ -491,10 +502,11 @@
             "Cafe",
             "F_Kokona"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "โต๊ะกลางสีขาว",
@@ -539,10 +551,11 @@
             "Cafe",
             "F_Ako"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 100,
         "Name": "เก้าอี้เดี่ยวสีผสม",
@@ -590,10 +603,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "ชั้นวางกระถางต้นไม้",
@@ -641,10 +655,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 100,
         "Name": "ผนังขัดเงาสีฟ้า",
@@ -688,10 +703,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 100,
         "Name": "พื้นขัดเงาสีฟ้า",
@@ -735,10 +751,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "โต๊ะของหวานสีขาว",
@@ -787,10 +804,11 @@
             "Cafe",
             "F_Fubuki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 100,
         "Name": "เก้าอี้คู่สีผสม",
@@ -839,10 +857,11 @@
             "Cafe",
             "F_Mari"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 100,
         "Name": "กระถางต้นไม้สีผสม 2 ชั้น",
@@ -886,10 +905,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "ผนังเมนู MOMO FRIENDS",
@@ -933,10 +953,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "เสาติดรูป MOMO FRIENDS",
@@ -982,10 +1003,11 @@
             "F_Misaki",
             "F_Saori"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "หน้าต่างกระจก",
@@ -1029,10 +1051,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "ชั้นวางเซ็ตเพโรโร่",
@@ -1076,10 +1099,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "เคาน์เตอร์บาร์ไม้",
@@ -1127,10 +1151,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "บาร์วางของไม้",
@@ -1182,10 +1207,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 100,
         "Name": "เก้าอี้เพโรโร่สีผสม",
@@ -1229,10 +1255,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "ป้ายนีออน MOMO FRIENDS",
@@ -1276,10 +1303,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "บาร์ห้องครัวไม้",
@@ -1323,10 +1351,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 100,
         "Name": "ชั้นวางของ MOMO FRIENDS",
@@ -1370,10 +1399,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 100,
         "Name": "ตุ๊กตาบาริสต้าเพโรโร่",
@@ -1417,10 +1447,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 101,
         "Name": "เก้าอี้เรียบสีชมพู",
@@ -1468,10 +1499,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 101,
         "Name": "ต้นไม้ประดับ",
@@ -1523,10 +1555,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 101,
         "Name": "หน้าต่างเล็ก",
@@ -1574,10 +1607,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 101,
         "Name": "ผนังกระเบื้องลาย",
@@ -1621,10 +1655,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 101,
         "Name": "พื้นกระเบื้องตาราง",
@@ -1669,10 +1704,11 @@
             "GameCenter",
             "F_Hinata"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 101,
         "Name": "โซฟาเรียบสีขาว",
@@ -1720,10 +1756,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "ตู้เกมอาร์เคดสีแดง",
@@ -1767,10 +1804,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "ตู้เกมอาร์เคดสีม่วง",
@@ -1814,10 +1852,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "ตู้เกมอาร์เคดสีน้ำเงิน",
@@ -1861,10 +1900,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 101,
         "Name": "ป้ายนีออนอาร์เคด",
@@ -1908,10 +1948,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 101,
         "Name": "ป้ายนีออนเจลลี่",
@@ -1955,10 +1996,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 101,
         "Name": "พรมลายตารางหลากสี",
@@ -2002,10 +2044,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 101,
         "Name": "โต๊ะเทปคาสเซท",
@@ -2050,10 +2093,11 @@
             "GameCenter",
             "F_Himari"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "ตู้ขายสินค้าหลากสี",
@@ -2102,10 +2146,11 @@
             "GameCenter",
             "F_Chihiro"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "มัลติทีวีสีผสม",
@@ -2150,10 +2195,11 @@
             "GameCenter",
             "F_Koyuki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "ที่คีบตุ๊กตาเจลลี่",
@@ -2199,10 +2245,11 @@
             "F_Midori",
             "F_Momoi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "โต๊ะเกมแอร์ฮอกกี้",
@@ -2248,10 +2295,11 @@
             "F_Neru",
             "F_Toki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "ตู้เกมขับรถ",
@@ -2295,10 +2343,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "ตู้เกมเต้น",
@@ -2342,10 +2391,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "แบบจำลองสวีทช็อกโกแลต",
@@ -2389,10 +2439,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "เตาอบสวีท วาเลนไทน์",
@@ -2444,10 +2495,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "บาร์ห้องครัวสวีท วาเลนไทน์",
@@ -2492,10 +2544,11 @@
             "ChocolateCafe",
             "F_Kazusa"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 102,
         "Name": "บาร์วางของสวีท วาเลนไทน์",
@@ -2539,10 +2592,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 102,
         "Name": "พรมลายสก็อตสีน้ำตาล",
@@ -2591,10 +2645,11 @@
             "ChocolateCafe",
             "F_Marina"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 102,
         "Name": "เก้าอี้เดี่ยววาเลนไทน์",
@@ -2638,10 +2693,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "ฉากกั้นช็อกโกแลต",
@@ -2685,10 +2741,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 102,
         "Name": "ตู้โชว์ของหวานวาเลนไทน์",
@@ -2741,10 +2798,11 @@
             "ChocolateCafe",
             "F_Wakamo"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 102,
         "Name": "โซฟาคุกกี้วาเลนไทน์",
@@ -2788,10 +2846,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "โต๊ะอเนกประสงค์วาเลนไทน์",
@@ -2839,10 +2898,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "เสาส่องไฟ",
@@ -2886,10 +2946,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "ป้ายนีออนช็อกโกแลต",
@@ -2933,10 +2994,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "แบบจำลองช็อกโกแลตรูปหัวใจ",
@@ -2980,10 +3042,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "หน้าต่างช็อกโกแลตวาเลนไทน์",
@@ -3027,10 +3090,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "น้ำพุช็อกโกแลตขนาดใหญ่",
@@ -3074,10 +3138,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "แบบจำลองสวีท พิงค์ วาเลนไทน์",
@@ -3121,10 +3186,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "เคาน์เตอร์บาร์สวีท วาเลนไทน์",
@@ -3168,10 +3234,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "ประดับผนังสวีท วาเลนไทน์",
@@ -3215,10 +3282,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 102,
         "Name": "พื้นสีชมพูวาเลนไทน์",
@@ -3262,10 +3330,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "กล่องของขวัญวาเลนไทน์",
@@ -3310,10 +3379,11 @@
             "ChocolateCafe",
             "F_Natsu"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "โต๊ะจิบชาวาเลนไทน์",
@@ -3357,10 +3427,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 102,
         "Name": "ผนังช็อกโกแลตวาเลนไทน์",
@@ -3403,10 +3474,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 102,
         "Name": "พื้นหลังหัวใจสีชมพู",
@@ -3449,10 +3521,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 103,
         "Name": "พรมลายทางสีผสม",
@@ -3495,10 +3568,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 103,
         "Name": "พรมวงกลมลายทางสีผสม",
@@ -3541,10 +3615,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 103,
         "Name": "เก้าอี้พับชายหาด",
@@ -3592,10 +3667,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Ayane_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "อุปกรณ์เซ็ตปิกนิกฤดูร้อน",
@@ -3642,10 +3718,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "ฉากกั้นไม้สีฟ้า",
@@ -3688,10 +3765,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "กระถางต้นไม้สี่เหลี่ยมเรียบ",
@@ -3739,10 +3817,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Tsukuyo"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "กระถางมอนสเตอร่า สีขาว",
@@ -3801,10 +3880,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "กระถางต้นไม้เขตร้อน",
@@ -3852,10 +3932,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Nonomi_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 103,
         "Name": "โต๊ะพับสไตล์รีสอร์ต",
@@ -3898,10 +3979,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "กรอปรูปต้นไม้เขตร้อน",
@@ -3944,10 +4026,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "หน้าต่างตารางทรงสูง",
@@ -3991,10 +4074,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mashiro_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 103,
         "Name": "ร่มเซ็ตปิกนิกชายหาด",
@@ -4038,10 +4122,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Wakamo_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 103,
         "Name": "แอมป์สไตล์เรโทร",
@@ -4088,10 +4173,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "ประดับผนังต้นไม้เขตร้อน",
@@ -4134,10 +4220,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "ป้ายนีออนซัมเมอร์",
@@ -4180,10 +4267,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "หน้าต่างกระจก สไตล์รีสอร์ต",
@@ -4226,10 +4314,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 103,
         "Name": "พื้นกระเบื้องจุดฟ้า",
@@ -4272,10 +4361,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 103,
         "Name": "โต๊ะของหวานซัมเมอร์",
@@ -4319,10 +4409,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hina_swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "สระเซ็ตเล็ก",
@@ -4366,10 +4457,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Tsurugi_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "สระหลากสีขนาดใหญ่",
@@ -4413,10 +4505,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Azusa_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 103,
         "Name": "โซฟาซุ้มสไตล์รีสอร์ต",
@@ -4459,10 +4552,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 103,
         "Name": "พื้นหลังลายจุดฤดูร้อนสีฟ้า",
@@ -4505,10 +4599,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 103,
         "Name": "ผนังลายคลื่นฤดูร้อน",
@@ -4551,10 +4646,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 104,
         "Name": "บาร์วางของฟักทอง ฮาโลวีน",
@@ -4597,10 +4693,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 104,
         "Name": "พรมใยแมงมุมฮาโลวีน",
@@ -4643,10 +4740,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 104,
         "Name": "เก้าอี้เดี่ยวกุ๊กกู๋",
@@ -4689,10 +4787,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 104,
         "Name": "เก้าอี้เรียบสีฟักทอง",
@@ -4735,10 +4834,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "ป้ายโฆษณาผีฮาโลวีน",
@@ -4781,10 +4881,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "ฉากกั้นสีผสมฮาโลวีน",
@@ -4827,10 +4928,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "ชั้นวางฟักทอง ฮาโลวีนสองชั้น",
@@ -4873,10 +4975,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 104,
         "Name": "โซฟาสองที่นั่งฟักทอง ฮาโลวีน",
@@ -4919,10 +5022,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 104,
         "Name": "โต๊ะสีผสมฮาโลวีน",
@@ -4965,10 +5069,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "ป้ายนีออนฮาโลวีน",
@@ -5011,10 +5116,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "ของตกแต่งแท่งเทียน",
@@ -5057,10 +5163,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "กรอบรูปฮาโลวีนกุ๊กกู๋",
@@ -5103,10 +5210,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "ของตกแต่งฟักทอง ฮาโลวีนซ้อนสาม",
@@ -5149,10 +5257,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "เตาผิงติดผนังฟักทอง ฮาโลวีน",
@@ -5195,10 +5304,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 104,
         "Name": "พื้นลายเพชรฮาโลวีน",
@@ -5242,10 +5352,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Zunko"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 104,
         "Name": "โต๊ะของหวานฟักทอง ฮาโลวีน",
@@ -5288,10 +5399,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "หน้าต่างโค้งลายใยแมงมุม",
@@ -5335,10 +5447,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Airi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 104,
         "Name": "เคาน์เตอร์บาร์ฟักทอง ฮาโลวีน",
@@ -5381,10 +5494,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "โซนถ่ายภาพฟักทอง ฮาโลวีน",
@@ -5427,10 +5541,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "ตุ๊กตาผีทริกออร์ทรีต",
@@ -5473,10 +5588,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "ของตกแต่งผนังแฮปปี้ฮาโลวีน",
@@ -5519,10 +5635,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 104,
         "Name": "ผนังคลื่นใยแมงมุมฮาโลวีน",
@@ -5565,10 +5682,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 104,
         "Name": "พื้นหลังคืนฮาโลวีน",
@@ -5612,10 +5730,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Tomoe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 105,
         "Name": "เก้าอี้นั่งพื้นลายคลื่น",
@@ -5662,10 +5781,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 105,
         "Name": "ชั้นวางของแคพิบารา ออนเซ็น",
@@ -5709,10 +5829,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Kaede"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 105,
         "Name": "กาชาแคพิบารา ออนเซ็น",
@@ -5755,10 +5876,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "โคมไฟไม้ลายออนเซ็น",
@@ -5801,10 +5923,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "โคมไฟไม้ลายพัด",
@@ -5852,10 +5975,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Iroha"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "ที่ตั้งนิตยสารเหล็ก",
@@ -5906,10 +6030,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "ฉากกั้นไม้ดั้งเดิม",
@@ -5952,10 +6077,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "ฉากประตูไม้ดั้งเดิม",
@@ -5998,10 +6124,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "กระถางต้นไผ่สี่เหลี่ยม",
@@ -6048,10 +6175,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 105,
         "Name": "ป้ายผ้าแคพิบารา ออนเซ็น",
@@ -6094,10 +6222,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 105,
         "Name": "ชั้นวางของอุปกรณ์ออนเซ็น",
@@ -6140,10 +6269,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 105,
         "Name": "โต๊ะแจกันดอกซากุระ",
@@ -6190,10 +6320,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 105,
         "Name": "หน้าต่างลายตารางไม้ดั้งเดิม",
@@ -6237,10 +6368,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Chinatsu_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 105,
         "Name": "เก้าอี้นวดรักษาขั้นสูง",
@@ -6284,10 +6416,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Nodoka_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 105,
         "Name": "โต๊ะนั่งพื้นเซ็ตชงชา",
@@ -6334,10 +6467,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 105,
         "Name": "พื้นเสื่อทาทามิดั้งเดิม",
@@ -6381,10 +6515,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Cherino_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 105,
         "Name": "ตู้อุ่นเครื่องดื่มไฟฟ้า",
@@ -6431,10 +6566,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 105,
         "Name": "ผนังลายตาราง พร้อมหลังคาดั้งเดิม",
@@ -6479,10 +6615,11 @@
             "F_Megu",
             "F_Shigure_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "อ่างอาบน้ำรักษาไม้ฮิโนกิ",
@@ -6525,10 +6662,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 105,
         "Name": "พื้นหลังไล่สีลายเกล็ดหิมะ",
@@ -6572,10 +6710,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Kayoko_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 106,
         "Name": "เบาะรองนั่งลายดั้งเดิม",
@@ -6619,10 +6758,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mimori"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "ร่มตกแต่งลายดั้งเดิม",
@@ -6666,10 +6806,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Michiru"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "โคมไฟไม้ทรงกลมปีใหม่",
@@ -6712,10 +6853,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 106,
         "Name": "โอบิกิโมโนแขวนผนัง",
@@ -6758,10 +6900,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "ฉากกั้นปีใหม่หลากสี",
@@ -6804,10 +6947,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 106,
         "Name": "หน้าต่างบาน ลายตารางดั้งเดิม",
@@ -6851,10 +6995,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Pina"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 106,
         "Name": "เตาน้ำมันกับโมจิ",
@@ -6906,10 +7051,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mutsuki_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "โต๊ะเคนดามะปีใหม่",
@@ -6953,10 +7099,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Fuuka_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "ที่แขวนกิโมโนผ้าไหม ลายดอกไม้",
@@ -7001,10 +7148,11 @@
             "F_Haruna_Newyear",
             "F_Junko_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "โต๊ะชุดอาหารปีใหม่",
@@ -7047,10 +7195,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 106,
         "Name": "พื้นเสื่อทาทามิเรียงสลับ",
@@ -7094,10 +7243,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Aru_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "โต๊ะชุดวาดเขียนปีใหม่",
@@ -7144,10 +7294,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 106,
         "Name": "ผนังตกแต่งแผ่นทองคำ ปีใหม่",
@@ -7191,10 +7342,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Serika_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "โต๊ะโคทัตสึพักผ่อนปีใหม่",
@@ -7237,10 +7389,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 106,
         "Name": "พื้นหลังลายดั้งเดิมปีใหม่",
@@ -7283,10 +7436,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "กล่องเก็บกระสุนทหาร",
@@ -7329,10 +7483,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 107,
         "Name": "พรมสี่เหลี่ยมจัตุรัส ลายพิเศษ",
@@ -7379,10 +7534,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 107,
         "Name": "พรมสี่เหลี่ยมผืนผ้า ลายพิเศษ",
@@ -7434,10 +7590,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Miyu"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "เก้าอี้แคมป์พับได้ สีเขียว",
@@ -7481,10 +7638,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Saki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "เก้าอี้แคมป์พับได้ สีเหลือง",
@@ -7528,10 +7686,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Miyako"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "เก้าอี้แคมป์พับได้ สีชมพู",
@@ -7575,10 +7734,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Moe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "เก้าอี้แคมป์พับได้ สีฟ้า",
@@ -7621,10 +7781,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "ฉากกั้นทหาร",
@@ -7667,10 +7828,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 107,
         "Name": "โต๊ะอาหารเรียบง่ายแบบพับได้",
@@ -7713,10 +7875,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 107,
         "Name": "โต๊ะเซ็ตอาหารมื้อสาย",
@@ -7759,10 +7922,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "เก้าอี้พับได้ลายพิเศษ",
@@ -7805,10 +7969,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 107,
         "Name": "ตู้เก็บอาหารฉุกเฉินของทหาร",
@@ -7851,10 +8016,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Bed",
         "SetGroupId": 107,
         "Name": "เตียงสนามทหาร 2 ชั้น",
@@ -7897,10 +8063,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 107,
         "Name": "พื้นไม้แคมป์สำเร็จรูป",
@@ -7943,10 +8110,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 107,
         "Name": "ผนังเต็นท์ค่ายทหาร",
@@ -7989,10 +8157,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 107,
         "Name": "พื้นหลังลายต้นไม้ค่ายทหาร",
@@ -8035,10 +8204,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "เตาปิ้งย่างออกค่าย ",
@@ -8081,10 +8251,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 107,
         "Name": "ทางเข้าเต็นท์ค่ายทหาร",
@@ -8127,10 +8298,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 107,
         "Name": "โต๊ะทำอาหารแบบประกอบ",
@@ -8173,10 +8345,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "ที่ตั้งปืนไม้ทหาร",
@@ -8219,10 +8392,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 108,
         "Name": "เก้าอี้สีขาวริมหาด",
@@ -8273,10 +8447,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 108,
         "Name": "เบาะปูพื้นคูลลิ่งริมหาด",
@@ -8323,10 +8498,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "ฉากกั้นเบสิกสีขาว",
@@ -8369,10 +8545,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "ฉากกั้นไม้สีขาว",
@@ -8415,10 +8592,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 108,
         "Name": "ตู้เครื่องดื่มเย็นฉ่ำ",
@@ -8461,10 +8639,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "โต๊ะสีขาวริมหาด",
@@ -8509,10 +8688,11 @@
             "F_Reisa",
             "F_Kasumi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "โต๊ะสนามไม้",
@@ -8555,10 +8735,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "บาร์ผลไม้เย็นใจ",
@@ -8601,10 +8782,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "ของแต่งผนังผลไม้เย็นใจ",
@@ -8647,10 +8829,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "ป้ายระลอกคลื่น",
@@ -8694,10 +8877,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Chise_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "พัดลมริมหาด",
@@ -8748,10 +8932,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "เสื้อชูชีพหลากสีริมหาด",
@@ -8799,10 +8984,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mimori_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "โต๊ะสีขาวร่มมะนาว",
@@ -8845,10 +9031,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 108,
         "Name": "พื้นไม้ริมหาด",
@@ -8891,10 +9078,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 108,
         "Name": "ผนังสีขาวริมหาด",
@@ -8937,10 +9125,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "หน้าต่างโอเชียนวิว ริมหาด",
@@ -8983,10 +9172,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 108,
         "Name": "พื้นหลังริมหาด",
@@ -9030,10 +9220,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Izuna_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 108,
         "Name": "ตู้ไอศกรีมชิล & คูล  ",
@@ -9076,10 +9267,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 108,
         "Name": "บาร์เครื่องดื่มหลากสี",
@@ -9123,10 +9315,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Shizuko_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 108,
         "Name": "บิงซูบาร์หวานชื่นใจ",
@@ -9169,10 +9362,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "ระเบียงโอเชียนวิว ริมหาด",
@@ -9216,10 +9410,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hoshino_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "ห่วงยางริมหาด",
@@ -9262,10 +9457,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "นาฬิกาติดผนัง งานแข่งขันกีฬา",
@@ -9308,10 +9504,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "กรวยงานแข่งขันกีฬา สีแดง",
@@ -9354,10 +9551,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "กรวยงานแข่งขันกีฬา สีน้ำเงิน",
@@ -9400,10 +9598,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "กรวยงานแข่งขันกีฬา สีฟ้าใส",
@@ -9450,10 +9649,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ธงงานแข่งขันกีฬา สีฟ้าใส",
@@ -9496,10 +9696,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ธงงานแข่งขันกีฬา สีน้ำเงิน",
@@ -9542,10 +9743,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ธงงานแข่งขันกีฬา สีเหลือง",
@@ -9596,10 +9798,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 109,
         "Name": "เบาะปูพื้นงานแข่งขันกีฬา",
@@ -9643,10 +9846,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Yuuka_Track"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "เบาะปูพื้นสีฟ้าใส งานแข่งขันกีฬา",
@@ -9690,10 +9894,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Kotori_Cheerleader"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "เบาะปูพื้นสีน้ำเงิน งานแข่งขันกีฬา",
@@ -9736,10 +9941,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "เบาะปูพื้นสีเบจ งานแข่งขันกีฬา",
@@ -9782,10 +9988,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "กระดานผลคะแนน งานแข่งขันกีฬา",
@@ -9828,10 +10035,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "หน้าต่างงานแข่งขันกีฬา",
@@ -9874,10 +10082,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "เสางานแข่งขันกีฬา",
@@ -9920,10 +10129,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ที่เก็บลูกบอล งานแข่งขันกีฬา",
@@ -9966,10 +10176,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ตะกร้าเครื่องดื่มชูกำลัง",
@@ -10012,10 +10223,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "แป้นบาสเกตบอล งานแข่งขันกีฬา",
@@ -10058,10 +10270,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ห่วงลูกบอลสีเหลือง",
@@ -10104,10 +10317,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ห่วงลูกบอลสีน้ำเงิน",
@@ -10150,10 +10364,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ห่วงลูกบอลสีฟ้าใส",
@@ -10197,10 +10412,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Ichika"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 109,
         "Name": "เก้าอี้กรรมการ งานแข่งขันกีฬา",
@@ -10243,10 +10459,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ตาข่ายงานแข่งขันกีฬา",
@@ -10289,10 +10506,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 109,
         "Name": "พื้นไม้งานแข่งขันกีฬา",
@@ -10335,10 +10553,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "ธงตกแต่งงานแข่งขันกีฬา ลายเพโรโร่",
@@ -10381,10 +10600,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "ของตกแต่งนำชัย งานแข่งขันกีฬา",
@@ -10427,10 +10647,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 109,
         "Name": "ผนังงานแข่งขันกีฬา",
@@ -10473,10 +10694,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 109,
         "Name": "พื้นหลังงานแข่งขันกีฬา",
@@ -10519,10 +10741,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ป้ายโฆษณางานแข่งขันกีฬา",
@@ -10565,10 +10788,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 109,
         "Name": "เก้าอี้พับงานแข่งขันกีฬา",
@@ -10611,10 +10835,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ม้าขวางงานแข่งขันกีฬา",
@@ -10658,10 +10883,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hasumi_Track"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "โครงเกมแข่งกินโดนัท งานแข่งขันกีฬา",
@@ -10705,10 +10931,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mari_Track"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 109,
         "Name": "เต็นท์จุดพัก งานแข่งขันกีฬา",
@@ -10753,10 +10980,11 @@
             "F_Hibiki_Cheerleader",
             "F_Utaha_Cheerleader"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "สแตนด์เชียร์ งานแข่งขันกีฬา",
@@ -10800,10 +11028,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Noa"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ที่เก็บอุปกรณ์ งานแข่งขันกีฬา",
@@ -10846,10 +11075,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 109,
         "Name": "โต๊ะมื้อเที่ยง งานแข่งขันกีฬา",
@@ -10892,10 +11122,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 109,
         "Name": "แท่นวางโทรฟี่ งานแข่งขันกีฬา",
@@ -10938,10 +11169,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "ซุ้มต้อนรับงานแข่งขันกีฬา",
@@ -10984,10 +11216,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "กระดานดำ ห้องเรียนอะบิดอส",
@@ -11030,10 +11263,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "ตู้ของนักเรียน ห้องเรียนอะบิดอส",
@@ -11076,10 +11310,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "ชั้นวางของ ห้องเรียนอะบิดอส",
@@ -11122,10 +11357,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 110,
         "Name": "เก้าอี้ ห้องเรียนอะบิดอส",
@@ -11168,10 +11404,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "นาฬิกาติดผนัง ห้องเรียนอะบิดอส",
@@ -11218,10 +11455,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "ชุดโต๊ะที่มีกล่องข้าว ห้องเรียนอะบิดอส",
@@ -11264,10 +11502,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 110,
         "Name": "พื้นห้องเรียนอะบิดอส",
@@ -11310,10 +11549,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "ฉากกั้นทางเดิน ห้องเรียนอะบิดอส",
@@ -11356,10 +11596,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "ลำโพงติดผนัง ห้องเรียนอะบิดอส",
@@ -11410,10 +11651,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "เสาในห้องเรียนอะบิดอส",
@@ -11456,10 +11698,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "กระดานตารางเวลา ห้องเรียนอะบิดอส",
@@ -11502,10 +11745,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "กระดานกิจกรรม ห้องเรียนอะบิดอส",
@@ -11548,10 +11792,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "ตู้เก็บอุปกรณ์ทำความสะอาด ห้องเรียนอะบิดอส",
@@ -11602,10 +11847,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "ตู้ของคุณครู ห้องเรียนอะบิดอส",
@@ -11649,10 +11895,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Nonomi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "ชุดโต๊ะที่มีเสื้อแคนดิแกน ห้องเรียนอะบิดอส",
@@ -11696,10 +11943,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hoshino"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "ชุดโต๊ะที่มีตุ๊กตาปลาวาฬ ห้องเรียนอะบิดอส",
@@ -11743,10 +11991,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Ayane"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "ชุดโต๊ะที่มีแว่นตา ห้องเรียนอะบิดอส",
@@ -11790,10 +12039,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Shiroko"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "ชุดโต๊ะที่มีหน้ากาก ห้องเรียนอะบิดอส",
@@ -11837,10 +12087,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Serika"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "ชุดโต๊ะที่มีริบบิ้นกับถุงมือ ห้องเรียนอะบิดอส",
@@ -11883,10 +12134,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "โต๊ะที่มีกระเป๋าใบใหญ่ ห้องเรียนอะบิดอส",
@@ -11929,10 +12181,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "ที่วางปืนในห้องเรียนอะบิดอส",
@@ -11975,10 +12228,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "ฉากกั้นพร้อมบอร์ด ห้องเรียนอะบิดอส",
@@ -12021,10 +12275,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "โต๊ะคุณครู ห้องเรียนอะบิดอส",
@@ -12067,10 +12322,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "กรอบรูปโลโก้ ห้องเรียนอะบิดอส",
@@ -12113,10 +12369,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "คำขวัญห้องเรียนอะบิดอส",
@@ -12159,10 +12416,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "ถังแยกขยะ ห้องเรียนอะบิดอส",
@@ -12217,10 +12475,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "ไวท์บอร์ด ห้องเรียนอะบิดอส",
@@ -12263,10 +12522,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 110,
         "Name": "พื้นหลัง ห้องเรียนอะบิดอส",
@@ -12309,10 +12569,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 110,
         "Name": "พื้นห้องเรียนอะบิดอส",
@@ -12355,10 +12616,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 110,
         "Name": "กำแพง ห้องเรียนอะบิดอส",
@@ -12401,10 +12663,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "ตู้หนังสือ ห้องเรียนอะบิดอส",
@@ -12448,10 +12711,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Shiroko_RidingSuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "จักรยาน ห้องเรียนอะบิดอส",
@@ -12494,10 +12758,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "ฉากกั้นทั่วไป ห้องเรียนอะบิดอส",
@@ -12540,10 +12805,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "โต๊ะผู้สอน ห้องเรียนอะบิดอส",
@@ -12586,10 +12852,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 110,
         "Name": "ตู้ขายของอัตโนมัติ ห้องเรียนอะบิดอส",
@@ -12632,10 +12899,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "ที่วางปืนกล ห้องเรียนอะบิดอส",
@@ -12678,10 +12946,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "หน้าต่างห้องเรียนอะบิดอส",
@@ -12724,10 +12993,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Bed",
         "SetGroupId": 111,
         "Name": "ชุดผ้าห่มพิมพ์ลาย ชมรมพัฒนาเกม",
@@ -12770,10 +13040,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "กล่องพัสดุมิลเลเนียม",
@@ -12816,10 +13087,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 111,
         "Name": "พรมวงกลมสีน้ำเงินผสม",
@@ -12862,10 +13134,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "เก้าอี้สีขาว ชมรมพัฒนาเกม",
@@ -12908,10 +13181,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "เก้าอี้นั่งพื้นสีฟ้า ชมรมพัฒนาเกม",
@@ -12954,10 +13228,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "เบาะรองนั่งสีแดง ชมรมพัฒนาเกม",
@@ -13000,10 +13275,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ประตูห้องชมรมพัฒนาเกม",
@@ -13046,10 +13322,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ฉากกั้นหน้าต่าง ลายโลโก้มิลเลเนียม",
@@ -13092,10 +13369,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 111,
         "Name": "พื้นขัดเงาสีเงิน",
@@ -13138,10 +13416,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ตู้สีฟ้า ชมรมพัฒนาเกม",
@@ -13184,10 +13463,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ฉากกั้นเหล็ก ชมรมพัฒนาเกม",
@@ -13230,10 +13510,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "กระถางเซ็ตลิ้นมังกร",
@@ -13276,10 +13557,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "บอร์ดแจ้งตาราง ชมรมพัฒนาเกม",
@@ -13322,10 +13604,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "โต๊ะชุดขนมเครื่องดื่ม",
@@ -13368,10 +13651,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "เสากำแพง ลายพรินต์วินเทจสีฟ้า",
@@ -13414,10 +13698,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ฉากเหล็กโลโก้ชมรมพัฒนาเกม",
@@ -13460,10 +13745,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "พัดลมเล็กสีขาว",
@@ -13506,10 +13792,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ป้ายไฟ LED ชมรมพัฒนาเกม",
@@ -13552,10 +13839,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "พัดลมติดผนังวินเทจ",
@@ -13598,10 +13886,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "กรอบรูปชมรมพัฒนาเกม",
@@ -13644,10 +13933,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "แอร์ติดผนังชมรมพัฒนาเกม",
@@ -13690,10 +13980,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "โต๊ะเก็บเกมเรโทร",
@@ -13736,10 +14027,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "โต๊ะเก็บโน้ตบุ๊ก",
@@ -13782,10 +14074,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "โต๊ะเก็บหนังสือเกม",
@@ -13828,10 +14121,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 111,
         "Name": "จอเครื่องเล่นเกม",
@@ -13874,10 +14168,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ชั้นวางบอร์ดเกม",
@@ -13920,10 +14215,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ชั้นวางเกมอเนกประสงค์",
@@ -13966,10 +14262,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ชั้นวางเครื่องเล่นเกม",
@@ -14013,10 +14310,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Aris"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "โซฟาหลายที่นั่ง ชมรมพัฒนาเกม",
@@ -14059,10 +14357,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ตุ๊กตาหมีสีชมพู ชมรมพัฒนาเกม",
@@ -14105,10 +14404,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 111,
         "Name": "พื้นสีโมโนโทน",
@@ -14151,10 +14451,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 111,
         "Name": "กำแพง ลายพรินต์วินเทจสีฟ้า",
@@ -14197,10 +14498,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 111,
         "Name": "พื้นหลังโลโก้ ชมรมพัฒนาเกม",
@@ -14243,10 +14545,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ชั้นวางของส่วนตัว ชมรมพัฒนาเกม",
@@ -14291,10 +14594,11 @@
             "F_Midori",
             "F_Momoi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 111,
         "Name": "จอเครื่องเล่นเกมไม้",
@@ -14337,10 +14641,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "พรมชมรมพัฒนาเกม",
@@ -14383,10 +14688,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ตุ๊กตาชมรมพัฒนาเกม",
@@ -14429,10 +14735,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ไวท์บอร์ดชมรมพัฒนาเกม",
@@ -14475,10 +14782,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "หน้าต่างติดม่าน ชมรมพัฒนาเกม",
@@ -14521,10 +14829,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・アンサンブル植木鉢",
@@ -14567,10 +14876,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・標識",
@@ -14613,10 +14923,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・植木鉢陳列台",
@@ -14659,10 +14970,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ植木鉢",
@@ -14705,10 +15017,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ラタン照明セット",
@@ -14751,10 +15064,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルバスケット",
@@ -14797,10 +15111,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・パーテーション",
@@ -14843,10 +15158,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカル植木鉢",
@@ -14889,10 +15205,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ミニウインドウ",
@@ -14935,10 +15252,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルペインティング",
@@ -14981,10 +15299,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ壁掛け",
@@ -15027,10 +15346,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ照明",
@@ -15073,10 +15393,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ壁掛け照明",
@@ -15119,10 +15440,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・パターンマット",
@@ -15165,10 +15487,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ダイヤモンドパターンマット",
@@ -15211,10 +15534,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ナチュラルマット",
@@ -15257,10 +15581,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ラタンマット",
@@ -15303,10 +15628,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・ブランチソファ",
@@ -15349,10 +15675,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・ソファ",
@@ -15395,10 +15722,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルテーブル",
@@ -15441,10 +15769,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 112,
         "Name": "サンシャイン・ジューステーブル",
@@ -15487,10 +15816,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・フラワー噴水",
@@ -15533,10 +15863,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・ストライプソファー",
@@ -15579,10 +15910,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Bed",
         "SetGroupId": 112,
         "Name": "サンシャイン・サンベッドホワイト",
@@ -15625,10 +15957,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Bed",
         "SetGroupId": 112,
         "Name": "サンシャイン・サンベッドレモン",
@@ -15671,10 +16004,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 112,
         "Name": "サンシャイン・陳列棚",
@@ -15717,10 +16051,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ヤシの木",
@@ -15763,10 +16098,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ホワイトフラワー鉢",
@@ -15809,10 +16145,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・オーシャンビューウィンドウ",
@@ -15855,10 +16192,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ビーチマット",
@@ -15901,10 +16239,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 112,
         "Name": "サンシャイン・ラブリー壁紙",
@@ -15947,10 +16286,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 112,
         "Name": "サンシャイン・ナチュラル床",
@@ -15993,10 +16333,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 112,
         "Name": "サンシャイン・リゾートの背景",
@@ -16039,10 +16380,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・キャノピーソファ",
@@ -16085,10 +16427,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ドリンクバー",
@@ -16131,10 +16474,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・フラワープール",
@@ -16177,10 +16521,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルプール",
@@ -16223,10 +16568,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・レーステーブル",
@@ -16269,10 +16615,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハウインドウ",
@@ -16315,10 +16662,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่บีนาห์ (กลางแจ้ง)",
@@ -16355,10 +16703,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่บีนาห์ (กลางแจ้ง)",
@@ -16395,10 +16744,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่บีนาห์ (กลางแจ้ง)",
@@ -16435,10 +16785,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่บีนาห์ (กลางแจ้ง)",
@@ -16475,10 +16826,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่บีนาห์ (ในเมือง)",
@@ -16515,10 +16867,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่บีนาห์ (ในเมือง)",
@@ -16555,10 +16908,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่บีนาห์ (ในเมือง)",
@@ -16595,10 +16949,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่บีนาห์ (ในเมือง)",
@@ -16635,10 +16990,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่เชเซ็ด (กลางแจ้ง)",
@@ -16675,10 +17031,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่เชเซ็ด (กลางแจ้ง)",
@@ -16715,10 +17072,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่เชเซ็ด (กลางแจ้ง)",
@@ -16755,10 +17113,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่เชเซ็ด (กลางแจ้ง)",
@@ -16795,10 +17154,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่เชเซ็ด (ในอาคาร)",
@@ -16835,10 +17195,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่เชเซ็ด (ในอาคาร)",
@@ -16875,10 +17236,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่เชเซ็ด (ในอาคาร)",
@@ -16915,10 +17277,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่เชเซ็ด (ในอาคาร)",
@@ -16955,10 +17318,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ชิโระ&คุโระ (ในอาคาร)",
@@ -16995,10 +17359,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ชิโระ&คุโระ (ในอาคาร)",
@@ -17035,10 +17400,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ชิโระ&คุโระ (ในอาคาร)",
@@ -17075,10 +17441,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ชิโระ&คุโระ (ในอาคาร)",
@@ -17115,10 +17482,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ชิโระ&คุโระ (ในเมือง)",
@@ -17155,10 +17523,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ชิโระ&คุโระ (ในเมือง)",
@@ -17195,10 +17564,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ชิโระ&คุโระ (ในเมือง)",
@@ -17235,10 +17605,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ชิโระ&คุโระ (ในเมือง)",
@@ -17275,10 +17646,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ไฮโรนีมัส (ในอาคาร)",
@@ -17315,10 +17687,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ไฮโรนีมัส (ในอาคาร)",
@@ -17355,10 +17728,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ไฮโรนีมัส (ในอาคาร)",
@@ -17395,10 +17769,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ไฮโรนีมัส (ในอาคาร)",
@@ -17435,10 +17810,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ไฮโรนีมัส (ในเมือง)",
@@ -17475,10 +17851,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ไฮโรนีมัส (ในเมือง)",
@@ -17515,10 +17892,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ไฮโรนีมัส (ในเมือง)",
@@ -17555,10 +17933,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ไฮโรนีมัส (ในเมือง)",
@@ -17595,10 +17974,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ KAITEN FX Mk.0 (กลางแจ้ง)",
@@ -17635,10 +18015,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ KAITEN FX Mk.0 (กลางแจ้ง)",
@@ -17675,10 +18056,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ KAITEN FX Mk.0 (กลางแจ้ง)",
@@ -17715,10 +18097,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ KAITEN FX Mk.0 (กลางแจ้ง)",
@@ -17755,10 +18138,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ KAITEN FX Mk.0 (ในเมือง)",
@@ -17795,10 +18179,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ KAITEN FX Mk.0 (ในเมือง)",
@@ -17835,10 +18220,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ KAITEN FX Mk.0 (ในเมือง)",
@@ -17875,10 +18261,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ KAITEN FX Mk.0 (ในเมือง)",
@@ -17915,10 +18302,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่เพโรโร่ซิลล่า (ในอาคาร)",
@@ -17955,10 +18343,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่เพโรโร่ซิลล่า (ในอาคาร)",
@@ -17995,10 +18384,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่เพโรโร่ซิลล่า (ในอาคาร)",
@@ -18035,10 +18425,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่เพโรโร่ซิลล่า (ในอาคาร)",
@@ -18075,10 +18466,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่เพโรโร่ซิลล่า (กลางแจ้ง)",
@@ -18115,10 +18507,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่เพโรโร่ซิลล่า (กลางแจ้ง)",
@@ -18155,10 +18548,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่เพโรโร่ซิลล่า (กลางแจ้ง)",
@@ -18195,10 +18589,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่เพโรโร่ซิลล่า (กลางแจ้ง)",
@@ -18234,10 +18629,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ HOD (ในเมือง)",
@@ -18273,10 +18669,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ HOD (ในเมือง)",
@@ -18312,10 +18709,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ HOD (ในเมือง)",
@@ -18351,10 +18749,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ HOD (ในเมือง)",
@@ -18390,10 +18789,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ GOZ (ในอาคาร)",
@@ -18429,10 +18829,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ GOZ (ในอาคาร)",
@@ -18468,10 +18869,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ GOZ (ในอาคาร)",
@@ -18507,10 +18909,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ GOZ (ในอาคาร)",
@@ -18546,10 +18949,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ HOD (ในอาคาร)",
@@ -18585,10 +18989,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ HOD (ในอาคาร)",
@@ -18624,10 +19029,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ HOD (ในอาคาร)",
@@ -18663,10 +19069,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ HOD (ในอาคาร)",
@@ -18702,10 +19109,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่เกรกอรีโอ (ในอาคาร)",
@@ -18741,10 +19149,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่เกรกอรีโอ (ในอาคาร)",
@@ -18780,10 +19189,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่เกรกอรีโอ (ในอาคาร)",
@@ -18819,10 +19229,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่เกรกอรีโอ (ในอาคาร)",
@@ -18858,10 +19269,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่ GOZ (กลางแจ้ง)",
@@ -18897,10 +19309,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่ GOZ (กลางแจ้ง)",
@@ -18936,10 +19349,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่ GOZ (กลางแจ้ง)",
@@ -18975,10 +19389,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่ GOZ (กลางแจ้ง)",
@@ -19014,10 +19429,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "บรอนซ์โทรฟี่เรือโฮเวอร์คราฟ (กลางแจ้ง)",
@@ -19053,10 +19469,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ซิลเวอร์โทรฟี่เรือโฮเวอร์คราฟ (กลางแจ้ง)",
@@ -19092,10 +19509,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "โกลด์โทรฟี่เรือโฮเวอร์คราฟ (กลางแจ้ง)",
@@ -19131,10 +19549,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "แพลทินัมโทรฟี่เรือโฮเวอร์คราฟ (กลางแจ้ง)",
@@ -19170,6 +19589,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "น้ำพุแบบทรีนิตี้",
@@ -19205,6 +19625,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "บอร์ดรูปธีมฤดูร้อน",
@@ -19240,6 +19661,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "ต้นคริสต์มาสระยิบระยับ",
@@ -19275,6 +19697,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "บอร์ดแนะนำออนเซ็น 227",
@@ -19310,6 +19733,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "เครื่องเล่นแผ่นเสียงเรโทร",
@@ -19346,6 +19770,7 @@
             "CraftMaterial_Furniture",
             "F_Shizuko"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "ร้านเฮียกคิยาโคเคลื่อนที่",
@@ -19382,6 +19807,7 @@
             "CraftMaterial_Furniture",
             "F_Izuna"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "หน้าต่างไม้ดั้งเดิมขนาดใหญ่",
@@ -19418,6 +19844,7 @@
             "CraftMaterial_Furniture",
             "F_Ui"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "โต๊ะไม้เก็บของโบราณ",
@@ -19454,6 +19881,7 @@
             "CraftMaterial_Furniture",
             "F_Atsuko"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "โซฟาคูชั่นรอยัลไดมอนด์",
@@ -19489,6 +19917,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "เครื่องเล่นแผ่นเสียงโฮโลแกรม",
@@ -19524,6 +19953,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "บอร์ดแนะนำ งานแข่งขันกีฬา",
@@ -19560,6 +19990,7 @@
             "CraftMaterial_Furniture",
             "F_Akane_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้สตูลสีดำทอง",
@@ -19596,6 +20027,7 @@
             "CraftMaterial_Furniture",
             "F_Neru_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้สตูลสีแดงทอง",
@@ -19632,6 +20064,7 @@
             "CraftMaterial_Furniture",
             "F_Asuna_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้สตูลสีฟ้าเงิน",
@@ -19668,6 +20101,7 @@
             "CraftMaterial_Furniture",
             "F_Karin_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้สตูลสีม่วงดำ",
@@ -19703,6 +20137,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "บอร์ดรวมภาพ งานแข่งขันกีฬา",
@@ -19740,6 +20175,7 @@
             "F_Neru",
             "F_Aris"
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 0,
         "Name": "ตู้เกมต่อสู้",
@@ -19776,6 +20212,7 @@
             "CraftMaterial_Furniture",
             "F_Hanae_Holiday"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "เตาผิงติดผนังคริสต์มาส",
@@ -19812,6 +20249,7 @@
             "CraftMaterial_Furniture",
             "F_Serina_Holiday"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "ขาตั้งโน้ตเพลงรื่นเริง",
@@ -19848,6 +20286,7 @@
             "CraftMaterial_Furniture",
             "F_Mine"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "โต๊ะจิบชาดอกไม้หรูหรา",
@@ -19883,6 +20322,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "ออร์แกนทรีนิตี้",
@@ -19920,6 +20360,7 @@
             "F_Mika",
             "F_Nagisa"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "โต๊ะปาร์ตี้น้ำชา",
@@ -19956,6 +20397,7 @@
             "CraftMaterial_Furniture",
             "F_Kanna"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "โต๊ะสืบสวน",
@@ -19994,6 +20436,7 @@
             "F_Hinata",
             "F_Mari"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "ม้านั่งอธิษฐาน",
@@ -20029,6 +20472,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "โต๊ะแบบจำลอง เขตชิราโทริ D.U.",
@@ -20066,6 +20510,7 @@
             "F_Haruka",
             "F_Haruka_Newyear"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ชั้นวางต้นไม้",
@@ -20080,7 +20525,7 @@
         "Id": 209302,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
@@ -20102,13 +20547,14 @@
             "CraftMaterial_Furniture",
             "F_Kaho"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ตู้โชว์สินค้าเฮียกคิยาโค",
         "Desc": "ตู้โชว์ที่จัดวางสินค้าขึ้นชื่อของเฮียกคิยาโค ซึ่งเป็นที่ต้องการของหลายๆ คนเอาไว้",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ]
     },
@@ -20138,6 +20584,7 @@
             "CraftMaterial_Furniture",
             "F_Yuzu"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ล็อกเกอร์ห้องชมรมพัฒนาเกม",
@@ -20174,6 +20621,7 @@
             "CraftMaterial_Furniture",
             "F_Toki_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้หมุนสีน้ำเงินเข้ม",
@@ -20210,6 +20658,7 @@
             "CraftMaterial_Furniture",
             "F_Aris_Maid"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "โซฟาเรียบสีฟ้าอ่อน",
@@ -20246,6 +20695,7 @@
             "CraftMaterial_Furniture",
             "F_Yuzu_Maid"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ตู้เหล็กฝาเลื่อน",
@@ -20282,6 +20732,7 @@
             "CraftMaterial_Furniture",
             "F_Rumi"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ตู้โชว์อาหารอุ่นร้อนสไตล์จีน",
@@ -20318,6 +20769,7 @@
             "CraftMaterial_Furniture",
             "F_Mina"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "เก้าอี้ยาวสไตล์จีน",
@@ -20354,6 +20806,7 @@
             "CraftMaterial_Furniture",
             "F_Minori"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "โต๊ะทำงานไม้",
@@ -20390,6 +20843,7 @@
             "CraftMaterial_Furniture",
             "F_Miyu_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "กล่องปลาสดใหม่!",
@@ -20426,6 +20880,7 @@
             "CraftMaterial_Furniture",
             "F_Saki_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "ชั้นวางอุปกรณ์ดำน้ำ",
@@ -20462,6 +20917,7 @@
             "CraftMaterial_Furniture",
             "F_Miyako_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ตู้อาบน้ำ",
@@ -20498,6 +20954,7 @@
             "CraftMaterial_Furniture",
             "F_Shiroko_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "แท่นแสดงปลา",
@@ -20533,6 +20990,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "便利屋68バンドステージ",
@@ -20569,6 +21027,7 @@
             "CraftMaterial_Furniture",
             "F_Ui_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "クラシックパターンスーツケース",
@@ -20605,6 +21064,7 @@
             "CraftMaterial_Furniture",
             "F_Hinata_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Bed",
         "SetGroupId": 0,
         "Name": "ミニスツールとサンベッド",
@@ -20642,6 +21102,7 @@
             "F_Koharu_Swimsuit",
             "F_Hanako_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "アイスクリームテーブル",
@@ -20678,6 +21139,7 @@
             "CraftMaterial_Furniture",
             "F_Hanako_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "サンシャイン・レモンツリー",
@@ -20713,6 +21175,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "ボードゲームテーブル",
@@ -20749,6 +21212,7 @@
             "CraftMaterial_Furniture",
             "F_Momiji"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "図書館のクラシックな椅子",
@@ -20785,6 +21249,7 @@
             "CraftMaterial_Furniture",
             "F_Meru"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "原稿用の机",
@@ -20821,6 +21286,7 @@
             "CraftMaterial_Furniture",
             "F_Haruna_Track"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "休憩用のベンチテーブル",
@@ -20857,6 +21323,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์บรอนซ์โทรฟี่ เรดบอส 01",
@@ -20893,6 +21360,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์ซิลเวอร์โทรฟี่ เรดบอส 01",
@@ -20929,6 +21397,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์โกลด์โทรฟี่ เรดบอส 01",
@@ -20965,6 +21434,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์แพลทินัมโทรฟี่ เรดบอส 01",
@@ -21001,6 +21471,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์บรอนซ์โทรฟี่ เรดบอส 02",
@@ -21037,6 +21508,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์ซิลเวอร์โทรฟี่ เรดบอส 02",
@@ -21073,6 +21545,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์โกลด์โทรฟี่ เรดบอส 02",
@@ -21109,6 +21582,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ตู้โชว์แพลทินัมโทรฟี่ เรดบอส 02",
@@ -21142,6 +21616,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "เครื่องย้อนความทรงจำ 1",
@@ -21175,6 +21650,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "เครื่องย้อนความทรงจำ 2",
@@ -21208,6 +21684,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "เครื่องย้อนความทรงจำ 3",
@@ -21241,6 +21718,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "เครื่องย้อนความทรงจำ 4",
@@ -21274,6 +21752,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "เครื่องย้อนความทรงจำ 4.5",

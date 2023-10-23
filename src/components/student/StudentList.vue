@@ -1,21 +1,22 @@
 <script setup>
 import { computed, reactive, ref, toRefs, watch } from 'vue';
-import { breakpointsBootstrapV5, useBreakpoints, useMediaQuery } from '@vueuse/core'
+import { breakpointsBootstrapV5, useBreakpoints, useElementSize, useMediaQuery } from '@vueuse/core'
 import { studentMap, studentsGenerator } from '../../composables/Student';
 import { useSettingsStore } from '../../stores/SettingsStore';
 import StudentListItem from './StudentListItem.vue';
-import 'vue-virtual-scroller/dist/vue-virtual-scroller.css'
-import { RecycleScroller } from 'vue-virtual-scroller';
 import { translate, translateUi } from '../../composables/Localization';
 import { useStudentStore } from '../../stores/StudentStore';
 import { terrainList, adaptationGrade, terrainAffinityText } from '../../composables/TerrainHelper';
 import { getMaximumAttributes } from '../../composables/CharacterStats';
-import StudentListSort from './StudentListSort.vue';
+import ListSort from '../common/ListSort.vue';
 import { extractNumber } from '../../composables/Utilities';
+import { RecycleScroller } from 'vue-virtual-scroller';
 
 const settings = useSettingsStore().settings;
 const filters = useStudentStore().studentListFilters;
 const sortOption = useStudentStore().studentListSort;
+
+const scrollerKey = ref(1);
 
 const breakpoints = useBreakpoints(breakpointsBootstrapV5);
 const useOffCanvas = breakpoints.smaller('md');
@@ -131,7 +132,12 @@ const sortOptions = [
         labelTextFunc: (student) => `${student.MemoryLobby[settings.server]}`,
         type: 'number'
     },
-    {key: 'MemoryLobbyBGM', label: translateUi('memory_lobby_bgm_name'), type: 'string'},
+    {
+        key: 'MemoryLobbyBGM',
+        label: translateUi('memory_lobby_bgm_name'),
+        sortOrderFunc: (student) => translate('BGM', student.MemoryLobbyBGM) ?? `Theme ${student.MemoryLobbyBGM}`,
+        labelTextFunc: (student) => translate('BGM', student.MemoryLobbyBGM) ?? `Theme ${student.MemoryLobbyBGM}`,
+        type: 'string'},
 ]
 
 function getSkillHits(skill) {
@@ -177,108 +183,37 @@ const activeFilters = computed(() => {
 
 
     }
-    //console.log('filters', activeFilters)
+
     return activeFilters;
 })
 
-const studentList = [];
-for (const student of studentsGenerator()) {
-    studentList.push(
-        {
-            SortOrder: student.DefaultOrder,
-            Id: student.Id,
-            SquadType: student.SquadType,
-            TacticRole: student.TacticRole,
-            Name: student.Name,
-            BulletType: student.BulletType,
-            ArmorType: student.ArmorType,
-            StarGrade: student.StarGrade
-        }
-    );
-}
+const studentListEl = ref(null);
+const listWidth = useElementSize(studentListEl).width;
 
-const sortedStudentList = computed(() => {
-    const studentList = [];
-    for (const student of studentsGenerator()) {
+const cardMargin = computed(() => {
+    return useOffCanvas.value ? 8 : 16;
+})
 
-        let sortOrder = 0;
-        let labelText = null;
-        if (currentSortOption.value.type == 'adaptation') {
-            const adaptationBase = student[currentSortOption.value.key];
-            
-            if (student.Weapon.AdaptationType === currentSortOption.value.terrain) {
-                sortOrder = adaptationBase + student.Weapon.AdaptationValue - 0.1;
-                labelText = `${adaptationGrade[adaptationBase]} → ${adaptationGrade[adaptationBase + student.Weapon.AdaptationValue]}`
-            } else {
-                sortOrder = adaptationBase;
-                labelText = adaptationGrade[adaptationBase];
-            }
+const cardWidth = computed(() => {
+    return useOffCanvas.value ? 80 : 100;
+})
 
-        } else if (currentSortOption.value.type == 'stat') {
+const cardHeight = computed(() => {
+    return useOffCanvas.value ? 90 : 113;
+})
 
-            const cache = sortOption.UseCollectionStats ? statCache.collection : statCache.max;
+const gridColumns = computed(() => {
+    return Math.floor(listWidth.value / (cardWidth.value + cardMargin.value));
+    
+})
+const gridItemWidth = computed(() => {
+    return Math.floor(listWidth.value / gridColumns.value);
+})
 
-            if (!cache[student.Id]) {
-                cache[student.Id] = getMaximumAttributes(student, sortOption.UseCollectionStats);
-            }
 
-            sortOrder = cache[student.Id][currentSortOption.value.key];
-            labelText = sortOrder == 0 ? translateUi('collection_notowned') : sortOrder.toLocaleString();
-        } else {
-
-            if (currentSortOption.value.sortOrderFunc) {
-                sortOrder = currentSortOption.value.sortOrderFunc(student);
-            } else {
-                sortOrder = student[currentSortOption.value.key];
-            }
-
-            if (currentSortOption.value.labelTextFunc) {
-                labelText = currentSortOption.value.labelTextFunc(student);
-            } else {
-                
-                labelText = currentSortOption.value.noLabelText == true ? null : sortOrder;
-            }
-            
-        }
-
-        studentList.push(
-            {
-                SortOrder: sortOrder,
-                LabelText: labelText,
-                Id: student.Id,
-                SquadType: student.SquadType,
-                TacticRole: student.TacticRole,
-                Name: student.Name,
-                BulletType: student.BulletType,
-                ArmorType: student.ArmorType,
-                StarGrade: student.StarGrade,
-                IsLimited: student.IsLimited
-            }
-        );
-
-    }
-
-    switch (currentSortOption.value.type) {
-        case 'string':
-            studentList.sort((a, b) => (a.SortOrder.localeCompare(b.SortOrder)) * sortOption.Mode);
-            break;
-
-        case 'stat':
-            studentList.sort((a, b) => (a.SortOrder - b.SortOrder) * (-sortOption.Mode));
-            break;
-
-        default:
-            studentList.sort((a, b) => (a.SortOrder - b.SortOrder) * (sortOption.Mode * (currentSortOption.value.reverseSort ? -1 : 1)));
-            break;
-    }
-
-    return studentList;
-});
-
-const visibleStudents = computed(() => {
+const resultStudentList = computed(() => {
 
     const studentList = [];
-
     for (const student of studentsGenerator()) {
 
         let add = true;
@@ -301,6 +236,8 @@ const visibleStudents = computed(() => {
                 prop = student.Gear.Released?.[settings.server];
             } else if (key === 'Collection') {
                 prop = useStudentStore().collectionExists(student.Id) ? 'Owned' : 'NotOwned';
+            } else if (key === 'Favourite') {
+                prop = useStudentStore().favouritesExists(student.Id);
             } else {
                 prop = student[key];
 
@@ -318,13 +255,81 @@ const visibleStudents = computed(() => {
         }
 
         if (add) {
-            studentList.push(student.Id);
-        }
+            let sortOrder = 0;
+            let labelText = null;
+            if (currentSortOption.value.type == 'adaptation') {
+                const adaptationBase = student[currentSortOption.value.key];
+                
+                if (student.Weapon.AdaptationType === currentSortOption.value.terrain) {
+                    sortOrder = adaptationBase + student.Weapon.AdaptationValue - 0.1;
+                    labelText = `${adaptationGrade[adaptationBase]} → ${adaptationGrade[adaptationBase + student.Weapon.AdaptationValue]}`
+                } else {
+                    sortOrder = adaptationBase;
+                    labelText = adaptationGrade[adaptationBase];
+                }
 
+            } else if (currentSortOption.value.type == 'stat') {
+
+                const cache = sortOption.UseCollectionStats ? statCache.collection : statCache.max;
+
+                if (!cache[student.Id]) {
+                    cache[student.Id] = getMaximumAttributes(student, sortOption.UseCollectionStats);
+                }
+
+                sortOrder = cache[student.Id][currentSortOption.value.key];
+                labelText = sortOrder == 0 ? translateUi('collection_notowned') : sortOrder.toLocaleString();
+            } else {
+
+                if (currentSortOption.value.sortOrderFunc) {
+                    sortOrder = currentSortOption.value.sortOrderFunc(student);
+                } else {
+                    sortOrder = student[currentSortOption.value.key];
+                }
+
+                if (currentSortOption.value.labelTextFunc) {
+                    labelText = currentSortOption.value.labelTextFunc(student);
+                } else {
+                    
+                    labelText = currentSortOption.value.noLabelText == true ? null : sortOrder;
+                }
+                
+            }
+
+            studentList.push(
+                {
+                    SortOrder: sortOrder,
+                    LabelText: labelText,
+                    Id: student.Id,
+                    PathName: student.PathName,
+                    SquadType: student.SquadType,
+                    TacticRole: student.TacticRole,
+                    Name: student.Name,
+                    BulletType: student.BulletType,
+                    ArmorType: student.ArmorType,
+                    StarGrade: student.StarGrade,
+                    IsLimited: student.IsLimited
+                }
+            );
+        }
     }
 
+    switch (currentSortOption.value.type) {
+        case 'string':
+            studentList.sort((a, b) => (a.SortOrder.localeCompare(b.SortOrder)) * sortOption.Mode);
+            break;
+
+        case 'stat':
+            studentList.sort((a, b) => (a.SortOrder - b.SortOrder) * (-sortOption.Mode));
+            break;
+
+        default:
+            studentList.sort((a, b) => (a.SortOrder - b.SortOrder) * (sortOption.Mode * (currentSortOption.value.reverseSort ? -1 : 1)));
+            break;
+    }
+
+    scrollerKey.value = !scrollerKey.value
     return studentList;
-}) 
+})
 
 const filterCount = computed(() => {
     return Object.keys(activeFilters.value).length;
@@ -366,7 +371,7 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
             <div class="p-2 d-flex flex-column gap-2 h-100">
                 <div v-show="useOffCanvas">
                     <div class="d-flex align-items-center p-1">
-                        <h3 class="title-text m-0">{{ translateUi('filters') }}</h3>
+                        <h3 class="text-bold m-0">{{ translateUi('filters') }}</h3>
                         <button class="btn-close ms-auto" data-bs-dismiss="offcanvas" data-bs-target="#student-filters"></button>
                     </div>
                     
@@ -377,10 +382,10 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
                     id="ba-student-search-text"
                     autocomplete="off"
                     v-model="filters.SearchTerm"
-                    :placeholder="translateUi('filter_by_name')"
+                    :placeholder="translateUi('search')"
                     style="height:40px;">
 
-                    <StudentListSort :sort-options="sortOptions" />
+                    <ListSort :sort-options="sortOptions" :sort-option="sortOption" />
 
                 </div>
                 <div id="ba-student-search-filters-panel" class="flex-fill p-1">
@@ -396,6 +401,14 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
                                 >
                                     <fa :icon="key == 'Owned' ? 'circle-check' : 'circle-xmark'" class="ms-2" />
                                     <span class="label">{{ key == 'Owned' ? translateUi('collection_owned') : translateUi('collection_notowned') }}</span>
+                                </button>
+                                <button
+                                    class="btn-pill"
+                                    :class="{active: filters.Favourite}"
+                                    @click="filters.Favourite = !filters.Favourite"
+                                >
+                                    <fa icon="heart" class="ms-2" />
+                                    <span class="label">{{ translateUi('favourites') }}</span>
                                 </button>
                             </div>
                         </div>
@@ -602,20 +615,38 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
                     id="ba-student-search-text"
                     autocomplete="off"
                     v-model="filters.SearchTerm"
-                    :placeholder="translateUi('filter_by_name')"
+                    :placeholder="translateUi('search')"
                     style="height:32px;">
-                    <StudentListSort class="ms-auto" v-if="showFloatingSortOption" :sort-options="sortOptions" />
+                    <ListSort class="ms-auto" v-if="showFloatingSortOption" :sort-options="sortOptions" :sort-option="sortOption" />
                 </div>
 
             </div>
 
 
             <div class="mb-3" :class="{card: !useOffCanvas, 'p-2': !useOffCanvas}">
-                <div id="ba-student-search-results" class="flex-fill" :class="{'p-3': !useOffCanvas}" style="overflow-y: auto;">
-                    <div id="student-select-grid" class="selection-grid student align-top flex-fill" :class="{'show-info': filters.ShowInfo}">
-                        <StudentListItem v-for="student in sortedStudentList" :student="student" :use-replace="true" v-show="visibleStudents.includes(student.Id)"></StudentListItem>
-                    </div>
-                    <p v-show="visibleStudents.length == 0" class="text-center m-0">{{ translateUi('no_results') }}</p>
+                <div id="ba-student-search-results" class="flex-fill" :class="{'p-3': !useOffCanvas, 'show-info': filters.ShowInfo}">
+                    <!-- <div id="student-select-grid" class="selection-grid student align-top flex-fill" :class="{'show-info': filters.ShowInfo}">
+                        <StudentListItem v-for="student in sortedStudentList" :student="student" :use-replace="false" v-show="visibleStudents.includes(student.Id)"></StudentListItem>
+                    </div> -->
+
+                    <RecycleScroller page-mode
+                        class="student-list w-100"
+                        :items="resultStudentList"
+                        :grid-items="gridColumns"
+                        :item-size="cardHeight + cardMargin"
+                        :item-secondary-size="gridItemWidth"
+                        v-slot="{ item }"
+                        ref="studentListEl"
+                        :buffer="300"
+                        :key="scrollerKey"
+                        key-field="Id">
+                            <div class="card-wrapper">
+                                <StudentListItem :student="item" :card-width="cardWidth" :card-height="cardHeight"></StudentListItem>
+                            </div>
+
+                    </RecycleScroller>
+
+                    <p v-show="resultStudentList.length == 0" class="text-center m-0">{{ translateUi('no_results') }}</p>
                 </div>
             </div>
 
@@ -625,21 +656,8 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
 
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import '../../styles/_mixins.scss';
-
-.selection-grid-card .card-img {
-    position: absolute;
-    width: var(--var-grid-card-width);
-    height: var(--var-grid-card-height);
-    top: 0;
-    left: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    mask-image: none;
-    -webkit-mask-image: none;
-    box-shadow: 0 0 0.5rem rgba(0,0,0,.25);
-}
 
 .icon-type {
     border-radius: 999px !important;
@@ -657,10 +675,9 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
     height: 14px;
 }
 
-.sidebar {
-    @include md-down {
-
-    }
+.card-wrapper {
+    display: flex;
+    height: 100%;
 }
 
 #student-filters {
@@ -682,12 +699,6 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
 
 #ba-student-search-filters-panel {
     @include scrollable(auto);
-}
-
-.card-overlay {
-    @include backdrop-filter(var(--var-glass-filter-navbar));
-    background-color: var(--col-theme-glass-navbar) !important;
-    border-radius: 0.5rem;
 }
 
 </style>

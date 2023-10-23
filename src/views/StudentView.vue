@@ -3,7 +3,7 @@ import { ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import StudentRender from '../components/student/StudentRender.vue';
 
-import { getStudentById } from '../composables/Student.js';
+import { getStudentById, getStudentByPathName } from '../composables/Student.js';
 import { setBackground } from '../composables/Utilities';
 import { useStudentStore } from '../stores/StudentStore';
 import { useSettingsStore } from '../stores/SettingsStore';
@@ -31,30 +31,40 @@ if (!route.params.studentid) {
     studentId = route.params.studentid;
 }
 
-let student = ref(getStudentById(studentId));
+let student = ref(null);
 
-initialiseStudentPage(student.value);
+initialiseStudentPage();
 
 watch(() => route.params.studentid,
     (to) => {
-        student = getStudentById(to);
-        initialiseStudentPage(student);
+        if (to) {
+            studentId = to;
+            initialiseStudentPage();
+        }
+
     }
 )
 
-function initialiseStudentPage(student) {
-    setBackground(student.CollectionBG + '.jpg');
-    localStorage.setItem('student_last', student.Id);
+function initialiseStudentPage() {
 
-    if (studentStore.collectionExists(student.Id)) {
-        studentStore.collectionLoad(student.Id, ...student.FavorAlts);
+    if (!isNaN(studentId)) {
+        student.value = getStudentById(studentId);
+    } else {
+        student.value = getStudentByPathName(studentId);
     }
 
-    if (!student.Gear.Released?.[settings.server] && studentStore.studentDisplay.ActiveTab == 'gear') {
+    setBackground(student.value.CollectionBG + '.jpg');
+    localStorage.setItem('student_last', student.value.Id);
+
+    if (studentStore.collectionExists(student.value.Id)) {
+        studentStore.collectionLoad(student.value.Id, ...student.value.FavorAlts);
+    }
+
+    if (!student.value.Gear.Released?.[settings.server] && studentStore.studentDisplay.ActiveTab == 'gear') {
         studentStore.studentDisplay.ActiveTab = 'stats';
     }
 
-    document.title = `${student.Name} | Schale`
+    document.title = `${student.value.Name} | Schale`
 }
 
 </script>

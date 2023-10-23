@@ -1,25 +1,37 @@
 <script setup>
+import { breakpointsBootstrapV5, useBreakpoints } from '@vueuse/core';
 import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+import ItemList from '../components/item/ItemList.vue';
 import ItemRender from '../components/item/ItemRender.vue';
-import { useRoute, useRouter } from 'vue-router';
-import { getItemById } from '../composables/Items';
 import { getEquipmentById } from '../composables/Equipment';
 import { getFurnitureById } from '../composables/Furniture';
+import { getItemById } from '../composables/Items';
+import { translateUi } from '../composables/Localization';
 import { setBackground } from '../composables/Utilities';
 
 const route = useRoute();
-const router = useRouter();
 
-const item = computed(() => {
+const renderItem = computed(() => {
+    let item;
     switch (route.name) {
         case 'itemview':
-            return { item: getItemById(route.params.itemid), type: 'item'};
+            item = getItemById(route.params.itemid);
+            document.title = `${item?.Name ?? 'Items'} | Schale`;
+            return { item: item, type: 'item'};
         case 'furnitureview':
-            return { item: getFurnitureById(route.params.furnitureid), type: 'furniture'};
+            item = getFurnitureById(route.params.furnitureid);
+            document.title = `${item?.Name ?? 'Furniture'} | Schale`;
+            return { item: item, type: 'furniture'};
         case 'equipmentview':
-            return { item: getEquipmentById(route.params.equipmentid), type: 'equipment'};
+            item = getEquipmentById(route.params.equipmentid);
+            document.title = `${item?.Name ?? 'Equipment'} | Schale`;
+            return { item: item, type: 'equipment'};
     }
 });
+
+const breakpoints = useBreakpoints(breakpointsBootstrapV5);
+const hideItemList = breakpoints.smaller('lg');
 
 setBackground('BG_MainOffice_Night2.jpg');
 
@@ -27,17 +39,22 @@ setBackground('BG_MainOffice_Night2.jpg');
 
 <template>
 
-<div class="container-xl py-md-3">
-    <div class="row">
-        <div class="col-12 col-md-6 ba-page">
-            <div class="px-0 px-xl-1 sidebar">
-                <div id="ba-item-list-container" class="card p-2 screen-height mobile-scroll">
-                </div>
-            </div>
+<div class="container-fluid mt-md-3" :class="{'g-0': hideItemList}">
+    <div class="d-flex gap-3">
+        <div v-if="!hideItemList || !renderItem.item" class="ba-page flex-fill">
+            <ItemList sidebar-mode></ItemList>
         </div>
-        <div class="col-12 col-md-6 ba-page">
-            <div class="px-0 ps-xl-3" id="ba-item-info">
-                <ItemRender v-bind="item"></ItemRender>
+        <div v-if="renderItem.item" class="item-page" :class="{'ba-page': !hideItemList}">
+
+            <div v-if="hideItemList" class="navigation-buttons d-flex p-2">
+                <RouterLink tag="button" class="btn-pill" :to="{name: `${renderItem.type}listview`}">
+                    <font-awesome-icon :icon="['fas', 'arrow-left']" class="ms-2"/>
+                    <span class="label">{{ translateUi(renderItem.type) }}</span>
+                </RouterLink>
+            </div>
+
+            <div class="" id="ba-item-info">
+                <ItemRender v-bind="renderItem"></ItemRender>
 
             </div>
         </div>
@@ -45,3 +62,45 @@ setBackground('BG_MainOffice_Night2.jpg');
 </div>
 
 </template>
+
+<style scoped lang="scss">
+
+@import '../styles/_mixins.scss';
+
+.navigation-buttons {
+
+    button, a {
+
+        height: 36px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+        @include backdrop-filter(var(--var-glass-filter-navbar));
+
+        background-color: var(--col-theme-glass);
+
+        &:focus {
+            background-color: var(--col-btn-secondary);
+        }
+    
+        &:hover {
+            background-color: var(--col-btn-secondary);
+        }
+    
+        &.active {
+            background-color: var(--col-btn-active-secondary);
+        }    
+    }
+}
+
+.item-page {
+
+    width: 100%;
+
+    @include lg-up {
+        width: 840px;
+    }
+
+}
+
+</style>

@@ -12,6 +12,10 @@ export function getStudentById(studentId) {
     return studentMap[studentId];
 }
 
+export function getStudentByPathName(path) {
+    return studentData.find(s => s.PathName == path);
+}
+
 export function* studentsGenerator() {
     for (const id in studentMap) {
         yield studentMap[id];

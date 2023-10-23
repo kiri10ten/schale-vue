@@ -143,18 +143,20 @@ onMounted(() => {
             </template>
 
         </div>
-        <div class="d-flex flex-row align-items-center gap-2">
+        <div class="d-flex flex-row align-items-center gap-2" v-if="props.materials || props.maxLevel > 1">
             <button v-if="props.materials" class="btn-pill" ref="collapseButton">
                 <span class="label">
                     {{ translateUi('student_skills_materials') }}
                     <fa icon="angle-down" class="ms-2 animate-transform" :class="{'fa-rotate-180': materialsShow}" />
                 </span>
             </button>
-            <input type="range" class="form-range flex-fill" @input="emit('update:skillLevel', $event.target.valueAsNumber)" :value="skillLevel" min="1" :max="maxLevel">
-            <span class="ba-slider-label">
-                <img v-if="skillLevel == maxLevel" :src="'/images/ui/ImageFont_Max.png'">
-                <template v-if="skillLevel != maxLevel">{{ `Lv.${skillLevel}` }}</template>
-            </span>
+            <template v-if="props.maxLevel > 1">
+                <input type="range" class="form-range flex-fill" @input="emit('update:skillLevel', $event.target.valueAsNumber)" :value="skillLevel" min="1" :max="maxLevel">
+                <span class="ba-slider-label">
+                    <img v-if="skillLevel == maxLevel" :src="'/images/ui/ImageFont_Max.png'">
+                    <template v-if="skillLevel != maxLevel">{{ `Lv.${skillLevel}` }}</template>
+                </span>
+            </template>
         </div>
     </div>
     <div v-if="props.materials" ref="collapseTarget" class="collapse w-100" :class="{show: initialShow}">

@@ -6,12 +6,15 @@ const props = defineProps({
     title: {
         type: String,
         required: true
-    }
+    },
+    fixedHeight: Boolean,
+    keepAlive: Boolean,
 });
 
 const bsModal = ref(null);
 
 const modal = ref(null);
+const modalOpen = ref(false);
 
 function _show() {
     bsModal.value.show();
@@ -23,6 +26,14 @@ function _hide() {
 
 onMounted(() => {
     bsModal.value = new Modal(modal.value);
+    
+    modal.value.addEventListener('show.bs.modal', (e) => {
+        modalOpen.value = true;
+    });
+
+    modal.value.addEventListener('hidden.bs.modal', (e) => {
+        modalOpen.value = false;
+    });
 })
 
 onUnmounted(() => {
@@ -39,10 +50,15 @@ defineExpose({
 </script>
 
 <template>
+
+    <a @click="_show" v-bind="$attrs">
+        <slot name="trigger"></slot>
+    </a>
+   
     <Teleport to="body">
         <div class="modal fade" ref="modal" tabindex="-1">
             <div class="modal-dialog modal-lg modal-fullscreen-lg-down">
-                <div class="modal-content">
+                <div v-if="modalOpen || keepAlive" class="modal-content" :class="{'h-100': fixedHeight}">
                     <div class="modal-header" style="border-bottom: none;">
                         <h5 class="modal-title">{{ title }}</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
@@ -55,3 +71,11 @@ defineExpose({
         </div>
     </Teleport>
 </template>
+
+<style scoped>
+
+a:hover {
+    cursor: pointer;
+}
+
+</style>

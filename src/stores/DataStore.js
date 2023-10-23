@@ -3,52 +3,89 @@ import { useSettingsStore } from './SettingsStore'
 
 export const useDataStore = defineStore('dataStore', {
     state: () => ({
+        config: {
+            data: {},
+            isLangSpecfic: false,
+            loaded: false
+        },
         students: {
             data: {},
+            isLangSpecfic: true,
             loaded: false
+        },
+        voice: {
+            data: {},
+            isLangSpecfic: true,
+            loaded: false       
         },
         summons: {
             data: {},
+            isLangSpecfic: true,
             loaded: false  
         },
         items: {
             data: {},
+            isLangSpecfic: true,
             loaded: false
         },
         furniture: {
             data: {},
+            isLangSpecfic: true,
             loaded: false
         },
         equipment: {
             data: {},
+            isLangSpecfic: true,
             loaded: false
         },
         currency: {
             data: {},
+            isLangSpecfic: true,
             loaded: false
         },
         localization: {
             data: {},
+            isLangSpecfic: true,
             loaded: false
         }
     }),
     actions: {
         async fetchData(module) {
-            const lang = useSettingsStore().settings.language;
+            
+            if (this[module].isLangSpecfic) {
 
-            if (this[module].loaded != lang) {
+                const lang = useSettingsStore().settings.language;
 
-                console.log('DataStore', `fetching ${lang}/${module}`)
-                return fetch(`/data/${lang}/${module}.json`)
-                .then((response) => response.json())
-                .then((json) => {
-                    this[module].data = json;
-                    this[module].loaded = lang;
-                })
+                if (this[module].loaded != lang) {
+
+                    console.log('DataStore', `fetching ${lang}/${module}`)
+                    return fetch(`/data/${lang}/${module}.json`)
+                    .then((response) => response.json())
+                    .then((json) => {
+                        this[module].data = json;
+                        this[module].loaded = lang;
+                    })
+    
+                } else {
+                    return Promise.resolve();
+                }
 
             } else {
-                return Promise.resolve();
+                if (!this[module].loaded) {
+
+                    console.log('DataStore', `fetching ${module}`)
+                    return fetch(`/data/${module}.json`)
+                    .then((response) => response.json())
+                    .then((json) => {
+                        this[module].data = json;
+                        this[module].loaded = true;
+                    })
+    
+                } else {
+                    return Promise.resolve();
+                }
             }
+
 
         },
         async ensureData(...modules) {

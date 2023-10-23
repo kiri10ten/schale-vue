@@ -6,6 +6,8 @@ import 'bootstrap'
 
 import './styles/main.scss'
 
+import 'vue-virtual-scroller/dist/vue-virtual-scroller.css'
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -15,6 +17,7 @@ import App from './App.vue'
 import router from './router'
 import { tooltip } from './utilities/directives'
 import VueVirtualScroller from 'vue-virtual-scroller'
+
 import InlineSvg from 'vue-inline-svg'
 
 

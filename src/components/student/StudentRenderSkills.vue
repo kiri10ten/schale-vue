@@ -5,6 +5,8 @@ import SkillPanel from './skills/SkillPanel.vue';
 import { translateUi } from '../../composables/Localization';
 import { regionSettings } from '../../composables/RegionSettings';
 import { useSettingsStore } from '../../stores/SettingsStore';
+import { getNormalSkill, getSummonSkills } from '../../composables/Skills';
+import { getSummonById } from '../../composables/Summon';
 
 const skillDisplay = useStudentStore().studentDisplay.SkillDisplay;
 const settings = useSettingsStore().settings;
@@ -16,8 +18,15 @@ const props = defineProps({
     }
 });
 
+const normalSkills = computed(() => {
+    return [{type: 'Normal', skill: getNormalSkill(props.student.Skills.Normal, props.student.Range)}]
+});
+
 const exSkills = computed(() => {
-    return [{type: 'Ex', skill: props.student.Skills.Ex}]
+    const summon = props.student.Summons.find((s) => s.SourceSkill == 'Ex');
+    const extraSkills = summon ? getSummonSkills(getSummonById(summon.Id)) : []
+
+    return [{type: 'Ex', skill: props.student.Skills.Ex, extraSkills}]
 });
 
 const exSkillMaterials = computed(() => {
@@ -27,10 +36,13 @@ const exSkillMaterials = computed(() => {
 const otherSkills = computed(() => {
     const skills = [];
 
+    const summon = props.student.Summons.find((s) => s.SourceSkill == 'Public');
+    const extraSkills = summon ? getSummonSkills(getSummonById(summon.Id)) : []
+    
     if (skillDisplay.ShowUpgrades && regionSettings.value.GearUnlocked && props.student.Gear.Released?.[settings.server]) {
-        skills.push({type: 'GearPublic', skill: props.student.Skills.GearPublic})
+        skills.push({type: 'GearPublic', skill: props.student.Skills.GearPublic, extraSkills})
     } else {
-        skills.push({type: 'Public', skill: props.student.Skills.Public})
+        skills.push({type: 'Public', skill: props.student.Skills.Public, extraSkills})
     }
 
     if (skillDisplay.ShowUpgrades && regionSettings.value.WeaponUnlocked) {
@@ -69,6 +81,11 @@ const otherSkillMaterials = computed(() => {
             </button> -->
         </div>
 
+        <SkillPanel v-if="student.SquadType == 'Main'" class="mb-2"
+            :skill-level="1"
+            :skills="normalSkills"
+            :bullet-type="student.BulletType"
+            :max-level="1" />
         <SkillPanel class="mb-2"
             v-model:skill-level="skillDisplay.Ex"
             :skills="exSkills"

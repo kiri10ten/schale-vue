@@ -5,8 +5,7 @@ import Collapse from '../../common/Collapse.vue';
 import SkillText from './SkillText.vue';
 import SkillTags from './SkillTags.vue';
 import { ref } from 'vue';
-
-const plusSkills = ['GearPublic', 'WeaponPassive'];
+import { upgradeSkillTypes } from '../../../composables/Skills';
 
 const extraSkillsShow = ref(false);
 
@@ -27,10 +26,10 @@ const extraSkillsCollapse = ref(null);
 
 <template>
 
-    <div class="d-flex flex-row align-items-center gap-3">
+    <div class="d-flex flex-row align-items-start gap-3">
         <div class="skill-icon bg-skill" :class="bulletType.toLowerCase()">
             <img :src="`/images/skill/${skill.Icon}.webp`">
-            <fa v-if="plusSkills.includes(type)" icon="plus" class="plus-icon" />
+            <fa v-if="upgradeSkillTypes.includes(type)" icon="plus" class="plus-icon" />
         </div>
         <div class="d-inline-block">
             <div>
@@ -38,7 +37,7 @@ const extraSkillsCollapse = ref(null);
             </div>
             <div class="pt-1 position-relative d-flex gap-1">
 
-                <SkillText v-if="type == 'Normal'" class="my-2 p-1" :skill="skill" :skill-level="skillLevel" :bullet-type="bulletType" />
+                <SkillText v-if="type == 'Normal'" class="" :skill="skill" :skill-level="skillLevel" :bullet-type="bulletType" />
 
                 <template v-else>
                     <span class="text-italic">{{ translate('SkillType', type) }}</span>
@@ -60,13 +59,13 @@ const extraSkillsCollapse = ref(null);
         <button v-if="extraSkills.length" class="ba-info-pill-s btn btn-dark" @click="extraSkillsShow = !extraSkillsShow">
             <span class="label">
                 {{ translateUi('summon') }}
-                <fa icon="angle-down" class="animate-transform" :class="{'fa-rotate-180': extraSkillsShow}"></fa>
+                <fa icon="angle-down" class="animate-transform ms-1" :class="{'fa-rotate-180': extraSkillsShow}"></fa>
             </span>
         </button>
         <SkillTags :skill="skill" />
     </div>
 
-    <Collapse v-if="extraSkills.length" v-model:show="extraSkillsShow" ref="extraSkillsCollapse">
+    <Collapse v-if="extraSkills.length" v-model:show="extraSkillsShow" class="w-100" ref="extraSkillsCollapse">
         <template v-for="extraSkill in extraSkills">
 
             <div class="ba-panel-separator"></div>
@@ -80,7 +79,7 @@ const extraSkillsCollapse = ref(null);
                         </div>
                         <div class="pt-1 d-flex gap-3 align-items-center flex-wrap justify-content-between">
                             <div class="position-relative">
-                                <SkillText class="mb-1" :skill="extraSkill" :skill-level="skillLevel" :bullet-type="bulletType" />
+                                <SkillText class="mb-1" :skill="extraSkill" :skill-level="extraSkill.SkillType == 'autoattack' ? 1 : skillLevel" :bullet-type="bulletType" />
                             </div>
                         </div>
                     </div>
@@ -88,8 +87,7 @@ const extraSkillsCollapse = ref(null);
                 <div class="skill-extrainfo">
                     <SkillTags :skill="extraSkill" />
                 </div>
-            </div>`
-
+            </div>
 
         </template>
     </Collapse>

@@ -253,14 +253,8 @@
                             "CanEvade": false
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
-                            "Stat": "DefensePower_Coefficient",
-                            "Channel": 603
+                            "Type": "Buff",
+                            "Value": []
                         }
                     ],
                     "Name": "净化风暴",
@@ -274,24 +268,12 @@
                     "Icon": "SKILLICON_BINAH_PASSIVESKILL01",
                     "Effects": [
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -2000
-                                ]
-                            ],
-                            "Stat": "AccuracyPoint_Coefficient",
-                            "Channel": 605
+                            "Type": "Buff",
+                            "Value": []
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
-                            "Stat": "StabilityRate_Coefficient",
-                            "Channel": 615
+                            "Type": "Buff",
+                            "Value": []
                         }
                     ],
                     "Name": "飞沙走石",
@@ -331,7 +313,7 @@
             ],
             "MaxDifficulty": [
                 6,
-                5,
+                6,
                 3
             ],
             "PathName": "Chesed",
@@ -496,12 +478,8 @@
                     "Icon": "SKILLICON_CHESED_PASSIVESKILL01",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -9000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7301100,
                                 7301200,
@@ -516,9 +494,7 @@
                                 7963300,
                                 7963400,
                                 7963500
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 527
+                            ]
                         }
                     ],
                     "Name": "曝光之王座",
@@ -586,7 +562,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                4
+                3
             ],
             "PathName": "Shirokuro",
             "GroupName": "ShiroKuro",
@@ -952,17 +928,11 @@
                             "Icon": "Stunned"
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -4000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7302700
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 602
+                            ]
                         }
                     ],
                     "EffectCombine": [
@@ -986,12 +956,8 @@
                     "Icon": "SKILLICON_SHIROKURO_EXSKILL02",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7302100,
                                 7302200,
@@ -1006,9 +972,7 @@
                                 7961300,
                                 7961400,
                                 7961500
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 527
+                            ]
                         },
                         {
                             "Type": "DMGSingle",
@@ -1121,12 +1085,8 @@
                     "Icon": "SKILLICON_SHIROKURO_EXSKILL03",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7302101,
                                 7302201,
@@ -1141,9 +1101,7 @@
                                 7961310,
                                 7961410,
                                 7961510
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 527
+                            ]
                         },
                         {
                             "Type": "DMGSingle",
@@ -1316,14 +1274,8 @@
                     "Icon": "SKILLICON_SHIROKURO_PASSIVESKILL01",
                     "Effects": [
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -8000
-                                ]
-                            ],
-                            "Stat": "HealEffectivenessRate_Coefficient",
-                            "Channel": 621
+                            "Type": "Buff",
+                            "Value": []
                         }
                     ],
                     "Name": "史兰皮亚的恐惧",
@@ -1353,7 +1305,7 @@
             "MaxDifficulty": [
                 6,
                 6,
-                4
+                3
             ],
             "PathName": "Hieronymus",
             "GroupName": "Hieronymus_Street",
@@ -1621,12 +1573,8 @@
                     "Icon": "SKILLICON_HIERONYMUS_EXSKILL05",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -2200
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackSame": 5,
                             "RestrictTo": [
                                 7303100,
@@ -1642,9 +1590,7 @@
                                 7962300,
                                 7962400,
                                 7962500
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 150018
+                            ]
                         }
                     ],
                     "Name": "神圣之光(圣遗物)",
@@ -1669,52 +1615,25 @@
                     "Icon": "SKILLICON_HIERONYMUS_EXSKILL05",
                     "Effects": [
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    2500
-                                ]
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 150024
+                            "Type": "Buff",
+                            "Value": []
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -7000
-                                ]
-                            ],
-                            "Stat": "HealEffectivenessRate_Base",
-                            "Channel": 150025
+                            "Type": "Buff",
+                            "Value": []
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    0
-                                ],
-                                [
-                                    2500
-                                ]
-                            ],
-                            "Stat": "DamageRatio_Coefficient",
-                            "Channel": 150029
+                            "Type": "Buff",
+                            "Value": []
                         },
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -1500
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7303600,
                                 7403700,
                                 7962500
-                            ],
-                            "Stat": "DefensePower_Base",
-                            "Channel": 150027
+                            ]
                         }
                     ],
                     "EffectStackLabel": {
@@ -1770,7 +1689,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                4
+                0
             ],
             "PathName": "KaitenFxMk0",
             "GroupName": "Kaitenger",
@@ -2025,12 +1944,8 @@
                     "Icon": "SKILLICON_KAITENFXMK0_EXSKILL03",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7304100,
                                 7304200,
@@ -2039,9 +1954,7 @@
                                 7304500,
                                 7304600,
                                 7304700
-                            ],
-                            "Stat": "DamagedRatio_Coefficient",
-                            "Channel": 27
+                            ]
                         }
                     ],
                     "Name": "无限回转・极致锅盖盾牌",
@@ -2124,18 +2037,12 @@
                     "Icon": "SKILLICON_KAITENFXMK0_EXSKILL05",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    4000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7304600,
                                 7304700
-                            ],
-                            "Stat": "AttackPower_Base",
-                            "Channel": 2
+                            ]
                         }
                     ],
                     "Name": "无限回转・超级过充蛋头",
@@ -2160,12 +2067,8 @@
                     "Icon": "SKILLICON_KAITENFXMK0_PASSIVE01",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7304100,
                                 7304200,
@@ -2174,17 +2077,11 @@
                                 7304500,
                                 7304600,
                                 7304700
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 150031
+                            ]
                         },
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    1000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7304100,
                                 7304200,
@@ -2193,9 +2090,7 @@
                                 7304500,
                                 7304600,
                                 7304700
-                            ],
-                            "Stat": "DefensePower_Base",
-                            "Channel": 150034
+                            ]
                         }
                     ],
                     "Name": "无限回转的火热之心",
@@ -2278,14 +2173,8 @@
                             "CanEvade": true
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 627
+                            "Type": "Buff",
+                            "Value": []
                         }
                     ],
                     "Name": "回转态势！冷彻之黑！",
@@ -2379,12 +2268,8 @@
                     "ShowInfo": false,
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    600
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7304102,
                                 7304202,
@@ -2421,9 +2306,7 @@
                                 7304704,
                                 7304705,
                                 7304706
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 102
+                            ]
                         }
                     ],
                     "Name": "回转态势！纯真之粉！",
@@ -2437,21 +2320,15 @@
                     "Icon": "SKILLICON_KAITENFXMK0_PASSIVE02",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -4000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7304702,
                                 7304703,
                                 7304704,
                                 7304705,
                                 7304706
-                            ],
-                            "Stat": "DamagedRatio_Coefficient",
-                            "Channel": 527
+                            ]
                         }
                     ],
                     "Name": "坏蛋！你个卑鄙小人！",
@@ -2517,7 +2394,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                4
+                0
             ],
             "PathName": "Perorozilla",
             "GroupName": "Perorozilla",
@@ -2664,14 +2541,8 @@
                             "CanEvade": false
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -9999
-                                ]
-                            ],
-                            "Stat": "DefensePower_Base",
-                            "Channel": 603
+                            "Type": "Buff",
+                            "Value": []
                         },
                         {
                             "Type": "DMGSingle",
@@ -2783,14 +2654,8 @@
                             "CanEvade": false
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -9999
-                                ]
-                            ],
-                            "Stat": "DefensePower_Base",
-                            "Channel": 603
+                            "Type": "Buff",
+                            "Value": []
                         },
                         {
                             "Type": "DMGSingle",
@@ -2940,18 +2805,12 @@
                     "Icon": "SKILLICON_PEROROZILLA_PASSIVESKILL01",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7305700,
                                 7305701
-                            ],
-                            "Stat": "EnhanceMysticRate_Base",
-                            "Channel": 134
+                            ]
                         }
                     ],
                     "Name": "バーニングペロロジラ",
@@ -2981,7 +2840,7 @@
             "MaxDifficulty": [
                 6,
                 5,
-                4
+                0
             ],
             "PathName": "HOD",
             "GroupName": "HOD",
@@ -3277,12 +3136,8 @@
                             "CanEvade": true
                         },
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackSame": 5,
                             "RestrictTo": [
                                 7306100,
@@ -3292,9 +3147,7 @@
                                 7306500,
                                 7306600,
                                 7306700
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 1002
+                            ]
                         }
                     ],
                     "Name": "荣耀光辉",
@@ -3308,12 +3161,8 @@
                     "Icon": "SKILLICON_HOD_PASSIVESKILL02",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -3000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7306100,
                                 7306200,
@@ -3328,17 +3177,11 @@
                                 7964301,
                                 7964401,
                                 7964501
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 527
+                            ]
                         },
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -6000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7306101,
                                 7306201,
@@ -3353,9 +3196,7 @@
                                 7964302,
                                 7964402,
                                 7964502
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 527
+                            ]
                         }
                     ],
                     "Name": "荣耀之耻",
@@ -3421,7 +3262,7 @@
             "MaxDifficulty": [
                 6,
                 6,
-                5
+                0
             ],
             "PathName": "Goz",
             "GroupName": "Goz",
@@ -4171,17 +4012,8 @@
                     "Icon": "SKILLICON_GOZ_PASSIVESKILL01",
                     "Effects": [
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -5000
-                                ],
-                                [
-                                    -9000
-                                ]
-                            ],
-                            "Stat": "HealEffectivenessRate_Coefficient",
-                            "Channel": 621
+                            "Type": "Buff",
+                            "Value": []
                         }
                     ],
                     "Name": "Prank or Protect",
@@ -4230,8 +4062,8 @@
             ],
             "MaxDifficulty": [
                 6,
-                6,
-                6
+                0,
+                0
             ],
             "PathName": "EN0005",
             "GroupName": "EN0005",
@@ -4345,15 +4177,9 @@
                             "CanEvade": true
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -4000
-                                ]
-                            ],
-                            "StackSame": 5,
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 94601
+                            "Type": "Buff",
+                            "Value": [],
+                            "StackSame": 5
                         }
                     ],
                     "Name": "圣者之絮语",
@@ -4367,12 +4193,8 @@
                     "Icon": "SKILLICON_EN0005_EXSKILL02",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -1000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackSame": 5,
                             "RestrictTo": [
                                 7309100,
@@ -4389,9 +4211,7 @@
                                 7309510,
                                 7309610,
                                 7309710
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 94601
+                            ]
                         }
                     ],
                     "Name": "肃穆之悔悟",
@@ -4425,12 +4245,8 @@
                     "Icon": "SKILLICON_EN0005_EXSKILL01",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7309100,
                                 7309200,
@@ -4446,19 +4262,11 @@
                                 7309510,
                                 7309610,
                                 7309710
-                            ],
-                            "Stat": "DamagedRatio_Coefficient",
-                            "Channel": 94609
+                            ]
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
-                            "Stat": "DamagedRatio_Coefficient",
-                            "Channel": 94609
+                            "Type": "Buff",
+                            "Value": []
                         }
                     ],
                     "Name": "额我略圣咏",
@@ -4481,18 +4289,8 @@
                     "Icon": "SKILLICON_EN0005_PASSIVESKILL01",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    0
-                                ],
-                                [
-                                    -10000
-                                ],
-                                [
-                                    -20000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackingIcon": [
                                 "Special_DebuffCountRed",
                                 "Special_DebuffCountYellow",
@@ -4512,22 +4310,11 @@
                                 7309510,
                                 7309610
                             ],
-                            "Stat": "DamagedRatio_Coefficient",
-                            "Channel": 94100
+                            "Stat": "DamagedRatio_Coefficient"
                         },
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    0
-                                ],
-                                [
-                                    -10000
-                                ],
-                                [
-                                    -25000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackingIcon": [
                                 "Special_DebuffCountRed",
                                 "Special_DebuffCountYellow",
@@ -4537,22 +4324,11 @@
                                 7309700,
                                 7309710
                             ],
-                            "Stat": "DamagedRatio_Coefficient",
-                            "Channel": 94100
+                            "Stat": "DamagedRatio_Coefficient"
                         },
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    4000
-                                ],
-                                [
-                                    2000
-                                ],
-                                [
-                                    0
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackingIcon": [
                                 "Special_DebuffCountRed",
                                 "Special_DebuffCountYellow",
@@ -4573,16 +4349,14 @@
                                 7309510,
                                 7309610,
                                 7309710
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 94614
+                            ]
                         }
                     ],
                     "EffectStackLabel": {
                         "Icon": [
-                            "buff/Combat_Icon_Special_DebuffCountRed",
-                            "buff/Combat_Icon_Special_DebuffCountYellow",
-                            "buff/Combat_Icon_Special_DebuffCountGreen"
+                            "buff/Combat_Icon_Special_DebuffCountRed.webp",
+                            "buff/Combat_Icon_Special_DebuffCountYellow.webp",
+                            "buff/Combat_Icon_Special_DebuffCountGreen.webp"
                         ]
                     },
                     "Name": "圣者众仆之仆",
@@ -4652,12 +4426,8 @@
                     "Icon": "SKILLICON_EN0005_PASSIVESKILL02",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    10000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7309110,
                                 7309210,
@@ -4666,9 +4436,7 @@
                                 7309510,
                                 7309610,
                                 7309710
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 94613
+                            ]
                         }
                     ],
                     "Name": "庄严之唱诗班",
@@ -4682,12 +4450,8 @@
                     "Icon": "SKILLICON_EN0005_PASSIVESKILL03",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -3000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 7309100,
                                 7309200,
@@ -4703,20 +4467,12 @@
                                 7309510,
                                 7309610,
                                 7309710
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 94601
+                            ]
                         },
                         {
-                            "Type": "BuffAlly",
-                            "Value": [
-                                [
-                                    300
-                                ]
-                            ],
-                            "StackSame": 9,
-                            "Stat": "RegenCost_Base",
-                            "Channel": 94607
+                            "Type": "Buff",
+                            "Value": [],
+                            "StackSame": 9
                         }
                     ],
                     "Name": "圣哉",
@@ -4754,8 +4510,8 @@
             ],
             "MaxDifficulty": [
                 6,
-                6,
-                6
+                0,
+                0
             ],
             "PathName": "RaidHoverCraft",
             "GroupName": "HoverCraft",
@@ -5002,12 +4758,8 @@
                     "Icon": "SKILLICON_WAKAMOSWIMSUIT_PASSIVE02",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    2500
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackSame": 3,
                             "RestrictTo": [
                                 610220101,
@@ -5017,17 +4769,11 @@
                                 610220501,
                                 610220601,
                                 610220701
-                            ],
-                            "Stat": "AttackPower_Coefficient",
-                            "Channel": 3706
+                            ]
                         },
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -2500
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackSame": 3,
                             "RestrictTo": [
                                 610220101,
@@ -5037,9 +4783,7 @@
                                 610220501,
                                 610220601,
                                 610220701
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 3712
+                            ]
                         }
                     ],
                     "Name": "ただ、あなた様のため",
@@ -5166,12 +4910,8 @@
                     "Icon": "SKILLICON_HOVERCRAFT_EXSKILL03",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -5000
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "RestrictTo": [
                                 610220102,
                                 610220202,
@@ -5180,9 +4920,7 @@
                                 610220502,
                                 610220602,
                                 610220702
-                            ],
-                            "Stat": "CriticalChanceResistPoint_Coefficient",
-                            "Channel": 522
+                            ]
                         }
                     ],
                     "Name": "こうなったら……！",
@@ -5205,12 +4943,8 @@
                     "Icon": "SKILLICON_HOVERCRAFT_PASSIVE01",
                     "Effects": [
                         {
-                            "Type": "BuffTarget",
-                            "Value": [
-                                [
-                                    -250
-                                ]
-                            ],
+                            "Type": "Buff",
+                            "Value": [],
                             "StackSame": 30,
                             "RestrictTo": [
                                 610220102,
@@ -5227,9 +4961,7 @@
                                 610220504,
                                 610220604,
                                 610220704
-                            ],
-                            "Stat": "DamagedRatio_Base",
-                            "Channel": 97506
+                            ]
                         }
                     ],
                     "Name": "奇襲上陸作戦",
@@ -5933,6 +5665,21 @@
                     "Start": 1694570400,
                     "End": 1695150000,
                     "RewardSet": 400,
+                    "RewardSetMax": 56
+                },
+                {
+                    "SeasonId": 6,
+                    "SeasonDisplay": 3,
+                    "ArmorTypes": [
+                        "LightArmor",
+                        "HeavyArmor",
+                        "Unarmed"
+                    ],
+                    "RaidId": 5,
+                    "Terrain": "Outdoor",
+                    "Start": 1697508000,
+                    "End": 1698087600,
+                    "RewardSet": 500,
                     "RewardSetMax": 56
                 }
             ],
@@ -23992,6 +23739,684 @@
                             ]
                         ]
                     ]
+                ],
+                "500": [
+                    [
+                        250000,
+                        [
+                            [
+                                2000001,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        500000,
+                        [
+                            [
+                                10,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        750000,
+                        [
+                            [
+                                230,
+                                6
+                            ],
+                            [
+                                120,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1000000,
+                        [
+                            [
+                                3000001,
+                                300000
+                            ]
+                        ]
+                    ],
+                    [
+                        1250000,
+                        [
+                            [
+                                2000002,
+                                8
+                            ]
+                        ]
+                    ],
+                    [
+                        1500000,
+                        [
+                            [
+                                11,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1750000,
+                        [
+                            [
+                                231,
+                                3
+                            ],
+                            [
+                                121,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        2000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        2500000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ]
+                        ]
+                    ],
+                    [
+                        3000000,
+                        [
+                            [
+                                12,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        3500000,
+                        [
+                            [
+                                232,
+                                2
+                            ],
+                            [
+                                122,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        4000000,
+                        [
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        4500000,
+                        [
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5000000,
+                        [
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5500000,
+                        [
+                            [
+                                233,
+                                1
+                            ],
+                            [
+                                123,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        6000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        7000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        8000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        9000000,
+                        [
+                            [
+                                230,
+                                12
+                            ],
+                            [
+                                120,
+                                12
+                            ],
+                            [
+                                231,
+                                6
+                            ],
+                            [
+                                121,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        10000000,
+                        [
+                            [
+                                3000001,
+                                500000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        12000000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ],
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        14000000,
+                        [
+                            [
+                                12,
+                                3
+                            ],
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        16000000,
+                        [
+                            [
+                                232,
+                                2
+                            ],
+                            [
+                                122,
+                                2
+                            ],
+                            [
+                                233,
+                                1
+                            ],
+                            [
+                                123,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        18000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        20000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        22000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        24000000,
+                        [
+                            [
+                                230,
+                                12
+                            ],
+                            [
+                                120,
+                                12
+                            ],
+                            [
+                                231,
+                                6
+                            ],
+                            [
+                                121,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        26000000,
+                        [
+                            [
+                                3000001,
+                                1200000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        29000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        32000000,
+                        [
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        35000000,
+                        [
+                            [
+                                232,
+                                4
+                            ],
+                            [
+                                122,
+                                4
+                            ],
+                            [
+                                233,
+                                2
+                            ],
+                            [
+                                123,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        38000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        41000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        44000000,
+                        [
+                            [
+                                2000002,
+                                32
+                            ],
+                            [
+                                2000003,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        47000000,
+                        [
+                            [
+                                3000003,
+                                200
+                            ]
+                        ]
+                    ],
+                    [
+                        50000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        60000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        70000000,
+                        [
+                            [
+                                231,
+                                6
+                            ],
+                            [
+                                121,
+                                6
+                            ],
+                            [
+                                232,
+                                4
+                            ],
+                            [
+                                122,
+                                4
+                            ]
+                        ]
+                    ],
+                    [
+                        80000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        90000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        100000000,
+                        [
+                            [
+                                3000001,
+                                1500000
+                            ]
+                        ]
+                    ],
+                    [
+                        120000000,
+                        [
+                            [
+                                3000001,
+                                2000000
+                            ]
+                        ]
+                    ],
+                    [
+                        150000000,
+                        [
+                            [
+                                3000001,
+                                2500000
+                            ]
+                        ]
+                    ],
+                    [
+                        180000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        210000000,
+                        [
+                            [
+                                2000003,
+                                32
+                            ]
+                        ]
+                    ],
+                    [
+                        240000000,
+                        [
+                            [
+                                9998,
+                                5
+                            ]
+                        ]
+                    ],
+                    [
+                        270000000,
+                        [
+                            [
+                                2000004,
+                                8
+                            ]
+                        ]
+                    ],
+                    [
+                        310000000,
+                        [
+                            [
+                                100008,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        320000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        340000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        360000000,
+                        [
+                            [
+                                23,
+                                15
+                            ]
+                        ]
+                    ],
+                    [
+                        380000000,
+                        [
+                            [
+                                2000004,
+                                3
+                            ],
+                            [
+                                13,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        400000000,
+                        [
+                            [
+                                231,
+                                4
+                            ],
+                            [
+                                121,
+                                4
+                            ],
+                            [
+                                232,
+                                2
+                            ],
+                            [
+                                122,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        420000000,
+                        [
+                            [
+                                100008,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        450000000,
+                        [
+                            [
+                                100009,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        500000000,
+                        [
+                            [
+                                9998,
+                                3
+                            ]
+                        ]
+                    ]
                 ]
             }
         },
@@ -24465,6 +24890,16 @@
                     "Start": 1696298400,
                     "End": 1696878000,
                     "RewardSet": 3300,
+                    "RewardSetMax": 48
+                },
+                {
+                    "SeasonId": 49,
+                    "SeasonDisplay": 47,
+                    "RaidId": 2,
+                    "Terrain": "Indoor",
+                    "Start": 1697508000,
+                    "End": 1698087600,
+                    "RewardSet": 3700,
                     "RewardSetMax": 48
                 }
             ],
@@ -31733,6 +32168,584 @@
                             ]
                         ]
                     ]
+                ],
+                "3700": [
+                    [
+                        250000,
+                        [
+                            [
+                                2000001,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        500000,
+                        [
+                            [
+                                10,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        750000,
+                        [
+                            [
+                                120,
+                                6
+                            ],
+                            [
+                                140,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1000000,
+                        [
+                            [
+                                3000001,
+                                300000
+                            ]
+                        ]
+                    ],
+                    [
+                        1250000,
+                        [
+                            [
+                                2000002,
+                                8
+                            ]
+                        ]
+                    ],
+                    [
+                        1500000,
+                        [
+                            [
+                                11,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        1750000,
+                        [
+                            [
+                                121,
+                                3
+                            ],
+                            [
+                                141,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        2000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        2500000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ]
+                        ]
+                    ],
+                    [
+                        3000000,
+                        [
+                            [
+                                12,
+                                3
+                            ]
+                        ]
+                    ],
+                    [
+                        3500000,
+                        [
+                            [
+                                122,
+                                2
+                            ],
+                            [
+                                142,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        4000000,
+                        [
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        4500000,
+                        [
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5000000,
+                        [
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        5500000,
+                        [
+                            [
+                                123,
+                                1
+                            ],
+                            [
+                                143,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        6000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        7000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        8000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        9000000,
+                        [
+                            [
+                                120,
+                                12
+                            ],
+                            [
+                                140,
+                                12
+                            ],
+                            [
+                                121,
+                                6
+                            ],
+                            [
+                                141,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        10000000,
+                        [
+                            [
+                                3000001,
+                                500000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        12000000,
+                        [
+                            [
+                                2000003,
+                                4
+                            ],
+                            [
+                                2000004,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        14000000,
+                        [
+                            [
+                                12,
+                                3
+                            ],
+                            [
+                                13,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        16000000,
+                        [
+                            [
+                                122,
+                                2
+                            ],
+                            [
+                                142,
+                                2
+                            ],
+                            [
+                                123,
+                                1
+                            ],
+                            [
+                                143,
+                                1
+                            ]
+                        ]
+                    ],
+                    [
+                        18000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        20000000,
+                        [
+                            [
+                                2000001,
+                                32
+                            ],
+                            [
+                                2000002,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        22000000,
+                        [
+                            [
+                                10,
+                                24
+                            ],
+                            [
+                                11,
+                                12
+                            ]
+                        ]
+                    ],
+                    [
+                        24000000,
+                        [
+                            [
+                                120,
+                                12
+                            ],
+                            [
+                                140,
+                                12
+                            ],
+                            [
+                                121,
+                                6
+                            ],
+                            [
+                                141,
+                                6
+                            ]
+                        ]
+                    ],
+                    [
+                        26000000,
+                        [
+                            [
+                                3000001,
+                                1200000
+                            ],
+                            [
+                                3000003,
+                                150
+                            ]
+                        ]
+                    ],
+                    [
+                        29000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        32000000,
+                        [
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        35000000,
+                        [
+                            [
+                                122,
+                                4
+                            ],
+                            [
+                                142,
+                                4
+                            ],
+                            [
+                                123,
+                                2
+                            ],
+                            [
+                                143,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        38000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        41000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        44000000,
+                        [
+                            [
+                                2000002,
+                                32
+                            ],
+                            [
+                                2000003,
+                                16
+                            ]
+                        ]
+                    ],
+                    [
+                        47000000,
+                        [
+                            [
+                                3000003,
+                                200
+                            ]
+                        ]
+                    ],
+                    [
+                        50000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        60000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        70000000,
+                        [
+                            [
+                                121,
+                                6
+                            ],
+                            [
+                                141,
+                                6
+                            ],
+                            [
+                                122,
+                                4
+                            ],
+                            [
+                                142,
+                                4
+                            ]
+                        ]
+                    ],
+                    [
+                        80000000,
+                        [
+                            [
+                                2000003,
+                                8
+                            ],
+                            [
+                                2000004,
+                                2
+                            ],
+                            [
+                                12,
+                                6
+                            ],
+                            [
+                                13,
+                                2
+                            ]
+                        ]
+                    ],
+                    [
+                        90000000,
+                        [
+                            [
+                                23,
+                                20
+                            ]
+                        ]
+                    ],
+                    [
+                        100000000,
+                        [
+                            [
+                                3000001,
+                                1500000
+                            ]
+                        ]
+                    ],
+                    [
+                        120000000,
+                        [
+                            [
+                                3000001,
+                                2000000
+                            ]
+                        ]
+                    ],
+                    [
+                        150000000,
+                        [
+                            [
+                                3000001,
+                                2500000
+                            ]
+                        ]
+                    ],
+                    [
+                        180000000,
+                        [
+                            [
+                                3000001,
+                                3000000
+                            ]
+                        ]
+                    ],
+                    [
+                        210000000,
+                        [
+                            [
+                                2000003,
+                                32
+                            ]
+                        ]
+                    ],
+                    [
+                        240000000,
+                        [
+                            [
+                                9998,
+                                5
+                            ]
+                        ]
+                    ],
+                    [
+                        270000000,
+                        [
+                            [
+                                2000004,
+                                8
+                            ]
+                        ]
+                    ],
+                    [
+                        310000000,
+                        [
+                            [
+                                100008,
+                                1
+                            ]
+                        ]
+                    ]
                 ]
             },
             "EliminateRewardSets": {}
@@ -31787,6 +32800,16 @@
                     "Start": 1695880800,
                     "End": 1696449600,
                     "RewardSet": 600,
+                    "RewardSetMax": 36
+                },
+                {
+                    "SeasonId": 6,
+                    "SeasonDisplay": 5,
+                    "RaidId": 1,
+                    "Terrain": "Outdoor",
+                    "Start": 1697090400,
+                    "End": 1697659200,
+                    "RewardSet": 700,
                     "RewardSetMax": 40
                 }
             ],
@@ -32222,6 +33245,42 @@
                             [
                                 23,
                                 20
+                            ]
+                        ]
+                    ],
+                    [
+                        62500000,
+                        [
+                            [
+                                3000001,
+                                1000000
+                            ]
+                        ]
+                    ],
+                    [
+                        75000000,
+                        [
+                            [
+                                3000001,
+                                1500000
+                            ]
+                        ]
+                    ],
+                    [
+                        87500000,
+                        [
+                            [
+                                3000001,
+                                2000000
+                            ]
+                        ]
+                    ],
+                    [
+                        100000000,
+                        [
+                            [
+                                3000001,
+                                3000000
                             ]
                         ]
                     ]
@@ -33958,42 +35017,6 @@
                             [
                                 23,
                                 20
-                            ]
-                        ]
-                    ],
-                    [
-                        62500000,
-                        [
-                            [
-                                3000001,
-                                1000000
-                            ]
-                        ]
-                    ],
-                    [
-                        75000000,
-                        [
-                            [
-                                3000001,
-                                1500000
-                            ]
-                        ]
-                    ],
-                    [
-                        87500000,
-                        [
-                            [
-                                3000001,
-                                2000000
-                            ]
-                        ]
-                    ],
-                    [
-                        100000000,
-                        [
-                            [
-                                3000001,
-                                3000000
                             ]
                         ]
                     ]

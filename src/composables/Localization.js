@@ -2,7 +2,7 @@ import { useDataStore } from '../stores/DataStore';
 
 export function translate(group, key, ...replacements) {
     const localizations = useDataStore().localization.data;
-    return localizations[group][''+key]?.replace(/\{([0-9]+)\}/g, (match, p1) => (p1 < replacements.length) ? replacements[p1] : '') ?? `[${group}:${key}]`;   
+    return localizations[group][''+key]?.replace(/\{([0-9]+)\}/g, (match, p1) => (p1 < replacements.length) ? replacements[p1] : '') ?? null;   
 }
 
 export function translateUi(key, ...replacements) {

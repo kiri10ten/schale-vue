@@ -2,7 +2,12 @@
 export function getStatIconName(stat) {
     const statName = stat.split('_')[0]
     if (statName.startsWith('Enhance')) {
-        return 'EnhanceRate';
+        if (statName.includes('Armor') || statName.includes('Unarmed')) {
+            return 'EnhanceArmorRate';
+        } else {
+            return 'EnhanceRate';
+        }
+        
     } else if (statName.startsWith('Extend')) {
         return 'ExtendDuration';
     } else {

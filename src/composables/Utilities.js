@@ -10,6 +10,11 @@ export function setBackground(src) {
     newBackground.src = `/images/background/${src}`;
 }
 
+export function setNoBackground() {
+    const settings = useSettingsStore().settings;
+    document.body.classList.toggle('no-background', settings.backgrounds == false);
+}
+
 export function setTheme() {
     const settings = useSettingsStore().settings;
 

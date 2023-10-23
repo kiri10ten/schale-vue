@@ -7,8 +7,16 @@
     --col-theme-glass-modal: rgba(255, 255, 255, 0.7);
     --col-theme-accent: rgba(255, 255, 255, 0.3);
     --col-theme-text: rgb(0, 0, 0);
-    --col-theme-svgicon-primary: rgb(0, 0, 0);
-    --col-theme-svgicon-secondary: rgb(127, 127, 127);
+    --col-theme-text-muted: rgba(33, 37, 41, 0.75);
+
+    $icon-primary: rgb(0, 0, 0);
+    $icon-secondary: rgb(160, 160, 160);
+
+    --col-theme-svgicon-primary: #{$icon-primary};
+    --col-theme-svgicon-primary-invert: #{invert($icon-primary)};
+    --col-theme-svgicon-secondary: #{$icon-secondary};
+    --col-theme-svgicon-secondary-invert: #{invert($icon-secondary)};
+
     --col-theme-text-t: rgba(0, 0, 0, 0.4);
     --col-theme-logo: rgba(0, 107, 255, 1);
     --col-theme-background: rgb(222, 226, 230);
@@ -116,8 +124,16 @@
     --col-theme-glass-modal: rgba(33, 37, 41, 0.478);
     --col-theme-accent: rgba(0, 0, 0, 0.25);
     --col-theme-text: rgb(255, 255, 255);
-    --col-theme-svgicon-primary: rgb(255, 255, 255);
-    --col-theme-svgicon-secondary: rgb(127, 127, 127);
+    --col-theme-text-muted: rgba(222, 226, 230, 0.75);
+
+    $icon-primary: rgb(255, 255, 255);
+    $icon-secondary: rgb(127, 127, 127);
+
+    --col-theme-svgicon-primary: #{$icon-primary};
+    --col-theme-svgicon-primary-invert: #{invert($icon-primary)};
+    --col-theme-svgicon-secondary: #{$icon-secondary};
+    --col-theme-svgicon-secondary-invert: #{invert($icon-secondary)};
+
     --col-theme-text-t: rgba(255, 255, 255, 0.4);
     --col-theme-logo: hsl(188, 100%, 49%);
     --col-theme-background: rgb(33, 37, 41);
@@ -199,4 +215,12 @@
 
 .reduced-motion {
     --var-animation-duration: 0ms;
+}
+
+body.no-background {
+
+    #ba-background {
+        background-image: none !important;
+    }
+    
 }

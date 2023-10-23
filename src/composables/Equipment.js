@@ -1,3 +1,4 @@
+import { computed, toValue } from "vue";
 import { useDataStore } from "../stores/DataStore";
 
 const equipmentData = useDataStore().equipment.data;
@@ -22,9 +23,31 @@ export function getEquipmentStats(type, tier, level) {
     const equipment = getEquipmentByType(type, tier);
     const stats = {}
     for (let i = 0; i < equipment.StatType.length; i++) {
-        stats[equipment.StatType[i]] = interpolateStat(equipment.StatValue[i], [10, 10]) 
+        stats[equipment.StatType[i]] = interpolateStat(equipment.StatValue[i], [level == -1 ? equipment.MaxLevel : level, equipment.MaxLevel]) 
     }
     return stats
+}
+
+export function useEquipmentStats(equipment, level) {
+
+    const calculatedStats = computed(() => {
+
+        const equipmentVal = toValue(equipment);
+        const equipmentStats = {};
+
+        for (let i = 0; i < equipmentVal.StatType.length; i++) {
+            const statTotal = interpolateStat(equipmentVal.StatValue[i], [toValue(level) == -1 ? equipmentVal.MaxLevel : toValue(level), equipmentVal.MaxLevel]);
+            const bonusType = equipmentVal.StatType[i].split('_')[1];
+            equipmentStats[equipmentVal.StatType[i]] = {
+                total: statTotal,
+                totalStr: `+${bonusType == 'Base' ? statTotal : +((statTotal/100).toFixed(2)) + '%'}`
+            }
+        }
+
+        return equipmentStats;
+    })
+
+    return { calculatedStats }
 }
 
 export function getEquipmentByType(type, tier) {

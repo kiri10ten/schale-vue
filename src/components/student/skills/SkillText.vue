@@ -32,17 +32,15 @@ const textParameters = computed(() => {
     const level = props.skillLevel;
     const textParameters = [];
     const skillHits = {};
+    const skillRawScale = {}
 
     props.skill.Effects?.filter(e => e.HitsParameter !== undefined).forEach(effect => {
-        if (effect.HitFrams !== undefined) {
-            skillHits[effect.HitsParameter] = [];
-            if ("Hits" in effect) {
-                effect.HitFrames.forEach(() => skillHits[effect.HitsParameter].push(...effect.Hits));
-            } else {
-                effect.HitFrames.forEach(() => skillHits[effect.HitsParameter].push(10000));
-            }
+        if (effect.Hits) {
+            skillHits[effect.HitsParameter] = [...effect.Hits]
+            skillRawScale[effect.HitsParameter] = [...effect.Scale]
         } else {
-            skillHits[effect.HitsParameter] = effect.Hits;
+            skillHits[effect.HitsParameter] = [10000]
+            skillRawScale[effect.HitsParameter] = [...effect.Scale]
         }
     })
 
@@ -55,7 +53,7 @@ const textParameters = computed(() => {
         }
 
         if (props.showHitCount && i in skillHits) {
-            parameterObj.hits = getSkillHitsText(skillHits[i], props.skill.Parameters[i-1][level-1], props.bulletType.toLowerCase())
+            parameterObj.hits = getSkillHitsText(skillHits[i], skillRawScale[i][level - 1], props.bulletType.toLowerCase())
         }
 
         textParameters.push(parameterObj);
@@ -72,7 +70,7 @@ const textParts = computed(() => {
 function getPartObj(part) {
     let partType = 'text';
     let partContent = part.replace(/[0-9.]+(?:%|s|秒|초| วินาที)/g, (match) => {return `<b>${match}</b>`});
-    partContent = part.replace(/<kb:(\d+)>/g, (match, p1) => {
+    partContent = partContent.replace(/<kb:(\d+)>/g, (match, p1) => {
         const knockbackEffect = props.skill.Effects.filter(e => e.Type == 'Knockback')[p1 - 1]
         return `<b>${distanceString(knockbackEffect.Scale[props.skillLevel - 1] * 2, true)}</b>`
     });
@@ -111,16 +109,23 @@ function getPartObj(part) {
 
 function getSkillHitsText(damageDist, totalDamage, type) {
     let hits = {};
+    const hitsArray = [];
     let hitsText = '';
-    totalDamage = parseFloat(totalDamage.replace('%', ''));
-    damageDist.forEach((hit) => {
-        hit = parseFloat(((hit / 10000) * totalDamage).toFixed(1)) + '%';
-        hits[hit] = hits[hit] ? hits[hit]+1 : 1;
+
+    damageDist.forEach((dist) => {
+        const hitAmount = +((dist / 10000) * totalDamage).toFixed(0)
+        if (hitsArray.length && hitsArray[hitsArray.length - 1][0] == hitAmount) {
+            hitsArray[hitsArray.length - 1][1] += 1;
+        } else {
+            hitsArray.push([hitAmount, 1]);
+        }
     })
-    Object.keys(hits).forEach((hit) => {
-        hitsText += `${hitsText == '' ? '' : '\n'}<span class='ba-col-${type}'>${hit}</span> <b>&times;${hits[hit]}</b>`;
-    })
-    return translateUi('skill_hits_tooltip', `<b>${damageDist.length}</b>`) + `\n<small>${hitsText}</small>`;
+
+    for (const [hitAmount, times] of hitsArray) {
+        hitsText += `<div class="d-flex w-100 justify-content-between"><small class='ba-col-${type}'>${(hitAmount / 100)}%</small><small class="ms-3 text-bold">&times;${times}</small></div>`;
+    }
+
+    return `<div><b>${damageDist.length}</b> hits</div><div class="d-flex w-100 flex-column align-items-center">${hitsText}</div>`;
 }
 
 </script>

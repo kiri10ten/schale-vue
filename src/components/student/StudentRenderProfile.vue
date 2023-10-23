@@ -1,5 +1,5 @@
 <script setup>
-import { computed, toRefs } from 'vue';
+import { computed, toRef, toRefs } from 'vue';
 import { useStudentStore } from '../../stores/StudentStore';
 import { translate, translateUi } from '../../composables/Localization';
 import { regionSettings } from '../../composables/RegionSettings';
@@ -24,20 +24,13 @@ const props = defineProps({
 
 const bondStats = useStudentBondStats(computed(() => {return props.student}), refStudentDisplay.BondLevelDisplay, false);
 
-const gifts = useGiftsByStudent(props.student);
-
-const lobbyTooltip = computed(() => {
-    return {
-        title: translateUi('memory_lobby_student', props.student.Name),
-        body: translateUi('memory_lobby_unlock', props.student.MemoryLobby[settings.server], props.student.Name) + '\n' + translateUi('memory_lobby_bgm', props.student.MemoryLobbyBGM)
-    }
-})
+const gifts = useGiftsByStudent(toRef(props, 'student'));
 
 </script>
 
 <template>
     <div class="d-flex flex-row align-items-top">
-        <img id="ba-profile-portrait-img" class="drop-shadow me-3" :src="`/images/student/collection/${student.Id}.webp`">
+        <img id="ba-profile-portrait-img" class="me-3" :src="`/images/student/collection/${student.Id}.webp`">
         <div>
             <div class="my-1">
                 <h3 id="ba-student-fullname" class="d-inline">
@@ -86,7 +79,7 @@ const lobbyTooltip = computed(() => {
                 <td width="50%">
                     <div class="d-flex align-items-top justify-content-between">
                         <span>{{ translateUi('height') }}</span>
-                        <span class="ms-2 text-bold text-end">{{ student.CharHeightMetric + ` (${student.CharHeightImperial})` }}</span>
+                        <span class="ms-2 text-bold text-end">{{ student.CharHeightMetric + (student.CharHeightImperial ? ` (${student.CharHeightImperial})` : '')}}</span>
                     </div>
                 </td>
             </tr>
@@ -131,32 +124,42 @@ const lobbyTooltip = computed(() => {
     </div>
 
     <div class="row g-1 my-1">
-        <div class="d-flex flex-row">
-            <div class="flex-grow-1">
-                <div id="ba-bond-stat-table" class="ba-panel ba-stats mb-2">
-                    <StatsTable :character-stats="bondStats"></StatsTable>
-                </div>
-                <div class="d-flex flex-row align-items-center">
-                    <input v-model.number="studentDisplay.BondLevelDisplay" type="range" class="form-range me-2 flex-fill" :min="1" :max="regionSettings.BondMaxLevel">
-                    <span class="ba-slider-label">
-                        <span id="ba-bond-level"><fa icon="heart" class="me-1" />{{ studentDisplay.BondLevelDisplay }}</span>
-                    </span>
-                </div>
-            </div>
-            <Tooltip v-if="student.MemoryLobby[settings.server]" v-bind="lobbyTooltip" class="ba-student-lobby ms-3 drop-shadow">
-                <img id="ba-student-lobby-img" :src="`/images/student/lobby/${student.Id}.webp`">
-                <span id="ba-student-lobby-unlock" class="unselectable">{{ student.MemoryLobby[settings.server] }}</span>
-            </Tooltip>
+
+        <div id="ba-bond-stat-table" class="ba-panel ba-stats mb-2">
+            <StatsTable :character-stats="bondStats"></StatsTable>
+        </div>
+        <div class="d-flex flex-row align-items-center">
+            <input v-model.number="studentDisplay.BondLevelDisplay" type="range" class="form-range me-2 flex-fill" :min="1" :max="regionSettings.BondMaxLevel">
+            <span class="ba-slider-label">
+                <span id="ba-bond-level"><fa icon="heart" class="me-1" />{{ studentDisplay.BondLevelDisplay }}</span>
+            </span>
         </div>
     </div>
+    <div v-if="student.MemoryLobby[settings.server]" class="ba-panel p-2 mt-3">
+        <div class="d-flex gap-2">
+            <div class="ba-student-lobby">
+                <img id="ba-student-lobby-img" :src="`/images/student/lobby/${student.Id}.webp`">
+                <span id="ba-student-lobby-unlock" class="unselectable">{{ student.MemoryLobby[settings.server] }}</span>
+            </div>
+            <div>
+                <h5 class="text-bold mb-1">{{ translateUi('memory_lobby') }}</h5>
+                <p class="mb-1">{{ translateUi('memory_lobby_unlock', student.MemoryLobby[settings.server], student.Name) }}</p>
+                <p class="m-0"><fa icon="music" class="me-2"></fa><i>{{ translate('BGM', student.MemoryLobbyBGM) ?? `Theme ${student.MemoryLobbyBGM}` }}</i></p>
+            </div>
+        </div>
+
+    </div>
+
     <div class="mt-3">
         <h5 class="text-bold">{{ translateUi('favoritem_title') }}</h5>
     </div>
     <div class="my-1 p-2 item-icon-list ba-panel">
-        <template v-for="i in 3">
-            <ItemIcon v-for="gift in gifts[5-i]" :item-type="'Item'" :item-id="gift" :icon-label="`/images/ui/Cafe_Interaction_Gift_0${5-i}.png`" />
+        <ItemIcon v-for="gift in gifts" :item-type="'Item'" :item="gift.gift" :primary-label="''+gift.exp" :icon-label="`/images/ui/Cafe_Interaction_Gift_0${gift.grade}.png`" />
+        <p v-if="!gifts.length" class="m-0 text-center">{{ translateUi('favoritem_none') }}</p>
+        <!-- <template v-for="i in 3">
+            <ItemIcon v-for="gift in gifts[5-i]" :item-type="'Item'" :item-id="gift" :primary-label="" :icon-label="`/images/ui/Cafe_Interaction_Gift_0${5-i}.png`" />
         </template>
-        <p v-if="gifts[4].length == 0 && gifts[3].length == 0 && gifts[2].length == 0" class="m-0 text-center">{{ translateUi('favoritem_none') }}</p>
+        <p v-if="gifts[4].length == 0 && gifts[3].length == 0 && gifts[2].length == 0" class="m-0 text-center">{{ translateUi('favoritem_none') }}</p> -->
     </div>
     <div class="mt-3">
         <h5 class="text-bold">{{ translateUi('furniture_title') }}</h5>

@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import { useDataStore } from '../stores/DataStore';
 
 const router = createRouter({
@@ -8,7 +7,10 @@ const router = createRouter({
         {
             path: '/',
             name: 'home',
-            component: HomeView,
+            component: () => import('../views/HomeView.vue'),
+            meta: {
+                requiredJson: ['students']
+            }
         },
         {
             path: '/student',
@@ -29,9 +31,25 @@ const router = createRouter({
         {
             path: '/item',
             name: 'itemlistview',
-            component: () => import('../views/ItemView.vue'),
+            component: () => import('../views/ItemListView.vue'),
             meta: {
-                requiredJson: ['items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
+            }  
+        },
+        {
+            path: '/furniture',
+            name: 'furniturelistview',
+            component: () => import('../views/ItemListView.vue'),
+            meta: {
+                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
+            }  
+        },
+        {
+            path: '/equipment',
+            name: 'equipmentlistview',
+            component: () => import('../views/ItemListView.vue'),
+            meta: {
+                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -39,7 +57,7 @@ const router = createRouter({
             name: 'itemview',
             component: () => import('../views/ItemView.vue'),
             meta: {
-                requiredJson: ['items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -47,7 +65,7 @@ const router = createRouter({
             name: 'equipmentview',
             component: () => import('../views/ItemView.vue'),
             meta: {
-                requiredJson: ['items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -55,7 +73,7 @@ const router = createRouter({
             name: 'furnitureview',
             component: () => import('../views/ItemView.vue'),
             meta: {
-                requiredJson: ['items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
             }  
         }
     ],
@@ -70,7 +88,7 @@ const router = createRouter({
 
 router.beforeEach(async (to) => {
     if (to.meta.requiredJson) {
-        await useDataStore().ensureData(...to.meta.requiredJson);
+        await useDataStore().ensureData('config', ...to.meta.requiredJson);
     }
 })
 

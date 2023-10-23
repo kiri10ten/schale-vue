@@ -25,10 +25,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Floor",
         "SetGroupId": 0,
         "Name": "原木地板",
@@ -65,10 +66,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Wallpaper",
         "SetGroupId": 0,
         "Name": "原木墙壁",
@@ -105,10 +107,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Background",
         "SetGroupId": 0,
         "Name": "天蓝色渐变背景",
@@ -155,10 +158,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "白板",
@@ -202,10 +206,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hiyori"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "原木收纳柜",
@@ -242,10 +247,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 0,
         "Name": "蓝色简洁地毯",
@@ -288,10 +294,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "原木椅子",
@@ -328,10 +335,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "原木辅助椅",
@@ -368,10 +376,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "原木收纳桌",
@@ -409,10 +418,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Sena"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "原木大桌",
@@ -449,10 +459,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "窗帘窗户",
@@ -491,10 +502,11 @@
             "Cafe",
             "F_Kokona"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "白色咖啡桌",
@@ -539,10 +551,11 @@
             "Cafe",
             "F_Ako"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 100,
         "Name": "撞色单人椅",
@@ -590,10 +603,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "花盆置物架",
@@ -641,10 +655,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 100,
         "Name": "蓝色抛光墙壁",
@@ -688,10 +703,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 100,
         "Name": "蓝色抛光地板",
@@ -735,10 +751,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "白色甜品桌",
@@ -787,10 +804,11 @@
             "Cafe",
             "F_Fubuki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 100,
         "Name": "撞色双人椅",
@@ -839,10 +857,11 @@
             "Cafe",
             "F_Mari"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 100,
         "Name": "撞色双层花盆",
@@ -886,10 +905,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "MomoFriends菜单墙壁装饰",
@@ -933,10 +953,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "MomoFriends照片柱",
@@ -982,10 +1003,11 @@
             "F_Misaki",
             "F_Saori"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "落地窗",
@@ -1029,10 +1051,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "佩洛洛置物架",
@@ -1076,10 +1099,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "实木收银台",
@@ -1127,10 +1151,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "实木自助台",
@@ -1182,10 +1207,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 100,
         "Name": "撞色佩洛洛椅子",
@@ -1229,10 +1255,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 100,
         "Name": "MomoFriends霓虹板",
@@ -1276,10 +1303,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 100,
         "Name": "实木料理台",
@@ -1323,10 +1351,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 100,
         "Name": "MomoFriends收纳柜",
@@ -1370,10 +1399,11 @@
             "ShiftingCraftMaterial_Furniture",
             "Cafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 100,
         "Name": "咖啡师佩洛洛玩偶",
@@ -1417,10 +1447,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 101,
         "Name": "粉色小板凳",
@@ -1468,10 +1499,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 101,
         "Name": "观叶植物",
@@ -1523,10 +1555,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 101,
         "Name": "小窗户",
@@ -1574,10 +1607,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 101,
         "Name": "方格瓷砖墙壁",
@@ -1621,10 +1655,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 101,
         "Name": "方格瓷砖地板",
@@ -1669,10 +1704,11 @@
             "GameCenter",
             "F_Hinata"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 101,
         "Name": "白色简洁沙发",
@@ -1720,10 +1756,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "红色街机",
@@ -1767,10 +1804,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "紫色街机",
@@ -1814,10 +1852,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "蓝色街机",
@@ -1861,10 +1900,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 101,
         "Name": "街机霓虹板",
@@ -1908,10 +1948,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 101,
         "Name": "果冻霓虹板",
@@ -1955,10 +1996,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 101,
         "Name": "彩色格子地毯",
@@ -2002,10 +2044,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 101,
         "Name": "磁带桌",
@@ -2050,10 +2093,11 @@
             "GameCenter",
             "F_Himari"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "彩色自动售货机",
@@ -2102,10 +2146,11 @@
             "GameCenter",
             "F_Chihiro"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "多功能彩电",
@@ -2150,10 +2195,11 @@
             "GameCenter",
             "F_Koyuki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "果冻抓娃娃机",
@@ -2199,10 +2245,11 @@
             "F_Midori",
             "F_Momoi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "桌上冰球游戏机",
@@ -2248,10 +2295,11 @@
             "F_Neru",
             "F_Toki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "竞速游戏机",
@@ -2295,10 +2343,11 @@
             "ShiftingCraftMaterial_Furniture",
             "GameCenter"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 101,
         "Name": "跳舞机",
@@ -2342,10 +2391,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "巧克力甜点模型",
@@ -2389,10 +2439,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "情人节甜蜜烤箱",
@@ -2444,10 +2495,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "情人节甜蜜料理台",
@@ -2492,10 +2544,11 @@
             "ChocolateCafe",
             "F_Kazusa"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 102,
         "Name": "情人节甜蜜收纳台",
@@ -2539,10 +2592,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 102,
         "Name": "褐色格子地毯",
@@ -2591,10 +2645,11 @@
             "ChocolateCafe",
             "F_Marina"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 102,
         "Name": "情人节单人椅",
@@ -2638,10 +2693,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "巧克力隔板",
@@ -2685,10 +2741,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 102,
         "Name": "情人节甜点陈列柜",
@@ -2741,10 +2798,11 @@
             "ChocolateCafe",
             "F_Wakamo"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 102,
         "Name": "情人节曲奇沙发",
@@ -2788,10 +2846,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "情人节多功能桌",
@@ -2839,10 +2898,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "点缀照明柱",
@@ -2886,10 +2946,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "巧克力霓虹板",
@@ -2933,10 +2994,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "爱心巧克力模型",
@@ -2980,10 +3042,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "情人节巧克力窗户",
@@ -3027,10 +3090,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "大型巧克力喷泉",
@@ -3074,10 +3138,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "情人节粉红甜点模型",
@@ -3121,10 +3186,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "情人节甜蜜收银台",
@@ -3168,10 +3234,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 102,
         "Name": "甜蜜巧克力墙壁装饰",
@@ -3215,10 +3282,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 102,
         "Name": "情人节粉红地板",
@@ -3262,10 +3330,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 102,
         "Name": "情人节爱心礼物盒",
@@ -3310,10 +3379,11 @@
             "ChocolateCafe",
             "F_Natsu"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 102,
         "Name": "情人节茶几",
@@ -3357,10 +3427,11 @@
             "ShiftingCraftMaterial_Furniture",
             "ChocolateCafe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 102,
         "Name": "情人节巧克力墙",
@@ -3403,10 +3474,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 102,
         "Name": "粉嫩爱心背景",
@@ -3449,10 +3521,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 103,
         "Name": "白色条纹地毯",
@@ -3495,10 +3568,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 103,
         "Name": "圆形白色条纹地毯",
@@ -3541,10 +3615,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 103,
         "Name": "折叠式沙滩椅",
@@ -3592,10 +3667,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Ayane_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "夏季露营组合用品",
@@ -3642,10 +3718,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "蓝色原木屏风",
@@ -3688,10 +3765,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "简易方形花盆",
@@ -3739,10 +3817,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Tsukuyo"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "龟背竹白色花盆",
@@ -3801,10 +3880,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "度假胜地热带花盆",
@@ -3852,10 +3932,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Nonomi_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 103,
         "Name": "折叠式度假胜地桌子",
@@ -3898,10 +3979,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "热带植物艺术套装相框",
@@ -3944,10 +4026,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "格子图案直立窗户",
@@ -3991,10 +4074,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mashiro_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 103,
         "Name": "夏季露营组合遮阳伞",
@@ -4038,10 +4122,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Wakamo_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 103,
         "Name": "复古音乐扩音器",
@@ -4088,10 +4173,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "热带植物艺术墙壁装饰",
@@ -4134,10 +4220,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "霓虹夏季电子板",
@@ -4180,10 +4267,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 103,
         "Name": "夏季度假胜地落地窗",
@@ -4226,10 +4314,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 103,
         "Name": "蓝点磁砖地板",
@@ -4272,10 +4361,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 103,
         "Name": "夏日甜点桌子",
@@ -4319,10 +4409,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hina_swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "小型泳圈组合泳池",
@@ -4366,10 +4457,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Tsurugi_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 103,
         "Name": "彩色大型泳池",
@@ -4413,10 +4505,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Azusa_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 103,
         "Name": "度假胜地苍穹沙发",
@@ -4459,10 +4552,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 103,
         "Name": "蓝色夏季点阵背景",
@@ -4505,10 +4599,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 103,
         "Name": "夏季波浪装饰墙壁",
@@ -4551,10 +4646,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 104,
         "Name": "万圣节南瓜收纳桶",
@@ -4597,10 +4693,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 104,
         "Name": "万圣节蜘蛛网地毯",
@@ -4643,10 +4740,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 104,
         "Name": "鬼魂单人椅",
@@ -4689,10 +4787,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 104,
         "Name": "南瓜汤凳子",
@@ -4735,10 +4834,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "万圣节鬼魂立式看板",
@@ -4781,10 +4881,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "万圣节配色隔板",
@@ -4827,10 +4928,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "万圣节南瓜双层层架",
@@ -4873,10 +4975,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 104,
         "Name": "万圣节南瓜双人沙发",
@@ -4919,10 +5022,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 104,
         "Name": "万圣节配色桌子",
@@ -4965,10 +5069,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "万圣节霓虹电子看板",
@@ -5011,10 +5116,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "烛光照明装饰",
@@ -5057,10 +5163,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "恐怖万圣节组合画框",
@@ -5103,10 +5210,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "万圣节南瓜三层装饰",
@@ -5149,10 +5257,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "万圣节南瓜壁炉",
@@ -5195,10 +5304,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 104,
         "Name": "万圣节钻石图腾地板",
@@ -5242,10 +5352,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Zunko"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 104,
         "Name": "万圣节南瓜甜点桌子",
@@ -5288,10 +5399,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "蜘蛛网花纹拱形窗",
@@ -5335,10 +5447,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Airi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 104,
         "Name": "万圣节南瓜吧台",
@@ -5381,10 +5494,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "万圣节南瓜拍照区",
@@ -5427,10 +5541,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 104,
         "Name": "不给糖就捣蛋鬼魂玩偶",
@@ -5473,10 +5588,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 104,
         "Name": "万圣节快乐墙壁装饰",
@@ -5519,10 +5635,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 104,
         "Name": "万圣节糖浆波浪墙壁",
@@ -5565,10 +5682,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 104,
         "Name": "万圣夜背景",
@@ -5612,10 +5730,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Tomoe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 105,
         "Name": "波浪花纹和室椅",
@@ -5662,10 +5781,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 105,
         "Name": "温泉水豚收纳柜",
@@ -5709,10 +5829,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Kaede"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 105,
         "Name": "温泉水豚夹娃娃机",
@@ -5755,10 +5876,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "温泉图案原木夜灯",
@@ -5801,10 +5923,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "扇子图案方形夜灯",
@@ -5852,10 +5975,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Iroha"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "铁制杂志架",
@@ -5906,10 +6030,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "传统木材隔板",
@@ -5952,10 +6077,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "传统木材隔板入口",
@@ -5998,10 +6124,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "竹子方形花盆",
@@ -6048,10 +6175,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 105,
         "Name": "温泉水豚壁毯",
@@ -6094,10 +6222,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 105,
         "Name": "温泉用品收纳柜",
@@ -6140,10 +6269,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 105,
         "Name": "樱花花瓶桌子",
@@ -6190,10 +6320,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 105,
         "Name": "传统木材格纹窗",
@@ -6237,10 +6368,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Chinatsu_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 105,
         "Name": "高级疗愈按摩椅",
@@ -6284,10 +6416,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Nodoka_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 105,
         "Name": "抹茶组合和室桌子",
@@ -6334,10 +6467,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 105,
         "Name": "传统榻榻米地板",
@@ -6381,10 +6515,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Cherino_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 105,
         "Name": "电子饮料保温柜",
@@ -6431,10 +6566,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 105,
         "Name": "传统瓦片格纹墙壁",
@@ -6479,10 +6615,11 @@
             "F_Megu",
             "F_Shigure_Onsen"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 105,
         "Name": "日本扁柏疗愈组合泡澡桶",
@@ -6525,10 +6662,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 105,
         "Name": "雪花花纹渐层背景",
@@ -6572,10 +6710,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Kayoko_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 106,
         "Name": "传统花纹地板装饰",
@@ -6619,10 +6758,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mimori"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "传统花纹雨伞装饰",
@@ -6666,10 +6806,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Michiru"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "正月圆形夜灯",
@@ -6712,10 +6853,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 106,
         "Name": "正月和服腰带衣架",
@@ -6758,10 +6900,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "正月彩色隔板",
@@ -6804,10 +6947,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 106,
         "Name": "传统格纹推射窗",
@@ -6851,10 +6995,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Pina"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 106,
         "Name": "灯油暖炉及年糕",
@@ -6906,10 +7051,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mutsuki_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "正月剑玉组合桌子",
@@ -6953,10 +7099,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Fuuka_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 106,
         "Name": "花朵纹样绸缎和服衣架",
@@ -7001,10 +7148,11 @@
             "F_Haruna_Newyear",
             "F_Junko_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "正月料理组合桌子",
@@ -7047,10 +7195,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 106,
         "Name": "祝仪敷式榻榻米地板",
@@ -7094,10 +7243,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Aru_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "正月新春挥毫组合桌子",
@@ -7144,10 +7294,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Wallpaper",
         "SetGroupId": 106,
         "Name": "正月金色装饰壁面",
@@ -7191,10 +7342,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Serika_Newyear"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 106,
         "Name": "正月放松被炉桌",
@@ -7237,10 +7389,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Background",
         "SetGroupId": 106,
         "Name": "正月传统花纹背景",
@@ -7283,10 +7436,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "军用弹药收纳箱",
@@ -7329,10 +7483,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 107,
         "Name": "正方形特殊花纹地毯",
@@ -7379,10 +7534,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 107,
         "Name": "长方形特殊花纹地毯",
@@ -7434,10 +7590,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Miyu"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "绿色折叠式露营椅",
@@ -7481,10 +7638,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Saki"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "黄色折叠式露营椅",
@@ -7528,10 +7686,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Miyako"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "粉红色折叠式露营椅",
@@ -7575,10 +7734,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Moe"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "蓝色折叠式露营椅",
@@ -7621,10 +7781,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "军事隔板",
@@ -7667,10 +7828,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 107,
         "Name": "折叠式简易桌子",
@@ -7713,10 +7875,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 107,
         "Name": "露营早午餐套组桌子",
@@ -7759,10 +7922,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 107,
         "Name": "折叠式特殊花纹椅子",
@@ -7805,10 +7969,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 107,
         "Name": "军事紧急粮食收纳箱",
@@ -7851,10 +8016,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Bed",
         "SetGroupId": 107,
         "Name": "军用2段式野战床",
@@ -7897,10 +8063,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 107,
         "Name": "露营木材甲板",
@@ -7943,10 +8110,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 107,
         "Name": "军事露营遮阳棚壁",
@@ -7989,10 +8157,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 107,
         "Name": "军事露营树木背景",
@@ -8035,10 +8204,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "露营烧烤组合火炉",
@@ -8081,10 +8251,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 107,
         "Name": "军事露营遮阳棚入口",
@@ -8127,10 +8298,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 107,
         "Name": "军事组合式厨房桌子",
@@ -8173,10 +8345,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 107,
         "Name": "军事木材枪架",
@@ -8219,10 +8392,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 108,
         "Name": "海滩白色椅子",
@@ -8273,10 +8447,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 108,
         "Name": "海滩凉感垫子",
@@ -8323,10 +8498,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "基本白色隔板",
@@ -8369,10 +8545,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "白色原木隔板",
@@ -8415,10 +8592,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 108,
         "Name": "冰品自动贩卖机",
@@ -8461,10 +8639,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "海滩白色桌子",
@@ -8509,10 +8688,11 @@
             "F_Reisa",
             "F_Kasumi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "原木阳台桌子",
@@ -8555,10 +8735,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "清新水果吧",
@@ -8601,10 +8782,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "清新水果壁饰",
@@ -8647,10 +8829,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "汹涌波浪横幅",
@@ -8694,10 +8877,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Chise_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "海滩凉爽电风扇",
@@ -8748,10 +8932,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "海滩缤纷救生衣",
@@ -8799,10 +8984,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mimori_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 108,
         "Name": "柠檬阳伞配白色桌子",
@@ -8845,10 +9031,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 108,
         "Name": "海滩原木地板",
@@ -8891,10 +9078,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 108,
         "Name": "海滩白色墙壁",
@@ -8937,10 +9125,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "海滩海景窗",
@@ -8983,10 +9172,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 108,
         "Name": "海滩背景",
@@ -9030,10 +9220,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Izuna_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 108,
         "Name": "冰&酷冰淇淋冰箱",
@@ -9076,10 +9267,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 108,
         "Name": "缤纷饮料吧",
@@ -9123,10 +9315,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Shizuko_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 108,
         "Name": "香甜凉爽刨冰吧",
@@ -9169,10 +9362,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 108,
         "Name": "海滩海景阳台",
@@ -9216,10 +9410,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hoshino_Swimsuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 108,
         "Name": "海滩漂浮泳圈",
@@ -9262,10 +9457,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "大運動会の壁掛け時計",
@@ -9308,10 +9504,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のカラーコーン・レッド",
@@ -9354,10 +9551,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のカラーコーン・ブルー",
@@ -9400,10 +9598,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のカラーコーン・スカイブルー",
@@ -9450,10 +9649,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のフラッグ・ライトブルー",
@@ -9496,10 +9696,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のフラッグ・ブルー",
@@ -9542,10 +9743,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のフラッグ・イエロー",
@@ -9596,10 +9798,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 109,
         "Name": "大運動会のスポーツマット",
@@ -9643,10 +9846,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Yuuka_Track"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のマット・スカイブルー",
@@ -9690,10 +9894,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Kotori_Cheerleader"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のマット・ブルー",
@@ -9736,10 +9941,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のマット・ベージュ",
@@ -9782,10 +9988,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "大運動会のスコアボード",
@@ -9828,10 +10035,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "大運動会の窓",
@@ -9874,10 +10082,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "大運動会のベージュの柱",
@@ -9920,10 +10129,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のボール保管箱",
@@ -9966,10 +10176,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "エナジードリンクバスケット",
@@ -10012,10 +10223,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "大運動会のバスケットゴールポスト",
@@ -10058,10 +10270,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "玉入れカゴ・イエロー",
@@ -10104,10 +10317,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "玉入れカゴ・ブルー",
@@ -10150,10 +10364,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "玉入れカゴ・スカイブルー",
@@ -10197,10 +10412,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Ichika"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 109,
         "Name": "大運動会の審判席",
@@ -10243,10 +10459,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のネット",
@@ -10289,10 +10506,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 109,
         "Name": "大運動会の木の床",
@@ -10335,10 +10553,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "大運動会のペロロフラッグ装飾",
@@ -10381,10 +10600,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 109,
         "Name": "大運動会の応援フラッグ装飾",
@@ -10427,10 +10647,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 109,
         "Name": "大運動会の壁紙",
@@ -10473,10 +10694,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 109,
         "Name": "大運動会の背景",
@@ -10519,10 +10741,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会の立看板",
@@ -10565,10 +10788,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 109,
         "Name": "大運動会の折りたたみ椅子",
@@ -10611,10 +10835,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会の跳び箱",
@@ -10658,10 +10883,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hasumi_Track"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会のパン食い競走用スタンド",
@@ -10705,10 +10931,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Mari_Track"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 109,
         "Name": "大運動会の休憩テント",
@@ -10753,10 +10980,11 @@
             "F_Hibiki_Cheerleader",
             "F_Utaha_Cheerleader"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会の応援スタンド",
@@ -10800,10 +11028,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Noa"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会の器具保管箱",
@@ -10846,10 +11075,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 109,
         "Name": "大運動会のランチテーブル",
@@ -10892,10 +11122,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 109,
         "Name": "大運動会のトロフィー陳列台",
@@ -10938,10 +11169,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "大運動会の入場ゲート",
@@ -10984,10 +11216,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室の黒板",
@@ -11030,10 +11263,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "アビドス教室の生徒用ロッカー",
@@ -11076,10 +11310,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "アビドス教室の収納ケース",
@@ -11122,10 +11357,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 110,
         "Name": "アビドス教室の椅子",
@@ -11168,10 +11404,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室の壁掛け時計",
@@ -11218,10 +11455,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室のお弁当が置かれた机",
@@ -11264,10 +11502,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室の床",
@@ -11310,10 +11549,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "アビドス教室の廊下パーテーション",
@@ -11356,10 +11596,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室の壁掛けスピーカー",
@@ -11410,10 +11651,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室の柱",
@@ -11456,10 +11698,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室のスケジュール黒板",
@@ -11502,10 +11745,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室のキャンペーン黒板",
@@ -11548,10 +11792,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "アビドス教室の掃除道具箱",
@@ -11602,10 +11847,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "アビドス教室の先生用ロッカー",
@@ -11649,10 +11895,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Nonomi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室のカーディガンが置かれた机",
@@ -11696,10 +11943,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Hoshino"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室のクジラ人形が置かれた机",
@@ -11743,10 +11991,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Ayane"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室のメガネが置かれた机",
@@ -11790,10 +12039,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Shiroko"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室の覆面が置かれた机",
@@ -11837,10 +12087,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Serika"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室のリボンと手袋が置かれた机",
@@ -11883,10 +12134,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室の大きなバッグが置かれた机",
@@ -11929,10 +12181,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "アビドス教室のガンスタンド",
@@ -11975,10 +12228,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "アビドス教室のボードパーテーション",
@@ -12021,10 +12275,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室の先生のデスク",
@@ -12067,10 +12322,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室のロゴフレーム",
@@ -12113,10 +12369,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室の学級目標",
@@ -12159,10 +12416,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "アビドス教室の分別ボックス",
@@ -12217,10 +12475,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "アビドス教室のホワイトボード",
@@ -12263,10 +12522,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 110,
         "Name": "アビドス教室の背景",
@@ -12309,10 +12569,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 110,
         "Name": "アビドス教室のタイルの床",
@@ -12355,10 +12616,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 110,
         "Name": "アビドス教室の壁",
@@ -12401,10 +12663,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 110,
         "Name": "アビドス教室の本棚",
@@ -12448,10 +12711,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Shiroko_RidingSuit"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "アビドス教室の自転車",
@@ -12494,10 +12758,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 110,
         "Name": "アビドス教室のパーテーション",
@@ -12540,10 +12805,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 110,
         "Name": "アビドス教室の教卓",
@@ -12586,10 +12852,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 110,
         "Name": "アビドス教室の自動販売機",
@@ -12632,10 +12899,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室のマシンガンスタンド",
@@ -12678,10 +12946,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 110,
         "Name": "アビドス教室の窓",
@@ -12724,10 +12993,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Bed",
         "SetGroupId": 111,
         "Name": "ゲーム開発部模様の寝具セット",
@@ -12770,10 +13040,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ミレニアム宅配セットボックス",
@@ -12816,10 +13087,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 111,
         "Name": "青の円形カーペット",
@@ -12862,10 +13134,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の白いスツール",
@@ -12908,10 +13181,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の青い座椅子",
@@ -12954,10 +13228,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の赤い座布団",
@@ -13000,10 +13275,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の部室ドア",
@@ -13046,10 +13322,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ミレニアムロゴの窓付きパーテーション",
@@ -13092,10 +13369,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 111,
         "Name": "シルバー·ポリッシングの床",
@@ -13138,10 +13416,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の青いロッカー",
@@ -13184,10 +13463,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の鉄製パーテーション",
@@ -13230,10 +13510,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "サンスベリアセット植木鉢",
@@ -13276,10 +13557,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のスケジュールボード",
@@ -13322,10 +13604,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "ドリンクお菓子セットのテーブル",
@@ -13368,10 +13651,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ブルーラインの柱",
@@ -13414,10 +13698,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のロゴプレート",
@@ -13460,10 +13745,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "白いミニ換気扇",
@@ -13506,10 +13792,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のLED電光板",
@@ -13552,10 +13839,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ヴィンテージな壁掛け扇風機",
@@ -13598,10 +13886,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の額縁",
@@ -13644,10 +13933,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の壁掛けエアコン",
@@ -13690,10 +13980,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "レトロゲーム収納テーブル",
@@ -13736,10 +14027,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "ノートパソコン収納テーブル",
@@ -13782,10 +14074,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 111,
         "Name": "ゲーム本収納テーブル",
@@ -13828,10 +14121,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 111,
         "Name": "ゲーム用モニター",
@@ -13874,10 +14168,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ボードゲーム収納ケース",
@@ -13920,10 +14215,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ゲームグッズ収納ケース",
@@ -13966,10 +14262,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ゲーム機収納ケース",
@@ -14013,10 +14310,11 @@
             "ShiftingCraftMaterial_Furniture",
             "F_Aris"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のソファー",
@@ -14059,10 +14357,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のピンクベアーぬいぐるみ",
@@ -14105,10 +14404,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 111,
         "Name": "モノトーンパターンの床",
@@ -14151,10 +14451,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 111,
         "Name": "ブルーラインの壁",
@@ -14197,10 +14498,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のロゴ背景",
@@ -14243,10 +14545,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の個人収納ケース",
@@ -14291,10 +14594,11 @@
             "F_Midori",
             "F_Momoi"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 111,
         "Name": "ゲーム機用のウッドモニター",
@@ -14337,10 +14641,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のカーペット",
@@ -14383,10 +14688,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ゲーム開発部の人形",
@@ -14429,10 +14735,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のホワイトボード",
@@ -14475,10 +14782,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 111,
         "Name": "ゲーム開発部のカーテン付き窓",
@@ -14521,10 +14829,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・アンサンブル植木鉢",
@@ -14567,10 +14876,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・標識",
@@ -14613,10 +14923,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・植木鉢陳列台",
@@ -14659,10 +14970,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ植木鉢",
@@ -14705,10 +15017,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ラタン照明セット",
@@ -14751,10 +15064,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルバスケット",
@@ -14797,10 +15111,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・パーテーション",
@@ -14843,10 +15158,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカル植木鉢",
@@ -14889,10 +15205,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ミニウインドウ",
@@ -14935,10 +15252,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルペインティング",
@@ -14981,10 +15299,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ壁掛け",
@@ -15027,10 +15346,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ照明",
@@ -15073,10 +15393,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハ壁掛け照明",
@@ -15119,10 +15440,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・パターンマット",
@@ -15165,10 +15487,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ダイヤモンドパターンマット",
@@ -15211,10 +15534,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ナチュラルマット",
@@ -15257,10 +15581,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ラタンマット",
@@ -15303,10 +15628,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・ブランチソファ",
@@ -15349,10 +15675,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・ソファ",
@@ -15395,10 +15722,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルテーブル",
@@ -15441,10 +15769,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Table",
         "SetGroupId": 112,
         "Name": "サンシャイン・ジューステーブル",
@@ -15487,10 +15816,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・フラワー噴水",
@@ -15533,10 +15863,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・ストライプソファー",
@@ -15579,10 +15910,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Bed",
         "SetGroupId": 112,
         "Name": "サンシャイン・サンベッドホワイト",
@@ -15625,10 +15957,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Bed",
         "SetGroupId": 112,
         "Name": "サンシャイン・サンベッドレモン",
@@ -15671,10 +16004,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Closet",
         "SetGroupId": 112,
         "Name": "サンシャイン・陳列棚",
@@ -15717,10 +16051,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ヤシの木",
@@ -15763,10 +16098,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ホワイトフラワー鉢",
@@ -15809,10 +16145,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・オーシャンビューウィンドウ",
@@ -15855,10 +16192,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FloorDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・ビーチマット",
@@ -15901,10 +16239,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Wallpaper",
         "SetGroupId": 112,
         "Name": "サンシャイン・ラブリー壁紙",
@@ -15947,10 +16286,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Floor",
         "SetGroupId": 112,
         "Name": "サンシャイン・ナチュラル床",
@@ -15993,10 +16333,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "Background",
         "SetGroupId": 112,
         "Name": "サンシャイン・リゾートの背景",
@@ -16039,10 +16380,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 112,
         "Name": "サンシャイン・キャノピーソファ",
@@ -16085,10 +16427,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・ドリンクバー",
@@ -16131,10 +16474,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・フラワープール",
@@ -16177,10 +16521,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・トロピカルプール",
@@ -16223,10 +16568,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 112,
         "Name": "サンシャイン・レーステーブル",
@@ -16269,10 +16615,11 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 112,
         "Name": "サンシャイン・アロハウインドウ",
@@ -16315,10 +16662,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（野外战）青铜奖杯",
@@ -16355,10 +16703,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（野外战）白银奖杯",
@@ -16395,10 +16744,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（野外战）黄金奖杯",
@@ -16435,10 +16785,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（野外战）铂金奖杯",
@@ -16475,10 +16826,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（街区战）青铜奖杯",
@@ -16515,10 +16867,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（街区战）白银奖杯",
@@ -16555,10 +16908,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（街区战）黄金奖杯",
@@ -16595,10 +16949,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "比纳（街区战）铂金奖杯",
@@ -16635,10 +16990,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（野外战）青铜奖杯",
@@ -16675,10 +17031,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（野外战）白银奖杯",
@@ -16715,10 +17072,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（野外战）黄金奖杯",
@@ -16755,10 +17113,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（野外战）铂金奖杯",
@@ -16795,10 +17154,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（室内战）青铜奖杯",
@@ -16835,10 +17195,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（室内战）白银奖杯",
@@ -16875,10 +17236,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（室内战）黄金奖杯",
@@ -16915,10 +17277,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "切赛德（室内战）铂金奖杯",
@@ -16955,10 +17318,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（室内战）青铜奖杯",
@@ -16995,10 +17359,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（室内战）白银奖杯",
@@ -17035,10 +17400,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（室内战）黄金奖杯",
@@ -17075,10 +17441,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（室内战）铂金奖杯",
@@ -17115,10 +17482,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（街区战）青铜奖杯",
@@ -17155,10 +17523,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（街区战）白银奖杯",
@@ -17195,10 +17564,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（街区战）黄金奖杯",
@@ -17235,10 +17605,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup001"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "白&黑（街区战）铂金奖杯",
@@ -17275,10 +17646,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（室内战）青铜奖杯",
@@ -17315,10 +17687,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（室内战）白银奖杯",
@@ -17355,10 +17728,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（室内战）黄金奖杯",
@@ -17395,10 +17769,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（室内战）铂金奖杯",
@@ -17435,10 +17810,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（街区战）青铜奖杯",
@@ -17475,10 +17851,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（街区战）白银奖杯",
@@ -17515,10 +17892,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（街区战）黄金奖杯",
@@ -17555,10 +17933,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "希罗尼穆斯（街区战）铂金奖杯",
@@ -17595,10 +17974,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(野战)铜奖杯",
@@ -17635,10 +18015,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(野战)银奖杯",
@@ -17675,10 +18056,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(野战)黄金奖杯",
@@ -17715,10 +18097,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(野战)白金奖杯",
@@ -17755,10 +18138,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(城镇战)铜奖杯",
@@ -17795,10 +18179,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(城镇战)银奖杯",
@@ -17835,10 +18220,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(城镇战)黄金奖杯",
@@ -17875,10 +18261,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "KAITEN FX Mk.0(城镇战)白金奖杯",
@@ -17915,10 +18302,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(室内战)铜奖杯",
@@ -17955,10 +18343,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(室内战)银奖杯",
@@ -17995,10 +18384,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(室内战)黄金奖杯",
@@ -18035,10 +18425,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(室内战)白金奖杯",
@@ -18075,10 +18466,11 @@
             "CraftMaterial_Furniture",
             "TrophyBronzeGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(野战)铜奖杯",
@@ -18115,10 +18507,11 @@
             "CraftMaterial_Furniture",
             "TrophySilverGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(野战)银奖杯",
@@ -18155,10 +18548,11 @@
             "CraftMaterial_Furniture",
             "TrophyGoldGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(野战)黄金奖杯",
@@ -18195,10 +18589,11 @@
             "CraftMaterial_Furniture",
             "TrophyPlatinumGroup002"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "佩洛洛吉拉(野战)白金奖杯",
@@ -18234,10 +18629,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "霍德(城镇战)铜奖杯",
@@ -18273,10 +18669,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "霍德(城镇战)银奖杯",
@@ -18312,10 +18709,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "霍德(城镇战)黄金奖杯",
@@ -18351,10 +18749,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "霍德(城镇战)白金奖杯",
@@ -18390,10 +18789,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "戈兹(室内战)铜奖杯",
@@ -18429,10 +18829,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "戈兹(室内战)银奖杯",
@@ -18468,10 +18869,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "戈兹(室内战)黄金奖杯",
@@ -18507,10 +18909,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "戈兹(室内战)白金奖杯",
@@ -18546,10 +18949,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホド（屋内戦）のブロンズトロフィー",
@@ -18585,10 +18989,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホド（屋内戦）のシルバートロフィー",
@@ -18624,10 +19029,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホド（屋内戦）のゴールドトロフィー",
@@ -18663,10 +19069,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホド（屋内戦）のプラチナトロフィー",
@@ -18702,10 +19109,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "グレゴリオ（屋内戦）のブロンズトロフィー",
@@ -18741,10 +19149,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "グレゴリオ（屋内戦）のシルバートロフィー",
@@ -18780,10 +19189,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "グレゴリオ（屋内戦）のゴールドトロフィー",
@@ -18819,10 +19229,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "グレゴリオ（屋内戦）のプラチナトロフィー",
@@ -18858,10 +19269,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ゴズ（屋外戦）のブロンズトロフィー",
@@ -18897,10 +19309,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ゴズ（屋外戦）のシルバートロフィー",
@@ -18936,10 +19349,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ゴズ（屋外戦）のゴールドトロフィー",
@@ -18975,10 +19389,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ゴズ（屋外戦）のプラチナトロフィー",
@@ -19014,10 +19429,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホバークラフト（屋外戦）のブロンズトロフィー",
@@ -19053,10 +19469,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             40,
             40
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホバークラフト（屋外戦）のシルバートロフィー",
@@ -19092,10 +19509,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホバークラフト（屋外戦）のゴールドトロフィー",
@@ -19131,10 +19549,11 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "ホバークラフト（屋外戦）のプラチナトロフィー",
@@ -19170,6 +19589,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "崔尼蒂西式喷泉",
@@ -19205,6 +19625,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "夏天主题照片板",
@@ -19240,6 +19661,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "闪闪发光的圣诞树",
@@ -19275,6 +19697,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "227号温泉浴场导览看板",
@@ -19310,6 +19733,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "蓝色复古黑胶唱片机",
@@ -19346,6 +19770,7 @@
             "CraftMaterial_Furniture",
             "F_Shizuko"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "百夜堂移动式店铺",
@@ -19382,6 +19807,7 @@
             "CraftMaterial_Furniture",
             "F_Izuna"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "扩张型传统木窗",
@@ -19418,6 +19844,7 @@
             "CraftMaterial_Furniture",
             "F_Ui"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "古典收纳型原木书桌",
@@ -19454,6 +19881,7 @@
             "CraftMaterial_Furniture",
             "F_Atsuko"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "皇家钻石软垫椅",
@@ -19489,6 +19917,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "全像投影方块黑胶唱片机",
@@ -19524,6 +19953,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "大運動会のガイドボード",
@@ -19560,6 +19990,7 @@
             "CraftMaterial_Furniture",
             "F_Akane_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "カウンターチェア・ゴールドブラック",
@@ -19596,6 +20027,7 @@
             "CraftMaterial_Furniture",
             "F_Neru_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "カウンターチェア・ゴールドレッドワイン",
@@ -19632,6 +20064,7 @@
             "CraftMaterial_Furniture",
             "F_Asuna_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "カウンターチェア・シルバーネオンブルー",
@@ -19668,6 +20101,7 @@
             "CraftMaterial_Furniture",
             "F_Karin_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "カウンターチェア・ダークバイオレット",
@@ -19703,6 +20137,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "WallDecoration",
         "SetGroupId": 0,
         "Name": "大運動会の思い出",
@@ -19740,6 +20175,7 @@
             "F_Neru",
             "F_Aris"
         ],
+        "CraftQuality": 100,
         "SubCategory": "HomeAppliance",
         "SetGroupId": 0,
         "Name": "格闘ゲーム機",
@@ -19776,6 +20212,7 @@
             "CraftMaterial_Furniture",
             "F_Hanae_Holiday"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "暖かなクリスマス暖炉",
@@ -19812,6 +20249,7 @@
             "CraftMaterial_Furniture",
             "F_Serina_Holiday"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "軽快な譜面台",
@@ -19848,6 +20286,7 @@
             "CraftMaterial_Furniture",
             "F_Mine"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "豪奢な装飾のティーテーブル",
@@ -19883,6 +20322,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "トリニティオルガン",
@@ -19920,6 +20360,7 @@
             "F_Mika",
             "F_Nagisa"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "ティーパーティーテーブル",
@@ -19956,6 +20397,7 @@
             "CraftMaterial_Furniture",
             "F_Kanna"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "取調室のテーブル",
@@ -19994,6 +20436,7 @@
             "F_Hinata",
             "F_Mari"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "大聖堂の長椅子",
@@ -20029,6 +20472,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "D.U.シラトリ区のジオラマ",
@@ -20066,6 +20510,7 @@
             "F_Haruka",
             "F_Haruka_Newyear"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "植物棚",
@@ -20080,7 +20525,7 @@
         "Id": 209302,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
@@ -20102,13 +20547,14 @@
             "CraftMaterial_Furniture",
             "F_Kaho"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "百鬼夜行グッズの飾り棚",
         "Desc": "百鬼夜行の人気グッズを集めた飾り棚。マニア垂涎の逸品ばかりが揃っている。",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ]
     },
@@ -20138,6 +20584,7 @@
             "CraftMaterial_Furniture",
             "F_Yuzu"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "ゲーム開発部のロッカー",
@@ -20174,6 +20621,7 @@
             "CraftMaterial_Furniture",
             "F_Toki_BunnyGirl"
         ],
+        "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "カウンターチェア・ディープブルー",
@@ -20210,6 +20658,7 @@
             "CraftMaterial_Furniture",
             "F_Aris_Maid"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "水色のシングルソファ",
@@ -20246,6 +20695,7 @@
             "CraftMaterial_Furniture",
             "F_Yuzu_Maid"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "鉄製引き戸ロッカー",
@@ -20282,6 +20732,7 @@
             "CraftMaterial_Furniture",
             "F_Rumi"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "中華風ホットショーケース",
@@ -20318,6 +20769,7 @@
             "CraftMaterial_Furniture",
             "F_Mina"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "中華風の椅子",
@@ -20354,6 +20806,7 @@
             "CraftMaterial_Furniture",
             "F_Minori"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "木工作業台",
@@ -20390,6 +20843,7 @@
             "CraftMaterial_Furniture",
             "F_Miyu_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "新鮮！魚箱",
@@ -20426,6 +20880,7 @@
             "CraftMaterial_Furniture",
             "F_Saki_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "スキューバダイビングギア保管ラック",
@@ -20462,6 +20917,7 @@
             "CraftMaterial_Furniture",
             "F_Miyako_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Closet",
         "SetGroupId": 0,
         "Name": "シャワーブース",
@@ -20498,6 +20954,7 @@
             "CraftMaterial_Furniture",
             "F_Shiroko_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "バタバタカジキの展示台",
@@ -20533,6 +20990,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "便利屋68バンドステージ",
@@ -20569,6 +21027,7 @@
             "CraftMaterial_Furniture",
             "F_Ui_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "クラシックパターンスーツケース",
@@ -20605,6 +21064,7 @@
             "CraftMaterial_Furniture",
             "F_Hinata_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Bed",
         "SetGroupId": 0,
         "Name": "ミニスツールとサンベッド",
@@ -20642,6 +21102,7 @@
             "F_Koharu_Swimsuit",
             "F_Hanako_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "アイスクリームテーブル",
@@ -20678,6 +21139,7 @@
             "CraftMaterial_Furniture",
             "F_Hanako_Swimsuit"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Prop",
         "SetGroupId": 0,
         "Name": "サンシャイン・レモンツリー",
@@ -20713,6 +21175,7 @@
             "Furniture",
             "CraftMaterial_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "ボードゲームテーブル",
@@ -20749,6 +21212,7 @@
             "CraftMaterial_Furniture",
             "F_Momiji"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Chair",
         "SetGroupId": 0,
         "Name": "図書館のクラシックな椅子",
@@ -20785,6 +21249,7 @@
             "CraftMaterial_Furniture",
             "F_Meru"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "原稿用の机",
@@ -20821,6 +21286,7 @@
             "CraftMaterial_Furniture",
             "F_Haruna_Track"
         ],
+        "CraftQuality": 100,
         "SubCategory": "Table",
         "SetGroupId": 0,
         "Name": "休憩用のベンチテーブル",
@@ -20857,6 +21323,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战铜奖杯展示柜01",
@@ -20893,6 +21360,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战银奖杯展示柜01",
@@ -20929,6 +21397,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战黄金奖杯展示柜01",
@@ -20965,6 +21434,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战白金奖杯展示柜01",
@@ -21001,6 +21471,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 10,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战铜奖杯展示柜02",
@@ -21037,6 +21508,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 20,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战银奖杯展示柜02",
@@ -21073,6 +21545,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 40,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战黄金奖杯展示柜02",
@@ -21109,6 +21582,7 @@
             "CraftMaterial_Furniture",
             "ShiftingCraftCategory_Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "总力战白金奖杯展示柜02",
@@ -21142,6 +21616,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "1st PV播放机器",
@@ -21175,6 +21650,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "2nd PV播放机器",
@@ -21208,6 +21684,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "3rd PV播放机器",
@@ -21241,6 +21718,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "リコレクト・メモリー4th",
@@ -21274,6 +21752,7 @@
         "Tags": [
             "Furniture"
         ],
+        "CraftQuality": 100,
         "SubCategory": "FurnitureEtc",
         "SetGroupId": 0,
         "Name": "リコレクト・メモリー4.5th",

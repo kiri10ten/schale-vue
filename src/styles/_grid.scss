@@ -75,7 +75,7 @@
     &.items {
         --var-grid-gap: 0.5rem;
         --var-grid-card-width: 86px;
-        --var-grid-card-height: 70px;
+        --var-grid-card-height: 82px;
     }
 
     &.items-compact {
@@ -100,8 +100,6 @@
 
     width: var(--var-grid-card-width);
     height: var(--var-grid-card-height);
-
-    cursor: pointer;
 
     @include unselectable;
 
@@ -190,6 +188,11 @@
         &.student-role {
             height: 22px;
             width: 22px;
+
+            @include md-down {
+                height: 18px;
+                width: 18px;
+            }
         }
 
         &.student-type {
@@ -202,14 +205,33 @@
             top: 4px;
             padding: 3px;
 
+            @include md-down {
+
+                height: 16px;
+                width: 16px;
+
+                left: 3px;
+                top: 3px;
+            }
+
             @include transition(transform, opacity);
 
             &.atk {
                 z-index: 30;
+                --hover-translate-y: 22px;
+
+                @include md-down {
+                    --hover-translate-y: 19px;
+                }
             }
 
             &.def {
                 z-index: 20;
+                --hover-translate-y: 42px;
+
+                @include md-down {
+                    --hover-translate-y: 37px;
+                }
             }
 
         }
@@ -223,6 +245,14 @@
             right: 4px;
             top: 4px;
             padding: 4px;
+
+            @include md-down {
+                height: 16px;
+                line-height: 8px;
+                font-size: 8px;
+                right: 3px;
+                top: 3px;
+            }
 
             font-size: 10px;
             line-height: 10px;
@@ -338,6 +368,17 @@
             left: 3px;
             top: 3px;
 
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: 700;
+
+            padding: 4px;
+
+            background-color: var(--col-bg-imglabel);
+            color: var(--col-theme-text);
+        }
+
+        &.item-badge {
             font-size: 12px;
             line-height: 12px;
             font-weight: 700;
@@ -491,78 +532,6 @@
         }
     }
 
-    &:hover, &:focus, &:active {
-
-        &.card-shop {
-            .card-img {
-                img {
-                    filter: none;
-                    transform: none;
-                }
-            }
-        }
-        .card-img {
-
-            img {
-                filter: brightness(0.75);
-                transform: scale(1.15);
-                @include sharp-img;
-            }
-        }
-
-        &.compact {
-            filter: brightness(0.7);
-        }
-
-        .card-bg {
-            filter: brightness(0.75);
-        }
-
-        .card-badge {
-
-            &.student-type {
-
-                opacity: 100%;
-
-                &.atk {
-                    transform: translateY(22px);
-                }
-
-                &.def {
-                    transform: translateY(42px);
-                }
-
-            }
-
-            &.student-rarity {
-
-                opacity: 100%;
-                //transform: translateX(22px);
-
-            }
-
-        }
-
-        .card-label {
-
-            &.hover-only {
-                display: flex;
-            }
-
-            .label-text {
-
-                &.unhover {
-                    opacity: 0%;
-                }
-
-                &.hover {
-                    opacity: 100%;
-                }
-
-            }
-        }
-    }
-
     &.disabled {
         cursor: not-allowed;
         pointer-events: none;
@@ -598,7 +567,7 @@
         .card-img {
 
             img {
-                max-height: 56px;
+                height: 56px;
             }
 
         }
@@ -683,11 +652,63 @@
 
     }
 
-    &.card-shop {
+}
 
-        cursor: default;
+.hover .selection-grid-card:hover, .selection-grid-flex a.selection-grid-card:hover {
+
+    .card-img {
+
+        img {
+            filter: brightness(0.75);
+            transform: scale(1.15);
+            @include sharp-img;
+        }
     }
 
+    &.compact {
+        filter: brightness(0.7);
+    }
+
+    .card-bg {
+        filter: brightness(0.75);
+    }
+
+    .card-badge {
+
+        &.student-type {
+
+            opacity: 100%;
+            transform: translateY(var(--hover-translate-y));
+
+        }
+
+        &.student-rarity {
+
+            opacity: 100%;
+            //transform: translateX(22px);
+
+        }
+
+    }
+
+    .card-label {
+
+        &.hover-only {
+            display: flex;
+        }
+
+        .label-text {
+
+            &.unhover {
+                opacity: 0%;
+            }
+
+            &.hover {
+                opacity: 100%;
+            }
+
+        }
+    }
 }
 
 .show-info .selection-grid-card {
@@ -696,14 +717,7 @@
 
         &.student-type {
             opacity: 100%;
-
-            &.atk {
-                transform: translateY(22px);
-            }
-
-            &.def {
-                transform: translateY(42px);
-            }
+            transform: translateY(var(--hover-translate-y));
         }
 
         &.student-rarity {
@@ -748,7 +762,7 @@
         &.items {
             --var-grid-gap: 0.4rem;
             --var-grid-card-width: 76px;
-            --var-grid-card-height: 60px;
+            --var-grid-card-height: 72px;
         }
 
         &.craft {
@@ -760,6 +774,10 @@
     }
 
     .selection-grid-card {
+
+        &.card-items .card-img img {
+            height: 50px;
+        }
 
         .card-label {
 

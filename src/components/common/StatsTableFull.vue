@@ -15,10 +15,7 @@ const props = defineProps({
         type: Array,
         default: []
     },
-    hideAmmoCount: {
-        type: Boolean,
-        default: false
-    }
+    isSpecial: Boolean
 })
 
 const tooltips = computed(() => {
@@ -31,7 +28,7 @@ const tooltips = computed(() => {
 
         for (const bonusSrc of calculatedStat.bonuses?.BonusList) {
             if (bonusSrc.Amount !== 0) {
-                tooltipBody += `\n${bonusSrc.Name}: <b class="text-emphasis">+${bonusSrc.Type == 'Coefficient' ? +((bonusSrc.Amount/100).toFixed(2)).toLocaleString() + '%' : bonusSrc.Amount.toLocaleString()}</b>`
+                tooltipBody += `\n${bonusSrc.Name}: <b class="${bonusSrc.Amount < 0 ? 'text-negative' : 'text-emphasis'}">${bonusSrc.Amount < 0 ? '' : '+'}${bonusSrc.Type == 'Coefficient' ? +((bonusSrc.Amount/100).toFixed(2)).toLocaleString() + '%' : bonusSrc.Amount.toLocaleString()}${bonusSrc.Type == 'BaseOuter' ? '*' : ''}</b>`
             }
         }
 
@@ -58,7 +55,13 @@ const stabilityMinimumStr = computed(() => {
 const hideDetailValues = useMediaQuery('(max-width: 480px)');
 
 const statRows = computed(() => {
-    return props.statList.length ? props.statList : Object.keys(props.characterStats.calculatedStats.value);
+    const list = props.statList.length ? [...props.statList] : Object.keys(props.characterStats.calculatedStats.value);
+
+    if (props.isSpecial && list.includes('AmmoCount')) {
+        list.splice(list.indexOf('AmmoCount'), 1);
+    }
+
+    return list;
 });
 const columnClass = 'col-12'
 
@@ -72,14 +75,14 @@ const columnClass = 'col-12'
                 <span class="stat-name">{{ translate('Stat', stat.split('_')[0]) }}</span>
                 <div class="stat-value ms-auto">
                     <span v-if="!hideDetailValues" class="stat-base">{{ characterStats.calculatedStats.value[stat].baseStr }}</span>
-                    <span v-if="!hideDetailValues" class="stat-flat" :class="{zero: characterStats.calculatedStats.value[stat].bonuses.Base == 0}">
-                        +{{ characterStats.calculatedStats.value[stat].bonuses.Base.toLocaleString() }}
+                    <span v-if="!hideDetailValues" class="stat-flat" :class="{zero: characterStats.calculatedStats.value[stat].bonuses.Base == 0, negative: characterStats.calculatedStats.value[stat].bonuses.Base < 0}">
+                        {{characterStats.calculatedStats.value[stat].bonuses.Base >= 0 ? '+' : ''}}{{ characterStats.calculatedStats.value[stat].bonuses.Base.toLocaleString() }}
                     </span>
-                    <span v-if="!hideDetailValues" class="stat-coefficient" :class="{zero: characterStats.calculatedStats.value[stat].bonuses.Coefficient == 1}">
-                        +{{ +((characterStats.calculatedStats.value[stat].bonuses.Coefficient - 1) * 100).toFixed(2) }}%
+                    <span v-if="!hideDetailValues" class="stat-coefficient" :class="{zero: characterStats.calculatedStats.value[stat].bonuses.Coefficient == 1, negative: characterStats.calculatedStats.value[stat].bonuses.Coefficient < 1}">
+                        {{characterStats.calculatedStats.value[stat].bonuses.Coefficient >= 1 ? '+' : ''}}{{ +((characterStats.calculatedStats.value[stat].bonuses.Coefficient - 1) * 100).toFixed(2) }}%
                     </span>
                     <span class="stat-final">
-                        {{ stat == 'AmmoCount' && hideAmmoCount ? '-' : characterStats.calculatedStats.value[stat].totalStr }}
+                       {{ characterStats.calculatedStats.value[stat].totalStr }}
                     </span>
                 
                 </div>
@@ -88,7 +91,7 @@ const columnClass = 'col-12'
                 </Tooltip>
             </div>
 
-            <div v-if="stat == 'DefensePower'" class="d-flex align-items-center px-2 pb-1 row-extra">
+            <div v-if="!isSpecial && stat == 'DefensePower'" class="d-flex align-items-center px-2 pb-1 row-extra">
                 <span class="stat-name">Damage Reduction</span>
                 <div class="stat-value">
                     <span class="stat-final">
@@ -101,6 +104,25 @@ const columnClass = 'col-12'
                 <div class="stat-value">
                     <span class="stat-final">
                         {{ stabilityMinimumStr }}
+                    </span>
+                </div>
+            </div>
+            <div v-if="stat == 'AmmoCount'" class="d-flex align-items-center px-2 pb-1 row-extra">
+                <span class="stat-name">Normal Attack Cost</span>
+                <div class="stat-value">
+                    <span class="stat-final">
+                        {{ characterStats.calculatedStats.value.AmmoCost.baseStr }}
+                    </span>
+                </div>
+            </div>
+            <div v-if="isSpecial && characterStats.calculatedStats.value[stat].special" class="d-flex align-items-center px-2 pb-1 row-extra">
+                <span class="stat-name">
+                    <img src="/images/ui/Special_StatBonus.png" class="invert-light" width="20" height="20">
+                    Striker Bonus
+                </span>
+                <div class="stat-value">
+                    <span class="stat-final text-emphasis">
+                        {{ characterStats.calculatedStats.value[stat].specialStr }}
                     </span>
                 </div>
             </div>
@@ -135,5 +157,12 @@ const columnClass = 'col-12'
         margin-right: 40px;
     }
 
+}
+
+.stat-icon-svg {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    padding: 3px;
 }
 </style>

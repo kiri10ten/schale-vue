@@ -1,6 +1,6 @@
 <script setup>
 import { translate, translateUi } from '../../composables/Localization';
-import { setHighContrast, setTheme } from '../../composables/Utilities';
+import { setHighContrast, setNoBackground, setTheme } from '../../composables/Utilities';
 import { useSettingsStore } from '../../stores/SettingsStore';
 
 const settings = useSettingsStore().settings;
@@ -26,6 +26,10 @@ function set(setting, value) {
         setHighContrast();
     }
 
+    if (setting == 'backgrounds') {
+        setNoBackground();
+    }
+
     if (setting == 'language') {
         window.location.reload();
     }
@@ -39,7 +43,7 @@ function set(setting, value) {
         <span class="d-flex align-items-center">
             <div class="dropdown d-inline">
                 <button class="btn btn-sm btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"><span>{{ translate('ServerName', settings.server) }}</span></button>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark drop-shadow">
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
                     <li v-for="i in 3"><button class="btn btn-dark dropdown-item" :class="{'active': settings.server === i-1}" @click="set('server', i-1)"><span>{{ translate('ServerName', i-1) }}</span></button></li>
                 </ul>
             </div>
@@ -50,7 +54,7 @@ function set(setting, value) {
         <span class="d-flex align-items-center">
             <div class="dropdown d-inline">
                 <button class="btn btn-sm btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"><span>{{ languages[settings.language] }}</span></button>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark drop-shadow">
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
                     <li v-for="(language, key) in languages"><button class="btn btn-dark dropdown-item" :class="{'active': settings.language === key}" @click="set('language', key)">{{ language }}</button></li>
                 </ul>
             </div>
@@ -85,6 +89,15 @@ function set(setting, value) {
         <small v-html="translateUi('navbar_settings_contrast_description')"></small>
     </div>
     <div class="d-flex align-items-center mb-3">
+        <span class="flex-fill me-4">Page Backgrounds</span>
+        <span class="d-flex align-items-center">
+            <div id="ba-navbar-contrast-toggle" class="btn-group">
+                <button type="button" class="btn btn-sm btn-dark" :class="{'active': settings.backgrounds === false}" @click="set('backgrounds', false)">{{ translateUi('setting_off') }}</button>
+                <button type="button" class="btn btn-sm btn-dark" :class="{'active': settings.backgrounds === true}" @click="set('backgrounds', true)">{{ translateUi('setting_on') }}</button>
+            </div>
+        </span>
+    </div>
+    <div class="d-flex align-items-center mb-3">
         <label class="flex-fill me-4" for="collectionPerServer">Separate Collection per Server</label>
         <span class="d-flex align-items-center">
             <div class="form-check">
@@ -101,13 +114,21 @@ function set(setting, value) {
             </select>
         </span>
     </div>
-    <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center mb-3">
         <span class="flex-fill me-4">Animation Units</span>
         <span class="d-flex align-items-center">
             <select class="form-select" v-model="settings.durationUnit">
                 <option value="seconds">Seconds</option>
                 <option value="raw">Frames</option>
             </select>
+        </span>
+    </div>
+    <div class="d-flex align-items-center">
+        <label class="flex-fill me-4" for="showDeveloperProps">Show item IDs</label>
+        <span class="d-flex align-items-center">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="showDeveloperProps" v-model="settings.showDeveloperProps">
+            </div>
         </span>
     </div>
     <!-- <div class="d-flex align-items-center">
@@ -125,7 +146,5 @@ function set(setting, value) {
 </template>
 
 <style>
-.text-muted {
-    color: #6c757d!important;
-}
+
 </style>

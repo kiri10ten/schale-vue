@@ -1,10 +1,14 @@
-import { ref, reactive, computed, toValue } from "vue";
-import { getStudentById } from "./Student";
-import { regionSettings } from "./RegionSettings";
-import { getEquipmentStats } from "./Equipment";
-import { useStudentStore } from "../stores/StudentStore";
 import { clamp } from "lodash";
+import { computed, reactive, ref, toValue } from "vue";
 import { useSettingsStore } from "../stores/SettingsStore";
+import { useStudentStore } from "../stores/StudentStore";
+import { getEquipmentStats } from "./Equipment";
+import { regionSettings } from "./RegionSettings";
+import { getStudentById } from "./Student";
+
+const damageResistanceStats = ['DamagedRatio', 'EnhanceLightArmorRate', 'EnhanceHeavyArmorRate', 'EnhanceUnarmedRate', 'EnhanceElasticArmorRate'];
+const specialBonusStats = ['MaxHP', 'AttackPower', 'HealPower', 'DefensePower'];
+const specialBonusFactor = {'MaxHP': 0.1, 'AttackPower': 0.1, 'HealPower': 0.05, 'DefensePower': 0.05};
 
 export function useCharacterStats(charRef, level, starGrade) {
 
@@ -44,7 +48,11 @@ export function useCharacterStats(charRef, level, starGrade) {
             EnhanceSonicRate: char.EnhanceSonicRate ?? 10000,
             ExtendBuffDuration: char.ExtendBuffDuration ?? 10000,
             ExtendDebuffDuration: char.ExtendDebuffDuration ?? 10000,
-            ExtendCrowdControlDuration: char.ExtendCrowdControlDuration ?? 10000
+            ExtendCrowdControlDuration: char.ExtendCrowdControlDuration ?? 10000,
+            EnhanceLightArmorRate: char.EnhanceLightArmorRate ?? 10000,
+            EnhanceHeavyArmorRate: char.EnhanceHeavyArmorRate ?? 10000,
+            EnhanceUnarmedRate: char.EnhanceUnarmedRate ?? 10000,
+            EnhanceElasticArmorRate: char.EnhanceElasticArmorRate ?? 10000,
         }
     });
 
@@ -86,7 +94,12 @@ export function useCharacterStats(charRef, level, starGrade) {
             BonusList: []
         }
 
-        
+        const specialBonuses = {
+            Base: 0,
+            Coefficient: 1,
+            BaseOuter: 0
+        }
+
         for (const id in buffs) {
 
             for (let i = 0; i < buffs[id].length; i++) {
@@ -102,7 +115,11 @@ export function useCharacterStats(charRef, level, starGrade) {
                         amount += toValue(buff.amount);
                     }
 
-                    bonuses[buff.type] += amount
+                    bonuses[buff.type] += amount;
+
+                    if (!buff.icon) {
+                        specialBonuses[buff.type] += amount
+                    }
 
                     bonuses.BonusList.push({
                         Name: buff.label,
@@ -127,28 +144,34 @@ export function useCharacterStats(charRef, level, starGrade) {
         if (applyBuffCap) {
             bonuses.Coefficient = Math.max(bonuses.Coefficient, 0.2);
         }
-        
 
         const total = Math.round(((base + bonuses.Base) * bonuses.Coefficient).toFixed(4)) + bonuses.BaseOuter;
 
         let baseStr;
         let totalStr;
 
-        if (stat == 'DamagedRatio') {
+        if (damageResistanceStats.includes(stat)) {
             totalStr = (+((total - 10000) / 100).toFixed(2)).toLocaleString() + "%";
             baseStr = (+((base - 10000) / 100).toFixed(2)).toLocaleString() + "%";
         } else if (isRateStat(stat)) {
             totalStr = (+(total/100).toFixed(2)).toLocaleString() + "%"
             baseStr = (+(base/100).toFixed(2)).toLocaleString() + "%"
-        } else if (stat == 'AmmoCount') {
-            totalStr = total.toLocaleString() + ` (${stats.value.AmmoCost})`
-            baseStr = base.toLocaleString()
         } else {
             totalStr = total.toLocaleString()
             baseStr = base.toLocaleString()
         }
 
-        return { base, baseStr, bonuses, total: allowNegative ? total : Math.max(total, 0), totalStr }
+        const returnStats = { base, baseStr, bonuses, total: allowNegative ? total : Math.max(total, 0), totalStr };
+
+        if (specialBonusStats.includes(stat)) {
+            const spTotal = Math.round(((base + specialBonuses.Base) * specialBonuses.Coefficient).toFixed(4)) + specialBonuses.BaseOuter;
+            const spBonus = Math.floor(spTotal * specialBonusFactor[stat]);
+
+            returnStats['special'] = spBonus;
+            returnStats['specialStr'] = '+' + spBonus.toLocaleString();
+        }
+
+        return returnStats;
     }
 
     const calculatedStats = computed(() => {
@@ -163,7 +186,31 @@ export function useCharacterStats(charRef, level, starGrade) {
         
     })
 
-    return {level, starGrade, buffs, setBuff, removeBuff, calculate, calculatedStats}
+    const activeIcons = computed(() => {
+
+        const activeIcons = {};
+
+        for (const id in buffs) {
+
+            for (let i = 0; i < buffs[id].length; i++) {
+                const buff = buffs[id][i];
+
+                if (buff.icon && buff.enabled) {
+    
+                    if (activeIcons[buff.icon]) {
+                        activeIcons[buff.icon] += buff.stacks ?? 1
+                    } else {
+                        activeIcons[buff.icon] = buff.stacks ?? 1
+                    }
+
+                }
+            }
+        }
+
+        return activeIcons;
+    })
+
+    return {level, starGrade, buffs, setBuff, removeBuff, calculate, calculatedStats, activeIcons}
 }
 
 export function isRateStat(stat) {
@@ -372,7 +419,7 @@ export function getMaximumAttributes(student, useCollection = false) {
     const stats = useCharacterStats(student, level, starGrade);
 
     for (let i = 0; i < 3; i++) {
-        const equipmentStats = getEquipmentStats(student.Equipment[i], equipLevel[i], 1);
+        const equipmentStats = getEquipmentStats(student.Equipment[i], equipLevel[i], -1);
         const equipmentBuffList = [];
         for (const stat in equipmentStats) {
             equipmentBuffList.push({
@@ -440,6 +487,20 @@ export function getMaximumAttributes(student, useCollection = false) {
     })
 
     return result;
+}
+
+export function buffValueToString(stat, value) {
+    const [statName, buffType] = stat.split('_');
+
+    let amountStr;
+
+    if (buffType == 'Coefficient') {
+        amountStr = `${+(value / 100).toFixed(2).toLocaleString()}%`;
+    } else {
+        amountStr = value.toLocaleString();
+    }
+
+    return `${value >= 0 ? '+' : ''}${amountStr}`
 }
 
 export const adaptation = {

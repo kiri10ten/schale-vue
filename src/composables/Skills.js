@@ -1,4 +1,9 @@
+import { cloneDeep, merge, mergeWith } from "lodash";
+import { translate, translateUi } from "./Localization";
 import { getBasicTooltip } from "./Tooltips";
+import { computed, toValue } from "vue";
+
+export const upgradeSkillTypes = ['GearPublic', 'WeaponPassive'];
 
 export function getSkillText(skill, level, {renderBuffs = true, bulletType = null, emphasiseChange = false, renderSkillHits = true}) {
     
@@ -53,6 +58,35 @@ export function getSkillText(skill, level, {renderBuffs = true, bulletType = nul
     return result
 }
 
+export function usePersonalSkills(character, weaponStars, gearTier) {
+    return computed(() => {
+        const skills = [];
+
+        const skillTypes = [
+            'Ex',
+            toValue(gearTier) >= 2 ? 'GearPublic' : 'Public',
+            toValue(weaponStars) >= 2 ? 'WeaponPassive' : 'Passive',
+            'ExtraPassive'
+        ]
+
+        for (const skillType of skillTypes) {
+            const skill = cloneDeep(character.Skills[skillType]);
+
+            skill.BulletType = character.BulletType;
+            skill.Type = skillType;
+            skill.Id = `${character.DevName}${skillType}`;
+
+            if (skillType == 'WeaponPassive') {
+                skill.Effects = [...character.Skills.Passive.Effects, ...character.Skills.WeaponPassive.Effects]
+            }
+
+            skills.push(skill);
+        }
+        
+        return skills;
+    })
+}
+
 export function replaceBuffPlaceholders(text, renderBuffs = true) {
     let result = text
     const buffTypes = ['Buff', 'Debuff', 'CC', 'Special']
@@ -76,4 +110,58 @@ export function replaceBuffPlaceholders(text, renderBuffs = true) {
 function getBuffTag(type, name, {tooltip, overrideName = null}) {
     const buffName = `${type}_${name}`
     return `<span class="ba-skill-${type.toLowerCase()}" ${tooltip ? `data-bs-toggle="tooltip" data-bs-placement="top" title="${getRichTooltip(`images/buff/${buffName}.webp`, getLocalizedString('BuffNameLong', buffName), getLocalizedString('BuffType', type), null, getLocalizedString('BuffTooltip', buffName), 30)}"` : ''}><img class=\"buff-icon\" src=\"images/buff/${buffName}.webp\"><span class="buff-label">${overrideName !== null ? overrideName : getLocalizedString('BuffName', buffName)}</span></span>`
+}
+
+export function getNormalSkill(skill, range) {
+    const normalSkill = {
+        ...skill,
+        Name: translate('SkillType', 'Normal'),
+        Parameters: [['100%']],
+        Range: range
+    };
+
+    if (skill.Radius && skill.Radius.length) {
+        switch (skill.Radius[0].Type) {
+            case 'Circle':
+                normalSkill.Desc = translateUi('skill_normalattack_circle');
+                normalSkill.Icon = 'COMMON_SKILLICON_CIRCLE';
+                break
+            case 'Obb':
+                normalSkill.Desc = translateUi('skill_normalattack_line');
+                normalSkill.Icon = 'COMMON_SKILLICON_LINE';
+                break
+            case 'Fan':
+                normalSkill.Desc = translateUi('skill_normalattack_fan');
+                normalSkill.Icon = 'COMMON_SKILLICON_FAN';
+                break
+        }
+    } else {
+        normalSkill.Desc = translateUi('skill_normalattack_target');
+        normalSkill.Icon = 'COMMON_SKILLICON_TARGET';
+    }
+
+    if (normalSkill.Effects[0].Type == 'DMGMulti') {
+        normalSkill.Effects[0].HitsParameter = 1;
+    }
+
+    return normalSkill;
+
+}
+
+export function getSummonSkills(summon) {
+
+    return summon.Skills.map((summonSkill) => {
+
+        let skill;
+
+        if (summonSkill.SkillType == 'autoattack') {
+            skill = getNormalSkill(summonSkill, summon.Range);
+        } else {
+            skill = {...summonSkill};
+        }
+
+        skill.Name += ` <small>(${summon.Name})</small>`
+        return skill;
+
+    })
 }

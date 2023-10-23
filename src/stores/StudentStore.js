@@ -16,11 +16,31 @@ export const useStudentStore = defineStore('studentstore', {
             WeaponLevel: 1,
             Equipment: [1, 1, 1],
             Gear: false,
+            GearTier: 1,
             BondLevel: [20, 20, 20],
             SkillEx: 5,
             SkillPublic: 10,
             SkillPassive: 10,
             SkillExtraPassive: 10,
+
+            Skill: {
+                Ex: {
+                    Level: 5,
+                    Enabled: false
+                },
+                Public: {
+                    Level: 10,
+                    Enabled: false
+                },
+                Passive: {
+                    Level: 10,
+                    Enabled: true
+                },
+                ExtraPassive: {
+                    Level: 10,
+                    Enabled: false
+                }
+            },
 
             IncludePassive: false,
             IncludeEquipment: false,
@@ -39,6 +59,10 @@ export const useStudentStore = defineStore('studentstore', {
             },
             WeaponLevelDisplay: 1,
             BondLevelDisplay: 1,
+
+            Favourites: []
+        }, {
+            mergeDefaults: (storage, defaults) => merge(defaults, storage)
         }))
 
         const studentCollection = ref(useLocalStorage('studentCollection', {
@@ -46,13 +70,14 @@ export const useStudentStore = defineStore('studentstore', {
             1: {},
             2: {}
         }))
-        
-        const studentListFilters = ref(useSessionStorage('studentListFilters', {
+       
+        const studentListFilters = ref(useLocalStorage('studentListFilters', {
             SearchTerm: "",
             Collection: {
                 Owned: false,
                 NotOwned: false,
             },
+            Favourite: false,
             SquadType: {
                 Main: false,
                 Support: false,
@@ -166,10 +191,12 @@ export const useStudentStore = defineStore('studentstore', {
             mergeDefaults: (storage, defaults) => merge(defaults, storage)
         }))
 
-        const studentListSort = ref(useSessionStorage('studentListSort', {
+        const studentListSort = ref(useLocalStorage('studentListSort', {
             SortKey: 'Id',
             Mode: 1,
             UseCollectionStats: false,
+        }, {
+            mergeDefaults: (storage, defaults) => merge(defaults, storage)
         }))
 
         return { studentDisplay, studentListFilters, studentListSort, studentCollection }
@@ -267,6 +294,17 @@ export const useStudentStore = defineStore('studentstore', {
             const server = settings.collectionPerServer ? settings.server : 0;
 
             this.studentCollection[server][studentId].Lock = !this.studentCollection[server][studentId].Lock ?? true;
+        },
+        favouritesExists(studentId) {
+            return this.studentDisplay.Favourites.includes(studentId);
+        },
+        favouritesToggle(studentId) {
+            const index = this.studentDisplay.Favourites.indexOf(studentId)
+            if (index !== -1) {
+                this.studentDisplay.Favourites.splice(index, 1);
+            } else {
+                this.studentDisplay.Favourites.push(studentId);
+            }
         }
     }
 

@@ -60,7 +60,13 @@ const columnClass = 'col-' + parseInt(12 / props.columns)
                 </template>
                 <template v-else>
                     <span class="stat-value">
-                        {{ stat == 'AmmoCount' && hideAmmoCount ? '-' : characterStats.calculatedStats.value[stat].totalStr }}
+                        <template v-if="stat == 'AmmoCount'">
+                            {{ hideAmmoCount ? '-' : characterStats.calculatedStats.value.AmmoCount.totalStr + ` (${characterStats.calculatedStats.value.AmmoCost.baseStr})` }}
+                        </template>
+                        <template v-else>
+                            {{ characterStats.calculatedStats.value[stat].totalStr }}
+                        </template>
+                        
                     </span>
                 </template>
             </div>
@@ -68,8 +74,11 @@ const columnClass = 'col-' + parseInt(12 / props.columns)
     </div>
 </template>
 
-<style lang="scss">
-.stat-value {
-    cursor: default;
+<style scoped lang="scss">
+.stat-icon-svg {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    padding: 3px;
 }
 </style>

@@ -17,6 +17,7 @@
             null,
             null
         ],
+        "CraftQuality": 10,
         "Shops": [],
         "Craftable": [
             false,
@@ -106,6 +107,7 @@
             null,
             null
         ],
+        "CraftQuality": 100,
         "Shops": [],
         "Craftable": [
             false,
@@ -232,6 +234,7 @@
             null,
             null
         ],
+        "CraftQuality": 5,
         "ExpValue": 50,
         "Shops": [
             {
@@ -291,6 +294,7 @@
             null,
             null
         ],
+        "CraftQuality": 10,
         "ExpValue": 500,
         "Shops": [
             {
@@ -350,6 +354,7 @@
             null,
             null
         ],
+        "CraftQuality": 20,
         "ExpValue": 2000,
         "Shops": [
             {
@@ -409,6 +414,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 10000,
         "Shops": [
             {
@@ -492,6 +498,7 @@
             null,
             null
         ],
+        "CraftQuality": 40,
         "Shops": [
             {
                 "ShopCategory": "MasterCoin",
@@ -931,10 +938,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 10,
         "Shops": [],
         "Craftable": [
             false,
@@ -968,10 +976,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 40,
         "Shops": [],
         "Craftable": [
             false,
@@ -1005,10 +1014,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 150,
         "Shops": [],
         "Craftable": [
             false,
@@ -1032,6 +1042,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -1044,10 +1055,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1096,6 +1108,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -1108,10 +1121,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1160,6 +1174,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -1172,10 +1187,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Chaser",
@@ -1212,6 +1228,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -1224,10 +1241,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Chaser",
@@ -1264,6 +1282,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -1276,10 +1295,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1340,6 +1360,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -1352,10 +1373,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1416,6 +1438,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -1428,10 +1451,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -1480,6 +1504,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -1492,10 +1517,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Chaser",
@@ -1532,6 +1558,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -1544,10 +1571,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1596,6 +1624,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -1608,10 +1637,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1660,6 +1690,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -1672,10 +1703,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -1712,6 +1744,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -1724,10 +1757,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [],
         "Craftable": [
             true,
@@ -1751,6 +1785,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -1763,10 +1798,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1827,6 +1863,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -1839,10 +1876,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -1903,6 +1941,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -1915,10 +1954,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -1967,6 +2007,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -1979,10 +2020,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Chaser",
@@ -2019,6 +2061,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -2031,10 +2074,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2083,6 +2127,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -2095,10 +2140,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2147,6 +2193,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -2159,10 +2206,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -2199,6 +2247,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -2211,10 +2260,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [],
         "Craftable": [
             true,
@@ -2238,6 +2288,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -2250,10 +2301,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2302,6 +2354,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -2314,10 +2367,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2366,6 +2420,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -2378,10 +2433,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -2418,6 +2474,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -2430,10 +2487,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [],
         "Craftable": [
             true,
@@ -2457,6 +2515,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -2469,10 +2528,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2533,6 +2593,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -2545,10 +2606,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2609,6 +2671,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -2621,10 +2684,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -2673,6 +2737,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -2685,10 +2750,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Chaser",
@@ -2725,6 +2791,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -2737,10 +2804,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2789,6 +2857,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -2801,10 +2870,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2853,6 +2923,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -2865,10 +2936,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -2905,6 +2977,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -2917,10 +2990,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [],
         "Craftable": [
             true,
@@ -2944,6 +3018,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -2956,10 +3031,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -2996,6 +3072,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -3008,10 +3085,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -3048,6 +3126,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -3060,10 +3139,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [],
         "Craftable": [
             true,
@@ -3087,6 +3167,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -3099,10 +3180,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [],
         "Craftable": [
             true,
@@ -3126,6 +3208,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -3138,10 +3221,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -3190,6 +3274,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -3202,10 +3287,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "General",
@@ -3254,6 +3340,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -3266,10 +3353,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3306,6 +3394,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -3318,10 +3407,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [],
         "Craftable": [
             true,
@@ -3345,6 +3435,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -3357,10 +3448,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3409,6 +3501,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -3421,10 +3514,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3473,6 +3567,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -3485,10 +3580,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3537,6 +3633,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -3549,10 +3646,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -3589,6 +3687,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -3601,10 +3700,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3653,6 +3753,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -3665,10 +3766,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3717,6 +3819,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -3729,10 +3832,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3781,6 +3885,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -3793,10 +3898,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -3833,6 +3939,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -3845,10 +3952,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3897,6 +4005,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -3909,10 +4018,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -3961,6 +4071,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -3973,10 +4084,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4025,6 +4137,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -4037,10 +4150,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -4077,6 +4191,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -4089,10 +4204,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4141,6 +4257,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -4153,10 +4270,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4205,6 +4323,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -4217,10 +4336,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4269,6 +4389,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -4281,10 +4402,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -4321,6 +4443,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -4333,10 +4456,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4385,6 +4509,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -4397,10 +4522,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4449,6 +4575,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -4461,10 +4588,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4513,6 +4641,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -4525,10 +4654,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -4565,6 +4695,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -4577,10 +4708,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4629,6 +4761,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -4641,10 +4774,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4693,6 +4827,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -4705,10 +4840,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4757,6 +4893,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -4769,10 +4906,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -4809,6 +4947,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -4821,10 +4960,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4873,6 +5013,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -4885,10 +5026,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -4937,6 +5079,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -4949,10 +5092,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -5001,6 +5145,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -5013,10 +5158,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -5053,6 +5199,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -5065,10 +5212,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -5117,6 +5265,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -5129,10 +5278,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -5181,6 +5331,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -5193,10 +5344,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "SecretStoneGrowth",
@@ -5245,6 +5397,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "Artifact",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -5257,10 +5410,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "TimeAttack",
@@ -5297,6 +5451,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -5309,10 +5464,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -5397,6 +5553,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -5409,10 +5566,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -5497,6 +5655,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -5509,10 +5668,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -5597,6 +5757,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -5609,10 +5770,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -5697,6 +5859,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -5709,10 +5872,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -5785,6 +5949,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -5797,10 +5962,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -5873,6 +6039,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -5885,10 +6052,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -5961,6 +6129,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -5973,10 +6142,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6049,6 +6219,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -6061,10 +6232,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6149,6 +6321,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -6161,10 +6334,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6249,6 +6423,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -6261,10 +6436,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6349,6 +6525,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -6361,10 +6538,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6449,6 +6627,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -6461,10 +6640,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6549,6 +6729,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -6561,10 +6742,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6649,6 +6831,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -6661,10 +6844,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6749,6 +6933,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -6761,10 +6946,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6849,6 +7035,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -6861,10 +7048,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -6937,6 +7125,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -6949,10 +7138,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7025,6 +7215,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -7037,10 +7228,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7113,6 +7305,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -7125,10 +7318,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7201,6 +7395,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -7213,10 +7408,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7289,6 +7485,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -7301,10 +7498,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7377,6 +7575,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -7389,10 +7588,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7465,6 +7665,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -7477,10 +7678,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7553,6 +7755,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -7565,10 +7768,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7653,6 +7857,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -7665,10 +7870,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7753,6 +7959,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -7765,10 +7972,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7853,6 +8061,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -7865,10 +8074,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -7953,6 +8163,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -7965,10 +8176,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8041,6 +8253,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -8053,10 +8266,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8129,6 +8343,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -8141,10 +8356,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8217,6 +8433,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -8229,10 +8446,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8305,6 +8523,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -8318,10 +8537,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8406,6 +8626,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -8419,10 +8640,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8507,6 +8729,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -8520,10 +8743,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8608,6 +8832,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "CDItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -8621,10 +8846,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8709,6 +8935,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -8721,10 +8948,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8809,6 +9037,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -8821,10 +9050,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -8909,6 +9139,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -8921,10 +9152,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9009,6 +9241,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -9021,10 +9254,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9109,6 +9343,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -9121,10 +9356,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9197,6 +9433,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -9209,10 +9446,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9285,6 +9523,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -9297,10 +9536,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9373,6 +9613,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -9385,10 +9626,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9461,6 +9703,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -9473,10 +9716,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9561,6 +9805,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -9573,10 +9818,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9661,6 +9907,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -9673,10 +9920,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9761,6 +10009,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -9773,10 +10022,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9861,6 +10111,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -9873,10 +10124,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -9961,6 +10213,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -9973,10 +10226,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10061,6 +10315,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -10073,10 +10328,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10161,6 +10417,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -10173,10 +10430,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10261,6 +10519,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -10273,10 +10532,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10349,6 +10609,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -10361,10 +10622,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10437,6 +10699,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -10449,10 +10712,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10525,6 +10789,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -10537,10 +10802,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10613,6 +10879,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -10625,10 +10892,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10701,6 +10969,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -10713,10 +10982,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10789,6 +11059,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -10801,10 +11072,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10877,6 +11149,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -10889,10 +11162,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -10965,6 +11239,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -10977,10 +11252,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11065,6 +11341,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -11077,10 +11354,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11165,6 +11443,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -11177,10 +11456,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11265,6 +11545,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -11277,10 +11558,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11365,6 +11647,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -11377,10 +11660,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11453,6 +11737,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -11465,10 +11750,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11541,6 +11827,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -11553,10 +11840,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11629,6 +11917,7 @@
             true
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -11641,10 +11930,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11717,6 +12007,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "N",
         "Quality": 1,
         "Tags": [
@@ -11730,10 +12021,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
+        "CraftQuality": 5,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11818,6 +12110,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "R",
         "Quality": 2,
         "Tags": [
@@ -11831,10 +12124,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 10,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -11919,6 +12213,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SR",
         "Quality": 3,
         "Tags": [
@@ -11932,10 +12227,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
+        "CraftQuality": 20,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -12020,6 +12316,7 @@
             false
         ],
         "Category": "Material",
+        "SubCategory": "BookItem",
         "Rarity": "SSR",
         "Quality": 4,
         "Tags": [
@@ -12033,10 +12330,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
+        "CraftQuality": 50,
         "Shops": [
             {
                 "ShopCategory": "Raid",
@@ -12136,10 +12434,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12183,10 +12482,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12226,10 +12526,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12271,10 +12572,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12315,10 +12617,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12358,10 +12661,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12402,10 +12706,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12446,10 +12751,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12491,10 +12797,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12536,10 +12843,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12580,10 +12888,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12623,10 +12932,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12665,10 +12975,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12706,10 +13017,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12749,10 +13061,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12792,10 +13105,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12835,10 +13149,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12884,10 +13199,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12928,10 +13244,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -12973,10 +13290,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13022,10 +13340,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13064,10 +13383,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13106,10 +13426,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13149,10 +13470,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13193,10 +13515,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13238,10 +13561,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13282,10 +13606,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13325,10 +13650,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13367,10 +13693,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13410,10 +13737,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13454,10 +13782,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13504,10 +13833,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13547,10 +13877,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13592,10 +13923,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13633,10 +13965,11 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
+        "CraftQuality": 20,
         "ExpValue": 20,
         "Shops": [],
         "Craftable": [
@@ -13684,6 +14017,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -13727,6 +14061,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -13780,6 +14115,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -13837,6 +14173,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -13894,6 +14231,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -13949,6 +14287,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14008,6 +14347,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14071,6 +14411,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14112,6 +14453,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14167,6 +14509,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14212,6 +14555,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14259,6 +14603,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14314,6 +14659,7 @@
             null,
             null
         ],
+        "CraftQuality": 50,
         "ExpValue": 60,
         "Shops": [],
         "Craftable": [
@@ -14548,7 +14894,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
@@ -15417,7 +15763,7 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Category": "SecretStone",
         "Rarity": "N",
@@ -17135,7 +17481,7 @@
         "Id": 10065,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Category": "SecretStone",
@@ -48614,7 +48960,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
@@ -48710,7 +49056,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
@@ -48806,7 +49152,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
@@ -48902,7 +49248,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
@@ -48998,7 +49344,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             30,
             30
         ],
@@ -49094,7 +49440,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             60,
             60
         ],
@@ -49190,7 +49536,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             150,
             150
         ],
@@ -49286,7 +49632,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -49382,7 +49728,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             10,
             10
         ],
@@ -49630,7 +49976,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             20,
             20
         ],
@@ -49878,7 +50224,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
@@ -50126,7 +50472,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             80,
             80
         ],
@@ -50374,7 +50720,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             50,
             50
         ],
@@ -50482,7 +50828,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -50638,7 +50984,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -50794,7 +51140,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -50974,7 +51320,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -51154,7 +51500,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -51334,7 +51680,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -51496,7 +51842,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -51628,7 +51974,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -51790,7 +52136,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -51964,7 +52310,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -52428,7 +52774,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -52692,7 +53038,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -52957,7 +53303,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -53234,7 +53580,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -54982,7 +55328,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -56208,7 +56554,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],
@@ -56996,7 +57342,7 @@
             null,
             null
         ],
-        "SynthQuality": [
+        "ShiftingCraftQuality": [
             200,
             200
         ],

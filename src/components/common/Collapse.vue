@@ -1,10 +1,13 @@
 <script setup>
+import { watchArray } from '@vueuse/core';
 import { Collapse } from 'bootstrap';
-import { onMounted, onUnmounted, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref, toRef, watch } from 'vue';
 
 const props = defineProps({
     show: Boolean
 });
+
+const collapseState = computed(() => props.show);
 
 const emit = defineEmits(['update:show']);
 
@@ -27,10 +30,10 @@ function _toggle() {
 onMounted(() => {
     bsCollapse.value = new Collapse(collapse.value, { toggle: false });
 
-    bsCollapse.value.addEventListener('show.bs.collapse', (e) => {
+    collapse.value.addEventListener('show.bs.collapse', (e) => {
         emit('update:show', true);
     });
-    bsCollapse.value.addEventListener('hide.bs.collapse', (e) => {
+    collapse.value.addEventListener('hide.bs.collapse', (e) => {
         emit('update:show', false);
     });
 
@@ -44,6 +47,12 @@ defineExpose({
     show: _show,
     hide: _hide,
     toggle: _toggle
+})
+
+watch(collapseState, (newVal, oldVal) => {
+    if (oldVal != newVal) {
+        newVal ? _show() : _hide();
+    }
 })
 
 </script>

@@ -7,6 +7,7 @@ import Tooltip from '../../common/Tooltip.vue';
 const props = defineProps({
     name: String,
     type: String,
+    noTooltip: Boolean
 });
 
 const tooltip = computed(() => {
@@ -22,8 +23,8 @@ const tooltip = computed(() => {
 </script>
 
 <template>
-    <Tooltip v-bind="tooltip" :class="`ba-skill-${type.toLowerCase()}`">
+    <component :is="noTooltip ? 'span' : Tooltip" v-bind="tooltip" :class="`ba-skill-${type.toLowerCase()}`">
         <img class="buff-icon" :src="`/images/buff/${type}_${name}.webp`">
         <span class="buff-label">{{ translate('BuffName', `${type}_${name}`) }}</span>
-    </Tooltip>
+    </component>
 </template>

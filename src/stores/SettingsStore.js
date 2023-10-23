@@ -9,10 +9,12 @@ export const useSettingsStore = defineStore('settingsstore', () => {
         server: 0,
         theme: 'auto',
         highcontrast: false,
+        backgrounds: true,
         preferredUnits: 'metric',
         distanceUnit: 'raw',
         durationUnit: 'seconds',
         collectionPerServer: true,
+        showDeveloperProps: false,
     }, {
         mergeDefaults: (storage, defaults) => merge(defaults, storage)
     }))
