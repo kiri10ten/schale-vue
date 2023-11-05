@@ -2,7 +2,8 @@
 import { watchDebounced } from '@vueuse/core';
 import { computed, ref, toRef, toRefs, toValue } from 'vue';
 
-import { useCharacterStats, useGearStats, useStudentBondStats, useWeaponStats } from "../../composables/CharacterStats";
+import { useCharacterStats, useGearStats, useWeaponStats } from "../../composables/CharacterStats";
+import { useStudentBondStats } from '../../composables/Bond';
 import { getEquipmentByType, getEquipmentStats } from '../../composables/Equipment';
 import { translate, translateUi } from '../../composables/Localization';
 import { regionSettings } from '../../composables/RegionSettings';
@@ -19,15 +20,15 @@ import Tooltip from '../common/Tooltip.vue';
 import InputBond from '../inputs/InputBond.vue';
 import SelectEquipment from '../inputs/SelectEquipment.vue';
 import StarGrade from '../inputs/StarGrade.vue';
-import ToggleGear from '../inputs/ToggleGear.vue';
 import Modal from '../common/Modal.vue';
 import StatsTableFull from '../common/StatsTableFull.vue';
-import InputSkillLevel from '../inputs/InputSkillLevel.vue';
 import { getBuffIconNameFromStat, statToBuffIcon } from '../../composables/Buffs';
 import { upgradeSkillTypes, usePersonalSkills } from '../../composables/Skills';
 import CalculationBuffs from '../../calculation/CalculationBuffs.vue';
 import BuffTag from './skills/BuffTag.vue';
 import { cloneDeep } from 'lodash';
+import { getSchoolIconName } from '../../composables/Icon';
+import SelectGear from '../inputs/SelectGear.vue';
 
 const props = defineProps({
     student: {
@@ -65,6 +66,11 @@ const summonSkill = computed(() => {
 })
 
 const selectedSummon = ref(0);
+
+const summon = computed(() => {
+    return selectedSummon.value > 0 ? getSummonById(selectedCharacter.value.Id) : null;
+})
+
 const selectedCharacter = computed(() => {
     if (selectedSummon.value == 0) {
         return props.student;
@@ -240,7 +246,7 @@ const terrainAffinity = computed(() => {
     return affinities;
 })
 
-const personalSkills = usePersonalSkills(props.student, refStudentDisplay.WeaponStarGrade, refStudentDisplay.GearTier)
+const personalSkills = usePersonalSkills(props.student, refStudentDisplay.WeaponStarGrade, refStudentDisplay.Gear)
 
 const bulletTypeTooltip = useBulletTypeTooltip(props.student.BulletType);
 const armorTypeTooltip = useArmorTypeTooltip(props.student.ArmorType);
@@ -285,7 +291,7 @@ watchDebounced(studentDisplay, () => {
                 <div class="icon-type" :class="`bg-def-${student.ArmorType.toLowerCase()}`"><img src="/images/ui/Type_Defense.png"></div><span class="label">{{ translate('ArmorType', student.ArmorType) }}</span>
             </Tooltip>
             <!-- <span id="ba-student-position" class="ba-info-pill m-0"><span class="label">{{ student.Position.toUpperCase() }}</span></span> -->
-            <span id="ba-student-academy" class="ba-info-pill bg-theme m-0 position-relative"><img id="ba-student-academy-icon" class="invert-light" :src="`/images/schoolicon/${student.School}.png`" style="height:26px;"><span class="label">{{ translate('School', student.School) + ' / ' + translate('Club', student.Club) }}</span></span>
+            <span id="ba-student-academy" class="ba-info-pill bg-theme m-0 position-relative"><img id="ba-student-academy-icon" class="invert-light" :src="`/images/schoolicon/${getSchoolIconName(student.School)}.png`" style="height:26px;"><span class="label">{{ translate('School', student.School) + ' / ' + translate('Club', student.Club) }}</span></span>
         </div>
         <div id="ba-student-terrain" class="terrain-group">
             <Tooltip v-for="terrain in terrainList" v-bind="terrainAffinityTooltip[terrain]" class="terrain-info ba-panel">
@@ -295,7 +301,7 @@ watchDebounced(studentDisplay, () => {
         </div>
         <div id="ba-student-weapon" class="ba-type-weapon ba-panel d-flex align-text-top position-relative" :style="{backgroundImage: `url('/images/weapon/${student.WeaponImg}.webp')`}">
             <img id="ba-student-usescover-icon" class="me-1" v-if="student.Cover" src="/images/ui/Combat_Icon_Cover_Ally.png">
-            <p id="ba-student-weapontype-label" class="text-bold text-italic">{{ student.WeaponType }} / {{student.Position.toUpperCase()}}</p>
+            <p id="ba-student-weapontype-label" class="text-bold text-italic font-nexon">{{ student.WeaponType }} / {{student.Position.toUpperCase()}}</p>
             <!-- <p v-if="studentDisplay.WeaponStarGrade > 0" id="ba-student-weapon-level" class="text-bold ms-auto">{{ 'Lv.' + studentDisplay.WeaponLevel }}</p> -->
         </div>
         <div id="ba-student-gear" class="flex-fill ba-panel">
@@ -358,12 +364,15 @@ watchDebounced(studentDisplay, () => {
                 </ul>
             </div>
             <div class="d-flex flex-row align-items-end gap-2">
-                <Modal title="Detailed Character Stats" fixed-height class="btn-pill">
+                <Modal fixed-height class="btn-pill">
                     <template #trigger>
                         <span class="label">
                             <fa icon="magnifying-glass" class="me-2" />
                             {{ translateUi('details') }}
                         </span>
+                    </template>
+                    <template #title>
+                        <fa icon="search" class="me-2"/>Detailed Character Stats
                     </template>
                     <template #body>
                         <div class="student-stat-table ba-panel ba-stats striped mb-0">
@@ -386,10 +395,40 @@ watchDebounced(studentDisplay, () => {
                 <StatsTable :character-stats="selectedCharacterStats" :stat-list="studentStatList" :enable-derived-tooltip="true" :hide-ammo-count="selectedCharacter.SquadType == 'Support'"></StatsTable>
                 <div class="px-2"><div class="ba-panel-separator"></div></div>
                 <div class="d-flex p-2 gap-2">
-                    <Modal title="Configure Buffs" keep-alive class="btn-pill">
+                    <Modal keep-alive fixed-height class="btn-pill">
+                        <template #title>
+                            <fa icon="circle-arrow-up" class="me-2" />Configure Buffs
+                            <!-- <Modal no-backdrop class="btn-pill">
+                                <template #title><fa icon="question" class="me-2" />Help</template>
+                                <template #trigger>
+                                    <span class="label">
+                                        <fa icon="question" class="" />
+                                    </span>
+                                </template>
+                                <template #body>
+                                    <p>Use this menu to add stat-increasing buffs and debuffs to the selected character.</p>
+                                    <ul>
+                                        <li>Toggle buffs on and off with <fa icon="square-check" /></li>
+                                        <li>Students' own buffs are visible under <b>Personal Buffs</b></li>
+                                    </ul>
+                                    <p>Add allied students' or enemies' buff/debuffing skills under <b>Other Buffs</b></p>
+                                    <ul>
+                                        <li>Click <fa icon="trash" /> to remove a skill or <fa icon="thumbtack" /> to pin it to the top of the search results</li>
+                                        <li><fa icon="warning" /> will appear if you have buffs set that cannot stack with each other</li>
+                                        <li>As a general rule, buffs that affect the same stat and originate from the same skill slot (EX, Basic etc.) will overwrite each other</li>
+                                    </ul>
+                                    <p>If the buff/debuff you want to add isn't available, you can use <fa icon="wrench" /> to define a buff/debuff yourself</p>
+                                    <ul>
+                                        <li>Click <b>+/-</b> to change between adding a positive (buff) or negative (debuff) value</li>
+                                        <li>Click <b>%</b> to change between adding a flat buff and a percentage buff</li>
+                                        <li>Stats are usually calculated using the formula (Base Value + Flat Buffs) &times; Percentage Buffs</li>
+                                    </ul>
+                                </template>
+                            </Modal> -->
+                        </template>
                         <template #trigger>
                             <span class="label">
-                                <fa icon="cog" class="me-2" />
+                                <fa icon="circle-arrow-up" class="me-2" />
                                 {{ translateUi('buffs') }}
                             </span>
                         </template>
@@ -406,7 +445,7 @@ watchDebounced(studentDisplay, () => {
                                             </div>
                                             <div class="flex-fill">
                                                 <div class="d-flex gap-3 w-100">
-                                                    <h5>{{ summonSkill.Name }}</h5>
+                                                    <h5 class="mb-1">{{ summonSkill.Name }}</h5>
                                                     <span class="text-italic ms-auto no-wrap">{{ translate('SkillType', summonSkill.Type) }}</span>
                                                 </div>
                                                 
@@ -416,7 +455,7 @@ watchDebounced(studentDisplay, () => {
                                                         <span class="me-1">
                                                             Inherits <b>{{ +(summonSkill.InheritCasterAmount[n - 1][studentDisplay.Skill[summonSkill.Type].Level - 1] / 100).toFixed(2) }}%</b> of {{ props.student.Name }}'s 
                                                         </span>
-                                                        <BuffTag type="Buff" :name="getBuffIconNameFromStat(summonSkill.InheritCasterStat[n - 1])" ></BuffTag>
+                                                        <BuffTag :name="'Buff_' + getBuffIconNameFromStat(summonSkill.InheritCasterStat[n - 1])" ></BuffTag>
                                                     </template>
                                                 </p>
 
@@ -433,7 +472,14 @@ watchDebounced(studentDisplay, () => {
                                 </div>
                             </template>
 
-                            <CalculationBuffs :character-stats="selectedCharacterStats" :personal-skills="personalSkills" :character-display="studentDisplay" />
+                            <CalculationBuffs
+                                :character="student"
+                                :character-stats="studentStats"
+                                :summon="summon"
+                                :summon-stats="summonStats"
+                                :personal-skills="personalSkills"
+                                :character-display="studentDisplay"
+                            />
                         </template>
                     </Modal>
                     <div class="active-buffs ms-auto">
@@ -464,21 +510,14 @@ watchDebounced(studentDisplay, () => {
                 <StarGrade v-model:star-grade="studentDisplay.StarGrade" v-model:weapon-star-grade="studentDisplay.WeaponStarGrade" v-model:weapon-level="studentDisplay.WeaponLevel"></StarGrade>
             </div>
             <div class="flex-fill"></div>
-
-            <div class="d-flex flex-row align-items-stretch gap-2">
-                <SelectEquipment v-for="n in 3" :equipment-type="student.Equipment[n - 1]" v-model:equipment-tier="studentDisplay.Equipment[n - 1]"></SelectEquipment>
-                <ToggleGear v-if="student.Gear.Released?.[settings.server]" v-model:include-gear="studentDisplay.Gear" :student="student" />
-            </div>
-        </div>
-        <div class="d-flex flex-row flex-wrap align-items-stretch gap-2 mb-1">
             <InputBond :student-id="student.Id" v-model:bond-level="studentDisplay.BondLevel[0]"></InputBond>
             <InputBond v-for="(alt, index) in student.FavorAlts" :student-id="alt" v-model:bond-level="studentDisplay.BondLevel[index + 1]"></InputBond>
-            <div class="flex-fill"></div>
-            <!-- <InputSkillLevel v-if="selectedSummon > 0 && student.Summons[selectedSummon - 1].SourceSkill == 'Ex'" :skill="student.Skills.Ex" type="Ex" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillEx"></InputSkillLevel>
-            <InputSkillLevel v-if="selectedSummon > 0 && student.Summons[selectedSummon - 1].SourceSkill == 'Public'" :skill="student.Skills.Public" type="Public" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillPublic"></InputSkillLevel> -->
-
-            <!-- <InputSkillLevel :skill="student.Skills.Passive" type="Passive" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillPassive"></InputSkillLevel> -->
-            <!-- <InputSkillLevel :skill="student.Skills.ExtraPassive" type="ExtraPassive" :bullet-type="student.BulletType" v-model:skill-level="studentDisplay.SkillExtraPassive"></InputSkillLevel> -->
+        </div>
+        <div class="d-flex flex-row flex-wrap align-items-stretch gap-2 mb-1">
+            <div class="d-flex flex-row align-items-stretch gap-2">
+                <SelectEquipment v-for="n in 3" :equipment-type="student.Equipment[n - 1]" v-model:equipment-tier="studentDisplay.Equipment[n - 1]"></SelectEquipment>
+                <SelectGear v-if="student.Gear.Released?.[settings.server]" v-model:gear-tier="studentDisplay.Gear" :student="student" />
+            </div>
         </div>
     </div>
 

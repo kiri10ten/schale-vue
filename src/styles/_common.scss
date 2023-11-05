@@ -17,14 +17,27 @@ body {
 
 //fonts - only add chinese fonts when language is selected to avoid confliction
 
+@font-face {
+    font-family: 'NEXON Football Gothic';
+    src:
+        url('/font/NEXONFootballGothicBA1.woff2') format('woff2'),
+        url('/font/NEXONFootballGothicBA1.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    //ascent-override: 100%;
+    //size-adjust: 110%;
+}
+
 body {
 
     font-family: 'Nunito Sans', 'Noto Sans JP', sans-serif;
 
     .title-text {
-        font-family: 'Nunito Sans', 'Noto Sans JP', sans-serif;
+        font-family: 'NEXON Football Gothic', 'Noto Sans JP', sans-serif;
         font-style: italic;
         font-weight: 700;
+        //text-transform: uppercase;
     }
 
     .ba-tooltip{
@@ -47,7 +60,7 @@ body {
         }
 
         .title-text {
-            font-family: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+            font-family: 'NEXON Football Gothic', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
         }
     }
 
@@ -79,6 +92,17 @@ body {
         .title-text {
             font-family: 'Noto Sans Thai', 'Noto Sans JP', sans-serif;
         }
+    }
+
+    &.font-vi {
+        .title-text {
+            font-family: 'Nunito Sans', 'Noto Sans JP', sans-serif;
+        }
+    }
+
+    .font-nexon {
+        font-family: 'NEXON Football Gothic';
+        font-style: italic;
     }
 }
 
@@ -254,6 +278,15 @@ p a {
 
 }
 
+.dropdown-item {
+    &:active, &.active {
+        img.invert-light {
+            filter: var(--var-invert-dark) !important;
+        }
+    }
+}
+
+
 .bond-small {
 
     position: relative;
@@ -364,7 +397,7 @@ p a {
     @include flex(center, center);
     cursor: pointer !important;
 
-    @include circular;
+    border-radius: 999px;
     @include unselectable;
 
     font-weight: 600;
@@ -614,36 +647,50 @@ p a {
     &.explosion-rate, &.lightarmor-rate {
         --col-theme-svgicon-primary: #820008;
         --col-theme-svgicon-secondary: #ffcccc;
+        --col-theme-svgicon-primary-invert: #820008;
+        --col-theme-svgicon-secondary-invert: #ffcccc;
     }
 
     &.pierce-rate, &.heavyarmor-rate {
         --col-theme-svgicon-primary: #7c5900;
         --col-theme-svgicon-secondary: #ffe338;
+        --col-theme-svgicon-primary-invert: #7c5900;
+        --col-theme-svgicon-secondary-invert: #ffe338;
     }
 
     &.mystic-rate, &.unarmed-rate {
         --col-theme-svgicon-primary: #0c557e;
         --col-theme-svgicon-secondary: #57e9f9;
+        --col-theme-svgicon-primary-invert: #0c557e;
+        --col-theme-svgicon-secondary-invert: #57e9f9;
     }
 
     &.sonic-rate, &.elasticarmor-rate {
         --col-theme-svgicon-primary: #761e93;
         --col-theme-svgicon-secondary: #e4afff;
+        --col-theme-svgicon-primary-invert: #761e93;
+        --col-theme-svgicon-secondary-invert: #e4afff;
     }
 
     &.buff-duration {
         --col-theme-svgicon-primary: #ffa97f;
         --col-theme-svgicon-secondary: #54130d;
+        --col-theme-svgicon-primary-invert: #ffa97f;
+        --col-theme-svgicon-secondary-invert: #54130d;
     }
 
     &.debuff-duration {
         --col-theme-svgicon-primary: #7cd6ed;
         --col-theme-svgicon-secondary: #0c264c;
+        --col-theme-svgicon-primary-invert: #7cd6ed;
+        --col-theme-svgicon-secondary-invert: #0c264c;
     }
 
     &.crowdcontrol-duration {
         --col-theme-svgicon-primary: #c994ff;
         --col-theme-svgicon-secondary: #2c0b4d;
+        --col-theme-svgicon-primary-invert: #c994ff;
+        --col-theme-svgicon-secondary-invert: #2c0b4d;
     }
 }
 
@@ -784,7 +831,7 @@ p a {
         }
         .stat-final {
             display: inline-block;
-            min-width: 5rem;
+            min-width: 90px;
         }
 
         .stat-cap {

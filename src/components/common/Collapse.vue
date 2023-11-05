@@ -1,11 +1,12 @@
 <script setup>
-import { watchArray } from '@vueuse/core';
 import { Collapse } from 'bootstrap';
-import { computed, onMounted, onUnmounted, ref, toRef, watch } from 'vue';
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
 
 const props = defineProps({
     show: Boolean
 });
+
+const initialShow = props.show;
 
 const collapseState = computed(() => props.show);
 
@@ -31,9 +32,11 @@ onMounted(() => {
     bsCollapse.value = new Collapse(collapse.value, { toggle: false });
 
     collapse.value.addEventListener('show.bs.collapse', (e) => {
+        e.stopPropagation();
         emit('update:show', true);
     });
     collapse.value.addEventListener('hide.bs.collapse', (e) => {
+        e.stopPropagation();
         emit('update:show', false);
     });
 
@@ -58,7 +61,7 @@ watch(collapseState, (newVal, oldVal) => {
 </script>
 
 <template>
-    <div ref="collapse" class="collapse">
+    <div ref="collapse" class="collapse" :class="{show: initialShow}">
         <slot></slot>
     </div>
 </template>

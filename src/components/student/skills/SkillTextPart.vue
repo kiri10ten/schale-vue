@@ -15,7 +15,7 @@ defineProps({
         <span v-if="part.content.hits === null" :class="part.content.class" v-html="part.content.text"></span>
     </template>
 
-    <BuffTag v-if="part.type == 'buff'" :type="part.content.type" :name="part.content.name" />
+    <BuffTag v-if="part.type == 'buff'" :name="part.content.name" :label="part.content.label" />
 
     <span v-if="part.type == 'part'" :class="part.content.class">
         <SkillTextPart v-for="innerpart in part.content.parts" :part="innerpart" />

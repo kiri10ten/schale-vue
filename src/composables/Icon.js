@@ -10,6 +10,8 @@ export function getStatIconName(stat) {
         
     } else if (statName.startsWith('Extend')) {
         return 'ExtendDuration';
+    }  else if (statName == 'StabilityRate') {
+        return 'StabilityPoint';
     } else {
         return statName;
     }
@@ -23,5 +25,13 @@ export function getStatIconClass(stat) {
         return statName.replace('Extend', '').replace('Duration', '-duration').toLowerCase();
     } else {
         return null;
+    }
+}
+
+export function getSchoolIconName(school) {
+    if (school == 'Sakugawa') {
+        return 'ETC';
+    } else {
+        return school;
     }
 }

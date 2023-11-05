@@ -24,7 +24,8 @@ const props = defineProps({
     hideAmmoCount: {
         type: Boolean,
         default: false
-    }
+    },
+    groggyInfo: Object
 })
 
 const derivedStats = {
@@ -71,6 +72,16 @@ const columnClass = 'col-' + parseInt(12 / props.columns)
                 </template>
             </div>
         </div>
+        <template v-if="groggyInfo">
+            <div v-for="(value, stat) in groggyInfo" :class="columnClass">
+                <div class="d-flex align-items-center px-2">
+                    <span class="stat-name py-2">{{ translate('Stat', stat) }}</span>
+                    <span class="flex-fill"></span>
+                    <span class="stat-value">{{ value }}</span>
+                </div>
+            </div>
+        </template>
+
     </div>
 </template>
 

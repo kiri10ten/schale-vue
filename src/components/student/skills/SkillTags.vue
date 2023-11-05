@@ -10,8 +10,12 @@ const props = defineProps({
     skill: {
         type: Object,
         required: true
-    }
+    },
+    extraSkillsButton: Boolean,
+    extraSkillsPanelState: Boolean
 });
+
+const emit = defineEmits(['update:extraSkillsPanelState'])
 
 const tags = computed(() => {
 
@@ -72,20 +76,28 @@ const tags = computed(() => {
 
 
 <template>
-    <div v-for="radius of tags.radius" class="ba-info-pill-s bg-theme" v-tooltip="radius.tooltip">
-        <img class="icon invert-light" :src="`/images/skill/${radius.icon}.webp`">
-        <span class="label" v-html="radius.label"></span>
-    </div>
-    <div v-if="tags.range" class="ba-info-pill-s bg-theme" v-tooltip="translateUi('range') + `: <b>${tags.range / 100}m (${tags.range})</b>`">
-        <div class="icon">
-            <inline-svg class="stat-icon-svg" :src="`/images/staticon/svg/Range.svg`"></inline-svg>
+    <div class="skill-extrainfo" v-if="skill.Duration || tags.range || tags.radius.length || extraSkillsButton">
+        <button v-if="extraSkillsButton" class="ba-info-pill-s btn btn-dark" @click="emit('update:extraSkillsPanelState', !extraSkillsPanelState)">
+            <span class="label">
+                {{ translateUi('summon') }}
+                <fa icon="angle-down" class="animate-transform ms-1" :class="{'fa-rotate-180': extraSkillsPanelState}"></fa>
+            </span>
+        </button>
+        <div v-for="radius of tags.radius" class="ba-info-pill-s bg-theme" v-tooltip="radius.tooltip">
+            <img class="icon invert-light" :src="`/images/skill/${radius.icon}.webp`">
+            <span class="label" v-html="radius.label"></span>
         </div>
-        <span class="label">{{ distanceString(tags.range) }}</span>
-    </div>
-    <div v-if="skill.Duration" class="ba-info-pill-s bg-theme"
-    v-tooltip="translateUi('skill_duration') + `:\n<b>${translateUi('time_seconds_frames', +(skill.Duration / 30).toFixed(2), skill.Duration)}</b>`">
-        <img class="icon invert-light py-1" src="/images/ui/Common_Icon_Time.png">
-        <span class="label">{{ framesString(skill.Duration) }}</span>
+        <div v-if="tags.range" class="ba-info-pill-s bg-theme" v-tooltip="translateUi('range') + `: <b>${tags.range / 100}m (${tags.range})</b>`">
+            <div class="icon">
+                <inline-svg class="stat-icon-svg" :src="`/images/staticon/svg/Range.svg`"></inline-svg>
+            </div>
+            <span class="label">{{ distanceString(tags.range) }}</span>
+        </div>
+        <div v-if="skill.Duration" class="ba-info-pill-s bg-theme"
+        v-tooltip="translateUi('skill_duration') + `:\n<b>${translateUi('time_seconds_frames', +(skill.Duration / 30).toFixed(2), skill.Duration)}</b>`">
+            <img class="icon invert-light py-1" src="/images/ui/Common_Icon_Time.png">
+            <span class="label">{{ framesString(skill.Duration) }}</span>
+        </div>
     </div>
 </template>
 

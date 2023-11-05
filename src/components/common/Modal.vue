@@ -3,12 +3,9 @@ import { Modal } from 'bootstrap';
 import { onMounted, onUnmounted, onUpdated, ref } from 'vue';
 
 const props = defineProps({
-    title: {
-        type: String,
-        required: true
-    },
     fixedHeight: Boolean,
     keepAlive: Boolean,
+    noBackdrop: Boolean,
 });
 
 const bsModal = ref(null);
@@ -25,7 +22,7 @@ function _hide() {
 }
 
 onMounted(() => {
-    bsModal.value = new Modal(modal.value);
+    bsModal.value = new Modal(modal.value, {backdrop: !props.noBackdrop});
     
     modal.value.addEventListener('show.bs.modal', (e) => {
         modalOpen.value = true;
@@ -60,7 +57,9 @@ defineExpose({
             <div class="modal-dialog modal-lg modal-fullscreen-lg-down">
                 <div v-if="modalOpen || keepAlive" class="modal-content" :class="{'h-100': fixedHeight}">
                     <div class="modal-header" style="border-bottom: none;">
-                        <h5 class="modal-title">{{ title }}</h5>
+                        <h5 class="modal-title">
+                            <slot name="title"></slot>
+                        </h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                     </div>
                     <div class="modal-body pt-1">

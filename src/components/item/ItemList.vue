@@ -350,7 +350,7 @@ function scrollToCurrentItem() {
                                 </RouterLink> -->
 
                             <div class="item-card-wrapper">
-                                <ItemCard :item="item" :width="cardWidth" :height="cardHeight" :class="{selected: currentItemId && item.Type == activeTab && item.Id == currentItemId}"/>
+                                <ItemCard :item="item" :width="cardWidth" :height="cardHeight"/>
                             </div>
 
                     </RecycleScroller>

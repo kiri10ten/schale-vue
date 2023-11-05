@@ -43,7 +43,9 @@
         "SRT": "SRT",
         "Trinity": "Trinity",
         "Valkyrie": "Valkyrie",
-        "ETC": "Etc."
+        "ETC": "Etc.",
+        "Tokiwadai": "Tokiwadai",
+        "Sakugawa": "Sakugawa"
     },
     "AdaptationType": {
         "Street": "Đường phố",
@@ -61,7 +63,9 @@
         "SRT": "Học viện Đặc biệt SRT",
         "Trinity": "Trường Tổng hợp Trinity",
         "Valkyrie": "Trường Cảnh sát Valkyrie",
-        "ETC": "Etc."
+        "ETC": "Etc.",
+        "Tokiwadai": "Tokiwadai Middle School",
+        "Sakugawa": "Sakugawa Middle School"
     },
     "Club": {
         "Kohshinjo68": "Đội giải quyết \"vấn đề\" 68",
@@ -223,7 +227,8 @@
         "10": "Field Day",
         "11": "Abydos Classroom",
         "12": "Game Development Department",
-        "13": "Sunshine Resort"
+        "13": "Sunshine Resort",
+        "14": "Department Store"
     },
     "FurnitureSet": {
         "0": "None",
@@ -239,7 +244,8 @@
         "109": "Bộ hội thao",
         "110": "Bộ lớp học Abydos",
         "111": "Game Development Department Set",
-        "112": "Sunshine Resort Set"
+        "112": "Sunshine Resort Set",
+        "113": "Department Store Set"
     },
     "ItemCategory": {
         "Furnitures": "Đồ nội thất",
@@ -306,11 +312,11 @@
         "26": "Roman Dodecahedron",
         "29": "Đá Winnipesaukee"
     },
-    "EnemyTags": {
-        "EnemySmall": "Nhỏ",
-        "EnemyMedium": "Trung bình",
-        "EnemyLarge": "Lớn",
-        "EnemyXLarge": "Cực lớn"
+    "CharacterSize": {
+        "Small": "Nhỏ",
+        "Medium": "Trung bình",
+        "Large": "Lớn",
+        "XLarge": "Cực lớn"
     },
     "EventName": {
         "701": "Nhiệm vụ đặc biệt Decagrammaton",
@@ -338,11 +344,12 @@
         "823": "Trận chiến quyết định của kẻ mất trí",
         "824": "Dự án khôi phục: Quận DU Shiratori",
         "825": "Alabaster Calling Card ~Mansion Masquerade and the Essence of Beauty~",
-        "826": "Dragon & Tortoise, Working Together for a Better Future",
-        "827": "Special Summer Mission! RABBIT Squad and the Mystery of the Missing Shrimp",
+        "826": "Dragon and Tortoise: A Future Together",
+        "827": "Summer Special! Mystery of the Missing Shrimp",
         "828": "In Search of a Hidden Heritage",
         "829": "Gakuman Doujin Monogatari: Two Seeking the Final Episode",
-        "830": "Trip Trap Train"
+        "830": "Trip Trap Train",
+        "831": "A Certain Scientific Youth Record"
     },
     "StageType": {
         "Campaign": "Nhiệm vụ",
@@ -505,6 +512,7 @@
         "Debuff_Penetration": "Xuyên giáp",
         "Debuff_Poison": "Ngộ độc",
         "Debuff_Range": "Khoảng cách",
+        "Debuff_ElectricShock": "Shock",
         "Debuff_Stability": "Kiên cố",
         "Debuff_CostRegen": "Phục hồi chi phí",
         "CC_Fear": "Sợ hãi",
@@ -512,7 +520,10 @@
         "CC_Provoke": "Nhạo báng",
         "CC_Paralysis": "Tê liệt",
         "CC_Emp": "EMP",
+        "CC_Confusion": "Confusion",
+        "Special_EnergyBatteryEmpty": "Năng lượng",
         "Special_EnergyBatteryHalf": "Năng lượng",
+        "Special_EnergyBatteryFull": "Năng lượng",
         "Special_FormChange": "Tấn công thường",
         "Special_Immortal": "Bất diệt",
         "Special_ImmuneDamage": "Bất khả xâm phạm",
@@ -613,6 +624,7 @@
         "Debuff_Penetration": "Xuyên giáp giảm",
         "Debuff_Poison": "Ngộ độc",
         "Debuff_Range": "Khoảng cách giảm",
+        "Debuff_ElectricShock": "Electric Shock",
         "Debuff_Stability": "Sự kiên cố giảm",
         "Debuff_CostRegen": "Phục hồi chi phí giảm",
         "CC_Fear": "Sợ hãi",
@@ -620,7 +632,10 @@
         "CC_Provoke": "Nhạo báng",
         "CC_Paralysis": "Tê liệt",
         "CC_Emp": "EMP",
+        "CC_Confusion": "Confusion",
+        "Special_EnergyBatteryEmpty": "Nạp năng lượng",
         "Special_EnergyBatteryHalf": "Nạp năng lượng",
+        "Special_EnergyBatteryFull": "Nạp năng lượng",
         "Special_FormChange": "Thay đổi hình thức",
         "Special_Immortal": "Bất diệt",
         "Special_ImmuneDamage": "Bất khả xâm phạm",
@@ -722,13 +737,17 @@
         "Debuff_Penetration": "Giảm tỉ lệ lượng phòng thủ của kẻ thù sẽ bị bỏ qua bởi các đòn đánh.",
         "Debuff_Poison": "Liên tục nhận sát thương độc trong các khoảng thời gian đã định. Sát thương này không thể gây ra chí mạng.",
         "Debuff_Range": "Giảm khoảng cách có thể thực hiện đòn đánh thường.",
+        "Debuff_ElectricShock": "Continuously receives Electric Shock damage at set intervals. This damage cannot critically hit.",
         "Debuff_Stability": "Giảm sát thương tối thiểu gây ra bởi các đòn tấn công do phương sai sát thương ngẫu nhiên.",
         "CC_Fear": "Không thể hành động và sẽ từ từ tránh xa kẻ đã gây ra nỗi sợ hãi cho họ. Cũng làm gián đoạn bất kỳ kỹ năng hoạt động nào.",
         "CC_Stunned": "Không thể hành động và làm gián đoạn bất kỳ kỹ năng đang hoạt động nào.",
         "CC_Provoke": "Buộc phải tấn công bất cứ ai đã chế nhạo họ. Cũng làm gián đoạn bất kỳ kỹ năng hoạt động nào.",
         "CC_Paralysis": "Không thể hành động và làm gián đoạn bất kỳ kỹ năng đang hoạt động nào.",
         "CC_Emp": "Không thể hành động và làm gián đoạn bất kỳ kỹ năng đang hoạt động nào.",
+        "CC_Confusion": "Attacks allies instead of enemies. Also interrupts any active skills.",
+        "Special_EnergyBatteryEmpty": "Tăng hiệu quả của các kỹ năng EX và Sub của Aris lên 1,5x (một nửa) hoặc 2x (toàn bộ).\nMức độ nạp đặt lại thành 0 sau khi sử dụng kỹ năng EX.",
         "Special_EnergyBatteryHalf": "Tăng hiệu quả của các kỹ năng EX và Sub của Aris lên 1,5x (một nửa) hoặc 2x (toàn bộ).\nMức độ nạp đặt lại thành 0 sau khi sử dụng kỹ năng EX.",
+        "Special_EnergyBatteryFull": "Tăng hiệu quả của các kỹ năng EX và Sub của Aris lên 1,5x (một nửa) hoặc 2x (toàn bộ).\nMức độ nạp đặt lại thành 0 sau khi sử dụng kỹ năng EX.",
         "Special_FormChange": "Tăng cường các cuộc tấn công bình thường.",
         "Special_Immortal": "Có khả năng sống sót sau sát thương chết người với 1 HP trong suốt thời gian hiệu ứng.",
         "Special_ImmuneDamage": "Kháng sát thương đối với một số hoặc tất cả các loại sát thương gây ra.",
@@ -830,6 +849,7 @@
         "UIEventBoxGachaShopEnter": "Khi vào khu đổi thưởng {0}",
         "UIEventBoxGachaShopIdle": "Trạng thái chờ ở khu đổi thưởng {0}",
         "UIEventBoxGachaShopBoxGachaPrize": "Nhận được quà đặc biệt ở khu đổi thưởng",
+        "UIEventBoxGachaShopBoxGachaFinish": "Prize Exchange Ended {0}",
         "UIEventMissionEnter": "Event Mission Entry {0}",
         "UIEventMissionIdle": "Event Mission Idle {0}",
         "UIEventMissionBuy": "Event Mission Completion {0}",
@@ -862,7 +882,7 @@
         "student": "Học sinh",
         "enemy": "Kẻ địch",
         "stages": "Màn chơi",
-        "navbar_raids": "Đột kích",
+        "raids": "Đột kích",
         "navbar_craft": "Chế tạo",
         "synthesis": "Tổ hợp",
         "fusion": "Dung hợp",
@@ -1035,8 +1055,8 @@
         "details": "Chi tiết",
         "calculations": "Calculations",
         "options_short": "Tuỳ chọn",
-        "raid_rules": "Luật",
-        "ta_phase": "Đợt ",
+        "rules": "Luật",
+        "ta_phase": "Đợt {0}",
         "craft_rewards": "Các vật phẩm có thể",
         "craft_fusion": "Vật liệu kết hợp",
         "craft_recipe_items": "Vật phẩm cần thiết",
@@ -1056,6 +1076,7 @@
         "own_bonus": "Owned Only",
         "max_bonus_amount": "Max Bonus {0}",
         "rewards_season": "Phần thưởng mùa",
+        "seasons": "Mùa",
         "raid_season": "Mùa {0}",
         "raid_season_select": "Chọn mùa",
         "item_tab_materials": "Tài nguyên",
@@ -1355,6 +1376,7 @@
         "155": "Responsibility",
         "156": "Final Destination of Ark",
         "157": "Step of Terror",
+        "159": "Operation☆DOTABATA",
         "162": "Welcome School",
         "10004": "Blue New World"
     }

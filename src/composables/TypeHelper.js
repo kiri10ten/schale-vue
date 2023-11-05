@@ -1,4 +1,4 @@
-import { computed } from "vue";
+import { computed, toValue } from "vue";
 import { translate, translateUi } from "./Localization";
 import { regionSettings } from "./RegionSettings";
 
@@ -45,10 +45,11 @@ export const TypeEffectiveness = {
     }
 }
 
-export function useBulletTypeTooltip(bulletType) {
+export function useBulletTypeTooltip(bulletTypeRef) {
 
     const tooltip = computed(() => {
 
+        const bulletType = toValue(bulletTypeRef);
         const title = translate('BulletType', bulletType);
         const subtitle = translateUi('attacktype');
         let body = '';
@@ -76,10 +77,11 @@ export function useBulletTypeTooltip(bulletType) {
 
 }
 
-export function useArmorTypeTooltip(armorType) {
+export function useArmorTypeTooltip(armorTypeRef) {
 
     const tooltip = computed(() => {
 
+        const armorType = toValue(armorTypeRef);
         const title = translate('ArmorTypeLong', armorType);
         const subtitle = translateUi('defensetype');
         let body = '';

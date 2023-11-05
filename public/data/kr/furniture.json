@@ -1121,6 +1121,10 @@
             [
                 2,
                 1
+            ],
+            [
+                14,
+                1
             ]
         ]
     },
@@ -4625,14 +4629,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_bar_01",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4672,14 +4676,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_carpet",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -4719,14 +4723,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_chair_01",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4766,14 +4770,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_chair_02",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4813,14 +4817,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_minisign",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4860,14 +4864,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_partition",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4907,14 +4911,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_shelf",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -4954,14 +4958,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_sofa",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -5001,14 +5005,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_table_01",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -5048,14 +5052,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_wall_acc_01",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -5095,14 +5099,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_wall_acc_03",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -5142,14 +5146,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_wall_acc_02",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -5189,14 +5193,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "R",
         "Icon": "my_halloween_01_p_acc_01",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -5236,14 +5240,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_fireplace",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -5283,14 +5287,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_tile",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 120,
         "Category": "Interiors",
@@ -5330,14 +5334,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_table_02",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -5378,14 +5382,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_window",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 120,
         "Category": "Decorations",
@@ -5425,14 +5429,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_bar_02",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -5473,14 +5477,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_photozone",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -5520,14 +5524,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_ghost",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -5567,14 +5571,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_wall_acc_04",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 350,
         "Category": "Decorations",
@@ -5614,14 +5618,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_wall_right",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -5661,14 +5665,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "halloweenbg",
         "Craftable": [
             true,
             true,
-            false
+            true
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -8657,6 +8661,10 @@
             [
                 9,
                 4
+            ],
+            [
+                14,
+                1
             ]
         ]
     },
@@ -9657,7 +9665,7 @@
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "대운동회 깃발 라이트블루",
-        "Desc": "스카이블루 컬러의 대운동회 깃발. 시원한 색상은 멀리서도 학생들의 눈길을 끈다.",
+        "Desc": "라이트블루 컬러의 대운동회 깃발. 시원한 색상은 멀리서도 학생들의 눈길을 끈다.",
         "Interaction": [
             false,
             false,
@@ -10372,7 +10380,7 @@
         "SubCategory": "Prop",
         "SetGroupId": 109,
         "Name": "공던지기 바구니 스카이블루",
-        "Desc": "라이트 블루 톤의 귀여운 공던지기 기구. 색색의 공을 열심히 던져 바구니에 넣어보자!",
+        "Desc": "스카이블루 톤의 귀여운 공던지기 기구. 색색의 공을 열심히 던져 바구니에 넣어보자!",
         "Interaction": [
             false,
             false,
@@ -10963,7 +10971,7 @@
         "Icon": "my_autumnsports_01_stand",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -11012,7 +11020,7 @@
         "Icon": "my_autumnsports_01_storagebox",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -11107,7 +11115,7 @@
         "Icon": "my_autumnsports_01_trophy",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -12971,14 +12979,14 @@
         "Id": 12100,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_bedding_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13018,14 +13026,14 @@
         "Id": 12101,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_boxes_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13065,14 +13073,14 @@
         "Id": 12102,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_carpet_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13112,14 +13120,14 @@
         "Id": 12103,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_chair_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13152,6 +13160,10 @@
             [
                 12,
                 2
+            ],
+            [
+                14,
+                1
             ]
         ]
     },
@@ -13159,14 +13171,14 @@
         "Id": 12104,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_chair_02",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13206,14 +13218,14 @@
         "Id": 12105,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_cushion_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13253,14 +13265,14 @@
         "Id": 12106,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_door_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13300,14 +13312,14 @@
         "Id": 12107,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_partition_02",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13347,14 +13359,14 @@
         "Id": 12108,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_floortile_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13394,14 +13406,14 @@
         "Id": 12109,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_locker_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13441,14 +13453,14 @@
         "Id": 12110,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_partition_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13488,14 +13500,14 @@
         "Id": 12111,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_plantpot_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13535,14 +13547,14 @@
         "Id": 12112,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_sign_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13582,14 +13594,14 @@
         "Id": 12113,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_table_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13629,14 +13641,14 @@
         "Id": 12114,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13676,14 +13688,14 @@
         "Id": 12115,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_03",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13723,14 +13735,14 @@
         "Id": 12116,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_04",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13770,14 +13782,14 @@
         "Id": 12117,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_05",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13817,14 +13829,14 @@
         "Id": 12118,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_06",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13864,14 +13876,14 @@
         "Id": 12119,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_07",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13911,14 +13923,14 @@
         "Id": 12120,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_airconditioner_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -13958,14 +13970,14 @@
         "Id": 12200,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_desk_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14005,14 +14017,14 @@
         "Id": 12201,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_desk_02",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14052,14 +14064,14 @@
         "Id": 12202,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_desk_03",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14099,14 +14111,14 @@
         "Id": 12203,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_monitor_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14146,14 +14158,14 @@
         "Id": 12204,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_shelf_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14193,14 +14205,14 @@
         "Id": 12205,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_shelf_02",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14240,14 +14252,14 @@
         "Id": 12206,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_shelf_03",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14287,7 +14299,7 @@
         "Id": 12207,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
@@ -14321,7 +14333,7 @@
         "Desc": "빨간색의 다인용 소파. 모든 부원이 모이기에 적합한 장소이다.",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ],
         "Templates": [
@@ -14335,14 +14347,14 @@
         "Id": 12208,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_teddybear_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14382,14 +14394,14 @@
         "Id": 12209,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_tile_2x2",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14429,14 +14441,14 @@
         "Id": 12210,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_wall_right",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14476,14 +14488,14 @@
         "Id": 12211,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SR",
         "Icon": "gamedevdeptbg",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 120,
@@ -14523,14 +14535,14 @@
         "Id": 12300,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_bookshelf_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -14570,7 +14582,7 @@
         "Id": 12301,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
@@ -14605,7 +14617,7 @@
         "Desc": "게임을 즐길 수 있는 우드 재질의 모니터. 게임에 집중할 수 있는 환경이 조성되어 있다.",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ],
         "Templates": [
@@ -14619,14 +14631,14 @@
         "Id": 12302,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_rug_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -14666,14 +14678,14 @@
         "Id": 12303,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_wallacc_02",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -14713,14 +14725,14 @@
         "Id": 12304,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_whiteboard_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -14760,14 +14772,14 @@
         "Id": 12305,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_window_01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -15411,6 +15423,10 @@
             [
                 13,
                 2
+            ],
+            [
+                14,
+                1
             ]
         ]
     },
@@ -15598,6 +15614,10 @@
         "Templates": [
             [
                 13,
+                1
+            ],
+            [
+                14,
                 1
             ]
         ]
@@ -16633,6 +16653,2168 @@
             [
                 13,
                 1
+            ]
+        ]
+    },
+    {
+        "Id": 14100,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_accstand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            3
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모던 부티크 진열대",
+        "Desc": "세련된 물건과 모던한 절제가 돋보이는 모던 부티크 진열대. 깔끔한 구성이 눈길을 끈다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14101,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_bagstand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모던 가방 진열대",
+        "Desc": "오직 하나의 제품을 돋보이게 해주는 모던 가방 진열대.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14102,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_bench_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Chair",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 디자이너 소파",
+        "Desc": "심미성과 실용성이 돋보이는 디자이너 소파. 오랜 쇼핑을 잠시 쉬고 싶을 때 필수 가구.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                3
+            ]
+        ]
+    },
+    {
+        "Id": 14103,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_bench_02",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Chair",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 디자이너 다인용 의자",
+        "Desc": "양쪽으로 기대 쉴 수 있도록 고안된 디자이너 다인용 의자. 쉴 때도 느낌 있게.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14104,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_basketstand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 장바구니 진열대",
+        "Desc": "깔끔하게 장바구니가 진열된 장바구니 진열대. 아무리 많이 사들여도 안심.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14105,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_bookstand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 최신 잡지 진열대",
+        "Desc": "최신 잡지가 즐비한 선반. 최신 유행을 체크하자.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14106,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_cabinet_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 그림책 진열대",
+        "Desc": "아이들의 키에 맞춘 앙증맞은 그림책 진열대. 아래에는 수납도 가능하다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14107,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_carpet_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모던 대리석 무늬 카펫",
+        "Desc": "모던한 대리석 무늬 카펫. 까는 것만으로도 고급스럽다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
+            ]
+        ]
+    },
+    {
+        "Id": 14108,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_carpet_02",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Size": [
+            4,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 롱 모던 대리석 무늬 카펫",
+        "Desc": "눈이 편안한 컴포트 베이지 카펫. 편안한 기분을 느낄 수 있다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                7
+            ]
+        ]
+    },
+    {
+        "Id": 14109,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_carpet_03",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Size": [
+            5,
+            5
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 컴포트 베이지 카펫",
+        "Desc": "차갑고 화려한 물품에 지친 소비자들을 배려하는 컴포트 베이지 카펫. 안정감을 선사한다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14110,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_carpet_04",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            6,
+            6
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "FloorDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 키디 체크무늬 카펫",
+        "Desc": "체크무늬로 귀여운 느낌을 주는 키디 체크무늬 카펫. 쿠션이 있어 아이들에게 인기가 있다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14111,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_chair_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Chair",
+        "SetGroupId": 113,
+        "Name": "화이트 레더 쿠션 체어",
+        "Desc": "부드러운 가죽으로 마감된 화이트 가죽 쿠션 의자. 앉는 순간부터 당신이 주역이다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14112,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_cutout_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "모모프렌즈 입간판",
+        "Desc": "귀여운 모모프렌즈를 만날 수 있는 입간판. 쇼핑몰을 찾은 고객에게는 필수 포토스팟이다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14113,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_fence_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 펜스",
+        "Desc": "깔끔한 디자인과 절제가 돋보이는 쇼핑몰 펜스.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                5
+            ]
+        ]
+    },
+    {
+        "Id": 14114,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_light_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 무드 라이트",
+        "Desc": "우아한 디자인의 무드 라이트. 분위기를 바꿔준다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14115,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_partition_02",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 실버 파티션",
+        "Desc": "쿨하고 퓨어한 분위기의 실버 파티션.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14116,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_partition_03",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 골드 파티션",
+        "Desc": "열정적이고 화려한 분위기의 골드 파티션.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                3
+            ]
+        ]
+    },
+    {
+        "Id": 14117,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_plantsofa_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            3,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Chair",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 싱그러운 자연 소파",
+        "Desc": "진정한 휴식을 취할 수 있는 싱그러운 소파. 푸른빛이 편안함을 준다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
+            ]
+        ]
+    },
+    {
+        "Id": 14118,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_spotlight_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Size": [
+            4,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 스팟 라이트",
+        "Desc": "상품의 최상을 끌어내는 스팟 라이트. 아래에 놓아둔 제품들은 반드시 품절된다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
+            ]
+        ]
+    },
+    {
+        "Id": 14119,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_table_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "Table",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 와이드 테이블",
+        "Desc": "간단한 디자인으로 격조가 느껴지는 와이드 테이블. 어디에 두어도 잘 어울린다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
+            ]
+        ]
+    },
+    {
+        "Id": 14120,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_wallacc_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모모프렌즈 네온 벽장식",
+        "Desc": "귀여움과 세련된 감각이 공존하는 모모프렌즈 네온 벽장식. 모두에게 인기 만점!",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14121,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "R",
+        "Icon": "my_shoppingmall_01_wallacc_02",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 50,
+        "Category": "Decorations",
+        "Size": [
+            1,
+            7
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            40,
+            40
+        ],
+        "CraftQuality": 20,
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 베이직 기둥",
+        "Desc": "순백의 화이트, 위엄을 나타내는 블랙 언더바, 그 사이를 교차하는 골드가 돋보이는 베이직 기둥.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
+            ]
+        ]
+    },
+    {
+        "Id": 14200,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_bookstand_02",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 교양 서가",
+        "Desc": "제품과 함께 교양을 원하는 소비자들을 위한 서가. 패션부터 최신 경제 서적까지 다양하다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14201,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_chair_02",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Chair",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 큐티 엘레강트 소파",
+        "Desc": "귀여움과 우아함은 공존할 수 있는가? 이 소파가 그 답을 제시해줄 것이다. 모두가 앉고 싶어 하는 소파.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14202,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_clothesrack_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모모프렌즈 의류 거치대",
+        "Desc": "귀여운 모모프렌즈 모자와 옷, 슬리퍼가 갖춰진 모모프렌즈 의류 거치대.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14203,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_fittingroom_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 고급 탈의실",
+        "Desc": "여러 벌의 옷도 얼마든지 OK! 마음껏 옷을 입어볼 수 있는 쇼핑몰 고급 탈의실.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14204,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_fruitstand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 심플 과일 진열대",
+        "Desc": "제철 과일이 차곡차곡 들어 있는 과일 진열대. 근처에 다가가면 달콤한 향이 난다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14205,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_garden_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            4
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 네이처 가든",
+        "Desc": "자연에서 나오는 아름다움을 느껴볼 수 있는 네이처 가든. 공간에 싱그러움을 더해준다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14206,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_kiosk_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "HomeAppliance",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모던 키오스크",
+        "Desc": "쇼핑몰에서 길을 잃었다면 바로 이곳으로! 어디든지 알려주는 모던 키오스크.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
+            ]
+        ]
+    },
+    {
+        "Id": 14207,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_partition_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모모프렌즈 파티션",
+        "Desc": "모모프렌즈가 파티션으로 나왔다! 귀여운데다 공간도 나눠주는 기특한 파티션.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14208,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_perfumestand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            3
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 엘레강트 향수 진열대",
+        "Desc": "시향부터 포장까지 함께 할 수 있는 엘레강트 향수 진열대. 근처만 가도 향기가 전해져 온다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14209,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_showcase_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 엘레강트 구두 진열대",
+        "Desc": "코너 공간을 활용한 우아한 구성의 쇼핑몰 구두 진열대. 실용성과 미학을 동시에.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14210,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_showcase_02",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 엘레강트 가방 진열대",
+        "Desc": "코너에도 진열할 수 있도록 만들어진 엘레강트 가방 진열대. 영리한 공간 분할이 눈에 띈다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14211,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_wardrobe_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Closet",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 엘레강트 의류 진열대",
+        "Desc": "아래에는 의류를 진열하고 위에는 엑세서리를 진열하는 엘레강트 의류 진열대.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
+            ]
+        ]
+    },
+    {
+        "Id": 14212,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_showcase_03",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            3
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Closet",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 엘레강트 명품 진열대",
+        "Desc": "공간 활용보다는 보여주는 아름다움을 중시한 엘레강트 명품 진열대. 상품 하나하나가 눈에 띈다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14213,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_toyshelf_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모모프렌즈 장난감 진열대",
+        "Desc": "아이들의 눈길을 사로잡는 모모프렌즈 장난감 진열대. 아기자기한 구성이 귀엽다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14214,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_tile",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Interiors",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Floor",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 고급 대리석 타일",
+        "Desc": "쇼핑몰의 분위기를 담당하는 고급 대리석 타일. 우아함과 깔끔함을 동시에 전해준다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14215,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "my_shoppingmall_01_wall_right_1x2",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Interiors",
+        "Size": [
+            4,
+            7
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Wallpaper",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 럭셔리 벽지",
+        "Desc": "대담한 구성과 골드 라인이 돋보이는 럭셔리 벽지. 함께 놓인 상품들을 돋보이게 한다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14216,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SR",
+        "Icon": "shoppingmallbg",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 120,
+        "Category": "Interiors",
+        "Size": [
+            1,
+            1
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            60,
+            60
+        ],
+        "CraftQuality": 40,
+        "SubCategory": "Background",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 럭셔리 배경",
+        "Desc": "럭셔리 패턴이 아름답게 수 놓인 럭셔리 배경. 우아한 분위기가 감돈다.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14300,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_shoppingmall_01_ballpool_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            6,
+            7
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            200,
+            200
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모모프렌즈 풀장",
+        "Desc": "쇼핑몰을 찾은 아이들에게는 영원한 꿈의 공간, 모모프렌즈 풀장.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14301,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_shoppingmall_01_counter_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            3,
+            4
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            200,
+            200
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모모프렌즈 가판대",
+        "Desc": "귀여운 모모프렌즈 상품을 구매할 수 있는 모모프렌즈 가판대.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14302,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_shoppingmall_01_cushionstand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            3
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            200,
+            200
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 모모프렌즈 쿠션 진열대",
+        "Desc": "푹신푹신한 모모프렌즈 친구들이 가득! 하나만 고르기에는 너무 어려워! 모모프렌즈 쿠션 진열대.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14303,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_shoppingmall_01_showwindow_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            3
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            200,
+            200
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 럭셔리 스페셜 진열대",
+        "Desc": "상품을 아름답게 돋보이게 하는 럭셔리한 스페셜 쇼케이스.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14304,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_shoppingmall_01_vegetablestand_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            200,
+            200
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Prop",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 대형 진열대",
+        "Desc": "과일과 상품을 많이 진열할 수 있는 깔끔한 진열장.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14305,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_shoppingmall_01_vendingmachine_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            1,
+            3
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            200,
+            200
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "HomeAppliance",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 웨이브캣 자판기",
+        "Desc": "웨이브캣이 그려진 자판기. 손님들에게 인기가 많다!",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                1
+            ]
+        ]
+    },
+    {
+        "Id": 14306,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_shoppingmall_01_window_01",
+        "Craftable": [
+            true,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Decorations",
+        "Size": [
+            10,
+            7
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "ShiftingCraftMaterial_Furniture"
+        ],
+        "ShiftingCraftQuality": [
+            200,
+            200
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "WallDecoration",
+        "SetGroupId": 113,
+        "Name": "쇼핑몰 와이드 윈도우",
+        "Desc": "그래도 가끔은 하늘을 보자. 높은 쇼핑몰의 바깥 풍경을 구경할 수 있는 와이드 윈도우.",
+        "Interaction": [
+            false,
+            false,
+            false
+        ],
+        "Templates": [
+            [
+                14,
+                2
             ]
         ]
     },
@@ -19575,7 +21757,7 @@
         "Icon": "my_event02_trinityfountain",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -19605,7 +21787,7 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "Rarity": "SSR",
         "Icon": "my_event01_summerwhiteboard",
@@ -19647,7 +21829,7 @@
         "Icon": "my_event03_christmastree",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -19755,7 +21937,7 @@
         "Icon": "my_event06_pocha",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -19792,7 +21974,7 @@
         "Icon": "my_event06_hotspringswindow",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -19829,7 +22011,7 @@
         "Icon": "my_event07_bookclubdesk",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -19866,7 +22048,7 @@
         "Icon": "my_event08_atsukochair",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 350,
@@ -19975,7 +22157,7 @@
         "Icon": "my_event11_stool01",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -20012,7 +22194,7 @@
         "Icon": "my_event11_stool02",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -20049,7 +22231,7 @@
         "Icon": "my_event11_stool03",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -20086,7 +22268,7 @@
         "Icon": "my_event11_stool04",
         "Craftable": [
             true,
-            false,
+            true,
             false
         ],
         "ComfortBonus": 50,
@@ -20493,7 +22675,7 @@
         "Rarity": "SSR",
         "Icon": "my_event21_plantshelf",
         "Craftable": [
-            false,
+            true,
             false,
             false
         ],
@@ -20531,7 +22713,7 @@
         "Rarity": "SSR",
         "Icon": "my_event21_shelf",
         "Craftable": [
-            false,
+            true,
             false,
             false
         ],
@@ -20562,7 +22744,7 @@
         "Id": 210301,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
@@ -20591,7 +22773,7 @@
         "Desc": "게임개발부 부실을 지키고 있는 락커. 아늑한 내부가 돋보인다. ",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ]
     },
@@ -20599,7 +22781,7 @@
         "Id": 210302,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "R",
@@ -20628,7 +22810,7 @@
         "Desc": "차가운 색감이 돋보이는 실버 딥 블루 스툴. 도회적인 분위기가 든다.",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ]
     },
@@ -20636,7 +22818,7 @@
         "Id": 210303,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
@@ -20665,7 +22847,7 @@
         "Desc": "혼자 앉을 수 있는 하늘색 소파. 푹신한 촉감에 빠져든다.",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ]
     },
@@ -20673,7 +22855,7 @@
         "Id": 210304,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
@@ -20702,7 +22884,7 @@
         "Desc": "많은 물건을 담을 수 있는 커다란 캐비닛. 고양이들도 좋아한다.",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ]
     },
@@ -21298,6 +23480,117 @@
         ]
     },
     {
+        "Id": 210322,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_event061_goods_display",
+        "Craftable": [
+            false,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            3,
+            3
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Misaka_Mikoto"
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Prop",
+        "SetGroupId": 0,
+        "Name": "모모프렌즈 굿즈 가판대",
+        "Desc": "귀여운 모모프렌즈가 한가득 배치된 굿즈 가판대. 누구라도 귀여움에 반해서 살펴보게 된다.",
+        "Interaction": [
+            true,
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 210323,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_event061_market_table",
+        "Craftable": [
+            false,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            3,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Shokuho_Misaki"
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Table",
+        "SetGroupId": 0,
+        "Name": "프레시 샵 테이블",
+        "Desc": "깔끔함과 자연의 융합! 프레시 샵 테이블. 신선한 과일로 한 끼 어때?",
+        "Interaction": [
+            true,
+            false,
+            false
+        ]
+    },
+    {
+        "Id": 210324,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_event061_tarrot_showcase",
+        "Craftable": [
+            false,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Saten_Ruiko"
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Table",
+        "SetGroupId": 0,
+        "Name": "타로 테이블",
+        "Desc": "운명은 바로 지금, 바로 이 자리! 어떤 카드가 나오더라도 한번 뽑아보고 싶은 타로 테이블.",
+        "Interaction": [
+            true,
+            false,
+            false
+        ]
+    },
+    {
         "Id": 301001,
         "IsReleased": [
             true,
@@ -21733,7 +24026,7 @@
         "Id": 302305,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",

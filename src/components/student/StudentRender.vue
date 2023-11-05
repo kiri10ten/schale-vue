@@ -148,7 +148,7 @@ watch(useThreeCol, (newVal) => {
                                                 <span v-if="student.IsLimited" class="ms-1">({{ translate('IsLimited', student.IsLimited) }})</span>
                                             </span>
                                         </span>
-                                        <span id="ba-student-class" class="ba-info-pill-s" :class="`ba-class-${student.SquadType.toLowerCase()}`"><span class="label">{{ translate('SquadType', student.SquadType) }}</span></span>
+                                        <span id="ba-student-class" class="ba-info-pill-s" :class="`ba-class-${student.SquadType.toLowerCase()}`"><span class="label"><span class="font-nexon">{{ translate('SquadType', student.SquadType) }}</span></span></span>
                                         <div class="ba-info-pill-s bg-theme px-2 text-muted align-self-center" :class="{'ms-auto': useThreeCol}" v-if="settings.showDeveloperProps">{{ student.Id }} / {{ student.DevName }}</div>
                                     </div>
                                 </div>

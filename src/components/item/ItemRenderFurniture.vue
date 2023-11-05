@@ -109,7 +109,7 @@ const templateList = computed(() => {
                 {{ translateUi('furniture_templates') }}
             </i>
             <div class="selection-grid stage selection-grid-flex mb-1">
-                <Modal v-for="template in templateList" :key="template.id" :title="`Preset Layout: ${template.name}`" class="selection-grid-card card-shop">
+                <Modal v-for="template in templateList" :key="template.id" class="selection-grid-card card-shop">
                     <template #trigger>
 
                         <div class="card-img"><img :src="`/images/furniture/template/${template.id}.webp`"></div>
@@ -118,6 +118,9 @@ const templateList = computed(() => {
                             <span class="label-text smalltext">{{ template.name }}</span>
                         </div>
 
+                    </template>
+                    <template #title>
+                        {{ `Preset Layout: ${template.name}` }}
                     </template>
                     <template #body>
                         <FurnitureTemplateCatalog :templateId="template.id"></FurnitureTemplateCatalog>

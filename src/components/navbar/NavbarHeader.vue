@@ -27,18 +27,18 @@ watch(route, () => {
 <DefineTemplate>
     <div class="collapse navbar-collapse" id="ba-navbar-content" ref="collapse">
         <ul class="navbar-nav my-2 my-lg-0">
-            <RouterLink to="/" class="nav-link px-3 circle" :class="{active: route.name == 'home' }" >{{ translateUi('navbar_home') }}</RouterLink>
+            <!-- <RouterLink to="/" class="nav-link px-3 circle" :class="{active: route.name == 'home' }" >{{ translateUi('navbar_home') }}</RouterLink> -->
             <RouterLink to="/student" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/student') }" >{{ translateUi('navbar_students') }}</RouterLink>
             <RouterLink to="/item" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/item') || route.path.startsWith('/furniture') || route.path.startsWith('/equipment') }">{{ translateUi('item') }}</RouterLink>
+            <RouterLink to="/raid" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/raid') || route.path.startsWith('/timeattack') || route.path.startsWith('/worldraid') }">{{ translateUi('raids') }}</RouterLink>
         </ul>
     </div>
 </DefineTemplate>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark drop-shadow" style="min-height: 56px;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark drop-shadow">
     <div class="container-fluid">
-        <img id="navbar-logo" :src="'/images/schale.png'" class="invert-light" style="height:38px; width:auto">
-        <RouterLink to="/" class="navbar-brand me-4 unselectable" translate="no">
-            SCHALE<span class="navbar-accent">.gg</span>
+        <RouterLink to="/" class="navbar-logo ps-2 me-3 d-flex align-items-center" translate="no">
+            <inline-svg class="logo" :src="`/images/logo.svg`"></inline-svg>
         </RouterLink>
         <ReuseTemplate v-if="!mobileView" />
         <span class="text-muted ms-auto">
@@ -59,3 +59,26 @@ watch(route, () => {
 </nav>
 
 </template>
+
+<style lang="scss">
+
+@import '../../styles/theme';
+
+.navbar-logo {
+    height: 40px;
+}
+
+.logo {
+
+    height: 34px;
+    width: auto;
+
+    path.fill-primary {
+        fill: var(--col-theme-text);
+    }
+    path.fill-secondary {
+        fill: var(--col-theme-logo);
+    }
+}
+
+</style>

@@ -1,15 +1,13 @@
 <script setup>
 import { computed, toRef, toRefs } from 'vue';
-import { useStudentStore } from '../../stores/StudentStore';
+import { useStudentBondStats } from '../../composables/Bond';
 import { translate, translateUi } from '../../composables/Localization';
 import { regionSettings } from '../../composables/RegionSettings';
-import { useSettingsStore } from '../../stores/SettingsStore';
-import { useStudentBondStats, useWeaponStats } from '../../composables/CharacterStats';
-import StatsTable from '../common/StatsTable.vue';
 import { useGiftsByStudent } from '../../composables/StudentGifts';
+import { useSettingsStore } from '../../stores/SettingsStore';
+import { useStudentStore } from '../../stores/StudentStore';
 import ItemIcon from '../common/ItemIcon.vue';
-import { getFurnitureById } from '../../composables/Furniture';
-import Tooltip from '../common/Tooltip.vue';
+import StatsTable from '../common/StatsTable.vue';
 
 const studentDisplay = useStudentStore().studentDisplay;
 const refStudentDisplay = toRefs(studentDisplay);
@@ -39,7 +37,12 @@ const gifts = useGiftsByStudent(toRef(props, 'student'));
                         <rp>(</rp><rt>{{ student.FamilyNameRuby }}</rt><rp>)</rp>
                     </ruby>
                     <template v-else>{{ student.FamilyName }}</template>
-                    {{ student.PersonalName }}                    
+                    {{ ' ' }}
+                    <ruby v-if="settings.language === 'jp'">
+                        {{student.PersonalName }}
+                        <rp>(</rp><rt>{{ student.PersonalNameRuby }}</rt><rp>)</rp>
+                    </ruby>
+                    <template v-else>{{ student.PersonalName }}</template>               
                 </h3>
             </div>
 

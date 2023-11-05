@@ -25,6 +25,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -32,7 +33,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "리쿠하치마",
-        "FamilyNameRuby": "",
         "PersonalName": "아루",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -710,6 +710,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -717,7 +718,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "이즈미모토",
-        "FamilyNameRuby": "",
         "PersonalName": "에이미",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -1150,7 +1150,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -1334,6 +1334,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10002",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -1341,7 +1342,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "쿠로다테",
-        "FamilyNameRuby": "",
         "PersonalName": "하루나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -1872,6 +1872,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -1879,7 +1880,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "아지타니",
-        "FamilyNameRuby": "",
         "PersonalName": "히후미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -2449,6 +2449,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -2456,7 +2457,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "소라사키",
-        "FamilyNameRuby": "",
         "PersonalName": "히나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -2987,6 +2987,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -2994,7 +2995,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "타카나시",
-        "FamilyNameRuby": "",
         "PersonalName": "호시노",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -3564,6 +3564,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10006",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -3571,7 +3572,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "시로미",
-        "FamilyNameRuby": "",
         "PersonalName": "이오리",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -4084,6 +4084,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10007",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -4091,7 +4092,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "코누리",
-        "FamilyNameRuby": "",
         "PersonalName": "마키",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -4649,6 +4649,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -4656,7 +4657,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "미카모",
-        "FamilyNameRuby": "",
         "PersonalName": "네루",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -5444,6 +5444,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10009",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -5451,7 +5452,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "시시도우",
-        "FamilyNameRuby": "",
         "PersonalName": "이즈미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -5924,7 +5924,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -6108,6 +6108,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -6115,7 +6116,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "스나오오카미",
-        "FamilyNameRuby": "",
         "PersonalName": "시로코",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -6728,6 +6728,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10011",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -6735,7 +6736,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "스노하라",
-        "FamilyNameRuby": "",
         "PersonalName": "슌",
         "SchoolYear": "3학년",
         "CharacterAge": "극비",
@@ -7295,6 +7295,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10012",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -7302,7 +7303,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "오토하나",
-        "FamilyNameRuby": "",
         "PersonalName": "스미레",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -7461,6 +7461,84 @@
                         ],
                         "Stat": "AttackPower_Coefficient",
                         "Channel": 2
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "워밍업+",
+                "Desc": "40초마다 <b:ATK> <?1> 증가(20초간)/\n <b:DEF> <?2> 증가(20초간)",
+                "Parameters": [
+                    [
+                        "27.5%",
+                        "28.9%",
+                        "30.2%",
+                        "35.7%",
+                        "37.1%",
+                        "38.5%",
+                        "44%",
+                        "45.4%",
+                        "46.7%",
+                        "52.2%"
+                    ],
+                    [
+                        "11%",
+                        "11.5%",
+                        "12.1%",
+                        "14.3%",
+                        "14.8%",
+                        "15.4%",
+                        "17.6%",
+                        "18.1%",
+                        "18.7%",
+                        "20.9%"
+                    ]
+                ],
+                "Duration": 65,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                2752,
+                                2890,
+                                3027,
+                                3578,
+                                3715,
+                                3853,
+                                4403,
+                                4541,
+                                4679,
+                                5229
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1102,
+                                1156,
+                                1211,
+                                1432,
+                                1487,
+                                1542,
+                                1762,
+                                1817,
+                                1872,
+                                2092
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 3
                     }
                 ]
             },
@@ -7672,7 +7750,38 @@
             "HealPower100": 0,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "AttackPower_Base"
+            ],
+            "StatValue": [
+                [
+                    1000,
+                    1000
+                ]
+            ],
+            "Name": "모래주머니",
+            "Desc": "팔이나 다리에 두를 수 있도록 각반 형태로 만들어진 모래주머니. 모래 이외에도 쇳가루가 포함되어 있어 들어보면 생각보다 훨씬 무겁다.",
+            "TierUpMaterial": [
+                [
+                    5016,
+                    170,
+                    171
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3050,
@@ -7828,6 +7937,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10013",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -7835,7 +7945,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "켄자키",
-        "FamilyNameRuby": "",
         "PersonalName": "츠루기",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -8490,6 +8599,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -8497,7 +8607,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "무로카사",
-        "FamilyNameRuby": "",
         "PersonalName": "아카네",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -9036,6 +9145,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_13001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -9043,7 +9153,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "와라쿠",
-        "FamilyNameRuby": "",
         "PersonalName": "치세",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -9580,6 +9689,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13002",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -9587,7 +9697,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "와니부치",
-        "FamilyNameRuby": "",
         "PersonalName": "아카리",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -10104,6 +10213,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_13003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -10111,7 +10221,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "하네카와",
-        "FamilyNameRuby": "",
         "PersonalName": "하스미",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -10622,6 +10731,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_13004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -10629,7 +10739,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "이자요이",
-        "FamilyNameRuby": "",
         "PersonalName": "노노미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -11160,6 +11269,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13005",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -11167,7 +11277,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "오니카타",
-        "FamilyNameRuby": "",
         "PersonalName": "카요코",
         "SchoolYear": "3학년",
         "CharacterAge": "18세",
@@ -11719,6 +11828,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_13006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -11726,7 +11836,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "아사기",
-        "FamilyNameRuby": "",
         "PersonalName": "무츠키",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -12258,6 +12367,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -12265,7 +12375,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "아카시",
-        "FamilyNameRuby": "",
         "PersonalName": "준코",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -12837,6 +12946,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -12844,7 +12954,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "쿠로미",
-        "FamilyNameRuby": "",
         "PersonalName": "세리카",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -13469,6 +13578,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_13009",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -13476,7 +13586,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "카스가",
-        "FamilyNameRuby": "",
         "PersonalName": "츠바키",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -13997,6 +14106,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_13010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -14004,7 +14114,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "하야세",
-        "FamilyNameRuby": "",
         "PersonalName": "유우카",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -14643,6 +14752,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_16000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -14650,7 +14760,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "이구사",
-        "FamilyNameRuby": "",
         "PersonalName": "하루카",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -15192,6 +15301,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_16001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -15199,7 +15309,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "이치노세",
-        "FamilyNameRuby": "",
         "PersonalName": "아스나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -15756,6 +15865,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_16002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -15763,7 +15873,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "토요미",
-        "FamilyNameRuby": "",
         "PersonalName": "코토리",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -16309,6 +16418,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_16003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -16316,7 +16426,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "모리즈키",
-        "FamilyNameRuby": "",
         "PersonalName": "스즈미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -16964,6 +17073,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_16004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -16971,7 +17081,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "아사히나",
-        "FamilyNameRuby": "",
         "PersonalName": "피나",
         "SchoolYear": "1학년",
         "CharacterAge": "17세",
@@ -17521,6 +17630,7 @@
         "WeaponType": "MT",
         "WeaponImg": "weapon_icon_20000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -17528,7 +17638,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "네코즈카",
-        "FamilyNameRuby": "",
         "PersonalName": "히비키",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -18033,6 +18142,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -18040,7 +18150,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "카쿠다테",
-        "FamilyNameRuby": "",
         "PersonalName": "카린",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -18571,6 +18680,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_20002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -18578,7 +18688,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "야쿠시",
-        "FamilyNameRuby": "",
         "PersonalName": "사야",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -19114,6 +19223,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -19121,7 +19231,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "쿠리무라",
-        "FamilyNameRuby": "",
         "PersonalName": "아이리",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -19682,6 +19791,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -19689,7 +19799,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "아이키요",
-        "FamilyNameRuby": "",
         "PersonalName": "후우카",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -20186,6 +20295,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -20193,7 +20303,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "아사가오",
-        "FamilyNameRuby": "",
         "PersonalName": "하나에",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -20685,6 +20794,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -20692,7 +20802,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "오마가리",
-        "FamilyNameRuby": "",
         "PersonalName": "하레",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -21331,6 +21440,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -21338,7 +21448,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "시라이시",
-        "FamilyNameRuby": "",
         "PersonalName": "우타하",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -21841,6 +21950,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -21848,7 +21958,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "오쿠소라",
-        "FamilyNameRuby": "",
         "PersonalName": "아야네",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -22360,6 +22469,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_26000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -22367,7 +22477,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "히노미야",
-        "FamilyNameRuby": "",
         "PersonalName": "치나츠",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -22871,6 +22980,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_26001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -22878,7 +22988,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "오토세",
-        "FamilyNameRuby": "",
         "PersonalName": "코타마",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -23396,6 +23505,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_26002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -23403,7 +23513,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "우시마키",
-        "FamilyNameRuby": "",
         "PersonalName": "주리",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -23901,6 +24010,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -23908,7 +24018,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "스미",
-        "FamilyNameRuby": "",
         "PersonalName": "세리나",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -24417,6 +24526,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -24424,7 +24534,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "엔도우",
-        "FamilyNameRuby": "",
         "PersonalName": "시미코",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -24930,6 +25039,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -24937,7 +25047,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "이바라기",
-        "FamilyNameRuby": "",
         "PersonalName": "요시미",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -25476,6 +25585,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -25483,7 +25593,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "시즈야마",
-        "FamilyNameRuby": "",
         "PersonalName": "마시로",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -26015,6 +26124,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10014",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -26022,7 +26132,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "쿠다",
-        "FamilyNameRuby": "",
         "PersonalName": "이즈나",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -26570,6 +26679,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_23006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -26577,7 +26687,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "카와와",
-        "FamilyNameRuby": "",
         "PersonalName": "시즈코",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -27130,6 +27239,7 @@
         "WeaponType": "RG",
         "WeaponImg": "weapon_icon_10015",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -27137,7 +27247,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "텐도",
-        "FamilyNameRuby": "",
         "PersonalName": "아리스",
         "SchoolYear": "1학년",
         "CharacterAge": "??세",
@@ -27567,6 +27676,10 @@
                 [
                     207307,
                     0
+                ],
+                [
+                    12207,
+                    0
                 ]
             ],
             []
@@ -27748,6 +27861,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10016",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -27755,7 +27869,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "사이바",
-        "FamilyNameRuby": "",
         "PersonalName": "미도리",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -28153,6 +28266,10 @@
                 [
                     2301,
                     0
+                ],
+                [
+                    12301,
+                    0
                 ]
             ],
             []
@@ -28334,6 +28451,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13011",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -28341,7 +28459,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "사이바",
-        "FamilyNameRuby": "",
         "PersonalName": "모모이",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -28752,6 +28869,10 @@
                 [
                     2301,
                     0
+                ],
+                [
+                    12301,
+                    0
                 ]
             ],
             []
@@ -28934,6 +29055,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10017",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -28941,7 +29063,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "렌카와",
-        "FamilyNameRuby": "",
         "PersonalName": "체리노",
         "SchoolYear": "3학년",
         "CharacterAge": "??세",
@@ -29514,6 +29635,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_26006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -29521,7 +29643,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "아마미",
-        "FamilyNameRuby": "",
         "PersonalName": "노도카",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -30053,6 +30174,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_10018",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -30060,7 +30182,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "하나오카",
-        "FamilyNameRuby": "",
         "PersonalName": "유즈",
         "SchoolYear": "1학년",
         "CharacterAge": "16세",
@@ -30409,7 +30530,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210301,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -30589,6 +30715,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10019",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -30596,7 +30723,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "시라스",
-        "FamilyNameRuby": "",
         "PersonalName": "아즈사",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -31147,6 +31273,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23007",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -31154,7 +31281,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "우라와",
-        "FamilyNameRuby": "",
         "PersonalName": "하나코",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -31286,6 +31412,78 @@
                         ],
                         "Stat": "DefensePower_Coefficient",
                         "Channel": 103
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "단단해져라~+",
+                "Desc": "20초마다 체력이 낮은 아군 2인의 <b:DEF> <?1> 증가(13초간)/\n치유력 <?2> 회복",
+                "Parameters": [
+                    [
+                        "29%",
+                        "30.5%",
+                        "31.9%",
+                        "37.8%",
+                        "39.2%",
+                        "40.7%",
+                        "46.5%",
+                        "47.9%",
+                        "49.4%",
+                        "55.2%"
+                    ],
+                    [
+                        "16.7%",
+                        "17.6%",
+                        "18.4%",
+                        "21.7%",
+                        "22.6%",
+                        "23.4%",
+                        "26.8%",
+                        "27.6%",
+                        "28.4%",
+                        "31.8%"
+                    ]
+                ],
+                "Duration": 90,
+                "Range": 1000,
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                2909,
+                                3054,
+                                3199,
+                                3781,
+                                3927,
+                                4072,
+                                4653,
+                                4799,
+                                4945,
+                                5526
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 103
+                    },
+                    {
+                        "Type": "Heal",
+                        "Scale": [
+                            1675,
+                            1760,
+                            1843,
+                            2178,
+                            2260,
+                            2345,
+                            2680,
+                            2763,
+                            2848,
+                            3183
+                        ]
                     }
                 ]
             },
@@ -31503,7 +31701,38 @@
             "HealPower100": 2522,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "HealPower_Base"
+            ],
+            "StatValue": [
+                [
+                    500,
+                    500
+                ]
+            ],
+            "Name": "수상한 고전문학",
+            "Desc": "여러 가지로 의미심장한 하나코의 애장서. 자주 압수당하지만, 하나코는 그때마다 이런저런 방법으로 되찾는다.",
+            "TierUpMaterial": [
+                [
+                    5003,
+                    170,
+                    171
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3020,
@@ -31659,6 +31888,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10020",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -31666,7 +31896,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "시모에",
-        "FamilyNameRuby": "",
         "PersonalName": "코하루",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -32184,7 +32413,7 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 57,
         "PathName": "azusa_swimsuit",
@@ -32205,6 +32434,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10019",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -32212,7 +32442,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "시라스",
-        "FamilyNameRuby": "",
         "PersonalName": "아즈사",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -32745,7 +32974,7 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 58,
         "PathName": "mashiro_swimsuit",
@@ -32766,6 +32995,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -32773,7 +33003,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "시즈야마",
-        "FamilyNameRuby": "",
         "PersonalName": "마시로",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -33290,7 +33519,7 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 59,
         "PathName": "tsurugi_swimsuit",
@@ -33311,6 +33540,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10013",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -33318,7 +33548,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "켄자키",
-        "FamilyNameRuby": "",
         "PersonalName": "츠루기",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -33884,6 +34113,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -33891,7 +34121,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "아지타니",
-        "FamilyNameRuby": "",
         "PersonalName": "히후미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -34299,7 +34528,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -34483,6 +34712,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -34490,7 +34720,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "소라사키",
-        "FamilyNameRuby": "",
         "PersonalName": "히나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -34989,7 +35218,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -35173,6 +35402,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10006",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -35180,7 +35410,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "시로미",
-        "FamilyNameRuby": "",
         "PersonalName": "이오리",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -35726,6 +35955,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10009",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -35733,7 +35963,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "시시도우",
-        "FamilyNameRuby": "",
         "PersonalName": "이즈미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -35909,6 +36138,50 @@
                                 3338,
                                 3439,
                                 3843
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "새콤달콤 와삭와삭!+",
+                "Desc": "35초 마다 <b:ATK> <?1> 증가 (30초간)",
+                "Parameters": [
+                    [
+                        "31.7%",
+                        "33.3%",
+                        "34.8%",
+                        "41.2%",
+                        "42.8%",
+                        "44.4%",
+                        "50.7%",
+                        "52.3%",
+                        "53.9%",
+                        "60.2%"
+                    ]
+                ],
+                "Duration": 75,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                3172,
+                                3331,
+                                3489,
+                                4124,
+                                4282,
+                                4441,
+                                5075,
+                                5234,
+                                5393,
+                                6027
                             ]
                         ],
                         "Stat": "AttackPower_Coefficient",
@@ -36124,7 +36397,43 @@
             "HealPower100": 0,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "AttackSpeed_Base",
+                "AttackPower_Base"
+            ],
+            "StatValue": [
+                [
+                    1500,
+                    1500
+                ],
+                [
+                    300,
+                    300
+                ]
+            ],
+            "Name": "한여름의 아이스박스",
+            "Desc": "한여름의 아이스박스. 여름의 과일과 음료수와…… 이즈미가 손수 만든 특제 비법 향신료가 가득 들어있다고 한다. ",
+            "TierUpMaterial": [
+                [
+                    5013,
+                    140,
+                    141
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3030,
@@ -36280,6 +36589,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -36287,7 +36597,6 @@
         ],
         "CollectionBG": "BG_Ridingsuit_Collection",
         "FamilyName": "스나오오카미",
-        "FamilyNameRuby": "",
         "PersonalName": "시로코",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -36859,6 +37168,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10011",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -36866,7 +37176,6 @@
         ],
         "CollectionBG": "BG_CH0066_Collection",
         "FamilyName": "스노하라",
-        "FamilyNameRuby": "",
         "PersonalName": "슌",
         "SchoolYear": "3학년",
         "CharacterAge": "극비",
@@ -37502,6 +37811,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13012",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -37509,7 +37819,6 @@
         ],
         "CollectionBG": "BG_Valkyrie_Collection",
         "FamilyName": "나카츠카사",
-        "FamilyNameRuby": "",
         "PersonalName": "키리노",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -38088,6 +38397,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_20002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -38095,7 +38405,6 @@
         ],
         "CollectionBG": "BG_Saya_casual_Collection",
         "FamilyName": "야쿠시",
-        "FamilyNameRuby": "",
         "PersonalName": "사야",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -38727,6 +39036,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -38734,7 +39044,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "미카모",
-        "FamilyNameRuby": "",
         "PersonalName": "네루",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -39357,6 +39666,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -39364,7 +39674,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "카쿠다테",
-        "FamilyNameRuby": "",
         "PersonalName": "카린",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -39941,6 +40250,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_16001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -39948,7 +40258,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "이치노세",
-        "FamilyNameRuby": "",
         "PersonalName": "아스나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -40598,6 +40907,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10029",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -40605,7 +40915,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "유토리",
-        "FamilyNameRuby": "",
         "PersonalName": "나츠",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -41136,6 +41445,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23008",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -41143,7 +41453,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "이오치",
-        "FamilyNameRuby": "",
         "PersonalName": "마리",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -41652,6 +41961,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_20007",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -41659,7 +41969,6 @@
         ],
         "CollectionBG": "BG_CH9999_Collection",
         "FamilyName": "하츠네",
-        "FamilyNameRuby": "",
         "PersonalName": "미쿠",
         "SchoolYear": "",
         "CharacterAge": "16세",
@@ -42215,6 +42524,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_20008",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -42222,7 +42532,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "아마우",
-        "FamilyNameRuby": "",
         "PersonalName": "아코",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -42773,6 +43082,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10017",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -42780,7 +43090,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "렌카와",
-        "FamilyNameRuby": "",
         "PersonalName": "체리노",
         "SchoolYear": "3학년",
         "CharacterAge": "??세",
@@ -43404,6 +43713,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_26000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -43411,7 +43721,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "히노미야",
-        "FamilyNameRuby": "",
         "PersonalName": "치나츠",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -43947,6 +44256,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_16007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -43954,7 +44264,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "사시로",
-        "FamilyNameRuby": "",
         "PersonalName": "토모에",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -44575,6 +44884,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_26006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -44582,7 +44892,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "아마미",
-        "FamilyNameRuby": "",
         "PersonalName": "노도카",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -45098,6 +45407,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -45105,7 +45415,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "리쿠하치마",
-        "FamilyNameRuby": "",
         "PersonalName": "아루",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -45671,6 +45980,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_13006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -45678,7 +45988,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "아사기",
-        "FamilyNameRuby": "",
         "PersonalName": "무츠키",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -46275,6 +46584,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13008",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -46282,7 +46592,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "쿠로미",
-        "FamilyNameRuby": "",
         "PersonalName": "세리카",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -46845,6 +47154,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10033",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -46852,7 +47162,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "코사카",
-        "FamilyNameRuby": "",
         "PersonalName": "와카모",
         "SchoolYear": "정학",
         "CharacterAge": "18세",
@@ -47474,6 +47783,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_16008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -47481,7 +47791,6 @@
         ],
         "CollectionBG": "BG_Valkyrie_Collection",
         "FamilyName": "네무가키",
-        "FamilyNameRuby": "",
         "PersonalName": "후부키",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -48054,6 +48363,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_20012",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -48061,7 +48371,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "히무로",
-        "FamilyNameRuby": "",
         "PersonalName": "세나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -48142,12 +48451,6 @@
                     4
                 ],
                 "Duration": 60,
-                "Radius": [
-                    {
-                        "Type": "Circle",
-                        "Radius": 300
-                    }
-                ],
                 "Icon": "COMMON_SKILLICON_TRUCK",
                 "Effects": [
                     {
@@ -48170,7 +48473,8 @@
                             ]
                         ],
                         "Stat": "AttackPower_Coefficient",
-                        "Channel": 11002
+                        "Channel": 11002,
+                        "OverrideSlot": "Passive"
                     }
                 ]
             },
@@ -48597,6 +48901,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_20013",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -48604,7 +48909,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "카가미",
-        "FamilyNameRuby": "",
         "PersonalName": "치히로",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -49133,6 +49437,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10034",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -49140,7 +49445,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "미즈하",
-        "FamilyNameRuby": "",
         "PersonalName": "미모리",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -49508,6 +49812,12 @@
                         "27.1%"
                     ]
                 ],
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 200
+                    }
+                ],
                 "Icon": "COMMON_SKILLICON_STATBUFF",
                 "Effects": [
                     {
@@ -49811,6 +50121,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0169",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -49818,7 +50129,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "코제키",
-        "FamilyNameRuby": "",
         "PersonalName": "우이",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -50362,6 +50672,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0073",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -50369,7 +50680,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "와카바",
-        "FamilyNameRuby": "",
         "PersonalName": "히나타",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -51018,6 +51328,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0119",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -51025,7 +51336,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "이케쿠라",
-        "FamilyNameRuby": "",
         "PersonalName": "마리나",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -51604,6 +51914,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0142",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -51611,7 +51922,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "츠키유키",
-        "FamilyNameRuby": "",
         "PersonalName": "미야코",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -51788,6 +52098,87 @@
                             14318,
                             16003
                         ]
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "클레이모어 격발+",
+                "Desc": "40초마다 소형 클레이모어에서 5발의 탄환을 발사하여 피격당한 적에게 각각 공격력 <?1> 대미지/\n<d:OppressionResist> <?2> 감소(30초간)",
+                "Parameters": [
+                    [
+                        "92%",
+                        "96%",
+                        "101%",
+                        "119%",
+                        "124%",
+                        "129%",
+                        "147%",
+                        "152%",
+                        "156%",
+                        "174%"
+                    ],
+                    [
+                        "8.6%",
+                        "9%",
+                        "9.5%",
+                        "11.2%",
+                        "11.6%",
+                        "12%",
+                        "13.8%",
+                        "14.2%",
+                        "14.6%",
+                        "16.4%"
+                    ]
+                ],
+                "Duration": 90,
+                "Range": 350,
+                "Icon": "COMMON_SKILLICON_FAN",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000,
+                            10000,
+                            10000,
+                            10000,
+                            10000
+                        ],
+                        "HitsParameter": 1,
+                        "Scale": [
+                            9189,
+                            9649,
+                            10108,
+                            11946,
+                            12404,
+                            12863,
+                            14701,
+                            15161,
+                            15620,
+                            17458
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
+                            [
+                                -864,
+                                -907,
+                                -950,
+                                -1123,
+                                -1166,
+                                -1209,
+                                -1382,
+                                -1425,
+                                -1468,
+                                -1641
+                            ]
+                        ],
+                        "Stat": "OppressionResist_Coefficient",
+                        "Channel": 629
                     }
                 ]
             },
@@ -52013,7 +52404,38 @@
             "HealPower100": 0,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "MaxHP_Base"
+            ],
+            "StatValue": [
+                [
+                    10000,
+                    10000
+                ]
+            ],
+            "Name": "해진 명찰",
+            "Desc": "미야코가 훈련생 때 사용하던 낡고 해진 명찰. 일견 낡은 천 조각처럼 보이기도 하지만, 미야코에게는 과거의 꿈이 담겨 있는 소중한 물건이다.",
+            "TierUpMaterial": [
+                [
+                    5009,
+                    170,
+                    171
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3080,
@@ -52170,6 +52592,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0144",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -52177,7 +52600,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "소라이",
-        "FamilyNameRuby": "",
         "PersonalName": "사키",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -52752,6 +53174,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0145",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -52759,7 +53182,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "카스미자와",
-        "FamilyNameRuby": "",
         "PersonalName": "미유",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -53276,6 +53698,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0116",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -53283,7 +53706,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "이사미",
-        "FamilyNameRuby": "",
         "PersonalName": "카에데",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -53806,6 +54228,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0156",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -53813,7 +54236,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "나츠메",
-        "FamilyNameRuby": "",
         "PersonalName": "이로하",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -54314,6 +54736,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_ch0113",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -54321,7 +54744,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "치도리",
-        "FamilyNameRuby": "",
         "PersonalName": "미치루",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -54930,6 +55352,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0114",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -54937,7 +55360,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "오노",
-        "FamilyNameRuby": "",
         "PersonalName": "츠쿠요",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -55131,9 +55553,9 @@
                         "Type": "Buff",
                         "Restrictions": [
                             {
-                                "Property": "Tags",
-                                "Operand": "Contains",
-                                "Value": "EnemyMedium"
+                                "Property": "Size",
+                                "Operand": "Equal",
+                                "Value": "Medium"
                             }
                         ],
                         "Target": [
@@ -55527,6 +55949,7 @@
         "WeaponType": "RL",
         "WeaponImg": "weapon_icon_ch0105",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -55534,7 +55957,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "이마시노",
-        "FamilyNameRuby": "",
         "PersonalName": "미사키",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -56138,6 +56560,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0106",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -56145,7 +56568,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "츠치나가",
-        "FamilyNameRuby": "",
         "PersonalName": "히요리",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -56738,6 +57160,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0104",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -56745,7 +57168,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "하카리",
-        "FamilyNameRuby": "",
         "PersonalName": "아츠코",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -57280,6 +57702,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0175",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -57287,7 +57710,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "코사카",
-        "FamilyNameRuby": "",
         "PersonalName": "와카모",
         "SchoolYear": "정학",
         "CharacterAge": "18세",
@@ -57956,6 +58378,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0092",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -57963,7 +58386,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "이자요이",
-        "FamilyNameRuby": "",
         "PersonalName": "노노미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -58587,6 +59009,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -58594,7 +59017,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "오쿠소라",
-        "FamilyNameRuby": "",
         "PersonalName": "아야네",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -59134,6 +59556,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -59141,7 +59564,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "타카나시",
-        "FamilyNameRuby": "",
         "PersonalName": "호시노",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -59264,7 +59686,7 @@
                             ]
                         ],
                         "Stat": "AttackPower_Coefficient",
-                        "Channel": -1
+                        "Channel": 11002
                     },
                     {
                         "Type": "Buff",
@@ -59816,6 +60238,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_23006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -59823,7 +60246,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "카와와",
-        "FamilyNameRuby": "",
         "PersonalName": "시즈코",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -60331,6 +60753,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10014",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -60338,7 +60761,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "쿠다",
-        "FamilyNameRuby": "",
         "PersonalName": "이즈나",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -60901,6 +61323,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_13001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -60908,7 +61331,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "와라쿠",
-        "FamilyNameRuby": "",
         "PersonalName": "치세",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -61709,6 +62131,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0103",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -61716,7 +62139,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "조마에",
-        "FamilyNameRuby": "",
         "PersonalName": "사오리",
         "SchoolYear": "2학년",
         "CharacterAge": "17세",
@@ -62298,6 +62720,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0143",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -62305,7 +62728,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "카제쿠라",
-        "FamilyNameRuby": "",
         "PersonalName": "모에",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -62883,6 +63305,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0075",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -62890,7 +63313,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "쿄야마",
-        "FamilyNameRuby": "",
         "PersonalName": "카즈사",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -63453,6 +63875,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0137",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -63460,7 +63883,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "스노하라",
-        "FamilyNameRuby": "",
         "PersonalName": "코코나",
         "SchoolYear": "1학년",
         "CharacterAge": "11세",
@@ -63983,6 +64405,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -63990,7 +64413,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "시라이시",
-        "FamilyNameRuby": "",
         "PersonalName": "우타하",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -64578,6 +65000,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0095",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -64585,7 +65008,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "우시오",
-        "FamilyNameRuby": "",
         "PersonalName": "노아",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -65118,6 +65540,7 @@
         "WeaponType": "MT",
         "WeaponImg": "weapon_icon_ch0181",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -65125,7 +65548,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "네코즈카",
-        "FamilyNameRuby": "",
         "PersonalName": "히비키",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -65710,6 +66132,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -65717,7 +66140,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "무로카사",
-        "FamilyNameRuby": "",
         "PersonalName": "아카네",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -66233,6 +66655,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_13010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -66240,7 +66663,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "하야세",
-        "FamilyNameRuby": "",
         "PersonalName": "유우카",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -66810,6 +67232,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -66817,7 +67240,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "이오치",
-        "FamilyNameRuby": "",
         "PersonalName": "마리",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -67367,6 +67789,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_13003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -67374,7 +67797,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "하네카와",
-        "FamilyNameRuby": "",
         "PersonalName": "하스미",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -67928,6 +68350,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0159",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -67935,7 +68358,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "아케보시",
-        "FamilyNameRuby": "",
         "PersonalName": "히마리",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -68470,6 +68892,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_shigure",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -68477,7 +68900,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "마요이",
-        "FamilyNameRuby": "",
         "PersonalName": "시구레",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -69110,6 +69532,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -69117,7 +69540,6 @@
         ],
         "CollectionBG": "BG_Holiday_Collection",
         "FamilyName": "스미",
-        "FamilyNameRuby": "",
         "PersonalName": "세리나",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -69926,6 +70348,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -69933,7 +70356,6 @@
         ],
         "CollectionBG": "BG_Holiday_Collection",
         "FamilyName": "아사가오",
-        "FamilyNameRuby": "",
         "PersonalName": "하나에",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -70696,6 +71118,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10002",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -70703,7 +71126,6 @@
         ],
         "CollectionBG": "BG_NewYearFestival2",
         "FamilyName": "쿠로다테",
-        "FamilyNameRuby": "",
         "PersonalName": "하루나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -71277,6 +71699,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -71284,7 +71707,6 @@
         ],
         "CollectionBG": "BG_NewYearFestival2",
         "FamilyName": "아이키요",
-        "FamilyNameRuby": "",
         "PersonalName": "후우카",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -71787,6 +72209,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -71794,7 +72217,6 @@
         ],
         "CollectionBG": "BG_NewYearFestival2",
         "FamilyName": "아카시",
-        "FamilyNameRuby": "",
         "PersonalName": "준코",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -72332,6 +72754,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_ch0152",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -72339,7 +72762,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "아오모리",
-        "FamilyNameRuby": "",
         "PersonalName": "미네",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -72474,6 +72896,13 @@
                     },
                     {
                         "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "NotEqual",
+                                "Value": "Medium"
+                            }
+                        ],
                         "Target": [
                             "Enemy"
                         ],
@@ -72489,7 +72918,24 @@
                                 -1715,
                                 -1921,
                                 -2024
-                            ],
+                            ]
+                        ],
+                        "Stat": "DodgePoint_Coefficient",
+                        "Channel": 607
+                    },
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "Equal",
+                                "Value": "Medium"
+                            }
+                        ],
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
                             [
                                 -1715,
                                 -1972,
@@ -72508,6 +72954,13 @@
                     },
                     {
                         "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "NotEqual",
+                                "Value": "Medium"
+                            }
+                        ],
                         "Target": [
                             "Enemy"
                         ],
@@ -72523,7 +72976,24 @@
                                 -1715,
                                 -1921,
                                 -2024
-                            ],
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 603
+                    },
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "Equal",
+                                "Value": "Medium"
+                            }
+                        ],
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
                             [
                                 -1715,
                                 -1972,
@@ -73049,6 +73519,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0069",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -73056,7 +73527,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "미소노",
-        "FamilyNameRuby": "",
         "PersonalName": "미카",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -73682,6 +74152,7 @@
         "WeaponType": "FT",
         "WeaponImg": "weapon_icon_ch0088",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -73689,7 +74160,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "시모쿠라",
-        "FamilyNameRuby": "",
         "PersonalName": "메구",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -74351,6 +74821,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0170",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -74358,7 +74829,6 @@
         ],
         "CollectionBG": "BG_Valkyrie_Collection",
         "FamilyName": "오가타",
-        "FamilyNameRuby": "",
         "PersonalName": "칸나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -74933,6 +75403,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_sakurako",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -74940,7 +75411,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "우타즈미",
-        "FamilyNameRuby": "",
         "PersonalName": "사쿠라코",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -75509,6 +75979,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0187",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -75516,7 +75987,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "아스마",
-        "FamilyNameRuby": "",
         "PersonalName": "토키",
         "SchoolYear": "1학년",
         "CharacterAge": "16세",
@@ -76482,6 +76952,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_nagisa",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -76489,7 +76960,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "키리후지",
-        "FamilyNameRuby": "",
         "PersonalName": "나기사",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -77087,6 +77557,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0198",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -77094,7 +77565,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "쿠로사키",
-        "FamilyNameRuby": "",
         "PersonalName": "코유키",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -77796,6 +78266,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13005",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -77803,7 +78274,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "오니카타",
-        "FamilyNameRuby": "",
         "PersonalName": "카요코",
         "SchoolYear": "3학년",
         "CharacterAge": "18세",
@@ -78396,6 +78866,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_16000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -78403,7 +78874,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "이구사",
-        "FamilyNameRuby": "",
         "PersonalName": "하루카",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -78968,6 +79438,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0107",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -78975,7 +79446,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "쿠와카미",
-        "FamilyNameRuby": "",
         "PersonalName": "카호",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -79500,7 +79970,7 @@
         "Id": 10066,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 136,
@@ -79522,6 +79992,7 @@
         "WeaponType": "RG",
         "WeaponImg": "weapon_icon_10015",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -79529,7 +80000,6 @@
         ],
         "CollectionBG": "BG_OldHouseOutside_Collection",
         "FamilyName": "텐도",
-        "FamilyNameRuby": "",
         "PersonalName": "아리스",
         "SchoolYear": "1학년",
         "CharacterAge": "??세",
@@ -79542,7 +80012,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "152cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1384,
         "AttackPower1": 397,
         "AttackPower100": 3975,
@@ -79894,7 +80364,7 @@
         ],
         "MemoryLobby": [
             5,
-            0,
+            5,
             0
         ],
         "MemoryLobbyBGM": 36,
@@ -79905,7 +80375,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210303,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -80065,7 +80540,7 @@
         "Id": 10067,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 137,
@@ -80087,6 +80562,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0187",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -80094,7 +80570,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "아스마",
-        "FamilyNameRuby": "",
         "PersonalName": "토키",
         "SchoolYear": "1학년",
         "CharacterAge": "16세",
@@ -80107,7 +80582,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1384,
         "AttackPower1": 268,
         "AttackPower100": 2682,
@@ -80477,7 +80952,7 @@
         ],
         "MemoryLobby": [
             5,
-            0,
+            5,
             0
         ],
         "MemoryLobbyBGM": 9,
@@ -80488,7 +80963,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210302,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -80647,7 +81127,7 @@
         "Id": 26009,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 138,
@@ -80669,6 +81149,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_10018",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -80676,7 +81157,6 @@
         ],
         "CollectionBG": "BG_OldHouseOutside_Collection",
         "FamilyName": "하나오카",
-        "FamilyNameRuby": "",
         "PersonalName": "유즈",
         "SchoolYear": "1학년",
         "CharacterAge": "16세",
@@ -80689,7 +81169,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "150cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1095,
         "AttackPower1": 240,
         "AttackPower100": 2407,
@@ -81022,7 +81502,7 @@
         ],
         "MemoryLobby": [
             5,
-            0,
+            5,
             0
         ],
         "MemoryLobbyBGM": 38,
@@ -81033,7 +81513,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210304,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -81214,6 +81699,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_ch0167",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -81221,7 +81707,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "우자와",
-        "FamilyNameRuby": "",
         "PersonalName": "레이사",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -81847,6 +82332,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0135",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -81854,7 +82340,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "아케시로",
-        "FamilyNameRuby": "",
         "PersonalName": "루미",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -82448,6 +82933,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0138",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -82455,13 +82941,12 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "코노에",
-        "FamilyNameRuby": "",
         "PersonalName": "미나",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
         "Birthday": "9월 9일",
         "CharacterSSRNew": "불똥은 혼자서 뒤집어써야지.\n엮여서 좋을 건 없으니까.",
-        "ProfileIntroduction": "산해경 학원의 학생회 <현룡문>의 집행부장이자, 학생회장을 호위하는 직속 경호원.\n\n쿨하고 냉철해 보이는 인상과는 달리, 실상은 중증의 고전 누아르 영화 마니아로, 영화에서나 나올 법한 멋진 상황과 대사를 동경하고 있다. 상황 파악을 하지 못하고 멋을 부리다가 호되게 당하는 일도 종종 있지만, <현룡문>의 부원들은 그녀의 기분이 상하지 않도록 짐짓 모른 척해주고 있다.",
+        "ProfileIntroduction": "산해경 학원의 학생회 <현룡문>의 집행부장이자, 학생회장을 호위하는 직속 경호원.\n\n쿨하고 냉철해 보이는 인상과는 달리, 실상은 중증의 고전 느와르 영화 마니아로, 영화에서나 나올 법한 멋진 상황과 대사를 동경하고 있다. 상황 파악을 하지 못하고 멋을 부리다가 호되게 당하는 일도 종종 있지만, <현룡문>의 부원들은 그녀의 기분이 상하지 않도록 짐짓 모른 척해주고 있다.",
         "Hobby": "영화 시청 (주로 하드보일드계)",
         "CharacterVoice": "佐藤利奈",
         "BirthDay": "9/9",
@@ -83203,6 +83688,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0214",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -83210,7 +83696,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "야스모리",
-        "FamilyNameRuby": "",
         "PersonalName": "미노리",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -83774,6 +84259,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0142",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -83781,7 +84267,6 @@
         ],
         "CollectionBG": "BG_FishingVillage2_Collection",
         "FamilyName": "츠키유키",
-        "FamilyNameRuby": "",
         "PersonalName": "미야코",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -84345,6 +84830,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0144",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -84352,7 +84838,6 @@
         ],
         "CollectionBG": "BG_FishingVillage2_Collection",
         "FamilyName": "소라이",
-        "FamilyNameRuby": "",
         "PersonalName": "사키",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -84763,19 +85248,27 @@
                 "Icon": "COMMON_SKILLICON_WEAPONBUFF",
                 "Effects": [
                     {
-                        "Type": "BuffSelfAndSupport",
-                        "Scale": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ]
+                        "Type": "Buff",
+                        "Target": [
+                            "Self",
+                            "AllySupport"
+                        ],
+                        "Value": [
+                            [
+                                1611,
+                                1692,
+                                1773,
+                                2095,
+                                2175,
+                                2256,
+                                2578,
+                                2658,
+                                2739,
+                                3061
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
                     }
                 ]
             }
@@ -85015,6 +85508,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0145",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -85022,7 +85516,6 @@
         ],
         "CollectionBG": "BG_FishingVillage2_Collection",
         "FamilyName": "카스미자와",
-        "FamilyNameRuby": "",
         "PersonalName": "미유",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -85541,6 +86034,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10010",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -85548,7 +86042,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "스나오오카미",
-        "FamilyNameRuby": "",
         "PersonalName": "시로코",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -86082,6 +86575,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0169",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -86089,7 +86583,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "코제키",
-        "FamilyNameRuby": "",
         "PersonalName": "우이",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -86624,6 +87117,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0073",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -86631,7 +87125,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "와카바",
-        "FamilyNameRuby": "",
         "PersonalName": "히나타",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -87204,6 +87697,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10020",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -87211,7 +87705,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "시모에",
-        "FamilyNameRuby": "",
         "PersonalName": "코하루",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -87736,6 +88229,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -87743,7 +88237,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "우라와",
-        "FamilyNameRuby": "",
         "PersonalName": "하나코",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -88419,6 +88912,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10034",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -88426,7 +88920,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "미즈하",
-        "FamilyNameRuby": "",
         "PersonalName": "미모리",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -88944,6 +89437,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0124",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -88951,7 +89445,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "히메키",
-        "FamilyNameRuby": "",
         "PersonalName": "메루",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -89554,6 +90047,7 @@
         "WeaponType": "RL",
         "WeaponImg": "weapon_icon_momiji",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -89561,7 +90055,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "아키이즈미",
-        "FamilyNameRuby": "",
         "PersonalName": "모미지",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -90101,6 +90594,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0185",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -90108,7 +90602,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "토요미",
-        "FamilyNameRuby": "",
         "PersonalName": "코토리",
         "SchoolYear": "1학년",
         "CharacterAge": "15세",
@@ -90682,6 +91175,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -90689,7 +91183,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "쿠로다테",
-        "FamilyNameRuby": "",
         "PersonalName": "하루나",
         "SchoolYear": "3학년",
         "CharacterAge": "17세",
@@ -91222,6 +91715,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0071",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -91229,14 +91723,13 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "나카마사",
-        "FamilyNameRuby": "",
         "PersonalName": "이치카",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
         "Birthday": "11월 11일",
         "CharacterSSRNew": "어라? 약속 시간 아직 멀었죠? 기다리셨슴까?",
-        "ProfileIntroduction": "항상 여유로운 표정의 정의실현부의 부원.\n\n다양한 학생들이 있는 정의실현부 내에서도, 융통성과 조율을 곧잘 담당하고 있다. 다른 학원과의 관계도 좋은 편. 나긋나긋한 표정과 친절함으로 알려졌지만, 천성이 아니라 노력의 일환이다. ",
-        "Hobby": "남 돕기, 이것저것 도전해보는 중",
+        "ProfileIntroduction": "항상 여유로운 표정의 정의실현부 부원.\n\n다양한 학생들이 있는 정의실현부 내에서도, 융통성과 조율을 곧잘 담당하고 있다. 다른 학원과의 관계도 좋은 편. 나긋나긋한 표정과 친절함으로 알려졌지만, 천성이 아니라 노력의 일환이다. ",
+        "Hobby": "남 돕기, 이것저것 도전해 보는 중",
         "CharacterVoice": "鷲見友美ジェナ",
         "BirthDay": "11/11",
         "Illustrator": "7peach",
@@ -91605,7 +92098,7 @@
         "IsLimited": 0,
         "Weapon": {
             "Name": "레드 드래곤",
-            "Desc": "온갖 일들을 함께해 온 이치카의 돌격소총.\n\n소박하고 단정 단아하게 정돈된 외모과 달리, 내면은 과격하고 강렬한 일들도 거뜬하게끔 준비돼 있다.",
+            "Desc": "온갖 일들을 함께해 온 이치카의 돌격소총.\n\n소박하고 단정 단아하게 정돈된 외모와 달리, 내면은 과격하고 강렬한 일들도 거뜬하게끔 준비돼 있다.",
             "AdaptationType": "Street",
             "AdaptationValue": 1,
             "AttackPower1": 123,
@@ -91772,6 +92265,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0089",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -91779,13 +92273,12 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "키누가와",
-        "FamilyNameRuby": "",
         "PersonalName": "카스미",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
         "Birthday": "5월 24일",
         "CharacterSSRNew": "내가 온천 개발의 정의에 대해 말해줬던가?",
-        "ProfileIntroduction": "게헨나 온천개발부의 부장.\n\n온천수가 흐르는 땅은 모두 온천이 돼야 한다고 주장하며, 정한 자리엔 무엇이 있든 가리지 않고 폭파해버린다. 부원들에게는 전폭적인 지지를 받고 있지만 공식적으로는 수배 중인 범죄자일 뿐이다.",
+        "ProfileIntroduction": "게헨나 온천개발부의 부장.\n\n온천수가 흐르는 땅은 모두 온천이 돼야 한다고 주장하며, 정한 자리엔 무엇이 있든 가리지 않고 폭파해 버린다. 부원들에게는 전폭적인 지지를 받고 있지만 공식적으로는 수배 중인 범죄자일 뿐이다.",
         "Hobby": "폭파, 온천 개발",
         "CharacterVoice": "上坂すみれ ",
         "BirthDay": "5/24",
@@ -92174,7 +92667,7 @@
         "IsLimited": 0,
         "Weapon": {
             "Name": "레드 렉터",
-            "Desc": "카스미가 항상 휴대하고 다니는 권총.\n\n분위기를 띄우기 위해 허공에 발표하는 경우가 대부분이지만, 작고 귀여운 외관과 달리 실제 위력도 요란하고 강직하다.",
+            "Desc": "카스미가 항상 휴대하고 다니는 권총.\n\n분위기를 띄우기 위해 허공에 발포하는 경우가 대부분이지만, 작고 귀여운 외관과 달리 실제 위력도 요란하고 강직하다.",
             "AdaptationType": "Street",
             "AdaptationValue": 1,
             "AttackPower1": 92,
@@ -92341,6 +92834,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_shigure",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -92348,7 +92842,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "마요이",
-        "FamilyNameRuby": "",
         "PersonalName": "시구레",
         "SchoolYear": "2학년",
         "CharacterAge": "16세",
@@ -92815,6 +93308,1757 @@
                 12,
                 7,
                 13
+            ]
+        ]
+    },
+    {
+        "Id": 10079,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 159,
+        "PathName": "misaka_mikoto",
+        "DevName": "CH9998",
+        "Name": "미사카 미코토",
+        "School": "Tokiwadai",
+        "Club": "EmptyClub",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Pierce",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 0,
+        "OutdoorBattleAdaptation": 4,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "AR",
+        "WeaponImg": "weapon_icon_ch9998",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Gloves",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_BigPlaza_Collection",
+        "FamilyName": "미사카",
+        "PersonalName": "미코토",
+        "SchoolYear": "3학년",
+        "CharacterAge": "14세",
+        "Birthday": "5월 2일",
+        "CharacterSSRNew": "정말이지, 이곳도 정신없긴 매한가지네.",
+        "ProfileIntroduction": "토키와다이 중학교 소속의 여중생.\n\n수많은 초능력자가 존재하는 학원도시에서도 7명 밖에 없는 정상급 초능력자 레벨 5중 한 명. 사용하는 초능력은 강력한 전기를 자유자재로 조종하는 전격 사용(일렉트로마스터)이지만, 키보토스로 전이된 이후 능력 사용에 어려움을 겪고 있다. 누구에게나 편한 말투로 대하며, 상냥한 마음씨라 다른 학생들과도 사이가 좋다. 개구리 캐릭터 <게코타>의 팬이다.",
+        "Hobby": "편의점 잡지 서서 읽기, 게코타 굿즈 모음",
+        "CharacterVoice": "佐藤利奈",
+        "BirthDay": "5/2",
+        "Illustrator": "ミミトケ",
+        "Designer": "-",
+        "CharHeightMetric": "161cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1336,
+        "AttackPower1": 235,
+        "AttackPower100": 2358,
+        "MaxHP1": 2149,
+        "MaxHP100": 21490,
+        "DefensePower1": 19,
+        "DefensePower100": 114,
+        "HealPower1": 1462,
+        "HealPower100": 4387,
+        "DodgePoint": 764,
+        "AccuracyPoint": 731,
+        "CriticalPoint": 208,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 30,
+        "AmmoCost": 3,
+        "Range": 650,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "Hits": [
+                            3333,
+                            3333,
+                            3334
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 30,
+                            "AttackStartDuration": 15,
+                            "AttackEndDuration": 13,
+                            "AttackBurstRoundOverDelay": 40,
+                            "AttackIngDuration": 24,
+                            "AttackReloadDuration": 72
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            "Ex": {
+                "Name": "토키와다이의 레일건",
+                "Desc": "직선범위 내의 적에게 공격력 <?1> 대미지",
+                "Parameters": [
+                    [
+                        "544%",
+                        "626%",
+                        "789%",
+                        "871%",
+                        "1034%",
+                        "1116%",
+                        "1279%",
+                        "1361%",
+                        "1524%",
+                        "1606%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Duration": 148,
+                "Range": 850,
+                "Radius": [
+                    {
+                        "Type": "Obb",
+                        "Width": 200,
+                        "Height": 1500
+                    }
+                ],
+                "Icon": "SKILLICON_CH9998_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            54458,
+                            62622,
+                            78960,
+                            87125,
+                            103463,
+                            111636,
+                            127966,
+                            136139,
+                            152469,
+                            160642
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "조금 저릴 거야!",
+                "Desc": "50초마다 원형범위 내의 적에게 공격력 <?1> 대미지\n공격력 <?2> <d:ElectricShock> 지속 대미지(<?3>간)",
+                "Parameters": [
+                    [
+                        "120%",
+                        "126%",
+                        "132%",
+                        "156%",
+                        "162%",
+                        "168%",
+                        "192%",
+                        "198%",
+                        "204%",
+                        "228%"
+                    ],
+                    [
+                        "113%",
+                        "119%",
+                        "124%",
+                        "130%",
+                        "135%",
+                        "140%",
+                        "143%",
+                        "148%",
+                        "152%",
+                        "157%"
+                    ],
+                    [
+                        "20초",
+                        "20초",
+                        "20초",
+                        "25초",
+                        "25초",
+                        "25초",
+                        "30초",
+                        "30초",
+                        "30초",
+                        "40초"
+                    ]
+                ],
+                "Duration": 81,
+                "Range": 850,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 150
+                    }
+                ],
+                "Icon": "SKILLICON_CH9998_PUBLICSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            12021,
+                            12617,
+                            13222,
+                            15624,
+                            16221,
+                            16826,
+                            19228,
+                            19824,
+                            20429,
+                            22832
+                        ]
+                    },
+                    {
+                        "Type": "DMGDot",
+                        "Duration": "40000",
+                        "Period": "4000",
+                        "Icon": "ElectricShock",
+                        "Scale": [
+                            11333,
+                            11900,
+                            12467,
+                            13014,
+                            13514,
+                            14016,
+                            14375,
+                            14823,
+                            15272,
+                            15734
+                        ]
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "전격 조작 능력",
+                "Desc": "<b:HIT> <?1> 증가/\n추가로 쇼쿠호 미사키의 <c:Confusion> 효과에 영향을 받지 않습니다.",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AccuracyPoint_Coefficient",
+                        "Channel": 5,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "전격 조작 능력+",
+                "Desc": "<b:ATK> <?1> 증가/\n추가로 <b:HIT> <?2> 증가/\n추가로 쇼쿠호 미사키의 <c:Confusion> 효과에 영향을 받지 않습니다.",
+                "Parameters": [
+                    [
+                        "290",
+                        "304",
+                        "319",
+                        "376",
+                        "391",
+                        "405",
+                        "463",
+                        "478",
+                        "492",
+                        "550"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Base",
+                        "Channel": 1702,
+                        "Value": [
+                            [
+                                290,
+                                304,
+                                319,
+                                376,
+                                391,
+                                405,
+                                463,
+                                478,
+                                492,
+                                550
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "여러 번 말하게 하지 마",
+                "Desc": "기본스킬 발동과 동시에 <b:ATK> <?1> 증가(<?2>간)",
+                "Parameters": [
+                    [
+                        "10%",
+                        "11.2%",
+                        "12.4%",
+                        "13.4%",
+                        "14.7%",
+                        "16%",
+                        "17.2%",
+                        "18.5%",
+                        "20%",
+                        "21.4%"
+                    ],
+                    [
+                        "20초",
+                        "20초",
+                        "20초",
+                        "25초",
+                        "25초",
+                        "25초",
+                        "30초",
+                        "30초",
+                        "30초",
+                        "40초"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1008,
+                                1123,
+                                1243,
+                                1346,
+                                1473,
+                                1605,
+                                1721,
+                                1858,
+                                2000,
+                                2146
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    }
+                ]
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                54
+            ],
+            [
+                6,
+                64
+            ],
+            [
+                1,
+                11
+            ],
+            [
+                2,
+                16
+            ],
+            [
+                4,
+                27
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 38,
+        "FurnitureInteraction": [
+            [
+                [
+                    210322,
+                    0
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [
+            "F_Misaka_Mikoto",
+            "F_Misaka_Mikoto2"
+        ],
+        "IsLimited": 1,
+        "Weapon": {
+            "Name": "건볼트",
+            "Desc": "미사카 미코토를 위해 엔지니어부에서 만들어준 전용 총기.\n\n전기 능력자인 그녀를 위해, '특별한' 기능도 추가돼 있다.",
+            "AdaptationType": "Outdoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 104,
+            "AttackPower100": 1036,
+            "MaxHP1": 618,
+            "MaxHP100": 6180,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3020,
+                3070,
+                3050,
+                3040
+            ],
+            [
+                3061,
+                3011,
+                3001,
+                3081
+            ],
+            [
+                3022,
+                3072,
+                3052,
+                3042
+            ],
+            [
+                3063,
+                3013,
+                3003,
+                3083
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                3,
+                3,
+                3,
+                3
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4060,
+                4000,
+                4020,
+                4070
+            ],
+            [
+                4040,
+                4050,
+                4080,
+                4010
+            ],
+            [
+                4061,
+                4001,
+                4021,
+                4071
+            ],
+            [
+                4041,
+                4051,
+                4081,
+                4011
+            ],
+            [
+                4062,
+                4002,
+                4022,
+                4072
+            ],
+            [
+                4042,
+                4052,
+                4082,
+                4012
+            ],
+            [
+                4063,
+                4003,
+                4023,
+                4073
+            ],
+            [
+                4043,
+                4053,
+                4083,
+                4013
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ]
+        ]
+    },
+    {
+        "Id": 10080,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 160,
+        "PathName": "shokuho_misaki",
+        "DevName": "CH9997",
+        "Name": "쇼쿠호 미사키",
+        "School": "Tokiwadai",
+        "Club": "EmptyClub",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "Supporter",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Explosion",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 1,
+        "IndoorBattleAdaptation": 1,
+        "WeaponType": "HG",
+        "WeaponImg": "weapon_icon_ch9997",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Shoes",
+            "Hairpin",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_BigPlaza_Collection",
+        "FamilyName": "쇼쿠호",
+        "PersonalName": "미사키",
+        "SchoolYear": "3학년",
+        "CharacterAge": "14세",
+        "Birthday": "-",
+        "CharacterSSRNew": "음~ 어떡할까나? 아아, 이쪽 이야기야?",
+        "ProfileIntroduction": "토키와다이 중학교 소속의 기품 넘치는 여중생.\n\n명문교인 토키와타이 중학교 중에서도 최대 파벌을 이끄는 실력자로, 학원 도시에 7명밖에 존재하지 않는 초능력자 레벨 5 중 한 명이다. 사용하는 초능력은 타인의 정신을 조종하는 심리 장악(멘탈 아웃)이지만, 키보토스로 전이된 뒤에는 능력을 사용하는 데에 약간의 어려움을 겪고 있다. 같은 레벨 5의 초능력자이며, 자신의 능력이 통하지 않는 미사카 미코토를 다소 꺼려한다.",
+        "Hobby": "차 마시기, 유기농 식품 먹기",
+        "CharacterVoice": "浅倉杏美",
+        "BirthDay": "-",
+        "Illustrator": "ミミトケ",
+        "Designer": "-",
+        "CharHeightMetric": "-",
+        "CharHeightImperial": null,
+        "StabilityPoint": 908,
+        "AttackPower1": 213,
+        "AttackPower100": 2139,
+        "MaxHP1": 2044,
+        "MaxHP100": 23680,
+        "DefensePower1": 18,
+        "DefensePower100": 109,
+        "HealPower1": 1527,
+        "HealPower100": 4583,
+        "DodgePoint": 999,
+        "AccuracyPoint": 109,
+        "CriticalPoint": 218,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 5,
+        "AmmoCost": 1,
+        "Range": 550,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 76,
+                            "AttackStartDuration": 20,
+                            "AttackEndDuration": 23,
+                            "AttackBurstRoundOverDelay": 40,
+                            "AttackIngDuration": 52,
+                            "AttackReloadDuration": 65
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            "Ex": {
+                "Name": "멘탈 아웃",
+                "Desc": "지정한 대상과 대상을 중심으로 원형 범위 내의 가장 가까운 적 2인에게 공격력 <?1> 대미지/\n<c:Confusion>(<?2>간)",
+                "Parameters": [
+                    [
+                        "772%",
+                        "888%",
+                        "1120%",
+                        "1236%",
+                        "1468%",
+                        "1584%",
+                        "1815%",
+                        "1931%",
+                        "2163%",
+                        "2279%"
+                    ],
+                    [
+                        "5초",
+                        "5초",
+                        "7초",
+                        "7초",
+                        "7초",
+                        "7초",
+                        "7초",
+                        "7초",
+                        "7초",
+                        "7초"
+                    ]
+                ],
+                "Cost": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "Duration": 81,
+                "Range": 750,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 200
+                    }
+                ],
+                "Icon": "SKILLICON_CH9997_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            77272,
+                            88864,
+                            112048,
+                            123640,
+                            146816,
+                            158408,
+                            181592,
+                            193184,
+                            216359,
+                            227951
+                        ]
+                    },
+                    {
+                        "Type": "CrowdControl",
+                        "Chance": "10000",
+                        "Icon": "Confusion",
+                        "Scale": [
+                            5000,
+                            5000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "잠시 도와주겠어?",
+                "Desc": "30초마다 원형범위 내의 적에게 공격력 <?1> 대미지",
+                "Parameters": [
+                    [
+                        "318%",
+                        "334%",
+                        "350%",
+                        "413%",
+                        "429%",
+                        "445%",
+                        "509%",
+                        "525%",
+                        "541%",
+                        "604%"
+                    ]
+                ],
+                "Duration": 170,
+                "Range": 750,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 150
+                    }
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000
+                        ],
+                        "HitsParameter": 1,
+                        "Scale": [
+                            31828,
+                            33424,
+                            35012,
+                            41379,
+                            42966,
+                            44562,
+                            50921,
+                            52517,
+                            54105,
+                            60472
+                        ]
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "토키와다이의 여왕",
+                "Desc": "<b:OppressionPower> <?1> 증가",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "OppressionPower_Coefficient",
+                        "Channel": 28,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "토키와다이의 여왕+",
+                "Desc": "<b:ATK> <?1> 증가/\n추가로 <b:OppressionPower> <?2> 증가",
+                "Parameters": [
+                    [
+                        "152",
+                        "159",
+                        "167",
+                        "197",
+                        "205",
+                        "212",
+                        "242",
+                        "250",
+                        "258",
+                        "288"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Base",
+                        "Channel": 1702,
+                        "Value": [
+                            [
+                                152,
+                                159,
+                                167,
+                                197,
+                                205,
+                                212,
+                                242,
+                                250,
+                                258,
+                                288
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "나는 두뇌파라서 말이야",
+                "Desc": "쇼쿠호 미사키의 Ex 스킬로 대상에게 <c:Confusion>을 적용할 때마다 방어력과 <b:Dodge> <?1> 증가(20초간)",
+                "Parameters": [
+                    [
+                        "19.3%",
+                        "20.3%",
+                        "21.3%",
+                        "25.1%",
+                        "26.1%",
+                        "27.1%",
+                        "30.9%",
+                        "31.9%",
+                        "32.9%",
+                        "36.7%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH9997_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1936,
+                                2033,
+                                2130,
+                                2517,
+                                2614,
+                                2710,
+                                3097,
+                                3194,
+                                3291,
+                                3678
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 3
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1936,
+                                2033,
+                                2130,
+                                2517,
+                                2614,
+                                2710,
+                                3097,
+                                3194,
+                                3291,
+                                3678
+                            ]
+                        ],
+                        "Stat": "DodgePoint_Coefficient",
+                        "Channel": 7
+                    }
+                ]
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                59
+            ],
+            [
+                5,
+                71
+            ],
+            [
+                1,
+                12
+            ],
+            [
+                2,
+                18
+            ],
+            [
+                3,
+                29
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 103,
+        "FurnitureInteraction": [
+            [
+                [
+                    210323,
+                    0
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [
+            "F_Shokuho_Misaki",
+            "F_Shokuho_Misaki2"
+        ],
+        "IsLimited": 1,
+        "Weapon": {
+            "Name": "멘탈 포인터",
+            "Desc": "쇼쿠호 미사키를 위해 엔지니어 부에서 만들어준 전용 총기.\n\n여고생의 패션 아이템으로서 안성맞춤인, 깔끔하고 예쁜 권총이다.",
+            "AdaptationType": "Street",
+            "AdaptationValue": 1,
+            "AttackPower1": 94,
+            "AttackPower100": 940,
+            "MaxHP1": 678,
+            "MaxHP100": 6775,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3050,
+                3000,
+                3030,
+                3010
+            ],
+            [
+                3071,
+                3081,
+                3041,
+                3061
+            ],
+            [
+                3052,
+                3002,
+                3032,
+                3012
+            ],
+            [
+                3073,
+                3083,
+                3043,
+                3063
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                3,
+                3,
+                3,
+                3
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4070,
+                4040,
+                4050,
+                4080
+            ],
+            [
+                4010,
+                4030,
+                4060,
+                4000
+            ],
+            [
+                4071,
+                4041,
+                4051,
+                4081
+            ],
+            [
+                4011,
+                4031,
+                4061,
+                4001
+            ],
+            [
+                4072,
+                4042,
+                4052,
+                4082
+            ],
+            [
+                4012,
+                4032,
+                4062,
+                4002
+            ],
+            [
+                4073,
+                4043,
+                4053,
+                4083
+            ],
+            [
+                4013,
+                4033,
+                4063,
+                4003
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ]
+        ]
+    },
+    {
+        "Id": 26011,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 161,
+        "PathName": "saten_ruiko",
+        "DevName": "CH9996",
+        "Name": "사텐 루이코",
+        "School": "Sakugawa",
+        "Club": "EmptyClub",
+        "StarGrade": 1,
+        "SquadType": "Support",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Pierce",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 1,
+        "OutdoorBattleAdaptation": 3,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "SMG",
+        "WeaponImg": "weapon_icon_ch9996",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Hat",
+            "Bag",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_BigPlaza_Collection",
+        "FamilyName": "사텐",
+        "PersonalName": "루이코",
+        "SchoolYear": "1학년",
+        "CharacterAge": "12세",
+        "Birthday": "-",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "사쿠가와 중학교 소속의 명랑한 여중생.\n\n동급생인 우이하루 카자리의 절친한 친구이며, 우이하루로부터 토키와다이 중학교의 선배, 미사카 미코토를 소개받았다. 레벨 0의 무능력자이지만 감이 좋고 결정적인 단서를 찾는 경우가 많다. 좋아하는 것은 도시 전설과 디저트. 휴일이 되면 자주 디저트 조사를 하러 나간다.",
+        "Hobby": "인터넷 마작, 디저트 조사",
+        "CharacterVoice": "伊藤かな恵",
+        "BirthDay": "-",
+        "Illustrator": "ミミトケ",
+        "Designer": "-",
+        "CharHeightMetric": "160cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1582,
+        "AttackPower1": 233,
+        "AttackPower100": 2339,
+        "MaxHP1": 3078,
+        "MaxHP100": 23012,
+        "DefensePower1": 102,
+        "DefensePower100": 615,
+        "HealPower1": 1633,
+        "HealPower100": 4900,
+        "DodgePoint": 1182,
+        "AccuracyPoint": 659,
+        "CriticalPoint": 253,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 5,
+        "AmmoCost": 1,
+        "Range": 1500,
+        "RegenCost": 700,
+        "Skills": {
+            "Ex": {
+                "Name": "배트 풀스윙",
+                "Desc": "원형범위 내의 적에게 공격력 <?1> 대미지",
+                "Parameters": [
+                    [
+                        "446%",
+                        "513%",
+                        "646%",
+                        "713%",
+                        "847%",
+                        "914%",
+                        "1048%",
+                        "1115%",
+                        "1249%",
+                        "1315%"
+                    ]
+                ],
+                "Cost": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    3
+                ],
+                "Duration": 105,
+                "Range": 1500,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 200
+                    }
+                ],
+                "Icon": "SKILLICON_CH9996_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            44611,
+                            51303,
+                            64680,
+                            71372,
+                            84756,
+                            91441,
+                            104825,
+                            111517,
+                            124901,
+                            131586
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "비전의 고등어 카레",
+                "Desc": "45초마다 아군 1인에게 <b:ATK> <?1> 증가(20초간)\n기본 스킬을 사용할 때마다 효과 적용 대상이 1명씩 증가(최대 3인)",
+                "Parameters": [
+                    [
+                        "10.9%",
+                        "11.4%",
+                        "11.9%",
+                        "14.1%",
+                        "14.7%",
+                        "15.2%",
+                        "17.4%",
+                        "17.9%",
+                        "18.5%",
+                        "20.6%"
+                    ]
+                ],
+                "Duration": 60,
+                "Range": 1000,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                1090,
+                                1144,
+                                1198,
+                                1416,
+                                1470,
+                                1525,
+                                1743,
+                                1797,
+                                1851,
+                                2069
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 102
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "더욱 힘껏!",
+                "Desc": "<b:ATK> <?1> 증가",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "더욱 힘껏!+",
+                "Desc": "<b:ATK> <?1> 증가/\n추가로 <b:ATK> <?2> 증가",
+                "Parameters": [
+                    [
+                        "279",
+                        "293",
+                        "307",
+                        "362",
+                        "376",
+                        "390",
+                        "446",
+                        "460",
+                        "474",
+                        "529"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Base",
+                        "Channel": 1702,
+                        "Value": [
+                            [
+                                279,
+                                293,
+                                307,
+                                362,
+                                376,
+                                390,
+                                446,
+                                460,
+                                474,
+                                529
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "나라도…!",
+                "Desc": "아군의 <b:ATK> <?1> 증가",
+                "Parameters": [
+                    [
+                        "9.1%",
+                        "9.5%",
+                        "10%",
+                        "11.8%",
+                        "12.3%",
+                        "12.7%",
+                        "14.5%",
+                        "15%",
+                        "15.5%",
+                        "17.3%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self",
+                            "AllyMain",
+                            "AllySupport"
+                        ],
+                        "Value": [
+                            [
+                                912,
+                                957,
+                                1003,
+                                1186,
+                                1231,
+                                1277,
+                                1459,
+                                1504,
+                                1550,
+                                1732
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 302
+                    }
+                ]
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                58
+            ],
+            [
+                6,
+                69
+            ],
+            [
+                1,
+                11
+            ],
+            [
+                2,
+                17
+            ],
+            [
+                4,
+                29
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 17,
+        "FurnitureInteraction": [
+            [
+                [
+                    210324,
+                    0
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [
+            "F_Saten_Ruiko",
+            "F_Saten_Ruiko2"
+        ],
+        "IsLimited": 2,
+        "Weapon": {
+            "Name": "불릿 스윙어",
+            "Desc": "사텐 루이코를 위해 엔지니어 부에서 만들어준 전용 총기.\n\n손으로 직접 휘둘러도 부서지지 않을 만큼 튼튼하다.",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 82,
+            "AttackPower100": 822,
+            "MaxHP1": 536,
+            "MaxHP100": 5358,
+            "HealPower1": 154,
+            "HealPower100": 1536,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3030,
+                3040,
+                3020,
+                3000
+            ],
+            [
+                3081,
+                3061,
+                3011,
+                3071
+            ],
+            [
+                3032,
+                3042,
+                3022,
+                3002
+            ],
+            [
+                3083,
+                3063,
+                3013,
+                3073
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                3,
+                3,
+                3,
+                3
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4080,
+                4010,
+                4030,
+                4060
+            ],
+            [
+                4000,
+                4020,
+                4070,
+                4040
+            ],
+            [
+                4081,
+                4011,
+                4031,
+                4061
+            ],
+            [
+                4001,
+                4021,
+                4071,
+                4041
+            ],
+            [
+                4082,
+                4012,
+                4032,
+                4062
+            ],
+            [
+                4002,
+                4022,
+                4072,
+                4042
+            ],
+            [
+                4083,
+                4013,
+                4033,
+                4063
+            ],
+            [
+                4003,
+                4023,
+                4073,
+                4043
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ],
+            [
+                7,
+                7,
+                7,
+                7
             ]
         ]
     }

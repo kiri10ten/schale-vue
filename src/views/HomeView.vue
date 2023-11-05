@@ -16,7 +16,7 @@ setBackground('BG_ReceptionRoom.jpg');
                 <div class="card-body">
                     <div class="d-flex align-items-end p-2">
                         <img :src="'/images/ui/Arona_Construction.png'" height="120">
-                        <h1>{{ translateUi('home_welcome') }}</h1>
+                        <h1 class="title-text">{{ translateUi('home_welcome') }}</h1>
                     </div>
                     <div>
                         <p>Welcome! This is a preview of the next version of Schale.gg. It's an entirely new site which is being rebuilt using Vue.js.</p>

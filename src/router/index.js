@@ -75,7 +75,31 @@ const router = createRouter({
             meta: {
                 requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
             }  
-        }
+        },
+        {
+            path: '/raid/:raidid?',
+            name: 'raidview',
+            component: () => import('../views/RaidView.vue'),
+            meta: {
+                requiredJson: ['raids', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+            }  
+        },
+        {
+            path: '/timeattack/:raidid?',
+            name: 'timeattackview',
+            component: () => import('../views/RaidView.vue'),
+            meta: {
+                requiredJson: ['raids', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+            }  
+        },
+        {
+            path: '/worldraid/:raidid?',
+            name: 'worldraidview',
+            component: () => import('../views/RaidView.vue'),
+            meta: {
+                requiredJson: ['raids', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+            }  
+        },
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {

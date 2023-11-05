@@ -314,6 +314,20 @@
             right: 4px;
         }
 
+        &.enemy-npc {
+            background-color: var(--col-bg-ally);
+            color: #ffffff;
+
+            padding: 4px;
+            z-index: 30;
+
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 12px;
+            right: 4px;
+            top: 4px;
+        }
+
         &.enemy-level {
 
             left: 4px;
@@ -379,6 +393,23 @@
         }
 
         &.item-badge {
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: 700;
+
+            padding: 4px;
+
+            background-color: var(--col-bg-imglabel);
+            color: var(--col-theme-text);
+        }
+
+        &.raid-info {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+
+            left: 4px;
+            top: 4px;
             font-size: 12px;
             line-height: 12px;
             font-weight: 700;
@@ -539,10 +570,8 @@
         opacity: 0.5;
     }
 
-    &.selected {
-        // outline: 5px solid var(--col-theme-text);
-        // outline-offset: -2px;
-        //border-radius: 10px;
+    &.selected, &.router-link-active {
+
         &::before {
             content: "";
             position: absolute;
@@ -654,7 +683,7 @@
 
 }
 
-.hover .selection-grid-card:hover, .selection-grid-flex a.selection-grid-card:hover {
+.hover .selection-grid-card:hover, .selection-grid-flex .selection-grid-card:hover {
 
     .card-img {
 
@@ -708,6 +737,10 @@
             }
 
         }
+    }
+
+    &.card-enemy {
+        cursor: pointer;
     }
 }
 

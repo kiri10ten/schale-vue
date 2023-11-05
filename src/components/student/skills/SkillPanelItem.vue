@@ -42,9 +42,12 @@ const extraSkillsCollapse = ref(null);
                 <template v-else>
                     <span class="text-italic">{{ translate('SkillType', type) }}</span>
                     <template v-if="type == 'Ex'">
-                        <span class="text-bold">・</span>
-                        <span class="text-bold text-italic">COST:</span>
-                        <span class="text-bold" :class="{[`ba-col-${bulletType.toLowerCase()}`]: skill.Cost[0] != skill.Cost[4]}">{{ skill.Cost[skillLevel - 1] }}</span>
+                        <span class="mx-1">/</span>
+                        <span class="font-nexon">COST:</span>
+                        <span class="text-bold ms-1" :class="{[`ba-col-${bulletType.toLowerCase()}`]: skill.Cost[0] != skill.Cost[4]}">
+                            {{ skill.Cost[skillLevel - 1] }}
+                        </span>
+                        
                     </template>
                 </template>
 
@@ -53,17 +56,7 @@ const extraSkillsCollapse = ref(null);
     </div>
 
     <SkillText v-if="type != 'Normal'" class="my-2 p-1" :skill="skill" :skill-level="skillLevel" :bullet-type="bulletType" />
-    
-
-    <div class="skill-extrainfo">
-        <button v-if="extraSkills.length" class="ba-info-pill-s btn btn-dark" @click="extraSkillsShow = !extraSkillsShow">
-            <span class="label">
-                {{ translateUi('summon') }}
-                <fa icon="angle-down" class="animate-transform ms-1" :class="{'fa-rotate-180': extraSkillsShow}"></fa>
-            </span>
-        </button>
-        <SkillTags :skill="skill" />
-    </div>
+    <SkillTags :skill="skill" :extra-skills-button="extraSkills.length > 0" v-model:extra-skills-panel-state="extraSkillsShow" />
 
     <Collapse v-if="extraSkills.length" v-model:show="extraSkillsShow" class="w-100" ref="extraSkillsCollapse">
         <template v-for="extraSkill in extraSkills">
@@ -84,9 +77,7 @@ const extraSkillsCollapse = ref(null);
                         </div>
                     </div>
                 </div>
-                <div class="skill-extrainfo">
-                    <SkillTags :skill="extraSkill" />
-                </div>
+                <SkillTags :skill="extraSkill" />
             </div>
 
         </template>

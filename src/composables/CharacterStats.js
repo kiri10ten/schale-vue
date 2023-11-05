@@ -1,14 +1,42 @@
 import { clamp } from "lodash";
 import { computed, reactive, ref, toValue } from "vue";
-import { useSettingsStore } from "../stores/SettingsStore";
-import { useStudentStore } from "../stores/StudentStore";
-import { getEquipmentStats } from "./Equipment";
-import { regionSettings } from "./RegionSettings";
-import { getStudentById } from "./Student";
 
 const damageResistanceStats = ['DamagedRatio', 'EnhanceLightArmorRate', 'EnhanceHeavyArmorRate', 'EnhanceUnarmedRate', 'EnhanceElasticArmorRate'];
 const specialBonusStats = ['MaxHP', 'AttackPower', 'HealPower', 'DefensePower'];
 const specialBonusFactor = {'MaxHP': 0.1, 'AttackPower': 0.1, 'HealPower': 0.05, 'DefensePower': 0.05};
+export const allModifiableStats = [
+    'MaxHP',
+    'AttackPower',
+    'HealPower',
+    'DefensePower',
+    'AccuracyPoint',
+    'DodgePoint',
+    'CriticalPoint',
+    'CriticalDamageRate',
+    'CriticalChanceResistPoint',
+    'CriticalDamageResistRate',
+    'StabilityPoint',
+    'StabilityRate',
+    'AmmoCount',
+    'Range',
+    'RegenCost',
+    'DamageRatio',
+    'DamagedRatio',
+    'HealEffectivenessRate',
+    'OppressionPower',
+    'OppressionResist',
+    'AttackSpeed',
+    'BlockRate',
+    'DefensePenetration',
+    'MoveSpeed',
+    'EnhanceExplosionRate',
+    'EnhancePierceRate',
+    'EnhanceMysticRate',
+    'EnhanceSonicRate',
+    'ExtendBuffDuration',
+    'ExtendDebuffDuration',
+    'ExtendCrowdControlDuration',
+]
 
 export function useCharacterStats(charRef, level, starGrade) {
 
@@ -56,7 +84,7 @@ export function useCharacterStats(charRef, level, starGrade) {
         }
     });
 
-    const growthType = ref('Standard');
+    const growthType = ref(char.StatLevelUpType ?? 'Standard');
     const transcendence = {
         AttackPower: char.Transcendence?.[0] ?? [0, 1000, 1200, 1400, 1700],
         MaxHP: char.Transcendence?.[1] ?? [0, 500, 700, 900, 1400],
@@ -100,6 +128,9 @@ export function useCharacterStats(charRef, level, starGrade) {
             BaseOuter: 0
         }
 
+        const uniqueKeys = [];
+        const conflicts = {};
+
         for (const id in buffs) {
 
             for (let i = 0; i < buffs[id].length; i++) {
@@ -107,6 +138,24 @@ export function useCharacterStats(charRef, level, starGrade) {
 
                 if (buff.stat == stat && toValue(buff.enabled)) {
     
+                    if (buff.conflictKey) {
+                        if (uniqueKeys.includes(buff.conflictKey)) {
+
+                            console.log('Buff conflict', buff.conflictKey)
+
+                            if (conflicts[buff.conflictKey]) {
+                                conflicts[buff.conflictKey].push(id);
+                            } else {
+                                conflicts[buff.conflictKey] = [id];
+                            }
+
+                            continue;
+
+                        } else {
+                            uniqueKeys.push(buff.conflictKey);
+                        }
+                    }
+
                     let amount = 0;
 
                     if (buff.type == 'Coefficient') {
@@ -161,7 +210,7 @@ export function useCharacterStats(charRef, level, starGrade) {
             baseStr = base.toLocaleString()
         }
 
-        const returnStats = { base, baseStr, bonuses, total: allowNegative ? total : Math.max(total, 0), totalStr };
+        const returnStats = { base, baseStr, bonuses, conflicts, total: allowNegative ? total : Math.max(total, 0), totalStr };
 
         if (specialBonusStats.includes(stat)) {
             const spTotal = Math.round(((base + specialBonuses.Base) * specialBonuses.Coefficient).toFixed(4)) + specialBonuses.BaseOuter;
@@ -188,6 +237,7 @@ export function useCharacterStats(charRef, level, starGrade) {
 
     const activeIcons = computed(() => {
 
+        const uniqueKeys = [];
         const activeIcons = {};
 
         for (const id in buffs) {
@@ -197,6 +247,14 @@ export function useCharacterStats(charRef, level, starGrade) {
 
                 if (buff.icon && buff.enabled) {
     
+                    if (buff.conflictKey) {
+                        if (uniqueKeys.includes(buff.conflictKey)) {
+                            continue;
+                        } else {
+                            uniqueKeys.push(buff.conflictKey);
+                        }
+                    }
+
                     if (activeIcons[buff.icon]) {
                         activeIcons[buff.icon] += buff.stacks ?? 1
                     } else {
@@ -245,51 +303,6 @@ export function useWeaponStats(weapon, level) {
     return {stats, level, calculatedStats}
 }
 
-export function useStudentBondStats(student, level, includeAlts) {
-
-    const calculatedStats = computed(() => {
-        const studentVal = toValue(student);
-        const levelVal = toValue(level);
-
-        const bondStats = {};
-
-        const bondTargets = includeAlts ? [studentVal, ...studentVal.FavorAlts.map(id => getStudentById(id))] : [studentVal];
-
-        bondTargets.forEach((target, targetInd) => {
-
-            target.FavorStatType.forEach((stat, statInd) => {
-
-                if (!(stat in bondStats)) {
-                    bondStats[stat] = 0;
-                }
-
-                for (let i = 1; i < Math.min(Array.isArray(levelVal) ? levelVal[targetInd] : levelVal, 50); i++) {
-
-                    if (i < 20) {
-                        bondStats[stat] += target.FavorStatValue[Math.floor(i / 5)][statInd]
-                    } else if (i < 50) {
-                        bondStats[stat] += target.FavorStatValue[2 + Math.floor(i / 10)][statInd]
-                    }
-
-                }
-
-            })
-
-        })
-
-        const calculatedStats = {}
-
-        for (const stat in bondStats) {
-            calculatedStats[stat] = {total: bondStats[stat], totalStr: '+' + bondStats[stat].toLocaleString()};
-        }
-
-        return calculatedStats;
-    })
-
-    return { calculatedStats }
-
-}
-
 export function useGearStats(gear, tier) {
     const calculatedStats = computed(() => {
 
@@ -330,7 +343,7 @@ export function stabilityMinimum(stabilityPoint, stabilityRate) {
 }
 
 export function getLevelScale(level, growthType) {
-    switch (growthType) {
+    switch (toValue(growthType)) {
         case 'TimeAttack':
             if (level <= 1) {
                 return 0;
@@ -362,131 +375,6 @@ export function getLevelScale(level, growthType) {
             return parseFloat(((level-1) / 99).toFixed(4));
     }
 
-}
-
-export function getMaximumAttributes(student, useCollection = false) {
-
-    const statTypes = ['MaxHP', 'AttackPower', 'HealPower', 'DefensePower', 'AccuracyPoint', 'DodgePoint', 'CriticalPoint', 'StabilityPoint', 'Range'];
-
-    let level;
-    let starGrade;
-    let equipLevel;
-    let weaponStarGrade;
-    let weaponLevel;
-    let bondLevel;
-    let gearLevel;
-
-    if (useCollection) {
-        const inCollection = useStudentStore().collectionExists(student.Id);
-
-        if (inCollection) {
-
-            const collectionStats = useStudentStore().collectionGet(student.Id);
-
-            level = collectionStats.Level;
-            starGrade = collectionStats.StarGrade;
-            equipLevel = collectionStats.Equipment;
-            weaponStarGrade = collectionStats.WeaponStarGrade;
-            weaponLevel = collectionStats.WeaponLevel;
-            bondLevel = collectionStats.BondLevel;
-            gearLevel = collectionStats.Gear ? 1 : 0;
-
-        } else {
-
-            const result = {};
-
-            statTypes.forEach((stat) => {
-                result[stat] = 0;
-            })
-        
-            return result;
-
-        }
-
-    } else {
-
-        level = regionSettings.value.AccountMaxLevel;
-        starGrade = 5;
-        equipLevel = regionSettings.value.EquipmentMaxLevel;
-        weaponStarGrade = regionSettings.value.WeaponMaxStarGrade;
-        weaponLevel = regionSettings.value.WeaponMaxLevel;
-        bondLevel = [regionSettings.value.BondMaxLevel, ...student.FavorAlts.map(() => regionSettings.value.BondMaxLevel)]
-        gearLevel = 1;
-
-    }
-    
-
-    const stats = useCharacterStats(student, level, starGrade);
-
-    for (let i = 0; i < 3; i++) {
-        const equipmentStats = getEquipmentStats(student.Equipment[i], equipLevel[i], -1);
-        const equipmentBuffList = [];
-        for (const stat in equipmentStats) {
-            equipmentBuffList.push({
-                stat: stat.split('_')[0],
-                enabled: true,
-                type: stat.split('_')[1],
-                amount: equipmentStats[stat]
-            });
-        }
-        stats.setBuff(`Student_Equipment${i}`, equipmentBuffList)        
-    }
-
-    if (weaponStarGrade > 0) {
-
-        const weaponStats = useWeaponStats(student.Weapon, weaponLevel);
-
-        const weaponBuffList = []
-        for (const stat in weaponStats.calculatedStats.value) {
-            weaponBuffList.push({
-                stat: stat,
-                enabled: true,
-                type: 'Base',
-                amount: weaponStats.calculatedStats.value[stat].total
-            });
-        }
-        
-        stats.setBuff(`Student_UniqueWeapon`, weaponBuffList);
-
-    }
-
-    const bondStats = useStudentBondStats(student, bondLevel, true)
-    const bondBuffList = [];
-
-    for (const stat in bondStats.calculatedStats.value) {
-        bondBuffList.push({
-            stat: stat,
-            enabled: true,
-            type: 'Base',
-            amount: bondStats.calculatedStats.value[stat].total
-        });
-    }
-
-    stats.setBuff(`Student_BondBonus`, bondBuffList);
-        
-    if (student.Gear.Released?.[useSettingsStore().settings.server]) {
-        const gearStats = useGearStats(student.Gear, gearLevel);
-
-        const gearBuffList = [];
-    
-        for (const stat in gearStats.calculatedStats.value) {
-            gearBuffList.push({
-                stat: stat.split('_')[0],
-                enabled: true,
-                type: stat.split('_')[1],
-                amount: gearStats.calculatedStats.value[stat].total
-            });
-        }
-    
-        stats.setBuff(`Student_Gear`, gearBuffList);
-    }
-
-    const result = {};
-    statTypes.forEach((stat) => {
-        result[stat] = stats.calculatedStats.value[stat].total;
-    })
-
-    return result;
 }
 
 export function buffValueToString(stat, value) {

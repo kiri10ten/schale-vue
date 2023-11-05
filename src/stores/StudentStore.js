@@ -1,8 +1,9 @@
-import { ref } from 'vue'
+import { ref, reactive } from 'vue'
 import { defineStore } from 'pinia'
 import { useLocalStorage, useSessionStorage } from '@vueuse/core'
 import { useSettingsStore } from './SettingsStore'
 import merge from 'lodash/merge'
+import { cloneDeep } from 'lodash'
 
 export const useStudentStore = defineStore('studentstore', {
     state: () => {
@@ -15,8 +16,7 @@ export const useStudentStore = defineStore('studentstore', {
             WeaponStarGrade: 0,
             WeaponLevel: 1,
             Equipment: [1, 1, 1],
-            Gear: false,
-            GearTier: 1,
+            Gear: 0,
             BondLevel: [20, 20, 20],
             SkillEx: 5,
             SkillPublic: 10,
@@ -61,6 +61,7 @@ export const useStudentStore = defineStore('studentstore', {
             BondLevelDisplay: 1,
 
             Favourites: []
+            
         }, {
             mergeDefaults: (storage, defaults) => merge(defaults, storage)
         }))
@@ -123,6 +124,8 @@ export const useStudentStore = defineStore('studentstore', {
                 Valkyrie: false,
                 SRT: false,
                 ETC: false,
+                Tokiwadai: false,
+                Sakugawa: false
             },
             WeaponType: {
                 SG: false,
@@ -199,7 +202,14 @@ export const useStudentStore = defineStore('studentstore', {
             mergeDefaults: (storage, defaults) => merge(defaults, storage)
         }))
 
-        return { studentDisplay, studentListFilters, studentListSort, studentCollection }
+        const studentBuffs = reactive([]);
+        const studentSummonBuffs = reactive([]);
+
+        const pinned = ref(useLocalStorage('pinned', {
+            Buffs: []
+        }))
+
+        return { studentDisplay, studentListFilters, studentListSort, studentCollection, studentBuffs, studentSummonBuffs, pinned }
     },
     actions: {
         collectionExists(studentId) {
@@ -228,6 +238,7 @@ export const useStudentStore = defineStore('studentstore', {
                 Equipment: this.studentDisplay.Equipment,
                 Gear: this.studentDisplay.Gear,
                 BondLevel: this.studentDisplay.BondLevel[0],
+                Skills: cloneDeep(this.studentDisplay.Skill),
             }
 
             altIds.forEach((altId, i) => {
@@ -275,6 +286,7 @@ export const useStudentStore = defineStore('studentstore', {
                 this.studentDisplay.Equipment = this.studentCollection[server][studentId].Equipment;
                 this.studentDisplay.Gear = this.studentCollection[server][studentId].Gear;
                 this.studentDisplay.BondLevel[0] = this.studentCollection[server][studentId].BondLevel;
+                this.studentDisplay.Skill = cloneDeep(this.studentCollection[server][studentId].Skills);
             }
 
             altIds.forEach((altId, i) => {
@@ -304,6 +316,17 @@ export const useStudentStore = defineStore('studentstore', {
                 this.studentDisplay.Favourites.splice(index, 1);
             } else {
                 this.studentDisplay.Favourites.push(studentId);
+            }
+        },
+        pinnedExists(item, id) {
+            return this.pinned[item].includes(id);
+        },
+        pinnedToggle(item, id) {
+            const index = this.pinned[item].indexOf(id)
+            if (index !== -1) {
+                this.pinned[item].splice(index, 1);
+            } else {
+                this.pinned[item].push(id);
             }
         }
     }

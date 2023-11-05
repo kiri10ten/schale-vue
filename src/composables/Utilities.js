@@ -106,3 +106,24 @@ export function framesString(value) {
         return `${value}f`;
     }
 }
+
+export function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    return `${minutes}:${`${seconds % 60}`.padStart(2, '0')}`;
+}
+
+export function shortDateFromTimestamp(timestamp) {
+    const date = new Date(timestamp * 1000);
+    return date.toLocaleDateString([], {year: "2-digit", month: "numeric", day: "numeric"});
+}
+
+/**
+ * Wraps a value in an array if it is not already an array
+ * @param {*} arrayOrValue 
+ */
+export function wrapArray(arrayOrValue) {
+    if (Array.isArray(arrayOrValue)) {
+        return arrayOrValue;
+    }
+    return [arrayOrValue];
+}

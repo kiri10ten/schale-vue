@@ -154,6 +154,7 @@
 .form-control {
     color: var(--col-theme-text);
     background-color: var(--col-theme-accent);
+    border-radius: 999px;
     border: none;
     outline: 0;
     box-shadow: none;
@@ -303,7 +304,10 @@
 
 .modal-body {
     @include lg-up {
-        @include scrollable(auto);
+        @include scrollable(scroll);
+        margin-right: 0.25rem;
+        margin-bottom: 0.25rem;
+        padding-right: 0.25rem;
     }
 }
 

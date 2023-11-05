@@ -6,16 +6,18 @@ import Tooltip from '../../common/Tooltip.vue';
 
 const props = defineProps({
     name: String,
-    type: String,
+    label: String,
     noTooltip: Boolean
 });
 
+const type = computed(() => props.name.split('_')[0])
+
 const tooltip = computed(() => {
     return {
-        title: translate('BuffNameLong', `${props.type}_${props.name}`),
-        subtitle: translate('BuffType', props.type),
-        icon: `/images/buff/${props.type}_${props.name}.webp`,
-        body: translate('BuffTooltip', `${props.type}_${props.name}`),
+        title: translate('BuffNameLong', props.name),
+        subtitle: translate('BuffType', type.value),
+        icon: `/images/buff/${props.name}.webp`,
+        body: translate('BuffTooltip', props.name),
         iconSize: [30, 30]        
     }
 })
@@ -24,7 +26,16 @@ const tooltip = computed(() => {
 
 <template>
     <component :is="noTooltip ? 'span' : Tooltip" v-bind="tooltip" :class="`ba-skill-${type.toLowerCase()}`">
-        <img class="buff-icon" :src="`/images/buff/${type}_${name}.webp`">
-        <span class="buff-label">{{ translate('BuffName', `${type}_${name}`) }}</span>
+        <img class="buff-icon" :src="`/images/buff/${name}.webp`">
+        <span class="buff-label">{{ label ?? translate('BuffName', `${name}`) }}</span>
     </component>
 </template>
+
+<style scoped lang="scss">
+
+.conflict {
+    filter: grayscale(1);
+    text-decoration: line-through;
+}
+
+</style>

@@ -7,10 +7,11 @@ import StudentListItem from './StudentListItem.vue';
 import { translate, translateUi } from '../../composables/Localization';
 import { useStudentStore } from '../../stores/StudentStore';
 import { terrainList, adaptationGrade, terrainAffinityText } from '../../composables/TerrainHelper';
-import { getMaximumAttributes } from '../../composables/CharacterStats';
+import { getMaximumAttributes } from '../../composables/StudentList';
 import ListSort from '../common/ListSort.vue';
 import { extractNumber } from '../../composables/Utilities';
 import { RecycleScroller } from 'vue-virtual-scroller';
+import { getSchoolIconName } from '../../composables/Icon';
 
 const settings = useSettingsStore().settings;
 const filters = useStudentStore().studentListFilters;
@@ -417,7 +418,7 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
                             <div class="search-filter-group">
                                 
                                 <button v-for="(value, key) in filters.SquadType"
-                                    class="btn-pill text-bold text-italic"
+                                    class="btn-pill font-nexon"
                                     :class="{[`ba-col-${key == 'Main' ? 'striker' : 'special'}`]: true, 'active': value}"
                                     @click="filters.SquadType[key] = !filters.SquadType[key]"
                                 >
@@ -498,7 +499,7 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
                                     :class="{'active': value}"
                                     @click="filters.Position[key] = !filters.Position[key]"
                                 >
-                                    <span class="label text-italic">{{ key.toUpperCase() }}</span>
+                                    <span class="label font-nexon">{{ key.toUpperCase() }}</span>
                                 </button>
                             </div>
                         </div>
@@ -512,7 +513,7 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
                                     @click="filters.School[key] = !filters.School[key]"
                                 >
                                     <span class="label-filter">
-                                        <img class="invert-light" width="26" height="26" :src="`/images/schoolicon/${key}.png`">
+                                        <img class="invert-light" width="26" height="26" :src="`/images/schoolicon/${getSchoolIconName(key)}.png`">
                                         {{ translate('School', key) }}
                                     </span>
                                 </button>
@@ -526,7 +527,7 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
                                     :class="{'active': value}"
                                     @click="filters.WeaponType[key] = !filters.WeaponType[key]"
                                 >
-                                    <span class="label">{{ key }}</span>
+                                    <span class="label text-italic">{{ key }}</span>
                                 </button>
                             </div>
                         </div>

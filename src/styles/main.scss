@@ -205,6 +205,24 @@ h1 small {
     @include transition(background-color);
 }
 
+.icon-type-small {
+
+    @include circular;
+    @include flex(center, center);
+
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    margin-left: 2px;
+
+
+    img {
+        width: 12px;
+        height: 12px;
+    }
+    
+}
+
 #ba-student-position {
     font-weight: 600;
     font-style: italic;
@@ -568,7 +586,7 @@ h1 small {
 }
 
 
-.ba-raid-skill {
+.raid-skill-icon {
     height: 64px;
     min-width: 64px;
     object-fit: contain;
@@ -591,6 +609,10 @@ h1 small {
 
     &.sonic {
         background-color: var(--col-bg-sonic);
+    }
+
+    &.normal {
+        background-color: var(--col-bg-normal)
     }
 
 }

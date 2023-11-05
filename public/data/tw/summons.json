@@ -86,6 +86,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "Cannon",
+        "Size": "Large",
         "StabilityPoint": 1164,
         "StabilityRate": 2000,
         "AttackPower1": 1423,
@@ -221,6 +222,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "Cannon",
+        "Size": "Large",
         "StabilityPoint": 1184,
         "StabilityRate": 2000,
         "AttackPower1": 1098,
@@ -274,8 +276,20 @@
             },
             {
                 "Name": "",
-                "Desc": "Continuously restores the HP of allies in a circular area by <?1> of Healing every 10s",
+                "Desc": "Increases the <b:ATK> of all allies in a circular area by <?1> and continuously restores their HP by <?2> of Healing every 10s as long as they stay within range.",
                 "Parameters": [
+                    [
+                        "17%",
+                        "17.9%",
+                        "18.3%",
+                        "21.7%",
+                        "22.1%",
+                        "23%",
+                        "24.7%",
+                        "25.6%",
+                        "26%",
+                        "29.4%"
+                    ],
                     [
                         "18.7%",
                         "18.7%",
@@ -288,6 +302,12 @@
                         "22%",
                         "22%"
                     ]
+                ],
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 300
+                    }
                 ],
                 "Icon": "COMMON_SKILLICON_DOTHEAL",
                 "SkillType": "passive",
@@ -320,6 +340,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "GL",
+        "Size": "Large",
         "StabilityPoint": 1100,
         "StabilityRate": 2000,
         "AttackPower1": 319,
@@ -427,6 +448,7 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "Cannon",
+        "Size": "Large",
         "StabilityPoint": 1188,
         "StabilityRate": 2000,
         "AttackPower1": 872,
@@ -560,6 +582,7 @@
         "OutdoorBattleAdaptation": 3,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "MG",
+        "Size": "Large",
         "StabilityPoint": 1184,
         "StabilityRate": 2000,
         "AttackPower1": 938,
@@ -592,6 +615,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "None",
+        "Size": null,
         "StabilityPoint": 300,
         "StabilityRate": 7500,
         "AttackPower1": 0,
@@ -652,6 +676,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "MG",
+        "Size": null,
         "StabilityPoint": 300,
         "StabilityRate": 2000,
         "AttackPower1": 0,
@@ -712,6 +737,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "MG",
+        "Size": null,
         "StabilityPoint": 300,
         "StabilityRate": 2000,
         "AttackPower1": 0,
@@ -825,6 +851,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
+        "Size": "Medium",
         "StabilityPoint": 0,
         "StabilityRate": 2000,
         "AttackPower1": 0,

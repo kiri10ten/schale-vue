@@ -43,6 +43,16 @@ export const useDataStore = defineStore('dataStore', {
             isLangSpecfic: true,
             loaded: false
         },
+        raids: {
+            data: {},
+            isLangSpecfic: true,
+            loaded: false
+        },
+        enemies: {
+            data: {},
+            isLangSpecfic: true,
+            loaded: false
+        },
         localization: {
             data: {},
             isLangSpecfic: true,

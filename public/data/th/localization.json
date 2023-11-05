@@ -43,7 +43,9 @@
         "SRT": "SRT",
         "Trinity": "ทรีนิตี้",
         "Valkyrie": "วัลคิรี่",
-        "ETC": "อื่นๆ"
+        "ETC": "อื่นๆ",
+        "Tokiwadai": "โทคิวะได",
+        "Sakugawa": "ซากุงาวะ"
     },
     "AdaptationType": {
         "Street": "เขตเมือง",
@@ -61,7 +63,9 @@
         "SRT": "สถาบันพิเศษ SRT",
         "Trinity": "โรงเรียนสามัญทรีนิตี้",
         "Valkyrie": "สถาบันฝึกตำรวจวัลคิรี่",
-        "ETC": "อื่นๆ"
+        "ETC": "อื่นๆ",
+        "Tokiwadai": "โรงเรียนมัธยมต้นโทคิวะได",
+        "Sakugawa": "โรงเรียนมัธยมต้นซากุงาวะ"
     },
     "Club": {
         "Kohshinjo68": "หน่วยรับจ้างสารพัด 68",
@@ -223,7 +227,8 @@
         "10": "งานแข่งขันกีฬา",
         "11": "ห้องเรียนอะบิดอส",
         "12": "ชมรมพัฒนาเกม",
-        "13": "Sunshine Resort"
+        "13": "Sunshine Resort",
+        "14": "Department Store"
     },
     "FurnitureSet": {
         "0": "ไม่มี",
@@ -239,7 +244,8 @@
         "109": "เซ็ตงานแข่งขันกีฬา",
         "110": "เซ็ตห้องเรียนอะบิดอส",
         "111": "เซ็ตชมรมพัฒนาเกม",
-        "112": "Sunshine Resort Set"
+        "112": "Sunshine Resort Set",
+        "113": "Department Store Set"
     },
     "ItemCategory": {
         "Furnitures": "เฟอร์นิเจอร์",
@@ -306,11 +312,11 @@
         "26": "วัตถุสิบสองหน้า",
         "29": "หินวินนีเพอซอกี"
     },
-    "EnemyTags": {
-        "EnemySmall": "เล็ก",
-        "EnemyMedium": "กลาง",
-        "EnemyLarge": "ใหญ่",
-        "EnemyXLarge": "มหึมา"
+    "CharacterSize": {
+        "Small": "เล็ก",
+        "Medium": "กลาง",
+        "Large": "ใหญ่",
+        "XLarge": "มหึมา"
     },
     "EventName": {
         "701": "ปฏิบัติการพิเศษ ภาคเดคาแกรมมาทอน",
@@ -337,12 +343,13 @@
         "822": "ปฏิบัติการยึดเรืออะทราฮาซิส",
         "823": "ศึกชี้ชะตาเพลนาพาเทส",
         "824": "ปฏิบัติการฟื้นฟู: เขตชิราโทริ D.U.",
-        "825": "จดหมายเตือนสีขาว~ สุนทรียภาพในคฤหาสน์แห่งความหลอกลวง~ ",
+        "825": "จดหมายเตือนสีขาว ~สุนทรียภาพในคฤหาสน์แห่งความหลอกลวง~ ",
         "826": "เต่ามังกรผนึกกำลัง ~อนาคตที่รวมเป็นหนึ่งดั่งใจปรารถนา~",
         "827": "ปฏิบัติการพิเศษ! การไล่ล่าของกระต่าย และเรื่องเร้นลับของกุ้งที่หายไป",
-        "828": "In Search of a Hidden Heritage",
-        "829": "Gakuman Doujin Monogatari: Two Seeking the Final Episode",
-        "830": "Trip Trap Train"
+        "828": "ค้นหามรดกที่สาบสูญ ~กิจกรรมนอกหลักสูตรของทรีนิตี้~",
+        "829": "เรื่องราวการเรียนรู้ของนักเขียนโดจิน : ตอนสุดท้ายที่ต้องการของสองเรา~",
+        "830": "Trip Trap Train",
+        "831": "บันทึกลับคดีวิทยาศาสตร์ของวัยรุ่นสุดแฟนตาซี"
     },
     "StageType": {
         "Campaign": "ภารกิจ",
@@ -505,6 +512,7 @@
         "Debuff_Penetration": "ค่าเจาะเกราะ",
         "Debuff_Poison": "พิษ",
         "Debuff_Range": "ระยะโจมตีทั่วไป",
+        "Debuff_ElectricShock": "ไฟฟ้าช็อต",
         "Debuff_Stability": "ค่าความเสถียร",
         "Debuff_CostRegen": "ค่าฟื้นฟู Cost",
         "CC_Fear": "กลัว",
@@ -512,7 +520,10 @@
         "CC_Provoke": "ยั่วยุ",
         "CC_Paralysis": "อัมพาต",
         "CC_Emp": "EMP",
+        "CC_Confusion": "สับสน",
+        "Special_EnergyBatteryEmpty": "ชาร์จ",
         "Special_EnergyBatteryHalf": "ชาร์จ",
+        "Special_EnergyBatteryFull": "ชาร์จ",
         "Special_FormChange": "โจมตีทั่วไป",
         "Special_Immortal": "เป็นอมตะ",
         "Special_ImmuneDamage": "ไม่ได้รับความเสียหาย",
@@ -528,7 +539,7 @@
         "Special_SilverBullet": "โจมตีทั่วไป",
         "Special_CH0187Mod": "โหมดอาบี-เอชูฮ์",
         "Special_Omamori": "เครื่องราง",
-        "Special_Dado": "จิตใสนิ่งสงบ",
+        "Special_Dado": "จิตใจอันบริสุทธิ์",
         "Special_DebuffCountGreen": "ปลอดภัย",
         "Special_DebuffCountYellow": "เตือนภัย",
         "Special_DebuffCountRed": "อันตราย",
@@ -573,7 +584,7 @@
         "Buff_OppressionPower": "ประสิทธิภาพกดขี่เพิ่มขึ้น",
         "Buff_OppressionResist": "ต้านทานการกดขี่เพิ่มขึ้น",
         "Buff_Penetration": "ค่าเจาะเกราะเพิ่มขึ้น",
-        "Buff_Range": "ระยะโจมตีเพิ่มขึ้น",
+        "Buff_Range": "ระยะโจมตีทั่วไปเพิ่มขึ้น",
         "Buff_Shield": "บาเรีย",
         "Buff_Stability": "ค่าความเสถียรเพิ่มขึ้น",
         "Debuff_AmmoCount": "จำนวนกระสุนลดลง",
@@ -612,7 +623,8 @@
         "Debuff_OppressionResist": "ต้านทานการกดขี่ลดลง",
         "Debuff_Penetration": "ค่าเจาะเกราะลดลง",
         "Debuff_Poison": "พิษ",
-        "Debuff_Range": "ระยะโจมตีลดลง",
+        "Debuff_Range": "ระยะโจมตีทั่วไปลดลง",
+        "Debuff_ElectricShock": "ไฟฟ้าช็อต",
         "Debuff_Stability": "ค่าความเสถียรลดลง",
         "Debuff_CostRegen": "ค่าฟื้นฟู Cost ลดลง",
         "CC_Fear": "กลัว",
@@ -620,7 +632,10 @@
         "CC_Provoke": "ยั่วยุ",
         "CC_Paralysis": "อัมพาต",
         "CC_Emp": "EMP",
+        "CC_Confusion": "สับสน",
+        "Special_EnergyBatteryEmpty": "ชาร์จ",
         "Special_EnergyBatteryHalf": "ชาร์จ",
+        "Special_EnergyBatteryFull": "ชาร์จ",
         "Special_FormChange": "เปลี่ยนรูปแบบการโจมตี",
         "Special_Immortal": "อมตะ",
         "Special_ImmuneDamage": "ไม่ได้รับความเสียหาย",
@@ -636,7 +651,7 @@
         "Special_SilverBullet": "ตราชำระบาป",
         "Special_CH0187Mod": "โหมดอาบี-เอชูฮ์",
         "Special_Omamori": "เครื่องราง",
-        "Special_Dado": "จิตใสนิ่งสงบ",
+        "Special_Dado": "จิตใจอันบริสุทธิ์",
         "Special_DebuffCountGreen": "จำนวนเอฟเฟกต์อันตราย : ปลอดภัย",
         "Special_DebuffCountYellow": "จำนวนเอฟเฟกต์อันตราย : เตือนภัย",
         "Special_DebuffCountRed": "จำนวนเอฟเฟกต์อันตราย : อันตราย",
@@ -722,13 +737,17 @@
         "Debuff_Penetration": "ลดจำนวนค่าป้องกันที่จะไม่สนใจในการโจมตี",
         "Debuff_Poison": "ได้รับความเสียหายพิษต่อเนื่อง<br>ความเสียหายนี้ไม่สามารถติดคริติคอลได้",
         "Debuff_Range": "ลดระยะในการโจมตีทั่วไป",
+        "Debuff_ElectricShock": "ได้รับความเสียหายไฟฟ้าช็อตต่อเนื่อง<br>ความเสียหายนี้ไม่สามารถติดคริติคอลได้",
         "Debuff_Stability": "ลดความเสียหายขั้นต่ำที่สามารถทำได้ในการโจมตี",
         "CC_Fear": "ไม่สามารถตอบสนองได้และจะค่อยๆ เคลื่อนที่ออกจากคนที่ส่งผลเอฟเฟกต์กลัว นอกจากนี้การใช้งานสกิลทั้งหมดจะถูกยกเลิก",
         "CC_Stunned": "ไม่สามารถตอบสนองได้ นอกจากนี้การใช้งานสกิลทั้งหมดจะถูกยกเลิก",
         "CC_Provoke": "ถูกบังคับให้โจมตีใส่คนที่ส่งผลเอฟเฟกต์ยั่วยุ นอกจากนี้การใช้งานสกิลทั้งหมดจะถูกยกเลิก",
         "CC_Paralysis": "ไม่สามารถตอบสนองได้ นอกจากนี้การใช้งานสกิลทั้งหมดจะถูกยกเลิก",
         "CC_Emp": "ไม่สามารถตอบสนองได้ นอกจากนี้การใช้งานสกิลทั้งหมดจะถูกยกเลิก",
+        "CC_Confusion": "เปลี่ยนเป้าหมายของการโจมตีทั่วไปเป็นฝ่ายเราแทน นอกจากนี้การใช้งานสกิลทั้งหมดจะถูกยกเลิก",
+        "Special_EnergyBatteryEmpty": "เพิ่มประสิทธิภาพสกิล EX และสกิลรองของอาริสึขึ้น 1.5 เท่า (ครึ่งหนึ่ง) หรือ 2 เท่า (เต็ม)\nระดับการชาร์จจะถูกรีเซ็ทเป็น 0 หลังการใช้งานสกิล EX",
         "Special_EnergyBatteryHalf": "เพิ่มประสิทธิภาพสกิล EX และสกิลรองของอาริสึขึ้น 1.5 เท่า (ครึ่งหนึ่ง) หรือ 2 เท่า (เต็ม)\nระดับการชาร์จจะถูกรีเซ็ทเป็น 0 หลังการใช้งานสกิล EX",
+        "Special_EnergyBatteryFull": "เพิ่มประสิทธิภาพสกิล EX และสกิลรองของอาริสึขึ้น 1.5 เท่า (ครึ่งหนึ่ง) หรือ 2 เท่า (เต็ม)\nระดับการชาร์จจะถูกรีเซ็ทเป็น 0 หลังการใช้งานสกิล EX",
         "Special_FormChange": "เปลี่ยนรูปแบบของการโจมตีทั่วไป",
         "Special_Immortal": "HP จะไม่ลดลงไปต่ำกว่า 1 จนกว่าระยะเวลาของเอฟเฟกต์จะหมดลงหรือได้รับความเสียหายพิเศษที่ไม่สนใจเอฟเฟกต์นี้",
         "Special_ImmuneDamage": "ไม่ได้รับความเสียหายใดๆ",
@@ -830,6 +849,7 @@
         "UIEventBoxGachaShopEnter": "เข้าหน้าแลกรางวัลอีเวนท์ {0}",
         "UIEventBoxGachaShopIdle": "หน้าแลกรางวัลอีเวนท์ {0}",
         "UIEventBoxGachaShopBoxGachaPrize": "ได้รับรางวัลหลักจากกล่องแลกรางวัลอีเวนท์ {0}",
+        "UIEventBoxGachaShopBoxGachaFinish": "ระยะเวลาแลกรางวัลอีเวนท์สิ้นสุดลง {0}",
         "UIEventMissionEnter": "เข้าหน้าภารกิจอีเวนท์ {0}",
         "UIEventMissionIdle": "หน้าภารกิจอีเวนท์ {0}",
         "UIEventMissionBuy": "รับรางวัลภารกิจอีเวนท์ {0}",
@@ -862,7 +882,7 @@
         "student": "นักเรียน",
         "enemy": "ศัตรู",
         "stages": "ภารกิจ",
-        "navbar_raids": "เรดบอส",
+        "raids": "เรดบอส",
         "navbar_craft": "สร้าง",
         "synthesis": "สร้างวัตถุ",
         "fusion": "รวมวัตถุ",
@@ -1035,8 +1055,8 @@
         "details": "รายละเอียด",
         "calculations": "คำนวน",
         "options_short": "ตั้งค่า",
-        "raid_rules": "กฏพิเศษ",
-        "ta_phase": "ขั้นที่ ",
+        "rules": "กฏพิเศษ",
+        "ta_phase": "ขั้นที่ {0}",
         "craft_rewards": "ไอเทมที่สามารถได้รับ",
         "craft_fusion": "รวมวัตถุ",
         "craft_recipe_items": "วัตถุดิบที่ต้องการ",
@@ -1056,6 +1076,7 @@
         "own_bonus": "โบนัสดรอปจากนักเรียนที่มี",
         "max_bonus_amount": "โบนัสดรอปสูงสุด {0}",
         "rewards_season": "รางวัลซีซั่น",
+        "seasons": "ซีซั่น",
         "raid_season": "ซีซั่น {0}",
         "raid_season_select": "เลือกซีซั่น",
         "item_tab_materials": "วัตถุดิบ",
@@ -1355,6 +1376,7 @@
         "155": "Responsibility",
         "156": "Final Destination of Ark",
         "157": "Step of Terror",
+        "159": "Operation☆DOTABATA",
         "162": "Welcome School",
         "10004": "Blue New World"
     }

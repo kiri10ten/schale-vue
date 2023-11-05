@@ -15,17 +15,14 @@ const props = defineProps({
     skill: Object,
     skillLevel: Number,
     bulletType: String,
-    emphasiseChange: {
-        type: Boolean,
-        default: false
-    },
+    emphasiseChange: Boolean,
     showHitCount: {
         type: Boolean,
         default: true
     }
 });
 
-// const parameterClass = computed(() => { return props.bulletType == null ? 'ba-col-emphasis' : `ba-col-${props.bulletType.toLowerCase()}`});
+const parameterClass = computed(() => { return props.bulletType == null ? 'ba-col-emphasis' : `ba-col-${props.bulletType.toLowerCase()}`});
 
 const textParameters = computed(() => {
 
@@ -49,7 +46,7 @@ const textParameters = computed(() => {
         const parameterObj = {
             text: props.skill.Parameters[i-1][level-1],
             hits: null,
-            class: props.bulletType == null ? 'ba-col-emphasis' : `ba-col-${props.bulletType.toLowerCase()}`
+            class: parameterClass.value //props.bulletType == null ? 'ba-col-emphasis' : `ba-col-${props.bulletType.toLowerCase()}`
         }
 
         if (props.showHitCount && i in skillHits) {
@@ -64,7 +61,7 @@ const textParameters = computed(() => {
 })
 
 const textParts = computed(() => {
-    return props.skill.Desc.replace(/<[bdcs]:\w+>/g, (m) => `|${m}|`).replace(/<\?[0-9+]>/g, (m) => `|${m}|`).split('|').map(getPartObj);
+    return props.skill.Desc.replace(/<[bdcs]:\w+(?:='([^']*)')?>/g, (m) => `|${m}|`).replace(/<\?[0-9+]>/g, (m) => `|${m}|`).split('|').map(getPartObj);
 })
 
 function getPartObj(part) {
@@ -93,13 +90,13 @@ function getPartObj(part) {
 
     }
 
-    const buffTag = part.match(/^<([bdcs]):(\w+)>$/);
+    const buffTag = part.match(/^<([bdcs]):(\w+)(?:='([^']*)')?>$/);
     if (buffTag) {
 
         partType = 'buff';
         partContent = {
-            type: buffTagType[buffTag[1]],
-            name: buffTag[2]
+            name: `${buffTagType[buffTag[1]]}_${buffTag[2]}`,
+            label: buffTag[3]
         }
 
     }

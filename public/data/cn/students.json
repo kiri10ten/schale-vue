@@ -25,6 +25,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -32,7 +33,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "陆八魔",
-        "FamilyNameRuby": "りくはちま",
         "PersonalName": "爱露",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -710,6 +710,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -717,7 +718,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "和泉元",
-        "FamilyNameRuby": "いずみもと",
         "PersonalName": "艾米",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -1150,7 +1150,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -1334,6 +1334,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10002",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -1341,7 +1342,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "黑馆",
-        "FamilyNameRuby": "くろだて",
         "PersonalName": "晴奈",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -1872,6 +1872,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -1879,7 +1880,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "阿慈谷",
-        "FamilyNameRuby": "あじたに",
         "PersonalName": "日富美",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -2449,6 +2449,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -2456,7 +2457,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "空崎",
-        "FamilyNameRuby": "そらさき",
         "PersonalName": "日奈",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -2987,6 +2987,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -2994,7 +2995,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "小鸟游",
-        "FamilyNameRuby": "たかなし",
         "PersonalName": "星野",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -3564,6 +3564,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10006",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -3571,7 +3572,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "银镜",
-        "FamilyNameRuby": "しろみ",
         "PersonalName": "伊织",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -4084,6 +4084,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10007",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -4091,7 +4092,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "小涂",
-        "FamilyNameRuby": "こぬり",
         "PersonalName": "真纪",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -4649,6 +4649,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -4656,7 +4657,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "美甘",
-        "FamilyNameRuby": "みかも",
         "PersonalName": "妮露",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -5444,6 +5444,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10009",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -5451,7 +5452,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "狮子堂",
-        "FamilyNameRuby": "ししどう",
         "PersonalName": "泉",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -5924,7 +5924,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -6108,6 +6108,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -6115,7 +6116,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "砂狼",
-        "FamilyNameRuby": "すなおおかみ",
         "PersonalName": "白子",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -6728,6 +6728,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10011",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -6735,7 +6736,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "春原",
-        "FamilyNameRuby": "すのはら",
         "PersonalName": "瞬",
         "SchoolYear": "第3年",
         "CharacterAge": "绝密",
@@ -7295,6 +7295,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10012",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -7302,7 +7303,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "乙花",
-        "FamilyNameRuby": "おとはな",
         "PersonalName": "堇",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -7461,6 +7461,84 @@
                         ],
                         "Stat": "AttackPower_Coefficient",
                         "Channel": 2
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "热身运动+",
+                "Desc": "每40秒，<b:ATK>提升<?1>(持续20秒)\n<b:DEF>提升<?2>(持续20秒)",
+                "Parameters": [
+                    [
+                        "27.5%",
+                        "28.9%",
+                        "30.2%",
+                        "35.7%",
+                        "37.1%",
+                        "38.5%",
+                        "44%",
+                        "45.4%",
+                        "46.7%",
+                        "52.2%"
+                    ],
+                    [
+                        "11%",
+                        "11.5%",
+                        "12.1%",
+                        "14.3%",
+                        "14.8%",
+                        "15.4%",
+                        "17.6%",
+                        "18.1%",
+                        "18.7%",
+                        "20.9%"
+                    ]
+                ],
+                "Duration": 65,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                2752,
+                                2890,
+                                3027,
+                                3578,
+                                3715,
+                                3853,
+                                4403,
+                                4541,
+                                4679,
+                                5229
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1102,
+                                1156,
+                                1211,
+                                1432,
+                                1487,
+                                1542,
+                                1762,
+                                1817,
+                                1872,
+                                2092
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 3
                     }
                 ]
             },
@@ -7672,7 +7750,38 @@
             "HealPower100": 0,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "AttackPower_Base"
+            ],
+            "StatValue": [
+                [
+                    1000,
+                    1000
+                ]
+            ],
+            "Name": "トレーニング用砂袋",
+            "Desc": "腕や足に巻けるよう作られた砂袋。中には鉄粉も含まれているので、意外と重い。",
+            "TierUpMaterial": [
+                [
+                    5016,
+                    170,
+                    171
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3050,
@@ -7828,6 +7937,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10013",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -7835,7 +7945,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "剑先",
-        "FamilyNameRuby": "けんざき",
         "PersonalName": "鹤城",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -8490,6 +8599,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -8497,7 +8607,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "室笠",
-        "FamilyNameRuby": "むろかさ",
         "PersonalName": "茜",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -9036,6 +9145,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_13001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -9043,7 +9153,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "和乐",
-        "FamilyNameRuby": "わらく",
         "PersonalName": "千世",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -9580,6 +9689,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13002",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -9587,7 +9697,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "鳄渊",
-        "FamilyNameRuby": "わにぶち",
         "PersonalName": "明里",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -10104,6 +10213,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_13003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -10111,7 +10221,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "羽川",
-        "FamilyNameRuby": "はねかわ",
         "PersonalName": "莲见",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -10622,6 +10731,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_13004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -10629,7 +10739,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "十六夜",
-        "FamilyNameRuby": "いざよい",
         "PersonalName": "野宫",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -11160,6 +11269,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13005",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -11167,7 +11277,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "鬼方",
-        "FamilyNameRuby": "おにかた",
         "PersonalName": "佳代子",
         "SchoolYear": "第3年",
         "CharacterAge": "18岁",
@@ -11719,6 +11828,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_13006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -11726,7 +11836,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "浅黄",
-        "FamilyNameRuby": "あさぎ",
         "PersonalName": "睦月",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -12258,6 +12367,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -12265,7 +12375,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "赤司",
-        "FamilyNameRuby": "あかし",
         "PersonalName": "纯子",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -12837,6 +12946,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -12844,7 +12954,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "黑见",
-        "FamilyNameRuby": "くろみ",
         "PersonalName": "芹香",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -13469,6 +13578,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_13009",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -13476,7 +13586,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "春日",
-        "FamilyNameRuby": "かすが",
         "PersonalName": "椿",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -13997,6 +14106,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_13010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -14004,7 +14114,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "早濑",
-        "FamilyNameRuby": "はやせ",
         "PersonalName": "优香",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -14643,6 +14752,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_16000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -14650,7 +14760,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "伊草",
-        "FamilyNameRuby": "いぐさ",
         "PersonalName": "春香",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -15192,6 +15301,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_16001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -15199,7 +15309,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "一之濑",
-        "FamilyNameRuby": "いちのせ",
         "PersonalName": "明日奈",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -15756,6 +15865,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_16002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -15763,7 +15873,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "丰见",
-        "FamilyNameRuby": "とよみ",
         "PersonalName": "琴里",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -16309,6 +16418,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_16003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -16316,7 +16426,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "守月",
-        "FamilyNameRuby": "もりづき",
         "PersonalName": "铃美",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -16964,6 +17073,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_16004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -16971,7 +17081,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "朝比奈",
-        "FamilyNameRuby": "あさひな",
         "PersonalName": "菲娜",
         "SchoolYear": "第1年",
         "CharacterAge": "17岁",
@@ -17521,6 +17630,7 @@
         "WeaponType": "MT",
         "WeaponImg": "weapon_icon_20000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -17528,7 +17638,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "猫冢",
-        "FamilyNameRuby": "ねこづか",
         "PersonalName": "响",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -18033,6 +18142,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -18040,7 +18150,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "角楯",
-        "FamilyNameRuby": "かくだて",
         "PersonalName": "花凛",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -18571,6 +18680,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_20002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -18578,7 +18688,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "药子",
-        "FamilyNameRuby": "やくし",
         "PersonalName": "纱绫",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -19114,6 +19223,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -19121,7 +19231,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "栗村",
-        "FamilyNameRuby": "くりむら",
         "PersonalName": "爱理",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -19682,6 +19791,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -19689,7 +19799,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "爱清",
-        "FamilyNameRuby": "あいきよ",
         "PersonalName": "风香",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -20186,6 +20295,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -20193,7 +20303,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "朝颜",
-        "FamilyNameRuby": "あさがお",
         "PersonalName": "花江",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -20685,6 +20794,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -20692,7 +20802,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "小钩",
-        "FamilyNameRuby": "おまがり",
         "PersonalName": "晴",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -21331,6 +21440,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -21338,7 +21448,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "白石",
-        "FamilyNameRuby": "しらいし",
         "PersonalName": "歌原",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -21841,6 +21950,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -21848,7 +21958,6 @@
         ],
         "CollectionBG": "BG_Abydos_Collection",
         "FamilyName": "奥空",
-        "FamilyNameRuby": "おくそら",
         "PersonalName": "绫音",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -22360,6 +22469,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_26000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -22367,7 +22477,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "火宫",
-        "FamilyNameRuby": "ひのみや",
         "PersonalName": "千夏",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -22871,6 +22980,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_26001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -22878,7 +22988,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "音濑",
-        "FamilyNameRuby": "おとせ",
         "PersonalName": "小玉",
         "SchoolYear": "第3年",
         "CharacterAge": "17岁",
@@ -23396,6 +23505,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_26002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -23403,7 +23513,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "牛牧",
-        "FamilyNameRuby": "うしまき",
         "PersonalName": "朱莉",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -23913,6 +24022,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -23920,7 +24030,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "鹫见",
-        "FamilyNameRuby": "すみ",
         "PersonalName": "芹娜",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -24429,6 +24538,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -24436,7 +24546,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "圆堂",
-        "FamilyNameRuby": "えんどう",
         "PersonalName": "志美子",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -24942,6 +25051,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -24949,7 +25059,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "伊原木",
-        "FamilyNameRuby": "いばらぎ",
         "PersonalName": "好美",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -25488,6 +25597,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -25495,7 +25605,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "静山",
-        "FamilyNameRuby": "しずやま",
         "PersonalName": "真白",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -26027,6 +26136,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10014",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -26034,7 +26144,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "久田",
-        "FamilyNameRuby": "くだ",
         "PersonalName": "泉奈",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -26582,6 +26691,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_23006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -26589,7 +26699,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "河和",
-        "FamilyNameRuby": "かわわ",
         "PersonalName": "静子",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -27142,6 +27251,7 @@
         "WeaponType": "RG",
         "WeaponImg": "weapon_icon_10015",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -27149,7 +27259,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "天童",
-        "FamilyNameRuby": "てんどう",
         "PersonalName": "爱丽丝",
         "SchoolYear": "第1年",
         "CharacterAge": "？？岁",
@@ -27579,6 +27688,10 @@
                 [
                     207307,
                     0
+                ],
+                [
+                    12207,
+                    0
                 ]
             ],
             []
@@ -27760,6 +27873,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10016",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -27767,7 +27881,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "才羽",
-        "FamilyNameRuby": "さいば",
         "PersonalName": "绿",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -28165,6 +28278,10 @@
                 [
                     2301,
                     0
+                ],
+                [
+                    12301,
+                    0
                 ]
             ],
             []
@@ -28346,6 +28463,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13011",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -28353,7 +28471,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "才羽",
-        "FamilyNameRuby": "さいば",
         "PersonalName": "桃",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -28764,6 +28881,10 @@
                 [
                     2301,
                     0
+                ],
+                [
+                    12301,
+                    0
                 ]
             ],
             []
@@ -28946,6 +29067,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10017",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -28953,7 +29075,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "连河",
-        "FamilyNameRuby": "れんかわ",
         "PersonalName": "切里诺",
         "SchoolYear": "第3年",
         "CharacterAge": "？？岁",
@@ -29526,6 +29647,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_26006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -29533,7 +29655,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "天见",
-        "FamilyNameRuby": "あまみ",
         "PersonalName": "和香",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -30065,6 +30186,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_10018",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -30072,7 +30194,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "花冈",
-        "FamilyNameRuby": "はなおか",
         "PersonalName": "柚子",
         "SchoolYear": "第1年",
         "CharacterAge": "16岁",
@@ -30421,7 +30542,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210301,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -30601,6 +30727,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10019",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -30608,7 +30735,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "白洲",
-        "FamilyNameRuby": "しらす",
         "PersonalName": "梓",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -31159,6 +31285,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23007",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -31166,7 +31293,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "浦和",
-        "FamilyNameRuby": "うらわ",
         "PersonalName": "花子",
         "SchoolYear": "第2年",
         "CharacterAge": "16岁",
@@ -31298,6 +31424,78 @@
                         ],
                         "Stat": "DefensePower_Coefficient",
                         "Channel": 103
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "变坚固吧♪+",
+                "Desc": "每20秒令1名<b>当前生命值百分比</b>最低的我方单位<b:DEF>提升<?1>(持续13秒)/\n回复其治愈力<?2>的生命值",
+                "Parameters": [
+                    [
+                        "29%",
+                        "30.5%",
+                        "31.9%",
+                        "37.8%",
+                        "39.2%",
+                        "40.7%",
+                        "46.5%",
+                        "47.9%",
+                        "49.4%",
+                        "55.2%"
+                    ],
+                    [
+                        "16.7%",
+                        "17.6%",
+                        "18.4%",
+                        "21.7%",
+                        "22.6%",
+                        "23.4%",
+                        "26.8%",
+                        "27.6%",
+                        "28.4%",
+                        "31.8%"
+                    ]
+                ],
+                "Duration": 90,
+                "Range": 1000,
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                2909,
+                                3054,
+                                3199,
+                                3781,
+                                3927,
+                                4072,
+                                4653,
+                                4799,
+                                4945,
+                                5526
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 103
+                    },
+                    {
+                        "Type": "Heal",
+                        "Scale": [
+                            1675,
+                            1760,
+                            1843,
+                            2178,
+                            2260,
+                            2345,
+                            2680,
+                            2763,
+                            2848,
+                            3183
+                        ]
                     }
                 ]
             },
@@ -31515,7 +31713,38 @@
             "HealPower100": 2522,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "HealPower_Base"
+            ],
+            "StatValue": [
+                [
+                    500,
+                    500
+                ]
+            ],
+            "Name": "怪しげな文学書",
+            "Desc": "色々と意味深なハナコの愛蔵書。よく没収されているが、ハナコはそのたび、様々な方法で取り戻している。",
+            "TierUpMaterial": [
+                [
+                    5003,
+                    170,
+                    171
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3020,
@@ -31671,6 +31900,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10020",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -31678,7 +31908,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "下江",
-        "FamilyNameRuby": "しもえ",
         "PersonalName": "小春",
         "SchoolYear": "第1年",
         "CharacterAge": "15岁",
@@ -32196,12 +32425,12 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 57,
         "PathName": "azusa_swimsuit",
         "DevName": "CH0059",
-        "Name": "梓(泳装)",
+        "Name": "梓（泳装）",
         "School": "Trinity",
         "Club": "RemedialClass",
         "StarGrade": 3,
@@ -32217,6 +32446,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10019",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -32224,15 +32454,14 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "白洲",
-        "FamilyNameRuby": "しらす",
         "PersonalName": "梓",
-        "SchoolYear": "2年级",
+        "SchoolYear": "第2年",
         "CharacterAge": "16岁",
         "Birthday": "12月26日",
-        "CharacterSSRNew": "海……虽然是不熟悉的地方……",
-        "ProfileIntroduction": "生平第一次来海边玩的补课部的冰山系魔女。\n\n虽然跟平时一样为了不给别人添麻烦，想要保持冷漠冷静的样子，但伴随着欢乐的大海气氛而来的朋友们不会放过她。因此，虽然一直很在乎别人的眼光，但在周围的人看来，她只是平常的梓而已。",
+        "CharacterSSRNew": "大海……虽然还不太习惯……",
+        "ProfileIntroduction": "第一次来海边玩，补习部的冰冷魔女。\n\n虽然为了不给别人添麻烦，平时总是试图维持一副冰冷的样子，但在不经意间被海滩快乐的气氛和与她同行的朋友们所影响，因此开始特别在意别人的视线。但在别人看来，她依然是那个熟悉的梓。",
         "Hobby": "无",
-        "CharacterVoice": "种田梨沙",
+        "CharacterVoice": "种田梨沙/葛子瑞",
         "BirthDay": "12/26",
         "Illustrator": "NAMYO",
         "Designer": "NAMYO",
@@ -32279,7 +32508,7 @@
                 ]
             },
             "Ex": {
-                "Name": "「spicea aqua」刺骨寒水",
+                "Name": "spicea aqua",
                 "Desc": "对1名敌方单位造成攻击力<?1>的伤害/\n并施加攻击力<?2>的<d:Chill>状态(持续20秒)",
                 "Parameters": [
                     [
@@ -32355,7 +32584,7 @@
                 ]
             },
             "Public": {
-                "Name": "「ira litore」愤怒海滩",
+                "Name": "ira litore",
                 "Desc": "每35秒，<b:CriticalDamage>提升<?1>(持续30秒)",
                 "Parameters": [
                     [
@@ -32399,7 +32628,7 @@
                 ]
             },
             "Passive": {
-                "Name": "体温抢夺",
+                "Name": "冰冷之水",
                 "Desc": "<b:ATK>提升<?1>",
                 "Parameters": [
                     [
@@ -32442,7 +32671,7 @@
                 ]
             },
             "WeaponPassive": {
-                "Name": "体温抢夺+",
+                "Name": "冰冷之水+",
                 "Desc": "<b:ATK>提升<?1>/\n<b:ATK>提升<?2>",
                 "Parameters": [
                     [
@@ -32757,12 +32986,12 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 58,
         "PathName": "mashiro_swimsuit",
         "DevName": "CH0061",
-        "Name": "真白(泳装)",
+        "Name": "真白（泳装）",
         "School": "Trinity",
         "Club": "Justice",
         "StarGrade": 3,
@@ -32778,6 +33007,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -32785,15 +33015,14 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "静山",
-        "FamilyNameRuby": "しずやま",
         "PersonalName": "真白",
-        "SchoolYear": "1年级",
+        "SchoolYear": "第1年",
         "CharacterAge": "15岁",
         "Birthday": "6月5日",
-        "CharacterSSRNew": "正义不会被酷热打败！",
-        "ProfileIntroduction": "跟着鹤城部长来到夏日海边的正义实现委员会诚实的一员。\n\n其他学生都在为了创造满满的夏日回忆，但真白是不会停止她的训练的！因为她相信这就是正义。",
-        "Hobby": "爬到高处、写观察日记",
-        "CharacterVoice": "鬼头明里",
+        "CharacterSSRNew": "酷暑也无法阻挡正义的脚步！",
+        "ProfileIntroduction": "性格耿直的正义实现部成员，跟随鹤城部长来到了夏日的海边。\n\n在别人为了留下夏天的回忆而玩耍的时候，真白依然没有停止训练。因为她坚信这样才是正义。",
+        "Hobby": "登高、写观察日记",
+        "CharacterVoice": "鬼头明里/柳知萧",
         "BirthDay": "6/5",
         "Illustrator": "ポップキュン",
         "Designer": "ポップキュン",
@@ -32818,7 +33047,7 @@
         "RegenCost": 700,
         "Skills": {
             "Ex": {
-                "Name": "正义之洗礼",
+                "Name": "正义的洗礼",
                 "Desc": "令1名敌方单位<d:Dodge>降低<?1>(持续30秒)/\n对其造成攻击力<?2>的伤害",
                 "Parameters": [
                     [
@@ -32898,7 +33127,7 @@
                 ]
             },
             "Public": {
-                "Name": "正义之协助",
+                "Name": "正义的联合",
                 "Desc": "每30秒令1名<b>攻击力</b>最高的我方单位<b:CriticalDamage>提升<?1>(持续20秒)",
                 "Parameters": [
                     [
@@ -32943,7 +33172,7 @@
                 ]
             },
             "Passive": {
-                "Name": "正义之视线",
+                "Name": "正义的目光",
                 "Desc": "<b:ATK>提升<?1>",
                 "Parameters": [
                     [
@@ -32986,7 +33215,7 @@
                 ]
             },
             "WeaponPassive": {
-                "Name": "正义之视线+",
+                "Name": "正义的目光+",
                 "Desc": "<b:ATK>提升<?1>/\n<b:ATK>提升<?2>",
                 "Parameters": [
                     [
@@ -33041,7 +33270,7 @@
                 ]
             },
             "ExtraPassive": {
-                "Name": "正义之加护",
+                "Name": "正义的庇护",
                 "Desc": "编队内所有学生<b:HIT>提升<?1>",
                 "Parameters": [
                     [
@@ -33302,12 +33531,12 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
         "DefaultOrder": 59,
         "PathName": "tsurugi_swimsuit",
         "DevName": "CH0060",
-        "Name": "鹤城(泳装)",
+        "Name": "鹤城（泳装）",
         "School": "Trinity",
         "Club": "Justice",
         "StarGrade": 1,
@@ -33323,22 +33552,22 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10013",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
             "Charm"
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
-        "FamilyName": "剑崎",
-        "FamilyNameRuby": "けんざき",
+        "FamilyName": "剑先",
         "PersonalName": "鹤城",
-        "SchoolYear": "3年级",
+        "SchoolYear": "第3年",
         "CharacterAge": "17岁",
         "Birthday": "6月24日",
         "CharacterSSRNew": "",
-        "ProfileIntroduction": "为了追寻青春的浪漫来到夏日海边的三一综合学园正义实现委员会长。\n\n为了享受好不容易得来的休假，将自己被誉为三一战略兵器的气息隐藏，正要享受青春...... 夏日的海洋不会依照她的想法前进。",
-        "Hobby": "看电影、看恋爱小说",
-        "CharacterVoice": "小林优",
+        "ProfileIntroduction": "来到夏日海滩寻找青春浪漫的崔尼蒂正义实现部部长。\n\n为了享受难得的暑假，正努力克制自己作为崔尼蒂战略兵器暴力的一面，试着享受青春……可惜在夏日海滩发生的事情，却和她预想的有些不同。",
+        "Hobby": "看电影、读言情小说",
+        "CharacterVoice": "小林优/KKryu",
         "BirthDay": "6/24",
         "Illustrator": "Mx2J",
         "Designer": "Mx2J",
@@ -33390,7 +33619,7 @@
                 ]
             },
             "Ex": {
-                "Name": "奔流不息",
+                "Name": "不息的奔流",
                 "Desc": "将<s:FormChange>强化为攻击力<?1>的2连击(持续<?2>)",
                 "Parameters": [
                     [
@@ -33462,7 +33691,7 @@
                 ]
             },
             "Public": {
-                "Name": "热烈一击",
+                "Name": "爆燃的猛击",
                 "Desc": "每35秒对1名敌方单位造成攻击力<?1>的伤害",
                 "Parameters": [
                     [
@@ -33501,7 +33730,7 @@
                 ]
             },
             "Passive": {
-                "Name": "轻快思绪",
+                "Name": "轻快的心情",
                 "Desc": "<b:AttackSpeed>提升<?1>",
                 "Parameters": [
                     [
@@ -33544,7 +33773,7 @@
                 ]
             },
             "WeaponPassive": {
-                "Name": "轻快思绪+",
+                "Name": "轻快的心情+",
                 "Desc": "<b:MAXHP>提升<?1>/\n<b:AttackSpeed>提升<?2>",
                 "Parameters": [
                     [
@@ -33599,7 +33828,7 @@
                 ]
             },
             "ExtraPassive": {
-                "Name": "火伞高张",
+                "Name": "火热的身体",
                 "Desc": "使用普通技能后，<b:AttackSpeed>提升<?1>(持续30秒)",
                 "Parameters": [
                     [
@@ -33896,6 +34125,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10003",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -33903,7 +34133,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "阿慈谷",
-        "FamilyNameRuby": "あじたに",
         "PersonalName": "日富美",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -34311,7 +34540,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -34495,6 +34724,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -34502,7 +34732,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "空崎",
-        "FamilyNameRuby": "そらさき",
         "PersonalName": "日奈",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -35001,7 +35230,7 @@
         "Gear": {
             "Released": [
                 true,
-                false,
+                true,
                 false
             ],
             "StatType": [
@@ -35185,6 +35414,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10006",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -35192,7 +35422,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "银镜",
-        "FamilyNameRuby": "しろみ",
         "PersonalName": "伊织",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -35738,6 +35967,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_10009",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -35745,7 +35975,6 @@
         ],
         "CollectionBG": "BG_Swimsuit_Collection",
         "FamilyName": "狮子堂",
-        "FamilyNameRuby": "ししどう",
         "PersonalName": "泉",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -35921,6 +36150,50 @@
                                 3338,
                                 3439,
                                 3843
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "酸甜可口！+",
+                "Desc": "每35秒，<b:ATK>提升<?1>(持续30秒)",
+                "Parameters": [
+                    [
+                        "31.7%",
+                        "33.3%",
+                        "34.8%",
+                        "41.2%",
+                        "42.8%",
+                        "44.4%",
+                        "50.7%",
+                        "52.3%",
+                        "53.9%",
+                        "60.2%"
+                    ]
+                ],
+                "Duration": 75,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                3172,
+                                3331,
+                                3489,
+                                4124,
+                                4282,
+                                4441,
+                                5075,
+                                5234,
+                                5393,
+                                6027
                             ]
                         ],
                         "Stat": "AttackPower_Coefficient",
@@ -36136,7 +36409,43 @@
             "HealPower100": 0,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "AttackSpeed_Base",
+                "AttackPower_Base"
+            ],
+            "StatValue": [
+                [
+                    1500,
+                    1500
+                ],
+                [
+                    300,
+                    300
+                ]
+            ],
+            "Name": "真夏のクーラーボックス",
+            "Desc": "真夏のクーラーボックス。フルーツやドリンク……イズミ特製・秘伝スパイスがたっぷり入っているという。",
+            "TierUpMaterial": [
+                [
+                    5013,
+                    140,
+                    141
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3030,
@@ -36292,6 +36601,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -36299,7 +36609,6 @@
         ],
         "CollectionBG": "BG_Ridingsuit_Collection",
         "FamilyName": "砂狼",
-        "FamilyNameRuby": "すなおおかみ",
         "PersonalName": "白子",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -36871,6 +37180,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10011",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -36878,7 +37188,6 @@
         ],
         "CollectionBG": "BG_CH0066_Collection",
         "FamilyName": "春原",
-        "FamilyNameRuby": "すのはら",
         "PersonalName": "瞬",
         "SchoolYear": "3年级",
         "CharacterAge": "机密",
@@ -37514,6 +37823,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13012",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -37521,7 +37831,6 @@
         ],
         "CollectionBG": "BG_Valkyrie_Collection",
         "FamilyName": "中务",
-        "FamilyNameRuby": "なかつかさ",
         "PersonalName": "桐乃",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -38100,6 +38409,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_20002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -38107,7 +38417,6 @@
         ],
         "CollectionBG": "BG_Saya_casual_Collection",
         "FamilyName": "叶子",
-        "FamilyNameRuby": "やくし",
         "PersonalName": "纱绫",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -38739,6 +39048,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -38746,7 +39056,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "美甘",
-        "FamilyNameRuby": "みかも",
         "PersonalName": "妮露",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -39369,6 +39678,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_20001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -39376,7 +39686,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "角楯",
-        "FamilyNameRuby": "かくだて",
         "PersonalName": "花凛",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -39953,6 +40262,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_16001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -39960,7 +40270,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "一之濑",
-        "FamilyNameRuby": "いちのせ",
         "PersonalName": "明日奈",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -40610,6 +40919,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10029",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -40617,7 +40927,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "柚鸟",
-        "FamilyNameRuby": "ゆとり",
         "PersonalName": "夏",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -41148,6 +41457,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23008",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -41155,7 +41465,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "伊落",
-        "FamilyNameRuby": "いおち",
         "PersonalName": "玛丽",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -41664,6 +41973,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_20007",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -41671,7 +41981,6 @@
         ],
         "CollectionBG": "BG_CH9999_Collection",
         "FamilyName": "初音",
-        "FamilyNameRuby": "はつね",
         "PersonalName": "未来",
         "SchoolYear": "",
         "CharacterAge": "16岁",
@@ -42227,6 +42536,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_20008",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -42234,7 +42544,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "天雨",
-        "FamilyNameRuby": "あまう",
         "PersonalName": "亚子",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -42785,6 +43094,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10017",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -42792,7 +43102,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "连河",
-        "FamilyNameRuby": "れんかわ",
         "PersonalName": "切里诺",
         "SchoolYear": "3年级",
         "CharacterAge": "??岁",
@@ -43416,6 +43725,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_26000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -43423,7 +43733,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "火宫",
-        "FamilyNameRuby": "ひのみや",
         "PersonalName": "千夏",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -43959,6 +44268,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_16007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -43966,7 +44276,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "佐城",
-        "FamilyNameRuby": "さしろ",
         "PersonalName": "巴",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -44587,6 +44896,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_26006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -44594,7 +44904,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "天见",
-        "FamilyNameRuby": "あまみ",
         "PersonalName": "和香",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -45110,6 +45419,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10000",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -45117,7 +45427,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "陆八魔",
-        "FamilyNameRuby": "りくはちま",
         "PersonalName": "爱露",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -45671,6 +45980,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_13006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -45678,7 +45988,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "浅黄",
-        "FamilyNameRuby": "あさぎ",
         "PersonalName": "睦月",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -46275,6 +46584,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13008",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -46282,7 +46592,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "黑见",
-        "FamilyNameRuby": "くろみ",
         "PersonalName": "芹香",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -46845,6 +47154,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10033",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -46852,7 +47162,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "狐坂",
-        "FamilyNameRuby": "こさか",
         "PersonalName": "若藻",
         "SchoolYear": "停学中",
         "CharacterAge": "18岁",
@@ -47464,6 +47773,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_16008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -47471,7 +47781,6 @@
         ],
         "CollectionBG": "BG_Valkyrie_Collection",
         "FamilyName": "合欢垣",
-        "FamilyNameRuby": "ねむがき",
         "PersonalName": "吹雪",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -48039,6 +48348,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_20012",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -48046,7 +48356,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "冰室",
-        "FamilyNameRuby": "ひむろ",
         "PersonalName": "濑名",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -48112,12 +48421,6 @@
                     4
                 ],
                 "Duration": 60,
-                "Radius": [
-                    {
-                        "Type": "Circle",
-                        "Radius": 300
-                    }
-                ],
                 "Icon": "COMMON_SKILLICON_TRUCK",
                 "Effects": [
                     {
@@ -48140,7 +48443,8 @@
                             ]
                         ],
                         "Stat": "AttackPower_Coefficient",
-                        "Channel": 11002
+                        "Channel": 11002,
+                        "OverrideSlot": "Passive"
                     }
                 ]
             },
@@ -48567,6 +48871,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_20013",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -48574,7 +48879,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "各务",
-        "FamilyNameRuby": "かがみ",
         "PersonalName": "千寻",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -49093,6 +49397,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10034",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -49100,7 +49405,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "水羽",
-        "FamilyNameRuby": "みずは",
         "PersonalName": "三森",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -49463,6 +49767,12 @@
                         "27.1%"
                     ]
                 ],
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 200
+                    }
+                ],
                 "Icon": "COMMON_SKILLICON_STATBUFF",
                 "Effects": [
                     {
@@ -49766,6 +50076,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0169",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -49773,7 +50084,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "古关",
-        "FamilyNameRuby": "こぜき",
         "PersonalName": "忧",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -50312,6 +50622,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0073",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -50319,7 +50630,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "若叶",
-        "FamilyNameRuby": "わかば",
         "PersonalName": "日向",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -50963,6 +51273,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0119",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -50970,7 +51281,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "池仓",
-        "FamilyNameRuby": "いけくら",
         "PersonalName": "真里奈",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -51539,6 +51849,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0142",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -51546,7 +51857,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "月雪",
-        "FamilyNameRuby": "つきゆき",
         "PersonalName": "宫子",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -51713,6 +52023,87 @@
                             14318,
                             16003
                         ]
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "阔刀地雷+",
+                "Desc": "每40秒引爆1个小型阔刀反步兵地雷，产生5块破片并向前方扇形区域扩散，每块破片造成攻击力<?1>的伤害\n令目标<d:OppressionResist>降低<?2>(持续30秒)",
+                "Parameters": [
+                    [
+                        "92%",
+                        "96%",
+                        "101%",
+                        "119%",
+                        "124%",
+                        "129%",
+                        "147%",
+                        "152%",
+                        "156%",
+                        "174%"
+                    ],
+                    [
+                        "8.6%",
+                        "9%",
+                        "9.5%",
+                        "11.2%",
+                        "11.6%",
+                        "12%",
+                        "13.8%",
+                        "14.2%",
+                        "14.6%",
+                        "16.4%"
+                    ]
+                ],
+                "Duration": 90,
+                "Range": 350,
+                "Icon": "COMMON_SKILLICON_FAN",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000,
+                            10000,
+                            10000,
+                            10000,
+                            10000
+                        ],
+                        "HitsParameter": 1,
+                        "Scale": [
+                            9189,
+                            9649,
+                            10108,
+                            11946,
+                            12404,
+                            12863,
+                            14701,
+                            15161,
+                            15620,
+                            17458
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
+                            [
+                                -864,
+                                -907,
+                                -950,
+                                -1123,
+                                -1166,
+                                -1209,
+                                -1382,
+                                -1425,
+                                -1468,
+                                -1641
+                            ]
+                        ],
+                        "Stat": "OppressionResist_Coefficient",
+                        "Channel": 629
                     }
                 ]
             },
@@ -51938,7 +52329,38 @@
             "HealPower100": 0,
             "StatLevelUpType": "Standard"
         },
-        "Gear": {},
+        "Gear": {
+            "Released": [
+                true,
+                false,
+                false
+            ],
+            "StatType": [
+                "MaxHP_Base"
+            ],
+            "StatValue": [
+                [
+                    10000,
+                    10000
+                ]
+            ],
+            "Name": "ぼろぼろの名札",
+            "Desc": "ミヤコが訓練生時代に使っていた、ぼろぼろの名札。一見ただの布切れのようにも見えるが、ミヤコにとっては過去の夢が詰まった大切なものだ。",
+            "TierUpMaterial": [
+                [
+                    5009,
+                    170,
+                    171
+                ]
+            ],
+            "TierUpMaterialAmount": [
+                [
+                    4,
+                    80,
+                    25
+                ]
+            ]
+        },
         "SkillExMaterial": [
             [
                 3080,
@@ -52095,6 +52517,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0144",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -52102,7 +52525,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "空井",
-        "FamilyNameRuby": "そらい",
         "PersonalName": "咲",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -52667,6 +53089,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0145",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -52674,7 +53097,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "霞泽",
-        "FamilyNameRuby": "かすみざわ",
         "PersonalName": "美游",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -53186,6 +53608,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0116",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -53193,7 +53616,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "勇美",
-        "FamilyNameRuby": "いさみ",
         "PersonalName": "枫",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -53711,6 +54133,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0156",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -53718,7 +54141,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "枣",
-        "FamilyNameRuby": "なつめ",
         "PersonalName": "伊吕波",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -54209,6 +54631,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_ch0113",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -54216,7 +54639,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "千鸟",
-        "FamilyNameRuby": "ちどり",
         "PersonalName": "满",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -54815,6 +55237,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0114",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -54822,7 +55245,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "大野",
-        "FamilyNameRuby": "おおの",
         "PersonalName": "月咏",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -55006,9 +55428,9 @@
                         "Type": "Buff",
                         "Restrictions": [
                             {
-                                "Property": "Tags",
-                                "Operand": "Contains",
-                                "Value": "EnemyMedium"
+                                "Property": "Size",
+                                "Operand": "Equal",
+                                "Value": "Medium"
                             }
                         ],
                         "Target": [
@@ -55402,6 +55824,7 @@
         "WeaponType": "RL",
         "WeaponImg": "weapon_icon_ch0105",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -55409,7 +55832,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "戒野",
-        "FamilyNameRuby": "いましの",
         "PersonalName": "美咲",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -56056,6 +56478,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0106",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -56063,7 +56486,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "槌永",
-        "FamilyNameRuby": "つちなが",
         "PersonalName": "日和",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -56641,6 +57063,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0104",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -56648,7 +57071,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "秤",
-        "FamilyNameRuby": "はかり",
         "PersonalName": "亚津子",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -57178,6 +57600,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0175",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -57185,7 +57608,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "狐坂",
-        "FamilyNameRuby": "こさか",
         "PersonalName": "若藻",
         "SchoolYear": "停学中",
         "CharacterAge": "18岁",
@@ -57863,6 +58285,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0092",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -57870,7 +58293,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "十六夜",
-        "FamilyNameRuby": "いざよい",
         "PersonalName": "野宫",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -58484,6 +58906,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -58491,7 +58914,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "奥空",
-        "FamilyNameRuby": "おくそら",
         "PersonalName": "绫音",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -59011,6 +59433,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_10005",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -59018,7 +59441,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "小鸟游",
-        "FamilyNameRuby": "たかなし",
         "PersonalName": "星野",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -59141,7 +59563,7 @@
                             ]
                         ],
                         "Stat": "AttackPower_Coefficient",
-                        "Channel": -1
+                        "Channel": 11002
                     },
                     {
                         "Type": "Buff",
@@ -59693,6 +60115,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_23006",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -59700,7 +60123,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "河和",
-        "FamilyNameRuby": "かわわ",
         "PersonalName": "静子",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -60208,6 +60630,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_10014",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -60215,7 +60638,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "久田",
-        "FamilyNameRuby": "くだ",
         "PersonalName": "泉奈",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -60778,6 +61200,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_13001",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -60785,7 +61208,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "和乐",
-        "FamilyNameRuby": "わらく",
         "PersonalName": "千世",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -61586,6 +62008,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0103",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -61593,7 +62016,6 @@
         ],
         "CollectionBG": "BG_Arius_Collection",
         "FamilyName": "锭前",
-        "FamilyNameRuby": "じょうまえ",
         "PersonalName": "纱织",
         "SchoolYear": "2年级",
         "CharacterAge": "17岁",
@@ -62175,6 +62597,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0143",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -62182,7 +62605,6 @@
         ],
         "CollectionBG": "BG_SRT_Collection",
         "FamilyName": "风仓",
-        "FamilyNameRuby": "かぜくら",
         "PersonalName": "萌绘",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -62760,6 +63182,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0075",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -62767,7 +63190,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "杏山",
-        "FamilyNameRuby": "きょうやま",
         "PersonalName": "和纱",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -63330,6 +63752,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0137",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -63337,7 +63760,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "春原",
-        "FamilyNameRuby": "すのはら",
         "PersonalName": "心奈",
         "SchoolYear": "1年级",
         "CharacterAge": "11岁",
@@ -63860,6 +64282,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23004",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -63867,7 +64290,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "白石",
-        "FamilyNameRuby": "しらいし",
         "PersonalName": "歌原",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -64455,6 +64877,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0095",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -64462,7 +64885,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "生盐",
-        "FamilyNameRuby": "うしお",
         "PersonalName": "诺亚",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -64995,6 +65417,7 @@
         "WeaponType": "MT",
         "WeaponImg": "weapon_icon_ch0181",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -65002,7 +65425,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "猫冢",
-        "FamilyNameRuby": "ねこづか",
         "PersonalName": "响",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -65587,6 +66009,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -65594,7 +66017,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "室笠",
-        "FamilyNameRuby": "むろかさ",
         "PersonalName": "茜",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -66110,6 +66532,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_13010",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -66117,7 +66540,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "早濑",
-        "FamilyNameRuby": "はやせ",
         "PersonalName": "优香",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -66687,6 +67109,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_23008",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -66694,7 +67117,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "伊落",
-        "FamilyNameRuby": "いおち",
         "PersonalName": "玛丽",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -67244,6 +67666,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_13003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -67251,7 +67674,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "羽川",
-        "FamilyNameRuby": "はねかわ",
         "PersonalName": "莲见",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -67805,6 +68227,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0159",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -67812,7 +68235,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "明星",
-        "FamilyNameRuby": "あけぼし",
         "PersonalName": "日鞠",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -68347,6 +68769,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_shigure",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -68354,7 +68777,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "间宵",
-        "FamilyNameRuby": "まよい",
         "PersonalName": "时雨",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -68987,6 +69409,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_26003",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -68994,7 +69417,6 @@
         ],
         "CollectionBG": "BG_Holiday_Collection",
         "FamilyName": "鹫见",
-        "FamilyNameRuby": "すみ",
         "PersonalName": "芹娜",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -69803,6 +70225,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -69810,7 +70233,6 @@
         ],
         "CollectionBG": "BG_Holiday_Collection",
         "FamilyName": "朝颜",
-        "FamilyNameRuby": "あさがお",
         "PersonalName": "花江",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -70573,6 +70995,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10002",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -70580,7 +71003,6 @@
         ],
         "CollectionBG": "BG_NewYearFestival2",
         "FamilyName": "黑馆",
-        "FamilyNameRuby": "くろだて",
         "PersonalName": "晴奈",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -71154,6 +71576,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_23001",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -71161,7 +71584,6 @@
         ],
         "CollectionBG": "BG_NewYearFestival2",
         "FamilyName": "爱清",
-        "FamilyNameRuby": "あいきよ",
         "PersonalName": "风香",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -71664,6 +72086,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_13007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -71671,7 +72094,6 @@
         ],
         "CollectionBG": "BG_NewYearFestival2",
         "FamilyName": "赤司",
-        "FamilyNameRuby": "あかし",
         "PersonalName": "纯子",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -72209,6 +72631,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_ch0152",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -72216,7 +72639,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "苍森",
-        "FamilyNameRuby": "あおもり",
         "PersonalName": "峰",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -72351,6 +72773,13 @@
                     },
                     {
                         "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "NotEqual",
+                                "Value": "Medium"
+                            }
+                        ],
                         "Target": [
                             "Enemy"
                         ],
@@ -72366,7 +72795,24 @@
                                 -1715,
                                 -1921,
                                 -2024
-                            ],
+                            ]
+                        ],
+                        "Stat": "DodgePoint_Coefficient",
+                        "Channel": 607
+                    },
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "Equal",
+                                "Value": "Medium"
+                            }
+                        ],
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
                             [
                                 -1715,
                                 -1972,
@@ -72385,6 +72831,13 @@
                     },
                     {
                         "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "NotEqual",
+                                "Value": "Medium"
+                            }
+                        ],
                         "Target": [
                             "Enemy"
                         ],
@@ -72400,7 +72853,24 @@
                                 -1715,
                                 -1921,
                                 -2024
-                            ],
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 603
+                    },
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "Size",
+                                "Operand": "Equal",
+                                "Value": "Medium"
+                            }
+                        ],
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
                             [
                                 -1715,
                                 -1972,
@@ -72926,6 +73396,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0069",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Badge",
@@ -72933,7 +73404,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "圣园",
-        "FamilyNameRuby": "みその",
         "PersonalName": "未花",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -73559,6 +74029,7 @@
         "WeaponType": "FT",
         "WeaponImg": "weapon_icon_ch0088",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Bag",
@@ -73566,7 +74037,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "下仓",
-        "FamilyNameRuby": "しもくら",
         "PersonalName": "惠久",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -74228,6 +74698,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0170",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -74235,7 +74706,6 @@
         ],
         "CollectionBG": "BG_Valkyrie_Collection",
         "FamilyName": "尾刃",
-        "FamilyNameRuby": "おがた",
         "PersonalName": "叶渚",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -74810,6 +75280,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_sakurako",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -74817,7 +75288,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "歌住",
-        "FamilyNameRuby": "うたずみ",
         "PersonalName": "樱子",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -75386,6 +75856,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0187",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -75393,7 +75864,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "飞鸟马",
-        "FamilyNameRuby": "あすま",
         "PersonalName": "时",
         "SchoolYear": "1年级",
         "CharacterAge": "16岁",
@@ -76359,6 +76829,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_nagisa",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -76366,7 +76837,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "桐藤",
-        "FamilyNameRuby": "きりふじ",
         "PersonalName": "渚",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -76964,6 +77434,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0198",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -76971,7 +77442,6 @@
         ],
         "CollectionBG": "BG_Millennium_Collection",
         "FamilyName": "黑崎",
-        "FamilyNameRuby": "くろさき",
         "PersonalName": "小雪",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -77673,6 +78143,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_13005",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -77680,7 +78151,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "鬼方",
-        "FamilyNameRuby": "おにかた",
         "PersonalName": "佳代子",
         "SchoolYear": "3年级",
         "CharacterAge": "18岁",
@@ -78273,6 +78743,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_16000",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -78280,7 +78751,6 @@
         ],
         "CollectionBG": "BG_Newyear_Collection",
         "FamilyName": "伊草",
-        "FamilyNameRuby": "いぐさ",
         "PersonalName": "春香",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -78845,6 +79315,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0107",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -78852,7 +79323,6 @@
         ],
         "CollectionBG": "BG_Hyakkiyako_Collection",
         "FamilyName": "桑上",
-        "FamilyNameRuby": "くわかみ",
         "PersonalName": "果穗",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -79377,7 +79847,7 @@
         "Id": 10066,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 136,
@@ -79399,6 +79869,7 @@
         "WeaponType": "RG",
         "WeaponImg": "weapon_icon_10015",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -79406,7 +79877,6 @@
         ],
         "CollectionBG": "BG_OldHouseOutside_Collection",
         "FamilyName": "天童",
-        "FamilyNameRuby": "てんどう",
         "PersonalName": "爱丽丝",
         "SchoolYear": "1年级",
         "CharacterAge": "??岁",
@@ -79419,7 +79889,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "152cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1384,
         "AttackPower1": 397,
         "AttackPower100": 3975,
@@ -79771,7 +80241,7 @@
         ],
         "MemoryLobby": [
             5,
-            0,
+            5,
             0
         ],
         "MemoryLobbyBGM": 36,
@@ -79782,7 +80252,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210303,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -79942,7 +80417,7 @@
         "Id": 10067,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 137,
@@ -79964,6 +80439,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0187",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -79971,7 +80447,6 @@
         ],
         "CollectionBG": "BG_BunnyGirl_Collection",
         "FamilyName": "飞鸟马",
-        "FamilyNameRuby": "あすま",
         "PersonalName": "时",
         "SchoolYear": "1年级",
         "CharacterAge": "16岁",
@@ -79984,7 +80459,7 @@
         "Illustrator": "DoReMi",
         "Designer": "DoReMi",
         "CharHeightMetric": "165cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5'4\"",
         "StabilityPoint": 1384,
         "AttackPower1": 268,
         "AttackPower100": 2682,
@@ -80354,7 +80829,7 @@
         ],
         "MemoryLobby": [
             5,
-            0,
+            5,
             0
         ],
         "MemoryLobbyBGM": 9,
@@ -80365,7 +80840,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210302,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -80524,7 +81004,7 @@
         "Id": 26009,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 138,
@@ -80546,6 +81026,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_10018",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -80553,7 +81034,6 @@
         ],
         "CollectionBG": "BG_OldHouseOutside_Collection",
         "FamilyName": "花冈",
-        "FamilyNameRuby": "はなおか",
         "PersonalName": "柚子",
         "SchoolYear": "1年级",
         "CharacterAge": "16岁",
@@ -80566,7 +81046,7 @@
         "Illustrator": "YutokaMizu",
         "Designer": "YutokaMizu",
         "CharHeightMetric": "150cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "4'11\"",
         "StabilityPoint": 1095,
         "AttackPower1": 240,
         "AttackPower100": 2407,
@@ -80899,7 +81379,7 @@
         ],
         "MemoryLobby": [
             5,
-            0,
+            5,
             0
         ],
         "MemoryLobbyBGM": 38,
@@ -80910,7 +81390,12 @@
                     0
                 ]
             ],
-            [],
+            [
+                [
+                    210304,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -81091,6 +81576,7 @@
         "WeaponType": "SG",
         "WeaponImg": "weapon_icon_ch0167",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -81098,7 +81584,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "宇泽",
-        "FamilyNameRuby": "うざわ",
         "PersonalName": "玲纱",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -81724,6 +82209,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0135",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -81731,7 +82217,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "朱城",
-        "FamilyNameRuby": "あけしろ",
         "PersonalName": "流美",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -82325,6 +82810,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0138",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -82332,7 +82818,6 @@
         ],
         "CollectionBG": "BG_Sanhaijing_Collection",
         "FamilyName": "近卫",
-        "FamilyNameRuby": "このえ",
         "PersonalName": "弥奈",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -83080,6 +83565,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0214",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -83087,7 +83573,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "安守",
-        "FamilyNameRuby": "やすもり",
         "PersonalName": "实里",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -83651,6 +84136,7 @@
         "WeaponType": "SMG",
         "WeaponImg": "weapon_icon_ch0142",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Badge",
@@ -83658,7 +84144,6 @@
         ],
         "CollectionBG": "BG_FishingVillage2_Collection",
         "FamilyName": "月雪",
-        "FamilyNameRuby": "つきゆき",
         "PersonalName": "宫子",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -84222,6 +84707,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0144",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -84229,7 +84715,6 @@
         ],
         "CollectionBG": "BG_FishingVillage2_Collection",
         "FamilyName": "空井",
-        "FamilyNameRuby": "そらい",
         "PersonalName": "咲",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -84640,19 +85125,27 @@
                 "Icon": "COMMON_SKILLICON_WEAPONBUFF",
                 "Effects": [
                     {
-                        "Type": "BuffSelfAndSupport",
-                        "Scale": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ]
+                        "Type": "Buff",
+                        "Target": [
+                            "Self",
+                            "AllySupport"
+                        ],
+                        "Value": [
+                            [
+                                1611,
+                                1692,
+                                1773,
+                                2095,
+                                2175,
+                                2256,
+                                2578,
+                                2658,
+                                2739,
+                                3061
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
                     }
                 ]
             }
@@ -84892,6 +85385,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0145",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -84899,7 +85393,6 @@
         ],
         "CollectionBG": "BG_FishingVillage2_Collection",
         "FamilyName": "霞泽",
-        "FamilyNameRuby": "かすみざわ",
         "PersonalName": "美游",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -85418,6 +85911,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_10010",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -85425,7 +85919,6 @@
         ],
         "CollectionBG": "BG_Swimsuit02_Collection",
         "FamilyName": "砂狼",
-        "FamilyNameRuby": "すなおおかみ",
         "PersonalName": "白子",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -85959,6 +86452,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_ch0169",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -85966,7 +86460,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "古关",
-        "FamilyNameRuby": "こぜき",
         "PersonalName": "忧",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -86501,6 +86994,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0073",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Bag",
@@ -86508,7 +87002,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "若叶",
-        "FamilyNameRuby": "わかば",
         "PersonalName": "日向",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -87081,6 +87574,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10020",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -87088,7 +87582,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "下江",
-        "FamilyNameRuby": "しもえ",
         "PersonalName": "小春",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -87613,6 +88106,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_23007",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -87620,7 +88114,6 @@
         ],
         "CollectionBG": "BG_WaterFall",
         "FamilyName": "浦和",
-        "FamilyNameRuby": "うらわ",
         "PersonalName": "花子",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -88296,6 +88789,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_10034",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -88303,7 +88797,6 @@
         ],
         "CollectionBG": "BG_Swimsuit03_Collection",
         "FamilyName": "水羽",
-        "FamilyNameRuby": "みずは",
         "PersonalName": "三森",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -88821,6 +89314,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0124",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Hairpin",
@@ -88828,7 +89322,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "姫木",
-        "FamilyNameRuby": "ひめき",
         "PersonalName": "芽留",
         "SchoolYear": "2年级",
         "CharacterAge": "16岁",
@@ -89431,6 +89924,7 @@
         "WeaponType": "RL",
         "WeaponImg": "weapon_icon_momiji",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -89438,7 +89932,6 @@
         ],
         "CollectionBG": "BG_Redwinter_Collection",
         "FamilyName": "秋泉",
-        "FamilyNameRuby": "あきいずみ",
         "PersonalName": "红叶",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -89978,6 +90471,7 @@
         "WeaponType": "MG",
         "WeaponImg": "weapon_icon_ch0185",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -89985,7 +90479,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "丰见",
-        "FamilyNameRuby": "とよみ",
         "PersonalName": "琴里",
         "SchoolYear": "1年级",
         "CharacterAge": "15岁",
@@ -90559,6 +91052,7 @@
         "WeaponType": "SR",
         "WeaponImg": "weapon_icon_10002",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Bag",
@@ -90566,7 +91060,6 @@
         ],
         "CollectionBG": "BG_Cheerleading_Collection",
         "FamilyName": "黑馆",
-        "FamilyNameRuby": "くろだて",
         "PersonalName": "晴奈",
         "SchoolYear": "3年级",
         "CharacterAge": "17岁",
@@ -91099,6 +91592,7 @@
         "WeaponType": "AR",
         "WeaponImg": "weapon_icon_ch0071",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Hat",
             "Hairpin",
@@ -91106,7 +91600,6 @@
         ],
         "CollectionBG": "BG_Trinity_Collection",
         "FamilyName": "仲正",
-        "FamilyNameRuby": "なかまさ",
         "PersonalName": "イチカ",
         "SchoolYear": "2年生",
         "CharacterAge": "16歳",
@@ -91649,6 +92142,7 @@
         "WeaponType": "HG",
         "WeaponImg": "weapon_icon_ch0089",
         "Cover": true,
+        "Size": "Medium",
         "Equipment": [
             "Gloves",
             "Hairpin",
@@ -91656,7 +92150,6 @@
         ],
         "CollectionBG": "BG_Gehenna_Collection",
         "FamilyName": "鬼怒川",
-        "FamilyNameRuby": "きぬがわ",
         "PersonalName": "カスミ",
         "SchoolYear": "2年生",
         "CharacterAge": "16歳",
@@ -92218,6 +92711,7 @@
         "WeaponType": "GL",
         "WeaponImg": "weapon_icon_shigure",
         "Cover": false,
+        "Size": "Medium",
         "Equipment": [
             "Shoes",
             "Badge",
@@ -92225,7 +92719,6 @@
         ],
         "CollectionBG": "BG_Onsen_Collection",
         "FamilyName": "間宵",
-        "FamilyNameRuby": "まよい",
         "PersonalName": "シグレ",
         "SchoolYear": "2年生",
         "CharacterAge": "16歳",
@@ -92692,6 +93185,1757 @@
                 12,
                 7,
                 13
+            ]
+        ]
+    },
+    {
+        "Id": 10079,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 159,
+        "PathName": "misaka_mikoto",
+        "DevName": "CH9998",
+        "Name": "御坂美琴",
+        "School": "Tokiwadai",
+        "Club": "EmptyClub",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Pierce",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 0,
+        "OutdoorBattleAdaptation": 4,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "AR",
+        "WeaponImg": "weapon_icon_ch9998",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Gloves",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_BigPlaza_Collection",
+        "FamilyName": "御坂",
+        "PersonalName": " 美琴",
+        "SchoolYear": "3年生",
+        "CharacterAge": "14歳",
+        "Birthday": "5月2日",
+        "CharacterSSRNew": "まったく……ここでも色々やるのは変わらないのね",
+        "ProfileIntroduction": "常盤台中学所属の女子中学生。\n\n多くの超能力者が存在する「学園都市」の中で7人しか存在しないトップクラスの超能力者「レベル5」の一人。使用する超能力は、強力な電気を自在に操る「電撃使い（エレクトロマスター）」。しかし、キヴォトスに転移してからは能力を思いのまま発揮できていない様子。誰にでもフランクな言葉遣いで接し、優しい心の持ち主のため他の生徒からは親しまれている。カエルのキャラクター、「ゲコ太」のファン。",
+        "Hobby": "コンビニ雑誌の立ち読み、ゲコ太グッズ集め",
+        "CharacterVoice": "佐藤利奈",
+        "BirthDay": "5/2",
+        "Illustrator": "ミミトケ",
+        "Designer": "-",
+        "CharHeightMetric": "161cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1336,
+        "AttackPower1": 235,
+        "AttackPower100": 2358,
+        "MaxHP1": 2149,
+        "MaxHP100": 21490,
+        "DefensePower1": 19,
+        "DefensePower100": 114,
+        "HealPower1": 1462,
+        "HealPower100": 4387,
+        "DodgePoint": 764,
+        "AccuracyPoint": 731,
+        "CriticalPoint": 208,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 30,
+        "AmmoCost": 3,
+        "Range": 650,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "Hits": [
+                            3333,
+                            3333,
+                            3334
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 30,
+                            "AttackStartDuration": 15,
+                            "AttackEndDuration": 13,
+                            "AttackBurstRoundOverDelay": 40,
+                            "AttackIngDuration": 24,
+                            "AttackReloadDuration": 72
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            "Ex": {
+                "Name": "常盤台の超電磁砲",
+                "Desc": "对直线范围内的敌方单位造成攻击力<?1>的伤害",
+                "Parameters": [
+                    [
+                        "544%",
+                        "626%",
+                        "789%",
+                        "871%",
+                        "1034%",
+                        "1116%",
+                        "1279%",
+                        "1361%",
+                        "1524%",
+                        "1606%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Duration": 148,
+                "Range": 850,
+                "Radius": [
+                    {
+                        "Type": "Obb",
+                        "Width": 200,
+                        "Height": 1500
+                    }
+                ],
+                "Icon": "SKILLICON_CH9998_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            54458,
+                            62622,
+                            78960,
+                            87125,
+                            103463,
+                            111636,
+                            127966,
+                            136139,
+                            152469,
+                            160642
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "ちょっと痺れるわよ！",
+                "Desc": "每50秒，对圆形范围内的敌方单位造成攻击力<?1>的伤害\n对其施加攻击力<?2>的<d:ElectricShock>状态(持续<?3>)",
+                "Parameters": [
+                    [
+                        "120%",
+                        "126%",
+                        "132%",
+                        "156%",
+                        "162%",
+                        "168%",
+                        "192%",
+                        "198%",
+                        "204%",
+                        "228%"
+                    ],
+                    [
+                        "113%",
+                        "119%",
+                        "124%",
+                        "130%",
+                        "135%",
+                        "140%",
+                        "143%",
+                        "148%",
+                        "152%",
+                        "157%"
+                    ],
+                    [
+                        "20秒",
+                        "20秒",
+                        "20秒",
+                        "25秒",
+                        "25秒",
+                        "25秒",
+                        "30秒",
+                        "30秒",
+                        "30秒",
+                        "40秒"
+                    ]
+                ],
+                "Duration": 81,
+                "Range": 850,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 150
+                    }
+                ],
+                "Icon": "SKILLICON_CH9998_PUBLICSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            12021,
+                            12617,
+                            13222,
+                            15624,
+                            16221,
+                            16826,
+                            19228,
+                            19824,
+                            20429,
+                            22832
+                        ]
+                    },
+                    {
+                        "Type": "DMGDot",
+                        "Duration": "40000",
+                        "Period": "4000",
+                        "Icon": "ElectricShock",
+                        "Scale": [
+                            11333,
+                            11900,
+                            12467,
+                            13014,
+                            13514,
+                            14016,
+                            14375,
+                            14823,
+                            15272,
+                            15734
+                        ]
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "電撃操作能力",
+                "Desc": "<b:HIT>提升<?1>\n免疫食蜂操祈施加的<c:Confusion>状态",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AccuracyPoint_Coefficient",
+                        "Channel": 5,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "電撃操作能力+",
+                "Desc": "<b:ATK>提升<?1>\n<b:HIT>提升<?2>\n免疫食蜂操祈施加的<c:Confusion>状态",
+                "Parameters": [
+                    [
+                        "290",
+                        "304",
+                        "319",
+                        "376",
+                        "391",
+                        "405",
+                        "463",
+                        "478",
+                        "492",
+                        "550"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Base",
+                        "Channel": 1702,
+                        "Value": [
+                            [
+                                290,
+                                304,
+                                319,
+                                376,
+                                391,
+                                405,
+                                463,
+                                478,
+                                492,
+                                550
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "何度も言わせんじゃないわよ",
+                "Desc": "自身使用普通技能时，令自身<b:ATK>提升<?1>(持续<?2>)",
+                "Parameters": [
+                    [
+                        "10%",
+                        "11.2%",
+                        "12.4%",
+                        "13.4%",
+                        "14.7%",
+                        "16%",
+                        "17.2%",
+                        "18.5%",
+                        "20%",
+                        "21.4%"
+                    ],
+                    [
+                        "20秒",
+                        "20秒",
+                        "20秒",
+                        "25秒",
+                        "25秒",
+                        "25秒",
+                        "30秒",
+                        "30秒",
+                        "30秒",
+                        "40秒"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1008,
+                                1123,
+                                1243,
+                                1346,
+                                1473,
+                                1605,
+                                1721,
+                                1858,
+                                2000,
+                                2146
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
+                    }
+                ]
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                54
+            ],
+            [
+                6,
+                64
+            ],
+            [
+                1,
+                11
+            ],
+            [
+                2,
+                16
+            ],
+            [
+                4,
+                27
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 38,
+        "FurnitureInteraction": [
+            [
+                [
+                    210322,
+                    0
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [
+            "F_Misaka_Mikoto",
+            "F_Misaka_Mikoto2"
+        ],
+        "IsLimited": 1,
+        "Weapon": {
+            "Name": "ガンボルト",
+            "Desc": "御坂美琴のためにエンジニア部が作った専用銃器。\n\n電気能力者向けの「特別な」機能も搭載されている。",
+            "AdaptationType": "Outdoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 104,
+            "AttackPower100": 1036,
+            "MaxHP1": 618,
+            "MaxHP100": 6180,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3020,
+                3070,
+                3050,
+                3040
+            ],
+            [
+                3061,
+                3011,
+                3001,
+                3081
+            ],
+            [
+                3022,
+                3072,
+                3052,
+                3042
+            ],
+            [
+                3063,
+                3013,
+                3003,
+                3083
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                3,
+                3,
+                3,
+                3
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4060,
+                4000,
+                4020,
+                4070
+            ],
+            [
+                4040,
+                4050,
+                4080,
+                4010
+            ],
+            [
+                4061,
+                4001,
+                4021,
+                4071
+            ],
+            [
+                4041,
+                4051,
+                4081,
+                4011
+            ],
+            [
+                4062,
+                4002,
+                4022,
+                4072
+            ],
+            [
+                4042,
+                4052,
+                4082,
+                4012
+            ],
+            [
+                4063,
+                4003,
+                4023,
+                4073
+            ],
+            [
+                4043,
+                4053,
+                4083,
+                4013
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ]
+        ]
+    },
+    {
+        "Id": 10080,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 160,
+        "PathName": "shokuho_misaki",
+        "DevName": "CH9997",
+        "Name": "食蜂操祈",
+        "School": "Tokiwadai",
+        "Club": "EmptyClub",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "Supporter",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Explosion",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 1,
+        "IndoorBattleAdaptation": 1,
+        "WeaponType": "HG",
+        "WeaponImg": "weapon_icon_ch9997",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Shoes",
+            "Hairpin",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_BigPlaza_Collection",
+        "FamilyName": "食蜂",
+        "PersonalName": "操祈",
+        "SchoolYear": "3年生",
+        "CharacterAge": "14歳",
+        "Birthday": "-",
+        "CharacterSSRNew": "う～ん、どうしようかしら？ああ、こちらの話よぉ？",
+        "ProfileIntroduction": "常盤台中学所属の気品溢れる女子中学生。\n\n名門校である常盤台中学の中でも最大派閥を率いる実力者で、学園都市に7人しか存在しない超能力者「レベル5」の一人。使用する超能力は他人の精神を操る「心理掌握（メンタルアウト）」。しかし、キヴォトスに転移してからは能力を思いのまま発揮できていない様子。同じく「レベル5」の超能力者で、自分の能力が通じない御坂美琴が実は少し苦手。",
+        "Hobby": "お茶を飲むこと、オーガニック食品を食べること",
+        "CharacterVoice": "浅倉杏美",
+        "BirthDay": "-",
+        "Illustrator": "ミミトケ",
+        "Designer": "-",
+        "CharHeightMetric": "-",
+        "CharHeightImperial": null,
+        "StabilityPoint": 908,
+        "AttackPower1": 213,
+        "AttackPower100": 2139,
+        "MaxHP1": 2044,
+        "MaxHP100": 23680,
+        "DefensePower1": 18,
+        "DefensePower100": 109,
+        "HealPower1": 1527,
+        "HealPower100": 4583,
+        "DodgePoint": 999,
+        "AccuracyPoint": 109,
+        "CriticalPoint": 218,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 5,
+        "AmmoCost": 1,
+        "Range": 550,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 76,
+                            "AttackStartDuration": 20,
+                            "AttackEndDuration": 23,
+                            "AttackBurstRoundOverDelay": 40,
+                            "AttackIngDuration": 52,
+                            "AttackReloadDuration": 65
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            "Ex": {
+                "Name": "心理掌握",
+                "Desc": "对1名敌方单位及其周围圆形范围内距离其最近的2名敌方单位造成攻击力<?1>的伤害\n对其施加<c:Confusion>状态(持续<?2>)",
+                "Parameters": [
+                    [
+                        "772%",
+                        "888%",
+                        "1120%",
+                        "1236%",
+                        "1468%",
+                        "1584%",
+                        "1815%",
+                        "1931%",
+                        "2163%",
+                        "2279%"
+                    ],
+                    [
+                        "5秒",
+                        "5秒",
+                        "7秒",
+                        "7秒",
+                        "7秒",
+                        "7秒",
+                        "7秒",
+                        "7秒",
+                        "7秒",
+                        "7秒"
+                    ]
+                ],
+                "Cost": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "Duration": 81,
+                "Range": 750,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 200
+                    }
+                ],
+                "Icon": "SKILLICON_CH9997_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            77272,
+                            88864,
+                            112048,
+                            123640,
+                            146816,
+                            158408,
+                            181592,
+                            193184,
+                            216359,
+                            227951
+                        ]
+                    },
+                    {
+                        "Type": "CrowdControl",
+                        "Chance": "10000",
+                        "Icon": "Confusion",
+                        "Scale": [
+                            5000,
+                            5000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000,
+                            7000
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "少し手伝ってくれるかしら？",
+                "Desc": "每30秒对圆形范围内的敌方单位造成攻击力<?1>的伤害",
+                "Parameters": [
+                    [
+                        "318%",
+                        "334%",
+                        "350%",
+                        "413%",
+                        "429%",
+                        "445%",
+                        "509%",
+                        "525%",
+                        "541%",
+                        "604%"
+                    ]
+                ],
+                "Duration": 170,
+                "Range": 750,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 150
+                    }
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "DMGMulti",
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000
+                        ],
+                        "HitsParameter": 1,
+                        "Scale": [
+                            31828,
+                            33424,
+                            35012,
+                            41379,
+                            42966,
+                            44562,
+                            50921,
+                            52517,
+                            54105,
+                            60472
+                        ]
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "常盤台の女王",
+                "Desc": "<b:OppressionPower>提升<?1>",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "OppressionPower_Coefficient",
+                        "Channel": 28,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "常盤台の女王+",
+                "Desc": "<b:ATK>提升<?1>増加\n<b:OppressionPower>提升<?2>",
+                "Parameters": [
+                    [
+                        "152",
+                        "159",
+                        "167",
+                        "197",
+                        "205",
+                        "212",
+                        "242",
+                        "250",
+                        "258",
+                        "288"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Base",
+                        "Channel": 1702,
+                        "Value": [
+                            [
+                                152,
+                                159,
+                                167,
+                                197,
+                                205,
+                                212,
+                                242,
+                                250,
+                                258,
+                                288
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "私は頭脳派だしぃ",
+                "Desc": "自身使用EX技能成功对目标施加<c:Confusion>状态时，令自身<b:DEF>与<b:Dodge>提升<?1>(持续20秒)",
+                "Parameters": [
+                    [
+                        "19.3%",
+                        "20.3%",
+                        "21.3%",
+                        "25.1%",
+                        "26.1%",
+                        "27.1%",
+                        "30.9%",
+                        "31.9%",
+                        "32.9%",
+                        "36.7%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH9997_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1936,
+                                2033,
+                                2130,
+                                2517,
+                                2614,
+                                2710,
+                                3097,
+                                3194,
+                                3291,
+                                3678
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 3
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1936,
+                                2033,
+                                2130,
+                                2517,
+                                2614,
+                                2710,
+                                3097,
+                                3194,
+                                3291,
+                                3678
+                            ]
+                        ],
+                        "Stat": "DodgePoint_Coefficient",
+                        "Channel": 7
+                    }
+                ]
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                59
+            ],
+            [
+                5,
+                71
+            ],
+            [
+                1,
+                12
+            ],
+            [
+                2,
+                18
+            ],
+            [
+                3,
+                29
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 103,
+        "FurnitureInteraction": [
+            [
+                [
+                    210323,
+                    0
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [
+            "F_Shokuho_Misaki",
+            "F_Shokuho_Misaki2"
+        ],
+        "IsLimited": 1,
+        "Weapon": {
+            "Name": "メンタルポインター",
+            "Desc": "食蜂操祈のためにエンジニア部が作った専用銃器。\n\n女子高生のファッションアイテムにぴったりのスッキリとした拳銃。",
+            "AdaptationType": "Street",
+            "AdaptationValue": 1,
+            "AttackPower1": 94,
+            "AttackPower100": 940,
+            "MaxHP1": 678,
+            "MaxHP100": 6775,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3050,
+                3000,
+                3030,
+                3010
+            ],
+            [
+                3071,
+                3081,
+                3041,
+                3061
+            ],
+            [
+                3052,
+                3002,
+                3032,
+                3012
+            ],
+            [
+                3073,
+                3083,
+                3043,
+                3063
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                3,
+                3,
+                3,
+                3
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4070,
+                4040,
+                4050,
+                4080
+            ],
+            [
+                4010,
+                4030,
+                4060,
+                4000
+            ],
+            [
+                4071,
+                4041,
+                4051,
+                4081
+            ],
+            [
+                4011,
+                4031,
+                4061,
+                4001
+            ],
+            [
+                4072,
+                4042,
+                4052,
+                4082
+            ],
+            [
+                4012,
+                4032,
+                4062,
+                4002
+            ],
+            [
+                4073,
+                4043,
+                4053,
+                4083
+            ],
+            [
+                4013,
+                4033,
+                4063,
+                4003
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ]
+        ]
+    },
+    {
+        "Id": 26011,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 161,
+        "PathName": "saten_ruiko",
+        "DevName": "CH9996",
+        "Name": "佐天泪子",
+        "School": "Sakugawa",
+        "Club": "EmptyClub",
+        "StarGrade": 1,
+        "SquadType": "Support",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Pierce",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 1,
+        "OutdoorBattleAdaptation": 3,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "SMG",
+        "WeaponImg": "weapon_icon_ch9996",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Hat",
+            "Bag",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_BigPlaza_Collection",
+        "FamilyName": "佐天",
+        "PersonalName": "涙子",
+        "SchoolYear": "1年生",
+        "CharacterAge": "12歳",
+        "Birthday": "-",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "柵川中学所属の陽気な女子中学生。\n\n同級生の初春飾利の親友で、彼女に常盤台中学の先輩である御坂美琴を紹介してもらった。レベル0の無能力者だが、勘が良く、決定的な手がかりを見つけることが多い。好きなものは都市伝説とスイーツ。休日になるとよくスイーツ調査に出かけているのだとか。",
+        "Hobby": "ネット麻雀、スイーツ調査",
+        "CharacterVoice": "伊藤かな恵",
+        "BirthDay": "-",
+        "Illustrator": "ミミトケ",
+        "Designer": "-",
+        "CharHeightMetric": "160cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1582,
+        "AttackPower1": 233,
+        "AttackPower100": 2339,
+        "MaxHP1": 3078,
+        "MaxHP100": 23012,
+        "DefensePower1": 102,
+        "DefensePower100": 615,
+        "HealPower1": 1633,
+        "HealPower100": 4900,
+        "DodgePoint": 1182,
+        "AccuracyPoint": 659,
+        "CriticalPoint": 253,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 5,
+        "AmmoCost": 1,
+        "Range": 1500,
+        "RegenCost": 700,
+        "Skills": {
+            "Ex": {
+                "Name": "フルスイング",
+                "Desc": "对圆形范围内的敌方单位造成攻击力<?1>的伤害",
+                "Parameters": [
+                    [
+                        "446%",
+                        "513%",
+                        "646%",
+                        "713%",
+                        "847%",
+                        "914%",
+                        "1048%",
+                        "1115%",
+                        "1249%",
+                        "1315%"
+                    ]
+                ],
+                "Cost": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    3
+                ],
+                "Duration": 105,
+                "Range": 1500,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 200
+                    }
+                ],
+                "Icon": "SKILLICON_CH9996_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            44611,
+                            51303,
+                            64680,
+                            71372,
+                            84756,
+                            91441,
+                            104825,
+                            111517,
+                            124901,
+                            131586
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "秘伝のサバカレー",
+                "Desc": "每45秒令1名我方单位<b:ATK>提升<?1>(持续20秒)\n每使用1次该技能，令下次该技能作用目标人数提升1(最多3人)",
+                "Parameters": [
+                    [
+                        "10.9%",
+                        "11.4%",
+                        "11.9%",
+                        "14.1%",
+                        "14.7%",
+                        "15.2%",
+                        "17.4%",
+                        "17.9%",
+                        "18.5%",
+                        "20.6%"
+                    ]
+                ],
+                "Duration": 60,
+                "Range": 1000,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                1090,
+                                1144,
+                                1198,
+                                1416,
+                                1470,
+                                1525,
+                                1743,
+                                1797,
+                                1851,
+                                2069
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 102
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "思いっきり！",
+                "Desc": "<b:ATK>提升<?1>",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "思いっきり！+",
+                "Desc": "<b:ATK>提升<?1>\n<b:ATK>提升<?2>",
+                "Parameters": [
+                    [
+                        "279",
+                        "293",
+                        "307",
+                        "362",
+                        "376",
+                        "390",
+                        "446",
+                        "460",
+                        "474",
+                        "529"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Base",
+                        "Channel": 1702,
+                        "Value": [
+                            [
+                                279,
+                                293,
+                                307,
+                                362,
+                                376,
+                                390,
+                                446,
+                                460,
+                                474,
+                                529
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "私だって！",
+                "Desc": "编队内所有学生<b:ATK>提升<?1>",
+                "Parameters": [
+                    [
+                        "9.1%",
+                        "9.5%",
+                        "10%",
+                        "11.8%",
+                        "12.3%",
+                        "12.7%",
+                        "14.5%",
+                        "15%",
+                        "15.5%",
+                        "17.3%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self",
+                            "AllyMain",
+                            "AllySupport"
+                        ],
+                        "Value": [
+                            [
+                                912,
+                                957,
+                                1003,
+                                1186,
+                                1231,
+                                1277,
+                                1459,
+                                1504,
+                                1550,
+                                1732
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 302
+                    }
+                ]
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                58
+            ],
+            [
+                6,
+                69
+            ],
+            [
+                1,
+                11
+            ],
+            [
+                2,
+                17
+            ],
+            [
+                4,
+                29
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 17,
+        "FurnitureInteraction": [
+            [
+                [
+                    210324,
+                    0
+                ]
+            ],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [
+            "F_Saten_Ruiko",
+            "F_Saten_Ruiko2"
+        ],
+        "IsLimited": 2,
+        "Weapon": {
+            "Name": "バレット·スウィンガー",
+            "Desc": "佐天涙子のためにエンジニア部が作った専用銃器。\n\n手で直接振っても壊れないほど丈夫だ。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 82,
+            "AttackPower100": 822,
+            "MaxHP1": 536,
+            "MaxHP100": 5358,
+            "HealPower1": 154,
+            "HealPower100": 1536,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3030,
+                3040,
+                3020,
+                3000
+            ],
+            [
+                3081,
+                3061,
+                3011,
+                3071
+            ],
+            [
+                3032,
+                3042,
+                3022,
+                3002
+            ],
+            [
+                3083,
+                3063,
+                3013,
+                3073
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                3,
+                3,
+                3,
+                3
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4080,
+                4010,
+                4030,
+                4060
+            ],
+            [
+                4000,
+                4020,
+                4070,
+                4040
+            ],
+            [
+                4081,
+                4011,
+                4031,
+                4061
+            ],
+            [
+                4001,
+                4021,
+                4071,
+                4041
+            ],
+            [
+                4082,
+                4012,
+                4032,
+                4062
+            ],
+            [
+                4002,
+                4022,
+                4072,
+                4042
+            ],
+            [
+                4083,
+                4013,
+                4033,
+                4063
+            ],
+            [
+                4003,
+                4023,
+                4073,
+                4043
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                10,
+                10,
+                10,
+                10
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                9,
+                9,
+                9,
+                9
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                8,
+                8,
+                8,
+                8
+            ],
+            [
+                7,
+                7,
+                7,
+                7
+            ],
+            [
+                7,
+                7,
+                7,
+                7
             ]
         ]
     }

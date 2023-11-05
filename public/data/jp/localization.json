@@ -43,7 +43,9 @@
         "SRT": "SRT",
         "Trinity": "トリニティ",
         "Valkyrie": "ヴァルキューレ",
-        "ETC": "その他"
+        "ETC": "その他",
+        "Tokiwadai": "常盤台中学",
+        "Sakugawa": "柵川中学"
     },
     "AdaptationType": {
         "Street": "市街地",
@@ -61,7 +63,9 @@
         "SRT": "SRT特殊学園",
         "Trinity": "トリニティ総合学園",
         "Valkyrie": "ヴァルキューレ警察学校",
-        "ETC": "その他"
+        "ETC": "その他",
+        "Tokiwadai": "常盤台中学",
+        "Sakugawa": "柵川中学"
     },
     "Club": {
         "Kohshinjo68": "便利屋68",
@@ -223,7 +227,8 @@
         "10": "大運動会",
         "11": "アビドス教室",
         "12": "ゲーム開発部",
-        "13": "サンシャインリゾート"
+        "13": "サンシャインリゾート",
+        "14": "デパート"
     },
     "FurnitureSet": {
         "0": "なし",
@@ -239,7 +244,8 @@
         "109": "大運動会シリーズ",
         "110": "アビドス教室シリーズ",
         "111": "ゲーム開発部シリーズ",
-        "112": "サンシャインリゾートシリーズ"
+        "112": "サンシャインリゾートシリーズ",
+        "113": "デパートシリーズ"
     },
     "ItemCategory": {
         "Furnitures": "家具",
@@ -306,11 +312,11 @@
         "26": "中空十二面体",
         "29": "ミステリーストーン"
     },
-    "EnemyTags": {
-        "EnemySmall": "小型",
-        "EnemyMedium": "中型",
-        "EnemyLarge": "大型",
-        "EnemyXLarge": "超大型"
+    "CharacterSize": {
+        "Small": "小型",
+        "Medium": "中型",
+        "Large": "大型",
+        "XLarge": "超大型"
     },
     "EventName": {
         "701": "特殊作戦・デカグラマトン編",
@@ -342,7 +348,8 @@
         "827": "夏の特殊作戦！RABBIT小隊と消えたエビの謎",
         "828": "隠されし遺産を求めて～トリニティの課外活動～",
         "829": "学漫同人物語～2人が求める最終回～",
-        "830": "Trip-Trap-Train"
+        "830": "Trip-Trap-Train",
+        "831": "とある科学の青春記録"
     },
     "StageType": {
         "Campaign": "任務",
@@ -465,7 +472,7 @@
         "Buff_OppressionPower": "CC強化力",
         "Buff_OppressionResist": "CC抵抗力",
         "Buff_Penetration": "防御貫通値",
-        "Buff_Range": "射程",
+        "Buff_Range": "通常攻撃射程",
         "Buff_Shield": "シールド",
         "Buff_Stability": "安定値",
         "Debuff_AmmoCount": "装弾数",
@@ -504,7 +511,8 @@
         "Debuff_OppressionResist": "CC抵抗力",
         "Debuff_Penetration": "防御貫通値",
         "Debuff_Poison": "中毒系",
-        "Debuff_Range": "射程",
+        "Debuff_Range": "通常攻撃射程",
+        "Debuff_ElectricShock": "感電",
         "Debuff_Stability": "安定値",
         "Debuff_CostRegen": "コスト回復力",
         "CC_Fear": "恐怖状態",
@@ -512,7 +520,10 @@
         "CC_Provoke": "挑発状態",
         "CC_Paralysis": "麻痺状態",
         "CC_Emp": "EMP",
+        "CC_Confusion": "混乱",
+        "Special_EnergyBatteryEmpty": "エネルギー",
         "Special_EnergyBatteryHalf": "エネルギー",
+        "Special_EnergyBatteryFull": "エネルギー",
         "Special_FormChange": "通常攻撃",
         "Special_Immortal": "不死身状態",
         "Special_ImmuneDamage": "ダメージ無効化",
@@ -533,7 +544,7 @@
         "Special_DebuffCountYellow": "警告",
         "Special_DebuffCountRed": "危険",
         "Special_OldBook": "手がかり",
-        "Special_CH0089_ExtraPassive": "Drill"
+        "Special_CH0089_ExtraPassive": "ドリル"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "救護の心構え",
@@ -573,7 +584,7 @@
         "Buff_OppressionPower": "CC強化力増加",
         "Buff_OppressionResist": "CC抵抗力増加",
         "Buff_Penetration": "防御貫通値増加",
-        "Buff_Range": "射程増加",
+        "Buff_Range": "通常攻撃射程増加",
         "Buff_Shield": "シールド",
         "Buff_Stability": "安定値増加",
         "Debuff_AmmoCount": "装弾数減少",
@@ -612,7 +623,8 @@
         "Debuff_OppressionResist": "CC抵抗力減少",
         "Debuff_Penetration": "防御貫通値減少",
         "Debuff_Poison": "中毒状態",
-        "Debuff_Range": "射程減少",
+        "Debuff_Range": "通常攻撃射程減少",
+        "Debuff_ElectricShock": "感電",
         "Debuff_Stability": "安定値減少",
         "Debuff_CostRegen": "コスト回復力減少",
         "CC_Fear": "恐怖状態",
@@ -620,7 +632,10 @@
         "CC_Provoke": "挑発状態",
         "CC_Paralysis": "麻痺状態",
         "CC_Emp": "EMP",
+        "CC_Confusion": "混乱",
+        "Special_EnergyBatteryEmpty": "エネルギーチャージ",
         "Special_EnergyBatteryHalf": "エネルギーチャージ",
+        "Special_EnergyBatteryFull": "エネルギーチャージ",
         "Special_FormChange": "通常攻撃強化",
         "Special_Immortal": "不死身状態",
         "Special_ImmuneDamage": "ダメージ無効化",
@@ -641,7 +656,7 @@
         "Special_DebuffCountYellow": "警告",
         "Special_DebuffCountRed": "危険",
         "Special_OldBook": "手がかり",
-        "Special_CH0089_ExtraPassive": "Drill"
+        "Special_CH0089_ExtraPassive": "ドリル"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "一定間隔でHPを持続的に回復する。\n解除後にミネのノーマルスキルを発動する。",
@@ -722,13 +737,17 @@
         "Debuff_Penetration": "攻撃時に無視される敵の防御力の量が減少する。",
         "Debuff_Poison": "一定間隔で中毒ダメージを受ける。このダメージでは会心は発生しない。",
         "Debuff_Range": "通常攻撃を行える距離が減少する。",
+        "Debuff_ElectricShock": "Continuously receives Electric Shock damage at set intervals. This damage cannot critically hit.",
         "Debuff_Stability": "乱数による与ダメージの下限が低下する。",
         "CC_Fear": "行為不能になり恐怖を付与してきた対象からゆっくりと遠ざかる。発生中のスキルも妨害される。",
         "CC_Stunned": "行為不能になり発生中のスキルが妨害される。",
         "CC_Provoke": "挑発状態を付与してきた対象を強制的に攻撃する。発生中のスキルも妨害される。",
         "CC_Paralysis": "行為不能になり発生中のスキルが妨害される。",
         "CC_Emp": "行為不能になり発生中のスキルが妨害される。",
+        "CC_Confusion": "Attacks allies instead of enemies. Also interrupts any active skills.",
+        "Special_EnergyBatteryEmpty": "アリスのEXスキルとサブスキルの効果を1.5倍（1段階チャージ時）または2倍（2段階チャージ時）に増加する。EXスキルを使用すると初期化される。",
         "Special_EnergyBatteryHalf": "アリスのEXスキルとサブスキルの効果を1.5倍（1段階チャージ時）または2倍（2段階チャージ時）に増加する。EXスキルを使用すると初期化される。",
+        "Special_EnergyBatteryFull": "アリスのEXスキルとサブスキルの効果を1.5倍（1段階チャージ時）または2倍（2段階チャージ時）に増加する。EXスキルを使用すると初期化される。",
         "Special_FormChange": "通常攻撃を強化する。",
         "Special_Immortal": "効果時間中は致死ダメージを受けても倒されずに持ちこたえる。",
         "Special_ImmuneDamage": "特定のタイプまたはすべてのタイプのダメージを無効化する。",
@@ -749,7 +768,7 @@
         "Special_DebuffCountYellow": "被ダメージ量と攻撃力を増加する。",
         "Special_DebuffCountRed": "攻撃力を増加する。",
         "Special_OldBook": "3個獲得時にウイ（水着）のノーマルスキルを発動する。",
-        "Special_CH0089_ExtraPassive": "Deals additional damage to the target(s) of Kasumi's EX Skill when at 3 stacks."
+        "Special_CH0089_ExtraPassive": "3個獲得した時、カスミのEXスキルの対象に追加ダメージを与える。"
     },
     "ServerName": {
         "0": "日本",
@@ -830,6 +849,7 @@
         "UIEventBoxGachaShopEnter": "報酬交換入場{0}",
         "UIEventBoxGachaShopIdle": "報酬交換一般{0}",
         "UIEventBoxGachaShopBoxGachaPrize": "報酬当選{0}",
+        "UIEventBoxGachaShopBoxGachaFinish": "Prize Exchange Ended {0}",
         "UIEventMissionEnter": "イベントミッション入場{0}",
         "UIEventMissionIdle": "イベントミッション一般{0}",
         "UIEventMissionBuy": "イベントミッション完了{0}",
@@ -862,7 +882,7 @@
         "student": "生徒",
         "enemy": "敵",
         "stages": "ステージ",
-        "navbar_raids": "総力戦",
+        "raids": "総力戦",
         "navbar_craft": "製造",
         "synthesis": "ジェネレート",
         "fusion": "テイラーメイド",
@@ -1035,8 +1055,8 @@
         "details": "詳細",
         "calculations": "計算",
         "options_short": "オプション",
-        "raid_rules": "特殊ルール",
-        "ta_phase": "フェーズ",
+        "rules": "特殊ルール",
+        "ta_phase": "フェーズ{0}",
         "craft_rewards": "獲得可能アイテム",
         "craft_fusion": "テイラーメイド",
         "craft_recipe_items": "必要アイテム",
@@ -1056,6 +1076,7 @@
         "own_bonus": "所属生徒のみ",
         "max_bonus_amount": "最大ボーナス {0}",
         "rewards_season": "総合ランキングPt報酬",
+        "seasons": "シーズン",
         "raid_season": "シーズン{0}",
         "raid_season_select": "シーズンを選択",
         "item_tab_materials": "素材",
@@ -1204,16 +1225,16 @@
         "skill_target_hp": "対象のHP",
         "max_attributes": "すべてを最大に設定",
         "lock_attributes": "所属生徒のステータスを固定",
-        "midokuni_link": "Midokuni's Student Insights <i class=\"fa-solid fa-external-link\"></i>",
+        "midokuni_link": "MidokuniのStudent Insights <i class=\"fa-solid fa-external-link\"></i>",
         "version_lastupdated": "最終更新日：{0}（{1}日前）",
         "info_unavailable": "現在このサーバーに関する情報はありません。",
-        "range": "Range",
-        "radius": "Radius",
-        "angle": "Angle",
-        "length": "Length",
-        "width": "Width",
-        "bounce": "Bounce Range",
-        "skill_duration": "Skill Animation",
+        "range": "射程距離",
+        "radius": "半径",
+        "angle": "角度",
+        "length": "縦幅",
+        "width": "横幅",
+        "bounce": "連鎖距離",
+        "skill_duration": "スキルモーション",
         "show_cumulative": "Cumulative",
         "exp_value": "EXP Value",
         "craft_quality": "Synthesis Value",
@@ -1355,6 +1376,7 @@
         "155": "Responsibility",
         "156": "Final Destination of Ark",
         "157": "Step of Terror",
+        "159": "Operation☆DOTABATA",
         "162": "Welcome School",
         "10004": "Blue New World"
     }
