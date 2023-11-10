@@ -8,7 +8,7 @@ import { getEquipmentById } from '../composables/Equipment';
 import { getFurnitureById } from '../composables/Furniture';
 import { getItemById } from '../composables/Items';
 import { translateUi } from '../composables/Localization';
-import { setBackground } from '../composables/Utilities';
+import { setBackground, setPageTitle } from '../composables/Utilities';
 
 const route = useRoute();
 
@@ -17,15 +17,15 @@ const renderItem = computed(() => {
     switch (route.name) {
         case 'itemview':
             item = getItemById(route.params.itemid);
-            document.title = `${item?.Name ?? 'Items'} | Schale`;
+            setPageTitle(item?.Name ?? translateUi('item'));
             return { item: item, type: 'item'};
         case 'furnitureview':
             item = getFurnitureById(route.params.furnitureid);
-            document.title = `${item?.Name ?? 'Furniture'} | Schale`;
+            setPageTitle(item?.Name ?? translateUi('furniture'));
             return { item: item, type: 'furniture'};
         case 'equipmentview':
             item = getEquipmentById(route.params.equipmentid);
-            document.title = `${item?.Name ?? 'Equipment'} | Schale`;
+            setPageTitle(item?.Name ?? translateUi('equipment'));
             return { item: item, type: 'equipment'};
     }
 });

@@ -443,35 +443,35 @@ h1 small {
     
 }
 
-.ba-item-n {
+.ba-item-n, .ba-item-N {
     background-color: var(--col-bg-item-n);
 }
 
-.ba-item-r {
+.ba-item-r, .ba-item-R {
     background-color: var(--col-bg-item-r);
 }
 
-.ba-item-sr {
+.ba-item-sr, .ba-item-SR {
     background-color: var(--col-bg-item-sr);
 }
 
-.ba-item-ssr {
+.ba-item-ssr, .ba-item-SSR {
     background-color: var(--col-bg-item-ssr);
 }
 
-.col-item-n {
+.col-item-n, .col-item-N {
     color: var(--col-bg-item-n);
 }
 
-.col-item-r {
+.col-item-r, .col-item-R {
     color: var(--col-bg-item-r);
 }
 
-.col-item-sr {
+.col-item-sr, .col-item-SR {
     color: var(--col-bg-item-sr);
 }
 
-.col-item-ssr {
+.col-item-ssr, .col-item-SSR {
     color: var(--col-bg-item-ssr);
 }
 
@@ -548,6 +548,8 @@ h1 small {
     font-weight: 400;
     font-style: italic;
     line-height: 16px;
+
+    pointer-events: none;
     
     position: absolute;
     background-color: var(--col-btn-secondary);

@@ -77,6 +77,14 @@ const router = createRouter({
             }  
         },
         {
+            path: '/stage/:stageid?',
+            name: 'stageview',
+            component: () => import('../views/StageView.vue'),
+            meta: {
+                requiredJson: ['stages', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+            }  
+        },
+        {
             path: '/raid/:raidid?',
             name: 'raidview',
             component: () => import('../views/RaidView.vue'),

@@ -1,16 +1,17 @@
 <script setup>
 import { Tooltip } from "bootstrap";
-import { onUpdated, provide, ref } from 'vue';
+import { computed, onUpdated, provide, ref } from 'vue';
 import { RouterView } from 'vue-router';
 import NavbarHeader from './components/navbar/NavbarHeader.vue';
 import { setHighContrast, setNoBackground, setTheme } from './composables/Utilities';
 import { useSettingsStore } from './stores/SettingsStore';
 import { bindTooltips } from "./composables/Tooltips";
-import { promiseTimeout } from "@vueuse/core";
+import { promiseTimeout, useMediaQuery } from "@vueuse/core";
 import { useDataStore } from "./stores/DataStore";
 
 const settings = useSettingsStore().settings;
 const jsonDataLoaded = ref(false);
+const threeColEnabled = useMediaQuery('(min-width: 1800px)');
 
 const background = ref('');
 provide('background', background);
@@ -30,6 +31,13 @@ const jsonDataStore = useDataStore();
 jsonDataStore.ensureData('localization').then(() => {
     jsonDataLoaded.value = true;
 })
+
+const useThreeCol = computed(() => {
+    return settings.screenMode == 'full' && threeColEnabled.value;
+})
+
+provide('useThreeCol', useThreeCol);
+
 
 </script>
 

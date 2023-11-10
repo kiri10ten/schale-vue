@@ -48,6 +48,11 @@ export const useDataStore = defineStore('dataStore', {
             isLangSpecfic: true,
             loaded: false
         },
+        stages: {
+            data: {},
+            isLangSpecfic: true,
+            loaded: false       
+        },
         enemies: {
             data: {},
             isLangSpecfic: true,
@@ -84,7 +89,7 @@ export const useDataStore = defineStore('dataStore', {
                 if (!this[module].loaded) {
 
                     console.log('DataStore', `fetching ${module}`)
-                    return fetch(`/data/${module}.json`)
+                    return fetch(`/data/${module}.min.json`)
                     .then((response) => response.json())
                     .then((json) => {
                         this[module].data = json;

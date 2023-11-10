@@ -1,6 +1,7 @@
 import { cloneDeep } from "lodash";
 import { useDataStore } from "../stores/DataStore";
 import { getSkillSlot } from "./Skills";
+import { useSettingsStore } from "../stores/SettingsStore";
 
 const studentData = useDataStore().students.data;
 
@@ -15,6 +16,7 @@ for (const student of studentData) {
         if (skill.Effects.some((e) => e.Type == 'Buff')) {
             const clonedSkill = cloneDeep(student.Skills[skillType]);
 
+            clonedSkill.Released = skillType == 'GearPublic' ? student.Gear.Released : student.IsReleased;
             clonedSkill.BulletType = student.BulletType;
             clonedSkill.SourceCharacterId = student.Id;
             clonedSkill.SourceCharacterName = student.Name;
@@ -50,8 +52,13 @@ export const statToBuffIcon = {
 
 export function getBuffSkillList(character, targetSide) {
     const isSummoned = character.Id >= 30000 && character.Id < 100000;
+    const settings = useSettingsStore().settings;
 
     return buffSkillList.filter((skill) => {
+
+        if (!skill.Released[settings.server]) {
+            return false;
+        }
 
         if (isSummoned && (skill.SourceCharacterId >= 20000 && skill.SourceCharacterId < 30000) && skill.Type == 'ExtraPassive') {
             return false;

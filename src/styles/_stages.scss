@@ -1,11 +1,21 @@
 .stage-map-container {
+
+    flex-grow: 1;
+    max-height: 100%;
+    max-width: 100%;
+
     @include scrollable-xy(auto);
     
-    cursor: grab;
+    &.scrollable {
+        
+        cursor: grab;
 
-    &.scrolling {
-        cursor: grabbing;
+        &.scrolling {
+            cursor: grabbing;
+        }
+
     }
+
 }
 
 #ba-stage-map {
@@ -20,6 +30,9 @@
 .stage-map-canvas {
     position: relative;
     margin: auto;
+    overflow: hidden;
+
+    @include promote-layer;
 
     .ba-stage-map-tile {
         width: 90px;
@@ -75,18 +88,18 @@
             opacity: var(--var-tile-default-opacity) !important;
         }
 
-        &:not(.conquest-tile) {
-            &::before {
-                content: "";
-                position: absolute;
-                width: 100px;
-                height: 100px;
-                background-color: var(--col-tile);
-                -webkit-mask-image: url("../images/stage-tile.svg");
-                mask-image: url("../images/stage-tile.svg");
-                opacity: 0.7;
-            }
-        }
+        // &:not(.conquest-tile) {
+        //     &::before {
+        //         content: "";
+        //         position: absolute;
+        //         width: 100px;
+        //         height: 100px;
+        //         background-color: var(--col-tile);
+        //         -webkit-mask-image: url("../images/stage-tile.svg");
+        //         mask-image: url("../images/stage-tile.svg");
+        //         opacity: 0.7;
+        //     }
+        // }
 
 
 
@@ -171,94 +184,94 @@
 
         }
 
-        .start-tile {
-            position: absolute;
-            bottom: 32px;
-            z-index: 5000;
-            width: 100%;
-            height: 28px;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center center;
-            background-image: url('../images/ui/Image_Campaign_Start.png')
-        }
+        // .start-tile {
+        //     position: absolute;
+        //     bottom: 32px;
+        //     z-index: 5000;
+        //     width: 100%;
+        //     height: 28px;
+        //     background-repeat: no-repeat;
+        //     background-size: contain;
+        //     background-position: center center;
+        //     background-image: url('/images/ui/Image_Campaign_Start.png')
+        // }
 
-        .tile-icon {
-            cursor: default;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            color: var(--col-btn-active-primary);
-            width: 70px;
-            height: 70px;
+        // .tile-icon {
+        //     cursor: default;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     font-size: 24px;
+        //     color: var(--col-btn-active-primary);
+        //     width: 70px;
+        //     height: 70px;
 
-            @for $i from 1 through 4 {
-                &.group-#{$i} {
-                    --col-tile: var(--col-map-pair-#{$i});
-                }
-            }
+        //     @for $i from 1 through 4 {
+        //         &.group-#{$i} {
+        //             --col-tile: var(--col-map-pair-#{$i});
+        //         }
+        //     }
 
-            &.lowered::before {
-                -webkit-mask-image: url("../images/stage-tile-lowered.svg") !important;
-                mask-image: url("../images/stage-tile-lowered.svg") !important;
-                opacity: 0.6;
-            }
+        //     &.lowered::before {
+        //         -webkit-mask-image: url("../images/stage-tile-lowered.svg") !important;
+        //         mask-image: url("../images/stage-tile-lowered.svg") !important;
+        //         opacity: 0.6;
+        //     }
 
-            &.raised::before {
-                opacity: 0.6;
-            }
+        //     &.raised::before {
+        //         opacity: 0.6;
+        //     }
 
-            &::before {
-                content: "";
-                position: absolute;
-                width: 70px;
-                height: 70px;
-                background-color: var(--col-tile);
-                -webkit-mask-image: url("../images/stage-tile.svg");
-                mask-image: url("../images/stage-tile.svg");
-                opacity: 0.3;
-            }
+        //     &::before {
+        //         content: "";
+        //         position: absolute;
+        //         width: 70px;
+        //         height: 70px;
+        //         background-color: var(--col-tile);
+        //         -webkit-mask-image: url("../images/stage-tile.svg");
+        //         mask-image: url("../images/stage-tile.svg");
+        //         opacity: 0.3;
+        //     }
             
-        }
+        // }
 
-        .tile-item {
-            cursor: default;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: var(--col-theme-text-t);
-            color: var(--col-btn-active-primary);
-            @include circular;
-            font-size: 24px;
-            overflow: hidden;
+        // .tile-item {
+        //     cursor: default;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     background-color: var(--col-theme-text-t);
+        //     color: var(--col-btn-active-primary);
+        //     @include circular;
+        //     font-size: 24px;
+        //     overflow: hidden;
 
-            img {
-                height: 100%;
-                object-fit: cover;
-            }
+        //     img {
+        //         height: 100%;
+        //         object-fit: cover;
+        //     }
 
-            width: 58px;
-            height: 58px;
-        }
+        //     width: 58px;
+        //     height: 58px;
+        // }
 
-        .switch-tile {
-            &.lowered::before {
-                -webkit-mask-image: url("../images/stage-tile-lowered.svg") !important;
-                mask-image: url("../images/stage-tile-lowered.svg") !important;
-            }
+        // .switch-tile {
+        //     &.lowered::before {
+        //         -webkit-mask-image: url("../images/stage-tile-lowered.svg") !important;
+        //         mask-image: url("../images/stage-tile-lowered.svg") !important;
+        //     }
 
-            &::before {
-                content: "";
-                position: absolute;
-                width: 90px;
-                height: 90px;
-                background-color: var(--col-tile);
-                -webkit-mask-image: url("../images/stage-tile.svg");
-                mask-image: url("../images/stage-tile.svg");
-                opacity: 0.6;
-            }
-        }
+        //     &::before {
+        //         content: "";
+        //         position: absolute;
+        //         width: 90px;
+        //         height: 90px;
+        //         background-color: var(--col-tile);
+        //         -webkit-mask-image: url("../images/stage-tile.svg");
+        //         mask-image: url("../images/stage-tile.svg");
+        //         opacity: 0.6;
+        //     }
+        // }
 
     }
     // .tile-item {

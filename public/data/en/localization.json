@@ -107,6 +107,7 @@
         "Genryumon": "Genryumon",
         "LaborParty": "Labor Party",
         "KnowledgeLiberationFront": "Knowledge Liberation Front",
+        "Hyakkayouran": "Hyakkayouran Resolution Council",
         "EmptyClub": "None"
     },
     "BossFaction": {
@@ -379,7 +380,8 @@
     "TimeAttackStage": {
         "Shooting": "Shooting Drill",
         "Defense": "Defense Drill",
-        "Destruction": "Breakthrough Drill"
+        "Destruction": "Breakthrough Drill",
+        "Escort": "Escort Drill"
     },
     "ConquestMap": {
         "815": "Lost Paradise Resort Archipelago",
@@ -544,7 +546,8 @@
         "Special_DebuffCountYellow": "Warning",
         "Special_DebuffCountRed": "Danger",
         "Special_OldBook": "Clues",
-        "Special_CH0089_ExtraPassive": "Drill"
+        "Special_CH0089_ExtraPassive": "Drill",
+        "Special_Pray": "Prayers"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "Aiding Mindset",
@@ -656,7 +659,8 @@
         "Special_DebuffCountYellow": "Debuff Count: Warning",
         "Special_DebuffCountRed": "Debuff Count: Danger",
         "Special_OldBook": "Clues",
-        "Special_CH0089_ExtraPassive": "Drill"
+        "Special_CH0089_ExtraPassive": "Drill",
+        "Special_Pray": "Prayers"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "Continuously restores HP at set intervals.\nActivates Mine's Basic Skill upon expiring.",
@@ -768,7 +772,8 @@
         "Special_DebuffCountYellow": "Increases Incoming Damage and ATK.",
         "Special_DebuffCountRed": "Increases ATK.",
         "Special_OldBook": "Activates Ui (Swimsuit)'s Basic Skill when at 3 stacks.",
-        "Special_CH0089_ExtraPassive": "Deals additional damage to the target(s) of Kasumi's EX Skill when at 3 stacks."
+        "Special_CH0089_ExtraPassive": "Deals additional damage to the target(s) of Kasumi's EX Skill when at 3 stacks.",
+        "Special_Pray": "Deals additional guaranteed critical damage to the target(s) of Yukari's EX Skill for every 10 stacks held."
     },
     "ServerName": {
         "0": "JP",
@@ -881,7 +886,7 @@
         "navbar_students": "Students",
         "student": "Student",
         "enemy": "Enemy",
-        "stages": "Stages",
+        "stages": "Missions",
         "raids": "Raids",
         "navbar_craft": "Crafting",
         "synthesis": "Synthesis",
@@ -1106,7 +1111,7 @@
         "item_usedby_skill_amount": "Needed for Basic/Enhanced/Sub Skill: {0}",
         "item_usedby_skill": "Used to improve the following students' skills",
         "item_usedby_eleph": "Used to increase <i class='fa-solid fa-star'></i> quantity in the following student",
-        "item_obtainedfrom_stage": "Obtained from the following stages",
+        "item_obtainedfrom_stage": "Obtained from the following missions",
         "item_obtainedfrom_synthesis": "Obtained via material synthesis",
         "item_obtainedfrom_fusion": "Obtained via material fusion",
         "item_obtainedfrom_consumable": "Obtained via consumable",
@@ -1238,7 +1243,9 @@
         "show_cumulative": "Cumulative",
         "exp_value": "EXP Value",
         "craft_quality": "Synthesis Value",
-        "shifting_craft_quality": "Fusion Value"
+        "shifting_craft_quality": "Fusion Value",
+        "unit_clear_map_filter": "Clear Map Unit Filter",
+        "gachagroup_contents": "Item Box Contents"
     },
     "BGM": {
         "1": "Constant Moderato",

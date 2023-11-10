@@ -97,6 +97,18 @@ function set(setting, value) {
             </div>
         </span>
     </div>
+    <div class="d-flex align-items-center mb-1">
+        <span class="flex-fill me-4">Display Style</span>
+        <span class="d-flex align-items-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-dark" :class="{'active': settings.screenMode === 'full'}" @click="set('screenMode', 'full')">Full</button>
+                <button type="button" class="btn btn-sm btn-dark" :class="{'active': settings.screenMode === 'classic'}" @click="set('screenMode', 'classic')">Classic</button>
+            </div>
+        </span>
+    </div>
+    <div class="text-muted mb-3">
+        <small>"Full" uses the entire width of the screen to display page content.</small>
+    </div>
     <div class="d-flex align-items-center mb-3">
         <label class="flex-fill me-4" for="collectionPerServer">Separate Collection per Server</label>
         <span class="d-flex align-items-center">

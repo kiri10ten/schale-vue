@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref, watch } from 'vue';
+import { computed, inject, ref, watch } from 'vue';
 import { translate, translateUi } from '../../composables/Localization';
 import { getRaidById, raidDifficultyName, raidEnemyLevel } from '../../composables/Raids';
 import { formatTime, wrapArray } from '../../composables/Utilities';
@@ -8,8 +8,9 @@ import { getEnemyById } from '../../composables/Enemies';
 import EnemyList from '../enemy/EnemyList.vue';
 import RaidSkillPanel from './RaidSkillPanel.vue';
 import TimeAttackRules from './TimeAttackRules.vue';
-import { breakpointsBootstrapV5, useBreakpoints, useMediaQuery } from '@vueuse/core';
+import { breakpointsBootstrapV5, useBreakpoints } from '@vueuse/core';
 import RaidRewards from './RaidRewards.vue';
+import StageRewards from '../stage/StageRewards.vue';
 
 const props = defineProps({
     raid: {
@@ -20,8 +21,9 @@ const props = defineProps({
 })
 
 const breakpoints = useBreakpoints(breakpointsBootstrapV5);
-const useThreeCol = useMediaQuery('(min-width: 1800px)');
 const mobileView = breakpoints.smaller('md');
+
+const useThreeCol = inject('useThreeCol');
 
 const settings = useSettingsStore().settings;
 
@@ -80,20 +82,24 @@ const raidEnemies = computed(() => {
 
         for (const enemyId of formation.EnemyList) {
             const enemyObj = getEnemyById(enemyId);
+
             enemies.push({
                 enemy: enemyObj,
                 level: formation[`Level${enemyObj.Rank}`] ?? formation.LevelMinion,
-                grade: formation[`Grade${enemyObj.Rank}`] ?? formation.GradeMinion
+                grade: formation[`Grade${enemyObj.Rank}`] ?? formation.GradeMinion,
+                bonuses: getRaidExtraStats(enemyId)
             });  
         }
 
     } else {
 
         for (const enemyId of props.raid.EnemyList[difficulty.value]) {
+
             enemies.push({
                 enemy: getEnemyById(enemyId),
                 level: props.raid.Level?.[difficulty.value] ?? raidEnemyLevel[difficulty.value],
-                grade: 1
+                grade: 1,
+                bonuses: getRaidExtraStats(enemyId),
             });
         }
 
@@ -102,6 +108,25 @@ const raidEnemies = computed(() => {
 
     return enemies;
 })
+
+function getRaidExtraStats(enemyId) {
+    const bonuses = [];
+
+    if (props.raid.EnemyExtraStats?.[enemyId]) {
+
+        for (const extraStats of props.raid.EnemyExtraStats[enemyId]) {
+
+            if (extraStats.Difficulty && (difficulty.value < extraStats.Difficulty[0] || difficulty.value > extraStats.Difficulty[1])) {
+                continue;
+            }
+
+            bonuses.push(extraStats)
+        }
+
+    }
+
+    return bonuses;
+}
 
 const raidSkills = computed(() => {
     if (props.raid.UseRaidSkillList) {
@@ -126,7 +151,7 @@ watch(() => props.raid, () => {
     <div class="card h-100">
         <div class="d-flex gap-2 h-100 overflow-hidden" :class="{'flex-column': !useThreeCol}">
 
-            <div class="d-flex raid-column flex-column gap-2 py-2">
+            <div class="d-flex raid-column flex-column gap-2 py-2" :class="{'col-50': useThreeCol}">
 
                 <div class="raid-header px-2" :style="headerStyle">
                     <div class="pt-2">
@@ -163,16 +188,27 @@ watch(() => props.raid, () => {
                 <!-- <h4 class="text-bold mb-0">{{ translateUi('stage_enemies') }}</h4> -->
                 
             </div>
-            <div class="d-flex raid-column flex-column gap-3 py-2">
+            <div class="d-flex raid-column flex-column gap-3 py-2" :class="{'col-50': useThreeCol}">
                 <nav class="nav nav-pills justify-content-center px-2">
                     <button v-for="tab in tabs" class="nav-link" :class="{active: activeTab == tab}" @click="activeTab = tab">
                         {{ translateUi(tab) }}
                     </button>
                 </nav>
                 <div class="flex-fill px-2" :class="{scroll: useThreeCol}">
+
                     <RaidSkillPanel v-if="activeTab == 'skills'" :skills="raidSkills" :raid-difficulty="difficulty" />
                     <TimeAttackRules v-if="activeTab == 'rules'" :rules="raid.Rules[difficulty]" />
-                    <RaidRewards v-if="activeTab == 'rewards' && type == 'Raid'" :raid="raid" />
+
+                    <template v-if="activeTab == 'rewards'">
+
+                        <RaidRewards v-if="type == 'Raid'" :raid="raid" />
+
+                        <div v-if="type == 'WorldRaid'" class="ba-panel p-2">
+                            <StageRewards :rewards="raid.Rewards[difficulty]" />
+                        </div>
+                        
+                    </template>
+
                 </div>
                 
 
@@ -185,22 +221,10 @@ watch(() => props.raid, () => {
 <style scoped lang="scss">
 @import '../../styles/_mixins.scss';
 
-@mixin three-col() {
-    @media only screen and (min-width: (1800px)) {
-        @content;
-    }
-}
-
 .raid-header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 125%;
-}
-
-.page {
-    @include three-col{
-        height: calc(100vh - 56px);
-    }
 }
 
 .card {
@@ -218,7 +242,7 @@ watch(() => props.raid, () => {
     
     width: 100%;
 
-    @include three-col {
+    &.col-50 {
         width: 50%;
     }
     

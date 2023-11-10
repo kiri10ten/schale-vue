@@ -17,7 +17,11 @@ const props = defineProps({
     grade: {
         type: Number,
         default: 1
-    }
+    },
+    bonuses: {
+        type: Array,
+        default: []
+    },
 })
 
 const statList = ['MaxHP','AttackPower','DefensePower','HealPower','AccuracyPoint','DodgePoint','CriticalPoint','CriticalChanceResistPoint','CriticalDamageRate','CriticalDamageResistRate','StabilityPoint','Range','DefensePenetration','DamagedRatio','OppressionPower','OppressionResist']
@@ -26,6 +30,33 @@ const {enemy, level, grade} = toRefs(props);
 const enemyStats = useCharacterStats(enemy, level, grade);
 
 const settings = useSettingsStore().settings;
+
+const enemyBuffList = computed(() => {
+
+    const buffList = [];
+
+    for (const bonus of props.bonuses) {
+
+        const [buffStat, buffType] = bonus.Stat.split('_')
+
+        if (!bonus.LabelStacks) {
+
+            buffList.push({
+                label: translate('Stat', buffStat),
+                stat: buffStat,
+                enabled: true,
+                type: buffType,
+                amount: bonus.Amount
+            });
+
+        }
+    }
+
+    return buffList;
+
+})
+
+enemyStats.setBuff(`Enemy_Bonuses`, enemyBuffList);
 
 const enemyGroggy = computed(() => {
     if (props.enemy.GroggyGauge) {

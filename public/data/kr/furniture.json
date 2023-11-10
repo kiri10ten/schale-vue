@@ -484,9 +484,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_table_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -533,9 +533,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_chair_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -586,9 +586,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_wallshelf_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -638,9 +638,9 @@
         "Rarity": "SSR",
         "Icon": "my_cafe_01_b_wall_right",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -686,9 +686,9 @@
         "Rarity": "SR",
         "Icon": "my_cafe_01_b_tile",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Interiors",
@@ -734,9 +734,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_table_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -786,9 +786,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_chair_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -839,9 +839,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_flowerpot",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -888,9 +888,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_wall_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -936,9 +936,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_wall_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -984,9 +984,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_wall_04",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -1034,9 +1034,9 @@
         "Rarity": "R",
         "Icon": "my_cafe_01_b_wallshelf_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -1082,9 +1082,9 @@
         "Rarity": "SR",
         "Icon": "my_cafe_01_b_bar_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -1138,9 +1138,9 @@
         "Rarity": "SR",
         "Icon": "my_cafe_01_b_bar_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -1194,9 +1194,9 @@
         "Rarity": "SR",
         "Icon": "my_cafe_01_b_chair_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -1242,9 +1242,9 @@
         "Rarity": "SR",
         "Icon": "my_cafe_01_b_wallacc_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Decorations",
@@ -1290,9 +1290,9 @@
         "Rarity": "SSR",
         "Icon": "my_cafe_01_b_bar_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -1338,9 +1338,9 @@
         "Rarity": "SSR",
         "Icon": "my_cafe_01_b_shelf_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -1386,9 +1386,9 @@
         "Rarity": "SSR",
         "Icon": "my_cafe_01_b_peroroacc_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -1434,9 +1434,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_chair_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -1486,9 +1486,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_pot_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -1542,9 +1542,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_window_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -1594,9 +1594,9 @@
         "Rarity": "SSR",
         "Icon": "my_gamecenter_01_p_wall_right",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -1642,9 +1642,9 @@
         "Rarity": "SR",
         "Icon": "my_gamecenter_01_p_tile_2x2",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Interiors",
@@ -1690,9 +1690,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_sofa_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -1743,9 +1743,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_gamemachine_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -1791,9 +1791,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_gamemachine_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -1839,9 +1839,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_gamemachine_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -1887,9 +1887,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_wall_acc_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -1935,9 +1935,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_wall_acc_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -1983,9 +1983,9 @@
         "Rarity": "R",
         "Icon": "my_gamecenter_01_p_carpet_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -2031,9 +2031,9 @@
         "Rarity": "SR",
         "Icon": "my_gamecenter_01_p_table_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -2079,9 +2079,9 @@
         "Rarity": "SR",
         "Icon": "my_gamecenter_01_p_vendingmachine_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -2132,9 +2132,9 @@
         "Rarity": "SR",
         "Icon": "my_gamecenter_01_p_tv",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -2181,9 +2181,9 @@
         "Rarity": "SR",
         "Icon": "my_gamecenter_01_p_dollcrane",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -2230,9 +2230,9 @@
         "Rarity": "SSR",
         "Icon": "my_gamecenter_01_p_hockey",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -2280,9 +2280,9 @@
         "Rarity": "SSR",
         "Icon": "my_gamecenter_01_p_speedrace",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -2330,9 +2330,9 @@
         "Rarity": "SSR",
         "Icon": "my_gamecenter_01_p_dancingstar",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -2378,9 +2378,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_acc_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2426,9 +2426,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_bar_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2482,9 +2482,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_bar_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2530,9 +2530,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_bar_04",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2579,9 +2579,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_carpet",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -2631,9 +2631,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_chair",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2680,9 +2680,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_partition",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2728,9 +2728,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_showcase",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2784,9 +2784,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_sofa",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2833,9 +2833,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_table_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -2885,9 +2885,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_wall_acc_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -2933,9 +2933,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_wall_acc_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -2981,9 +2981,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_wall_acc_04",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -3029,9 +3029,9 @@
         "Rarity": "R",
         "Icon": "my_chocolatecafe_01_p_window",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -3077,9 +3077,9 @@
         "Rarity": "SR",
         "Icon": "my_chocolatecafe_01_p_acc_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -3125,9 +3125,9 @@
         "Rarity": "SR",
         "Icon": "my_chocolatecafe_01_p_acc_04",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -3173,9 +3173,9 @@
         "Rarity": "SR",
         "Icon": "my_chocolatecafe_01_p_bar_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -3221,9 +3221,9 @@
         "Rarity": "SR",
         "Icon": "my_chocolatecafe_01_p_wall_acc_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Decorations",
@@ -3269,9 +3269,9 @@
         "Rarity": "SR",
         "Icon": "my_chocolatecafe_01_p_tile_2x2",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Interiors",
@@ -3317,9 +3317,9 @@
         "Rarity": "SSR",
         "Icon": "my_chocolatecafe_01_p_acc_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -3365,9 +3365,9 @@
         "Rarity": "SSR",
         "Icon": "my_chocolatecafe_01_p_table_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -3414,9 +3414,9 @@
         "Rarity": "SSR",
         "Icon": "my_chocolatecafe_01_p_wall_right",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -3462,9 +3462,9 @@
         "Rarity": "SSR",
         "Icon": "background02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -3509,8 +3509,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_carpet_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3556,8 +3556,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_carpet_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3603,8 +3603,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3654,8 +3654,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_pack",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3706,8 +3706,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_partition",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3753,8 +3753,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_pot_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3804,8 +3804,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_pot_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3868,8 +3868,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_pot_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3919,8 +3919,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_table_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -3967,8 +3967,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_wall_acc_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -4014,8 +4014,8 @@
         "Rarity": "R",
         "Icon": "my_poolparty_01_b_window_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -4061,8 +4061,8 @@
         "Rarity": "SR",
         "Icon": "my_poolparty_01_b_parasol",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -4109,8 +4109,8 @@
         "Rarity": "SR",
         "Icon": "my_poolparty_01_b_musicbox",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -4161,8 +4161,8 @@
         "Rarity": "SR",
         "Icon": "my_poolparty_01_b_wall_acc_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -4208,8 +4208,8 @@
         "Rarity": "SR",
         "Icon": "my_poolparty_01_b_wall_acc_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -4255,8 +4255,8 @@
         "Rarity": "SR",
         "Icon": "my_poolparty_01_b_window_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -4302,8 +4302,8 @@
         "Rarity": "SR",
         "Icon": "my_poolparty_01_b_tile",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -4349,8 +4349,8 @@
         "Rarity": "SSR",
         "Icon": "my_poolparty_01_b_table_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -4396,8 +4396,8 @@
         "Rarity": "SSR",
         "Icon": "my_poolparty_01_b_minipool",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -4444,8 +4444,8 @@
         "Rarity": "SSR",
         "Icon": "my_poolparty_01_b_pool",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -4492,8 +4492,8 @@
         "Rarity": "SSR",
         "Icon": "my_poolparty_01_b_sofa_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -4540,8 +4540,8 @@
         "Rarity": "SSR",
         "Icon": "poolpartybg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -4587,8 +4587,8 @@
         "Rarity": "SSR",
         "Icon": "my_poolparty_01_b_wall_right",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -4634,9 +4634,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_bar_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4681,9 +4681,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_carpet",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -4728,9 +4728,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_chair_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4775,9 +4775,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_chair_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4822,9 +4822,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_minisign",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4869,9 +4869,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_partition",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -4916,9 +4916,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_shelf",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -4963,9 +4963,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_sofa",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -5010,9 +5010,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_table_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -5057,9 +5057,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_wall_acc_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -5104,9 +5104,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_wall_acc_03",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -5151,9 +5151,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_wall_acc_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Decorations",
@@ -5198,9 +5198,9 @@
         "Rarity": "R",
         "Icon": "my_halloween_01_p_acc_01",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 50,
         "Category": "Furnitures",
@@ -5245,9 +5245,9 @@
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_fireplace",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -5292,9 +5292,9 @@
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_tile",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Interiors",
@@ -5339,9 +5339,9 @@
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_table_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -5387,9 +5387,9 @@
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_window",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Decorations",
@@ -5434,9 +5434,9 @@
         "Rarity": "SR",
         "Icon": "my_halloween_01_p_bar_02",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 120,
         "Category": "Furnitures",
@@ -5482,9 +5482,9 @@
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_photozone",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -5529,9 +5529,9 @@
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_ghost",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Furnitures",
@@ -5576,9 +5576,9 @@
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_wall_acc_04",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Decorations",
@@ -5623,9 +5623,9 @@
         "Rarity": "SSR",
         "Icon": "my_halloween_01_p_wall_right",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -5670,9 +5670,9 @@
         "Rarity": "SSR",
         "Icon": "halloweenbg",
         "Craftable": [
-            true,
-            true,
-            true
+            false,
+            false,
+            false
         ],
         "ComfortBonus": 350,
         "Category": "Interiors",
@@ -5717,8 +5717,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -5769,8 +5769,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_dollstand",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -5816,8 +5816,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_gachamachine",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -5864,8 +5864,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_light_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -5911,8 +5911,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_light_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -5962,8 +5962,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_magazinestand",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6018,8 +6018,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_partition_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6065,8 +6065,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_partition_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6112,8 +6112,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_partition_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6163,8 +6163,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_scroll",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6210,8 +6210,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_table_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6257,8 +6257,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_table_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6308,8 +6308,8 @@
         "Rarity": "R",
         "Icon": "my_hotsprings_01_window",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6355,8 +6355,8 @@
         "Rarity": "SR",
         "Icon": "my_hotsprings_01_massagechair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -6403,8 +6403,8 @@
         "Rarity": "SR",
         "Icon": "my_hotsprings_01_table_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -6455,8 +6455,8 @@
         "Rarity": "SR",
         "Icon": "my_hotsprings_01_tile_2x2",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -6502,8 +6502,8 @@
         "Rarity": "SR",
         "Icon": "my_hotsprings_01_hotstorage",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -6554,8 +6554,8 @@
         "Rarity": "SSR",
         "Icon": "my_hotsprings_01_wall_right",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -6601,8 +6601,8 @@
         "Rarity": "SSR",
         "Icon": "my_hotsprings_01_woodenbathtub",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -6650,8 +6650,8 @@
         "Rarity": "SSR",
         "Icon": "hotspringsbg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -6697,8 +6697,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_cushion",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6745,8 +6745,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_janomegassa",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6793,8 +6793,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_light",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6841,8 +6841,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_obi",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6888,8 +6888,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_partition",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6935,8 +6935,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_window",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -6982,8 +6982,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_fireplace",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7038,8 +7038,8 @@
         "Rarity": "R",
         "Icon": "my_newyearpath_01_kendama",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7086,8 +7086,8 @@
         "Rarity": "SR",
         "Icon": "my_newyearpath_01_hanger",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -7134,8 +7134,8 @@
         "Rarity": "SR",
         "Icon": "my_newyearpath_01_table_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -7183,8 +7183,8 @@
         "Rarity": "SR",
         "Icon": "my_newyearpath_01_tile_2x2",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -7230,8 +7230,8 @@
         "Rarity": "SR",
         "Icon": "my_newyearpath_01_table_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -7282,8 +7282,8 @@
         "Rarity": "SSR",
         "Icon": "my_newyearpath_01_wall_right",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -7329,8 +7329,8 @@
         "Rarity": "SSR",
         "Icon": "my_newyearpath_01_kotatsu",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -7377,8 +7377,8 @@
         "Rarity": "SSR",
         "Icon": "newyearpathbg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -7424,8 +7424,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_boxes",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7471,8 +7471,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_carpet_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7522,8 +7522,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_carpet_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7577,8 +7577,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_ch0145_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7625,8 +7625,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_ch0144_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7673,8 +7673,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_miyako_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7721,8 +7721,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_moe_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7769,8 +7769,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_partition",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7816,8 +7816,8 @@
         "Rarity": "R",
         "Icon": "my_military_01_table_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -7863,8 +7863,8 @@
         "Rarity": "SR",
         "Icon": "my_military_01_carpet_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -7910,8 +7910,8 @@
         "Rarity": "SR",
         "Icon": "my_military_01_chair_05",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -7957,8 +7957,8 @@
         "Rarity": "SR",
         "Icon": "my_military_01_countertop_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8004,8 +8004,8 @@
         "Rarity": "SR",
         "Icon": "my_military_01_fieldbed",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8051,8 +8051,8 @@
         "Rarity": "SR",
         "Icon": "my_military_01_tile_2x2",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8098,8 +8098,8 @@
         "Rarity": "SR",
         "Icon": "my_military_01_wall_right_1x2",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8145,8 +8145,8 @@
         "Rarity": "SR",
         "Icon": "my_military_bg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8192,8 +8192,8 @@
         "Rarity": "SSR",
         "Icon": "my_military_01_campfire",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -8239,8 +8239,8 @@
         "Rarity": "SSR",
         "Icon": "my_military_01_window",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -8286,8 +8286,8 @@
         "Rarity": "SSR",
         "Icon": "my_military_01_countertop_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -8333,8 +8333,8 @@
         "Rarity": "SSR",
         "Icon": "my_military_01_gunstand",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -8380,8 +8380,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8435,8 +8435,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_mat",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8486,8 +8486,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_partition_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8533,8 +8533,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_partition_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8580,8 +8580,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_refrigerator",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8627,8 +8627,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_table_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8678,8 +8678,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_table_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8727,8 +8727,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_table_04",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8774,8 +8774,8 @@
         "Rarity": "R",
         "Icon": "my_seahouse_01_wall_acc",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -8821,8 +8821,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_01_banner",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8868,8 +8868,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_01_circulator",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8924,8 +8924,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_01_meshnat",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -8975,8 +8975,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_01_parasol",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -9023,8 +9023,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_01_tile",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -9070,8 +9070,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_01_wall_right",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -9117,8 +9117,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_01_window",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -9164,8 +9164,8 @@
         "Rarity": "SR",
         "Icon": "my_seahouse_bg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -9211,8 +9211,8 @@
         "Rarity": "SSR",
         "Icon": "my_seahouse_01_freezer",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -9259,8 +9259,8 @@
         "Rarity": "SSR",
         "Icon": "my_seahouse_01_table_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -9306,8 +9306,8 @@
         "Rarity": "SSR",
         "Icon": "my_seahouse_01_table_05",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -9354,8 +9354,8 @@
         "Rarity": "SSR",
         "Icon": "my_seahouse_01_terrath",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -9401,8 +9401,8 @@
         "Rarity": "SSR",
         "Icon": "my_seahouse_01_tubes",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -9449,8 +9449,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_clock",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9496,8 +9496,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_colorcone_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9543,8 +9543,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_colorcone_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9590,8 +9590,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_colorcone_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9641,8 +9641,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_flag_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9688,8 +9688,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_flag_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9735,8 +9735,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_flag_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9790,8 +9790,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_field",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9837,8 +9837,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_mat_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9885,8 +9885,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_mat_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9933,8 +9933,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_mat_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -9980,8 +9980,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_scoreboard",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -10027,8 +10027,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_window",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -10074,8 +10074,8 @@
         "Rarity": "R",
         "Icon": "my_autumnsports_01_wallacc_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -10121,8 +10121,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_ballrack",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10168,8 +10168,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_basket",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10215,8 +10215,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_basketballhoop",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10262,8 +10262,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_beanball_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10309,8 +10309,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_beanball_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10356,8 +10356,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_beanball_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10403,8 +10403,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_chair_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10451,8 +10451,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_net",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10498,8 +10498,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_tile",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10545,8 +10545,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_wallacc_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10592,8 +10592,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_wallacc_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10639,8 +10639,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_wall_right",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10686,8 +10686,8 @@
         "Rarity": "SR",
         "Icon": "autumnsportsbg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10733,8 +10733,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_signboard_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10780,8 +10780,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_chair_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10827,8 +10827,8 @@
         "Rarity": "SR",
         "Icon": "my_autumnsports_01_horsevault",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -10874,8 +10874,8 @@
         "Rarity": "SSR",
         "Icon": "my_autumnsports_01_doughnuts",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -10922,7 +10922,7 @@
         "Rarity": "SSR",
         "Icon": "my_autumnsports_01_restarea",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -10970,8 +10970,8 @@
         "Rarity": "SSR",
         "Icon": "my_autumnsports_01_stand",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -11019,8 +11019,8 @@
         "Rarity": "SSR",
         "Icon": "my_autumnsports_01_storagebox",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -11067,8 +11067,8 @@
         "Rarity": "SSR",
         "Icon": "my_autumnsports_01_table",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -11114,8 +11114,8 @@
         "Rarity": "SSR",
         "Icon": "my_autumnsports_01_trophy",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -11161,8 +11161,8 @@
         "Rarity": "SSR",
         "Icon": "my_autumnsports_01_signboard_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -11208,8 +11208,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_blackboard_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11255,8 +11255,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_cabinet_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11302,8 +11302,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_cabinet_04",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11349,8 +11349,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_chair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11396,8 +11396,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_clock",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11447,8 +11447,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_desk_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11494,8 +11494,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_field",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11541,8 +11541,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_partition_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11588,8 +11588,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_speaker",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11643,8 +11643,8 @@
         "Rarity": "R",
         "Icon": "my_abydosclassroom_01_wallacc_04",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -11690,8 +11690,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_blackboard_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -11737,8 +11737,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_blackboard_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -11784,8 +11784,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_cabinet_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -11839,8 +11839,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_cabinet_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -11886,8 +11886,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_desk_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -11934,8 +11934,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_desk_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -11982,8 +11982,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_desk_04",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12030,8 +12030,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_desk_05",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12078,8 +12078,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_desk_06",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12126,8 +12126,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_desk_07",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12173,8 +12173,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_gunstand",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12220,8 +12220,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_partition_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12267,8 +12267,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_table_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12314,8 +12314,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_wallacc_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12361,8 +12361,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_wallacc_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12408,8 +12408,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_wastebasket",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12467,8 +12467,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_whiteboard",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12514,8 +12514,8 @@
         "Rarity": "SR",
         "Icon": "abydosclassroombg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12561,8 +12561,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_tile_2x2",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12608,8 +12608,8 @@
         "Rarity": "SR",
         "Icon": "my_abydosclassroom_01_wall_right",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -12655,8 +12655,8 @@
         "Rarity": "SSR",
         "Icon": "my_abydosclassroom_01_bookshelf",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -12702,8 +12702,8 @@
         "Rarity": "SSR",
         "Icon": "my_abydosclassroom_01_cycle",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -12750,8 +12750,8 @@
         "Rarity": "SSR",
         "Icon": "my_abydosclassroom_01_partition_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -12797,8 +12797,8 @@
         "Rarity": "SSR",
         "Icon": "my_abydosclassroom_01_table_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -12844,8 +12844,8 @@
         "Rarity": "SSR",
         "Icon": "my_abydosclassroom_01_vendingmachine",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -12891,8 +12891,8 @@
         "Rarity": "SSR",
         "Icon": "my_abydosclassroom_01_wallacc_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -12938,8 +12938,8 @@
         "Rarity": "SSR",
         "Icon": "my_abydosclassroom_01_window",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -12985,8 +12985,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_bedding_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13032,8 +13032,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_boxes_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13079,8 +13079,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_carpet_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13126,8 +13126,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_chair_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13177,8 +13177,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_chair_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13224,8 +13224,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_cushion_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13271,8 +13271,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_door_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13318,8 +13318,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_partition_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13365,8 +13365,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_floortile_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13412,8 +13412,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_locker_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13459,8 +13459,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_partition_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13506,8 +13506,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_plantpot_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13553,8 +13553,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_sign_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13600,8 +13600,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_table_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13647,8 +13647,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13694,8 +13694,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13741,8 +13741,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_04",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13788,8 +13788,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_05",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13835,8 +13835,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_06",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13882,8 +13882,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_wallacc_07",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13929,8 +13929,8 @@
         "Rarity": "R",
         "Icon": "my_gamedevdept_01_airconditioner_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -13976,8 +13976,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_desk_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14023,8 +14023,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_desk_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14070,8 +14070,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_desk_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14117,8 +14117,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_monitor_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14164,8 +14164,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_shelf_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14211,8 +14211,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_shelf_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14258,8 +14258,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_shelf_03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14353,8 +14353,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_teddybear_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14400,8 +14400,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_tile_2x2",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14447,8 +14447,8 @@
         "Rarity": "SR",
         "Icon": "my_gamedevdept_01_wall_right",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14494,8 +14494,8 @@
         "Rarity": "SR",
         "Icon": "gamedevdeptbg",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -14541,8 +14541,8 @@
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_bookshelf_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -14637,8 +14637,8 @@
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_rug_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -14684,8 +14684,8 @@
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_wallacc_02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -14731,8 +14731,8 @@
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_whiteboard_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -14778,8 +14778,8 @@
         "Rarity": "SSR",
         "Icon": "my_gamedevdept_01_window_01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -14825,7 +14825,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_basket_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -14872,7 +14872,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_signboard_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -14919,7 +14919,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_flowerpot_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -14966,7 +14966,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_plantpot_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15013,7 +15013,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_woodenpot_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15060,7 +15060,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_fruitsbox_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15107,7 +15107,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_partition_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15154,7 +15154,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_plantpot_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15201,7 +15201,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_window_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15248,7 +15248,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_picture_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15295,7 +15295,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_wallacc_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15342,7 +15342,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_lamp_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15389,7 +15389,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_lamp_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15440,7 +15440,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_carpet_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15487,7 +15487,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_carpet_03",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15534,7 +15534,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_carpet_04",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15581,7 +15581,7 @@
         "Rarity": "R",
         "Icon": "my_sunshineresort_01_carpet_05",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15632,7 +15632,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_bed_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15679,7 +15679,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_sofa_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15726,7 +15726,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_table_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15773,7 +15773,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_table_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15820,7 +15820,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_fountain_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15867,7 +15867,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_chair_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15914,7 +15914,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_sunbed_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -15961,7 +15961,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_sunbed_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16008,7 +16008,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_shelf_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16055,7 +16055,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_plantpot_03",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16102,7 +16102,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_plantpot_04",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16149,7 +16149,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_window_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16196,7 +16196,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_carpet_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16243,7 +16243,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_wall_right",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16290,7 +16290,7 @@
         "Rarity": "SR",
         "Icon": "my_sunshineresort_01_tile",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16337,7 +16337,7 @@
         "Rarity": "SR",
         "Icon": "sunshineresortbg",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16384,7 +16384,7 @@
         "Rarity": "SSR",
         "Icon": "my_sunshineresort_01_bed_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16431,7 +16431,7 @@
         "Rarity": "SSR",
         "Icon": "my_sunshineresort_01_drinkstall_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16478,7 +16478,7 @@
         "Rarity": "SSR",
         "Icon": "my_sunshineresort_01_pool_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16525,7 +16525,7 @@
         "Rarity": "SSR",
         "Icon": "my_sunshineresort_01_pool_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16572,7 +16572,7 @@
         "Rarity": "SSR",
         "Icon": "my_sunshineresort_01_parasol_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16619,7 +16619,7 @@
         "Rarity": "SSR",
         "Icon": "my_sunshineresort_01_terrace_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16666,7 +16666,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_accstand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16713,7 +16713,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_bagstand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16760,7 +16760,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_bench_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16807,7 +16807,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_bench_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16854,7 +16854,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_basketstand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16901,7 +16901,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_bookstand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16948,7 +16948,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_cabinet_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -16995,7 +16995,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_carpet_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17042,7 +17042,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_carpet_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17089,7 +17089,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_carpet_03",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17136,7 +17136,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_carpet_04",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17183,7 +17183,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_chair_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17230,7 +17230,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_cutout_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17277,7 +17277,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_fence_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17324,7 +17324,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_light_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17371,7 +17371,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_partition_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17418,7 +17418,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_partition_03",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17465,7 +17465,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_plantsofa_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17512,7 +17512,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_spotlight_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17559,7 +17559,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_table_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17606,7 +17606,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_wallacc_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17653,7 +17653,7 @@
         "Rarity": "R",
         "Icon": "my_shoppingmall_01_wallacc_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17700,7 +17700,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_bookstand_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17747,7 +17747,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_chair_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17794,7 +17794,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_clothesrack_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17841,7 +17841,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_fittingroom_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17888,7 +17888,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_fruitstand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17935,7 +17935,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_garden_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -17982,7 +17982,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_kiosk_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18029,7 +18029,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_partition_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18076,7 +18076,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_perfumestand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18123,7 +18123,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_showcase_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18170,7 +18170,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_showcase_02",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18217,7 +18217,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_wardrobe_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18264,7 +18264,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_showcase_03",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18311,7 +18311,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_toyshelf_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18358,7 +18358,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_tile",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18405,7 +18405,7 @@
         "Rarity": "SR",
         "Icon": "my_shoppingmall_01_wall_right_1x2",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18452,7 +18452,7 @@
         "Rarity": "SR",
         "Icon": "shoppingmallbg",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18499,7 +18499,7 @@
         "Rarity": "SSR",
         "Icon": "my_shoppingmall_01_ballpool_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18546,7 +18546,7 @@
         "Rarity": "SSR",
         "Icon": "my_shoppingmall_01_counter_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18593,7 +18593,7 @@
         "Rarity": "SSR",
         "Icon": "my_shoppingmall_01_cushionstand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18640,7 +18640,7 @@
         "Rarity": "SSR",
         "Icon": "my_shoppingmall_01_showwindow_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18687,7 +18687,7 @@
         "Rarity": "SSR",
         "Icon": "my_shoppingmall_01_vegetablestand_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18734,7 +18734,7 @@
         "Rarity": "SSR",
         "Icon": "my_shoppingmall_01_vendingmachine_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -18781,7 +18781,7 @@
         "Rarity": "SSR",
         "Icon": "my_shoppingmall_01_window_01",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -21756,8 +21756,8 @@
         "Rarity": "SSR",
         "Icon": "my_event02_trinityfountain",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -21828,8 +21828,8 @@
         "Rarity": "SSR",
         "Icon": "my_event03_christmastree",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -21936,8 +21936,8 @@
         "Rarity": "SSR",
         "Icon": "my_event06_pocha",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -21973,8 +21973,8 @@
         "Rarity": "SSR",
         "Icon": "my_event06_hotspringswindow",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -22010,8 +22010,8 @@
         "Rarity": "SSR",
         "Icon": "my_event07_bookclubdesk",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -22047,8 +22047,8 @@
         "Rarity": "SSR",
         "Icon": "my_event08_atsukochair",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -22078,7 +22078,7 @@
         "Id": 206301,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "Rarity": "SSR",
@@ -22156,8 +22156,8 @@
         "Rarity": "R",
         "Icon": "my_event11_stool01",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -22193,8 +22193,8 @@
         "Rarity": "R",
         "Icon": "my_event11_stool02",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -22230,8 +22230,8 @@
         "Rarity": "R",
         "Icon": "my_event11_stool03",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -22267,8 +22267,8 @@
         "Rarity": "R",
         "Icon": "my_event11_stool04",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -22340,7 +22340,7 @@
         "Rarity": "SSR",
         "Icon": "my_event12_gamemachine",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22378,7 +22378,7 @@
         "Rarity": "SSR",
         "Icon": "my_event13_fireplace",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22415,7 +22415,7 @@
         "Rarity": "SSR",
         "Icon": "my_event13_music_stand",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22452,7 +22452,7 @@
         "Rarity": "SSR",
         "Icon": "my_event14_table",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22525,7 +22525,7 @@
         "Rarity": "SSR",
         "Icon": "my_event15_teapartytable",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22563,7 +22563,7 @@
         "Rarity": "SSR",
         "Icon": "my_event15_table",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22600,7 +22600,7 @@
         "Rarity": "SSR",
         "Icon": "my_event20_prayerchair",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22675,7 +22675,7 @@
         "Rarity": "SSR",
         "Icon": "my_event21_plantshelf",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -22713,7 +22713,7 @@
         "Rarity": "SSR",
         "Icon": "my_event21_shelf",
         "Craftable": [
-            true,
+            false,
             false,
             false
         ],
@@ -23480,6 +23480,43 @@
         ]
     },
     {
+        "Id": 210321,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "Rarity": "SSR",
+        "Icon": "my_event061_table",
+        "Craftable": [
+            false,
+            false,
+            false
+        ],
+        "ComfortBonus": 350,
+        "Category": "Furnitures",
+        "Size": [
+            2,
+            2
+        ],
+        "Tags": [
+            "CraftMaterial_FurnitureSSR",
+            "Furniture",
+            "CraftMaterial_Furniture",
+            "F_Yukari"
+        ],
+        "CraftQuality": 100,
+        "SubCategory": "Table",
+        "SetGroupId": 0,
+        "Name": "종이접기 테이블",
+        "Desc": "마음에 정화를 가져다주는 고풍스러운 종이접기 전용 테이블. 아가씨를 위한 고고한 취미의 장.",
+        "Interaction": [
+            true,
+            false,
+            false
+        ]
+    },
+    {
         "Id": 210322,
         "IsReleased": [
             true,
@@ -23600,8 +23637,8 @@
         "Rarity": "N",
         "Icon": "my_trophycabinet_set101_bronze",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -23637,8 +23674,8 @@
         "Rarity": "R",
         "Icon": "my_trophycabinet_set101_silver",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -23674,8 +23711,8 @@
         "Rarity": "SR",
         "Icon": "my_trophycabinet_set101_gold",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -23711,8 +23748,8 @@
         "Rarity": "SSR",
         "Icon": "my_trophycabinet_set101_platinum",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,
@@ -23748,8 +23785,8 @@
         "Rarity": "N",
         "Icon": "my_trophycabinet_set102_bronze",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -23785,8 +23822,8 @@
         "Rarity": "R",
         "Icon": "my_trophycabinet_set102_silver",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 50,
@@ -23822,8 +23859,8 @@
         "Rarity": "SR",
         "Icon": "my_trophycabinet_set102_gold",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 120,
@@ -23859,8 +23896,8 @@
         "Rarity": "SSR",
         "Icon": "my_trophycabinet_set102_platinum",
         "Craftable": [
-            true,
-            true,
+            false,
+            false,
             false
         ],
         "ComfortBonus": 350,

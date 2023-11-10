@@ -4,7 +4,7 @@ import { useRoute, useRouter } from 'vue-router';
 import StudentRender from '../components/student/StudentRender.vue';
 
 import { getStudentById, getStudentByPathName } from '../composables/Student.js';
-import { setBackground } from '../composables/Utilities';
+import { setBackground, setPageTitle } from '../composables/Utilities';
 import { useStudentStore } from '../stores/StudentStore';
 import { useSettingsStore } from '../stores/SettingsStore';
 
@@ -64,7 +64,7 @@ function initialiseStudentPage() {
         studentStore.studentDisplay.ActiveTab = 'stats';
     }
 
-    document.title = `${student.value.Name} | Schale`
+    setPageTitle(student.value.Name);
 }
 
 </script>

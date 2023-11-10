@@ -24,7 +24,7 @@ import Modal from '../common/Modal.vue';
 import StatsTableFull from '../common/StatsTableFull.vue';
 import { getBuffIconNameFromStat, statToBuffIcon } from '../../composables/Buffs';
 import { upgradeSkillTypes, usePersonalSkills } from '../../composables/Skills';
-import CalculationBuffs from '../../calculation/CalculationBuffs.vue';
+import CalculationBuffs from '../calculation/CalculationBuffs.vue';
 import BuffTag from './skills/BuffTag.vue';
 import { cloneDeep } from 'lodash';
 import { getSchoolIconName } from '../../composables/Icon';

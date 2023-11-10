@@ -1,10 +1,10 @@
 <script setup>
 import CurrentEvents from '../components/home/CurrentEvents.vue';
 import { translateUi } from '../composables/Localization';
-import { setBackground } from '../composables/Utilities';
+import { setBackground, setPageTitle } from '../composables/Utilities';
 
-document.title = `${translateUi('navbar_home')} | Schale`
 setBackground('BG_ReceptionRoom.jpg');
+setPageTitle(translateUi('navbar_home'));
 
 </script>
 
@@ -19,7 +19,7 @@ setBackground('BG_ReceptionRoom.jpg');
                         <h1 class="title-text">{{ translateUi('home_welcome') }}</h1>
                     </div>
                     <div>
-                        <p>Welcome! This is a preview of the next version of Schale.gg. It's an entirely new site which is being rebuilt using Vue.js.</p>
+                        <p>Welcome! This is a preview of the next version of Schale DB. It's an entirely new site which is being rebuilt using Vue.js.</p>
                         <p>Please note that this is currently in early development, and is not intended for general use yet. A lot of changes you see at this stage are very likely to not be final. Aiming to be feature complete by the end of 2023, and planned for release some time in 2024.</p>
                         <h4>Planned features:</h4>
                         <ul>
@@ -59,6 +59,7 @@ setBackground('BG_ReceptionRoom.jpg');
     min-width: 500px;
 
     @include lg-down {
+        min-width: auto;
         width: 100%;
     }
 }

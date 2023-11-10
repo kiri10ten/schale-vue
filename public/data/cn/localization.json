@@ -107,6 +107,7 @@
         "Genryumon": "玄龙门",
         "LaborParty": "建设部",
         "KnowledgeLiberationFront": "知识解放战线",
+        "Hyakkayouran": "百花缭乱纷争调解委员会",
         "EmptyClub": "无"
     },
     "BossFaction": {
@@ -323,8 +324,8 @@
         "801": "樱花烂漫庆典大骚动！",
         "802": "革命之伊万库帕拉",
         "803": "夏日天空的愿望清单",
-        "804": "风纪委员会行政官紧急特务命令 日奈委员长的暑假！",
-        "805": "永无乡中捉迷藏",
+        "804": "日奈会长的夏日休假！",
+        "805": "在梦幻岛玩捉迷藏",
         "806": "船上的兔子追迹者",
         "808": "227号温泉乡运营记录！ 雪白喘息相映",
         "809": "新春狂想曲 第68号",
@@ -379,7 +380,8 @@
     "TimeAttackStage": {
         "Shooting": "射击演习",
         "Defense": "防御演习",
-        "Destruction": "突破演习"
+        "Destruction": "突破演习",
+        "Escort": "护卫演习"
     },
     "ConquestMap": {
         "815": "失乐园度假群岛",
@@ -544,7 +546,8 @@
         "Special_DebuffCountYellow": "警告",
         "Special_DebuffCountRed": "危险",
         "Special_OldBook": "线索",
-        "Special_CH0089_ExtraPassive": "钻头"
+        "Special_CH0089_ExtraPassive": "钻头",
+        "Special_Pray": "「祈愿」"
     },
     "BuffNameLong": {
         "Buff_AidAttitude": "救护准备",
@@ -656,7 +659,8 @@
         "Special_DebuffCountYellow": "减益计数: 警告",
         "Special_DebuffCountRed": "减益计数: 危险",
         "Special_OldBook": "线索",
-        "Special_CH0089_ExtraPassive": "钻头"
+        "Special_CH0089_ExtraPassive": "钻头",
+        "Special_Pray": "祈愿"
     },
     "BuffTooltip": {
         "Buff_AidAttitude": "以一定时间间隔持续回复生命值",
@@ -768,7 +772,8 @@
         "Special_DebuffCountYellow": "受到的伤害和攻击力提升",
         "Special_DebuffCountRed": "攻击力提升",
         "Special_OldBook": "获得3个时发动忧(泳装)的基本技能",
-        "Special_CH0089_ExtraPassive": "Deals additional damage to the target(s) of Kasumi's EX Skill when at 3 stacks."
+        "Special_CH0089_ExtraPassive": "Deals additional damage to the target(s) of Kasumi's EX Skill when at 3 stacks.",
+        "Special_Pray": "Deals additional guaranteed critical damage to the target(s) of Yukari's EX Skill for every 10 stacks held."
     },
     "ServerName": {
         "0": "日服",
@@ -1238,7 +1243,9 @@
         "show_cumulative": "Cumulative",
         "exp_value": "EXP Value",
         "craft_quality": "Synthesis Value",
-        "shifting_craft_quality": "Fusion Value"
+        "shifting_craft_quality": "Fusion Value",
+        "unit_clear_map_filter": "Clear Map Unit Filter",
+        "gachagroup_contents": "Item Box Contents"
     },
     "BGM": {
         "1": "Constant Moderato",

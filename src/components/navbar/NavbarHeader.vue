@@ -30,6 +30,7 @@ watch(route, () => {
             <!-- <RouterLink to="/" class="nav-link px-3 circle" :class="{active: route.name == 'home' }" >{{ translateUi('navbar_home') }}</RouterLink> -->
             <RouterLink to="/student" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/student') }" >{{ translateUi('navbar_students') }}</RouterLink>
             <RouterLink to="/item" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/item') || route.path.startsWith('/furniture') || route.path.startsWith('/equipment') }">{{ translateUi('item') }}</RouterLink>
+            <RouterLink to="/stage" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/stage') }">{{ translateUi('stages') }}</RouterLink>
             <RouterLink to="/raid" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/raid') || route.path.startsWith('/timeattack') || route.path.startsWith('/worldraid') }">{{ translateUi('raids') }}</RouterLink>
         </ul>
     </div>
@@ -38,7 +39,7 @@ watch(route, () => {
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark drop-shadow">
     <div class="container-fluid">
         <RouterLink to="/" class="navbar-logo ps-2 me-3 d-flex align-items-center" translate="no">
-            <inline-svg class="logo" :src="`/images/logo.svg`"></inline-svg>
+            <inline-svg class="logo" :src="`/images/logo_schaledb.svg`"></inline-svg>
         </RouterLink>
         <ReuseTemplate v-if="!mobileView" />
         <span class="text-muted ms-auto">

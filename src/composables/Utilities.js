@@ -1,6 +1,11 @@
 import { computed } from "vue";
 import { useSettingsStore } from "../stores/SettingsStore";
 import { translate, translateUi } from "./Localization";
+import { useMediaQuery } from "@vueuse/core";
+
+export function setPageTitle(title) {
+    document.title = `${title} | Schale DB`;
+}
 
 export function setBackground(src) {
     const newBackground = new Image();
@@ -43,6 +48,13 @@ export function setHighContrast() {
     const settings = useSettingsStore().settings;
     document.body.classList.toggle('high-contrast', settings.highcontrast);
 }
+
+// export const useThreeCol = computed(() => {
+//     const settings = useSettingsStore().settings;
+//     const mq = useMediaQuery('(min-width: 1800px)');
+
+//     return settings.screenMode == 'full' && mq.value;
+// })
 
 export function abbreviateNumber(number) {
     let result = number, divisions = 0
@@ -126,4 +138,18 @@ export function wrapArray(arrayOrValue) {
         return arrayOrValue;
     }
     return [arrayOrValue];
+}
+
+export function numberToLetter(number) {
+    return String.fromCharCode(64 + number);
+}
+
+export function getMixedTypeGradient(types) {
+    const steps = types.map((type, i) => {
+        const start = Math.round((i / types.length) * 100);
+        const end = Math.round(((i + 1) / types.length) * 100);
+        return `var(--col-bg-${type}) ${start}% ${end}%`;
+    })
+
+    return `linear-gradient(135deg,${steps.join(',')})`
 }

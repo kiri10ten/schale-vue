@@ -179,6 +179,10 @@ audio {
     }
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .drop-shadow {
     @include drop-shadow;
 }

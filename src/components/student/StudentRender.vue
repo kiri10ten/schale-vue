@@ -9,9 +9,10 @@ import StudentRenderProfile from './StudentRenderProfile.vue';
 import StudentRenderStats from './StudentRenderStats.vue';
 import StudentRenderWeapon from './StudentRenderWeapon.vue';
 import StudentRenderGear from './StudentRenderGear.vue';
-import { computed, ref, toRefs, watch } from 'vue';
+import { computed, inject, ref, toRefs, watch } from 'vue';
 import { breakpointsBootstrapV5, useBreakpoints, useMediaQuery } from '@vueuse/core';
 import StudentRenderVoice from './StudentRenderVoice.vue';
+import { regionSettings } from '../../composables/RegionSettings';
 
 const props = defineProps({
     student: {
@@ -27,8 +28,8 @@ const props = defineProps({
 const viewAltSprite = ref(false);
 
 const breakpoints = useBreakpoints(breakpointsBootstrapV5);
-const useThreeCol = useMediaQuery('(min-width: 1800px)');
 const mobileView = breakpoints.smaller('md');
+const useThreeCol = inject('useThreeCol');
 
 const settings = useSettingsStore().settings;
 const studentStore = useStudentStore();
@@ -67,7 +68,7 @@ watch(useThreeCol, (newVal) => {
 </script>
 
 <template>
-    <div class="py-md-3 page" :class="{'g-0': mobileView, 'container-fluid' : useThreeCol, 'container-xl': !useThreeCol}">
+    <div class="py-md-3" :class="{'g-0': mobileView, 'container-fluid three-col' : useThreeCol, 'container-xl': !useThreeCol}">
         <div class="d-flex h-100" :class="{'flex-column': mobileView}">
             <div id="student-portrait-panel" class="ba-page">
                 <div class="d-flex pe-xl-3" style="justify-content: center;">
@@ -136,7 +137,7 @@ watch(useThreeCol, (newVal) => {
             </div>
             <div class="flex-fill card ba-page h-100">
                 <div class="d-flex h-100 main-panel">
-                    <div class="left-column">
+                    <div :class="{'left-column': useThreeCol}">
                         <div class="d-flex flex-column gap-2 h-100">
                             <div class="d-flex flex-row align-items-top p-2">
                                 <div class="flex-grow-1">
@@ -166,7 +167,7 @@ watch(useThreeCol, (newVal) => {
                         <nav id="ba-item-list-tabs" class="nav nav-pills p-2" :class="{'justify-content-center mb-2': useThreeCol}">
                             <button class="nav-link" v-if="!useThreeCol" @click="activeTab = 'stats'" :class="{'active': activeTab == 'stats'}">{{ translateUi('attributes') }}</button>
                             <button class="nav-link" @click="activeTab = 'skills'" :class="{'active': activeTab == 'skills'}">{{ translateUi('skills') }}</button>
-                            <button class="nav-link" @click="activeTab = 'weapon'" :class="{'active': activeTab == 'weapon'}">{{ translateUi('ex_weapon') }}</button>
+                            <button class="nav-link" v-if="regionSettings.WeaponUnlocked" @click="activeTab = 'weapon'" :class="{'active': activeTab == 'weapon'}">{{ translateUi('ex_weapon') }}</button>
                             <button class="nav-link" @click="activeTab = 'gear'" :class="{'active': activeTab == 'gear'}" v-if="student.Gear.Released?.[settings.server]">{{ translateUi('ex_gear') }}</button>
                             <button class="nav-link" @click="activeTab = 'profile'" :class="{'active': activeTab == 'profile'}">{{ translateUi('profile') }}</button>
                             <button class="nav-link" @click="activeTab = 'voice'" :class="{'active': activeTab == 'voice'}">{{ translateUi('voice') }}Voice</button>
@@ -174,7 +175,7 @@ watch(useThreeCol, (newVal) => {
                         <div class="tab-content flex-fill p-2 scroll-auto">
                                 <StudentRenderStats v-if="activeTab == 'stats' && !useThreeCol" :student="student" />
                                 <StudentRenderSkills v-if="activeTab == 'skills'" :student="student" />
-                                <StudentRenderWeapon v-if="activeTab == 'weapon'" :student="student" />
+                                <StudentRenderWeapon v-if="regionSettings.WeaponUnlocked && activeTab == 'weapon'" :student="student" />
                                 <StudentRenderGear v-if="activeTab == 'gear'" :student="student" />
                                 <StudentRenderProfile v-if="activeTab == 'profile'" :student="student" />
                                 <StudentRenderVoice v-if="activeTab == 'voice'" :student="student" />
@@ -188,12 +189,6 @@ watch(useThreeCol, (newVal) => {
 
 <style scoped lang="scss">
 @import '../../styles/_mixins.scss';
-
-@mixin three-col() {
-    @media only screen and (min-width: (1800px)) {
-        @content;
-    }
-}
 
 #ba-item-list-tabs {
     @include sm-down {
@@ -217,33 +212,31 @@ watch(useThreeCol, (newVal) => {
     }
 }
 
-.page {
-    @include three-col{
-        height: calc(100vh - 56px);
-    }
-}
-
 .left-column {
-    @include three-col{
-        min-width: 582px;
-        max-width: 582px
-    } 
+
+    min-width: 582px;
+    max-width: 582px
+    
 }
 
 .main-panel {
     flex-direction: column;
-
-    @include three-col{
-        gap: 1rem;
-        flex-direction: row;
-    } 
 }
 
 #student-portrait-panel {
-
     min-width: 50%;
+}
 
-    @include three-col{
+.three-col {
+
+    height: calc(100vh - 56px);
+
+    .main-panel {
+        gap: 1rem;
+        flex-direction: row;
+    }
+
+    #student-portrait-panel {
         min-width: 720px;
     }
 }

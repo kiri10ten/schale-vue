@@ -13,6 +13,7 @@ export const useSettingsStore = defineStore('settingsstore', () => {
         preferredUnits: 'metric',
         distanceUnit: 'raw',
         durationUnit: 'seconds',
+        screenMode: 'full',
         collectionPerServer: true,
         showDeveloperProps: false,
     }, {

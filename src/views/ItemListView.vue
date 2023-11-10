@@ -1,28 +1,21 @@
 <script setup>
-import { ref, computed, watch } from 'vue';
-import ItemRender from '../components/item/ItemRender.vue';
-import { useRoute, useRouter } from 'vue-router';
-import { itemMap, getItemById } from '../composables/Items';
-import { equipmentMap, getEquipmentById } from '../composables/Equipment';
-import { furnitureMap, getFurnitureById } from '../composables/Furniture';
-import { setBackground } from '../composables/Utilities';
-import ItemCard from '../components/item/ItemCard.vue';
-import { translateUi } from '../composables/Localization';
-import { RecycleScroller } from 'vue-virtual-scroller'
 import { breakpointsBootstrapV5, useBreakpoints } from '@vueuse/core';
+import { useRoute } from 'vue-router';
 import ItemList from '../components/item/ItemList.vue';
+import { translateUi } from '../composables/Localization';
+import { setBackground, setPageTitle } from '../composables/Utilities';
 
 const route = useRoute();
 
 switch (route.name) {
     case 'itemlistview':
-        document.title = `${translateUi('item')} | Schale`;
+        setPageTitle(translateUi('item'));
         break;
     case 'furniturelistview':
-        document.title = `${translateUi('furniture')} | Schale`;
+        setPageTitle(translateUi('furniture'));
         break;
     case 'equipmentlistview':
-        document.title = `${translateUi('equipment')} | Schale`;
+        setPageTitle(translateUi('equipment'));
         break;
 }
 

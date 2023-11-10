@@ -1,4 +1,6 @@
 <script setup>
+import { useSettingsStore } from '../../stores/SettingsStore';
+
 
 const props = defineProps({
     enemy: {
@@ -7,6 +9,10 @@ const props = defineProps({
     },
     level: Number
 })
+
+const settings = useSettingsStore().settings;
+const smallTextCharacters = {'en':12, 'jp':6, 'kr':8, 'tw':6, 'cn':6, 'zh':6, 'th': 12, 'vi': 12};
+
 
 </script>
 
@@ -22,7 +28,7 @@ const props = defineProps({
         <div v-if="enemy.Rank == 'Elite'" class="card-badge enemy-rank"><img src="/images/ui/Common_Icon_Enemy_Elite.png" style="width:22px;"></div>
         <div v-if="enemy.Rank == 'Champion' || enemy.Rank == 'Boss'" class="card-badge enemy-rank"><img src="/images/ui/Common_Icon_Enemy_Champion.png" style="width:31px;"></div>
     </template>
-    <div class="card-label"><span class="label-text smalltext">{{ enemy.Name }}</span></div>
+    <div class="card-label"><span class="label-text" :class="{smalltext: enemy.Name.length > smallTextCharacters[settings.language]}">{{ enemy.Name }}</span></div>
 </div>
 
 

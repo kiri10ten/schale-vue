@@ -35,8 +35,8 @@ onMounted(() => {
 })
 
 onUpdated(() => {
-    bsTooltip.value.dispose();
-    hookTooltip(element.value, tooltip.value);
+    // bsTooltip.value.dispose();
+    // hookTooltip(element.value, tooltip.value);
 })
 
 onUnmounted(() => {

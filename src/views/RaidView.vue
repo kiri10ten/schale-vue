@@ -1,19 +1,19 @@
 <script setup>
 import { breakpointsBootstrapV5, useBreakpoints, useMediaQuery } from '@vueuse/core';
-import { computed } from 'vue';
+import { computed, inject } from 'vue';
 import { useRoute } from 'vue-router';
 import { translate, translateUi } from '../composables/Localization';
 import { getRaidPathName, getTimeAttackById, getWorldRaidById, getWorldRaidPathName } from '../composables/Raids';
-import { setBackground } from '../composables/Utilities';
+import { setBackground, setPageTitle } from '../composables/Utilities';
 import RaidList from '../components/raid/RaidList.vue';
 import RaidRender from '../components/raid/RaidRender.vue';
 
 const route = useRoute();
 
 const breakpoints = useBreakpoints(breakpointsBootstrapV5);
-const useThreeCol = useMediaQuery('(min-width: 1800px)');
 const mobileView = breakpoints.smaller('md');
 const hideList = breakpoints.smaller('lg');
+const useThreeCol = inject('useThreeCol');
 
 const renderRaid = computed(() => {
     let raid;
@@ -21,7 +21,7 @@ const renderRaid = computed(() => {
         case 'raidview':
             if (route.params.raidid) {
                 raid = getRaidPathName(route.params.raidid);
-                document.title = `${raid.Name ?? 'Raids'} | Schale`;
+                setPageTitle(raid.Name ?? translateUi('raids'));
                 return { raid: raid, type: 'Raid' };
             } else {
                 return { raid: null, type: 'Raid' };
@@ -30,7 +30,7 @@ const renderRaid = computed(() => {
         case 'timeattackview':
             if (route.params.raidid) {
                 raid = getTimeAttackById(route.params.raidid);
-                document.title = `${translate('TimeAttackStage', raid.DungeonType) ?? 'Raids'} | Schale`;
+                setPageTitle(translate('TimeAttackStage', raid.DungeonType) ?? translateUi('raids'));
                 return { raid: raid, type: 'TimeAttack' };
             } else {
                 return { raid: null, type: 'TimeAttack' };
@@ -39,7 +39,7 @@ const renderRaid = computed(() => {
         case 'worldraidview':
             if (route.params.raidid) {
                 raid = getWorldRaidPathName(route.params.raidid);
-                document.title = `${raid.Name ?? 'Raids'} | Schale`;
+                setPageTitle(raid.Name ?? translateUi('raids'));
                 return { raid: raid, type: 'WorldRaid' };
             } else {
                 return { raid: null, type: 'WorldRaid' };
@@ -53,10 +53,10 @@ setBackground('BG_Raid.jpg');
 
 <template>
 
-<div class="py-lg-3 page" :class="{'g-0': hideList && renderRaid.raid, 'container-fluid' : useThreeCol, 'container-xl': !useThreeCol}">
+<div class="py-lg-3 page" :class="{'g-0': hideList && renderRaid.raid, 'container-fluid three-col' : useThreeCol, 'container-xl': !useThreeCol}">
     <div class="d-flex h-100 gap-3">
         <div v-if="!hideList || !renderRaid.raid" class="ba-page left-column">
-            <RaidList :selected="renderRaid" sidebar-mode></RaidList>
+            <RaidList :selected="renderRaid" :sidebar-mode="!hideList"></RaidList>
         </div>
         <div v-if="renderRaid.raid" class="flex-fill h-100" :class="{'ba-page': !hideList}">
 
@@ -105,20 +105,13 @@ setBackground('BG_Raid.jpg');
     }
 }
 
-@mixin three-col() {
-    @media only screen and (min-width: (1800px)) {
-        @content;
-    }
-}
-
 .page {
 
     width: 100%;
 
-    @include three-col{
+    &.three-col {
         height: calc(100vh - 56px);
     }
-
 }
 
 .left-column {
