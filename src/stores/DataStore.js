@@ -62,7 +62,12 @@ export const useDataStore = defineStore('dataStore', {
             data: {},
             isLangSpecfic: true,
             loaded: false
-        }
+        },
+        groups: {
+            data: {},
+            isLangSpecfic: false,
+            loaded: false
+        },
     }),
     actions: {
         async fetchData(module) {
@@ -74,7 +79,7 @@ export const useDataStore = defineStore('dataStore', {
                 if (this[module].loaded != lang) {
 
                     console.log('DataStore', `fetching ${lang}/${module}`)
-                    return fetch(`/data/${lang}/${module}.json`)
+                    return fetch(`/data/${lang}/${module}.min.json`)
                     .then((response) => response.json())
                     .then((json) => {
                         this[module].data = json;

@@ -6,6 +6,7 @@ import StudentIcon from '../student/StudentIcon.vue';
 import { translateUi } from '../../composables/Localization';
 import { useStudentStore } from '../../stores/StudentStore';
 import ItemRenderUseGift from './ItemRenderUseGift.vue';
+import ItemRenderUseConsumable from './ItemRenderUseConsumable.vue';
 
 const settings = useSettingsStore().settings;
 const ownedStudents = ref(false);
@@ -17,6 +18,10 @@ const props = defineProps({
     }
 
 });
+
+const usedByStudents = computed(() => {
+    return props.item.SubCategory == 'Artifact' || props.item.SubCategory == 'CDItem' || props.item.SubCategory == 'BookItem' || props.item.Category == 'Favor';
+})
 
 const studentsUseList = computed(() => {
     const studentUseSkillList = [];
@@ -88,7 +93,7 @@ const studentsUseList = computed(() => {
     <div class="d-flex flex-column gap-2">
         <div class="d-flex gap-2">
             <h4 class="m-0 text-bold">Uses</h4>
-            <button class="btn-pill ms-auto" :class="{deactivated: !ownedStudents}" @click="ownedStudents = !ownedStudents">
+            <button class="btn-pill ms-auto" v-if="usedByStudents" :class="{deactivated: !ownedStudents}" @click="ownedStudents = !ownedStudents">
                 <span class="label">
                     <fa icon="eye-slash" />
                     <span class="ps-2">Hide Unowned</span>
@@ -96,7 +101,7 @@ const studentsUseList = computed(() => {
             </button>
         </div>
         <ItemRenderUseGift v-if="item.Category == 'Favor'" :item="item" :owned-only="ownedStudents"></ItemRenderUseGift>
-        <div class="ba-panel p-2 d-flex flex-column gap-2" v-if="studentsUseList.skill.length || studentsUseList.gear.length">
+        <div class="ba-panel p-2 d-flex flex-column gap-2" v-if="usedByStudents">
             <template v-if="studentsUseList.skill.length">
                 <i>{{ translateUi('item_usedby_skill') }}</i>
                 <div class="d-flex align-items-center justify-content-center flex-wrap">
@@ -109,6 +114,14 @@ const studentsUseList = computed(() => {
                     <StudentIcon v-for="student in studentsUseList.gear" :key="student.id" v-bind="student"></StudentIcon>
                 </div>
             </template>
+            <template v-if="studentsUseList.gear.length == 0 && studentsUseList.skill.length == 0">
+                <i class="text-center">
+                    <template v-if="ownedStudents">Not used by any owned students</template>
+                    <template v-else>Not used by any students</template>
+                    
+                </i>
+            </template>
         </div>
+        <ItemRenderUseConsumable v-if="item.ConsumeType" :item="item"></ItemRenderUseConsumable>
     </div>
 </template>

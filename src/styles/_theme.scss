@@ -80,6 +80,10 @@
     --col-text-weaponstars: hsl(192, 100%, 48%);
     --col-text-compare-greater: hsl(152, 100%, 25%);
     --col-text-compare-less: hsl(355, 87%, 35%);
+    --col-text-item-n: rgb(189, 197, 208);
+    --col-text-item-r: rgb(144, 186, 236);
+    --col-text-item-sr: rgb(214, 173, 129);
+    --col-text-item-ssr: rgb(168, 138, 236);
 
     --col-btn-primary: rgb(33, 37, 41);
     --col-btn-secondary: rgb(222, 226, 230);
@@ -119,7 +123,7 @@
     --var-brightness-filter: brightness(1.5); 
 }
 
-.theme-dark {
+.theme-dark, .tooltip {
     --col-theme-glass: rgba(33, 37, 41, 0.578);
     --col-theme-glass-navbar: rgba(33, 37, 41, 0.578);
     --col-theme-glass-modal: rgba(33, 37, 41, 0.478);

@@ -65,11 +65,10 @@ const activeTab = ref(tabs.value[0]);
 
 const raidName = computed(() => {
     if (props.type == 'TimeAttack') {
-        return `${props.raid.Id}: ${translate("TimeAttackStage", props.raid.DungeonType)}`;
+        return `#${props.raid.Id} ${translate("TimeAttackStage", props.raid.DungeonType)}`;
     } else {
         return props.raid.Name;
     }
-    
 })
 
 const raidEnemies = computed(() => {
@@ -196,14 +195,14 @@ watch(() => props.raid, () => {
                 </nav>
                 <div class="flex-fill px-2" :class="{scroll: useThreeCol}">
 
-                    <RaidSkillPanel v-if="activeTab == 'skills'" :skills="raidSkills" :raid-difficulty="difficulty" />
-                    <TimeAttackRules v-if="activeTab == 'rules'" :rules="raid.Rules[difficulty]" />
+                    <RaidSkillPanel v-if="tabs.includes('skills')" v-show="activeTab == 'skills'" :skills="raidSkills" :raid-difficulty="difficulty" />
+                    <TimeAttackRules v-if="tabs.includes('rules')" v-show="activeTab == 'rules'" :rules="raid.Rules[difficulty]" />
 
-                    <template v-if="activeTab == 'rewards'">
+                    <template v-if="tabs.includes('rewards')">
 
-                        <RaidRewards v-if="type == 'Raid'" :raid="raid" />
+                        <RaidRewards v-if="type == 'Raid'" v-show="activeTab == 'rewards'" :raid="raid" />
 
-                        <div v-if="type == 'WorldRaid'" class="ba-panel p-2">
+                        <div v-if="type == 'WorldRaid' && activeTab == 'rewards'" class="ba-panel p-2">
                             <StageRewards :rewards="raid.Rewards[difficulty]" />
                         </div>
                         

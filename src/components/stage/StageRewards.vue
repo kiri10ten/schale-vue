@@ -65,7 +65,7 @@ const renderRewards = computed(() => {
         clearInterval(slideTimer);
     }
 
-    slideTimer = setInterval(() => slide.value++, 750);
+    slideTimer = setInterval(() => slide.value++, 1000);
     return rewards;
 
 })

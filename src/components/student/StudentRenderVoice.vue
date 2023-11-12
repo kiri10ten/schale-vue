@@ -90,7 +90,7 @@ const voiceRenderData = computed(() => {
                 </div>
 
                 <div v-if="voice.Transcription" class="ba-panel p-2">
-                    <p class="m-0">{{ voice.Transcription }}</p>
+                    <p class="m-0 transcription">{{ voice.Transcription }}</p>
                 </div>
             </template>
 
@@ -104,6 +104,10 @@ const voiceRenderData = computed(() => {
 .voice-list {
     padding-right: 0.5rem;
     @include scrollable(auto);
+}
+
+.transcription {
+    white-space: normal;
 }
 
 </style>

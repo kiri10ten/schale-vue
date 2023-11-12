@@ -22,22 +22,25 @@ export function setNoBackground() {
 
 export function setTheme() {
     const settings = useSettingsStore().settings;
-
     switch (settings.theme)
     {
         case 'auto':
         {
-            document.body.classList.toggle('theme-dark', window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            const autoDarkTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.body.classList.toggle('theme-dark', autoDarkTheme);
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', autoDarkTheme ? '#212529' : '#dee2e6')
             break;
         }
         case 'dark':
         {
             document.body.classList.add('theme-dark');
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', '#212529')
             break;
         }
         case 'light':
         {
             document.body.classList.remove('theme-dark');
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', '#dee2e6')
             break;
         }
     }

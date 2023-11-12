@@ -30,6 +30,10 @@ const bsTooltip = ref(null);
 const element = ref(null);
 const tooltip = ref(null);
 
+function _hide() {
+    bsTooltip.value.hide();
+}
+
 onMounted(() => {
     hookTooltip(element.value, tooltip.value);
 })
@@ -41,6 +45,10 @@ onUpdated(() => {
 
 onUnmounted(() => {
     bsTooltip.value.dispose();
+})
+
+defineExpose({
+    hide: _hide
 })
 
 function hookTooltip(element, tooltip) {
@@ -74,7 +82,7 @@ function hookTooltip(element, tooltip) {
                         <div v-if="subtitle || rarity" class='d-flex align-items-center mt-auto'>
                             <span v-if="subtitle" class='ba-tooltip-subtitle'>{{ subtitle }}</span>
                             <span v-if="rarity" class='ba-tooltip-rarity ms-auto text-bold'>
-                                <fa v-if="rarity == 'N' || rarity == 'R' || rarity == 'SR' || rarity == 'SSR'" icon="circle" class="me-1" :class="`col-item-${rarity.toLowerCase()}`"></fa>
+                                <fa v-if="rarity == 'N' || rarity == 'R' || rarity == 'SR' || rarity == 'SSR'" icon="circle" class="me-1" :class="`col-bg-${rarity}`"></fa>
                                 {{ rarity }}
                             </span>
                         </div>

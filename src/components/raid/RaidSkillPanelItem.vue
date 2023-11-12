@@ -27,7 +27,7 @@ const props = defineProps({
                 <span class="text-italic">{{ translate('SkillType', skill.SkillType) }}</span>
                 <template v-if="skill.ATGCost">
                     <span class="mx-1">/</span>
-                    <span class="font-nexon">ATG:</span>
+                    <b class="text-italic">ATG:</b>
                     <span class="atg ms-1 d-flex align-self-center">
                         <img v-for="n in skill.ATGCost" height="16" src="/images/ui/ATG.png">
                     </span>

@@ -57,7 +57,7 @@ const router = createRouter({
             name: 'itemview',
             component: () => import('../views/ItemView.vue'),
             meta: {
-                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['students', 'items', 'groups', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -65,7 +65,7 @@ const router = createRouter({
             name: 'equipmentview',
             component: () => import('../views/ItemView.vue'),
             meta: {
-                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['students', 'items', 'groups', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -73,7 +73,7 @@ const router = createRouter({
             name: 'furnitureview',
             component: () => import('../views/ItemView.vue'),
             meta: {
-                requiredJson: ['students', 'items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['students', 'items', 'groups', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -81,7 +81,7 @@ const router = createRouter({
             name: 'stageview',
             component: () => import('../views/StageView.vue'),
             meta: {
-                requiredJson: ['stages', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['stages', 'enemies', 'items', 'groups', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -89,7 +89,7 @@ const router = createRouter({
             name: 'raidview',
             component: () => import('../views/RaidView.vue'),
             meta: {
-                requiredJson: ['raids', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['raids', 'enemies', 'items', 'groups', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -97,7 +97,7 @@ const router = createRouter({
             name: 'timeattackview',
             component: () => import('../views/RaidView.vue'),
             meta: {
-                requiredJson: ['raids', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['raids', 'enemies', 'items', 'groups', 'equipment', 'furniture', 'currency']
             }  
         },
         {
@@ -105,7 +105,7 @@ const router = createRouter({
             name: 'worldraidview',
             component: () => import('../views/RaidView.vue'),
             meta: {
-                requiredJson: ['raids', 'enemies', 'items', 'equipment', 'furniture', 'currency']
+                requiredJson: ['raids', 'enemies', 'items', 'groups', 'equipment', 'furniture', 'currency']
             }  
         },
     ],

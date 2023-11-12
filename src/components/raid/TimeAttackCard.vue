@@ -14,13 +14,10 @@ const props = defineProps({
 })
 
 const smallTextCharacters = {'en':19, 'jp':10, 'kr':11, 'tw':10, 'cn':10, 'zh':10, 'th': 20, 'vi': 20};
-
 const settings = useSettingsStore().settings;
 
-const timeAttackBG = {Shooting: "TimeAttack_SlotBG_02", Defense: "TimeAttack_SlotBG_01", Destruction: "TimeAttack_SlotBG_03"};
-
 const label = computed(() => {
-    return `${props.timeAttack.Id}: ${translate("TimeAttackStage", props.timeAttack.DungeonType)}`;
+    return `#${props.timeAttack.Id} ${translate("TimeAttackStage", props.timeAttack.DungeonType)}`;
 })
 
 const rules = computed(() => {
@@ -32,7 +29,7 @@ const rules = computed(() => {
 <template>
     <component :is="noLink ? 'div' : 'RouterLink'" :to="{name: `timeattackview`, params: { 'raidid': timeAttack.Id }}" class="selection-grid-card card-raid">
         <div class="card-bg">
-            <div :style="{backgroundImage: `url('/images/timeattack/${timeAttackBG[timeAttack.DungeonType]}.png')`}"></div>
+            <div :style="{backgroundImage: `url('/images/timeattack/BG_0${(timeAttack.Id - 1) % 3}.png')`}"></div>
         </div>
         <div class="card-img ta-img">
             <img :src="`/images/enemy/${timeAttack.Icon}.webp`">

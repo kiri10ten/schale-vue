@@ -143,7 +143,7 @@ function getFurnitureStarGrade(rarity) {
                             <h5 class="mb-0" id="ba-item-type">{{ translate('ItemCategory', item.SubCategory) }}</h5>
                         </template>
                         <span id="ba-item-rarity" class="ba-info-pill-s bg-theme ms-2">
-                            <span class="label"><fa icon="circle" class="me-2" :class="`col-item-${item.Rarity.toLowerCase()}`"></fa>{{ item.Rarity }}</span>
+                            <span class="label"><fa icon="circle" class="me-2" :class="`col-bg-${item.Rarity}`"></fa>{{ item.Rarity }}</span>
                         </span>
                         <span v-if="type == 'furniture'" class="text-bold ba-info-pill-s bg-theme">
                             <span class="label"><fa v-for="i in getFurnitureStarGrade(item.Rarity)" icon="star"/></span>

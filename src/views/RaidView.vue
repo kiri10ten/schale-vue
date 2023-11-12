@@ -30,7 +30,7 @@ const renderRaid = computed(() => {
         case 'timeattackview':
             if (route.params.raidid) {
                 raid = getTimeAttackById(route.params.raidid);
-                setPageTitle(translate('TimeAttackStage', raid.DungeonType) ?? translateUi('raids'));
+                setPageTitle(`#${raid.Id} ${translate('TimeAttackStage', raid.DungeonType)}` ?? translateUi('raids'));
                 return { raid: raid, type: 'TimeAttack' };
             } else {
                 return { raid: null, type: 'TimeAttack' };

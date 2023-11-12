@@ -40,13 +40,14 @@ watch(route, () => {
     <div class="container-fluid">
         <RouterLink to="/" class="navbar-logo ps-2 me-3 d-flex align-items-center" translate="no">
             <inline-svg class="logo" :src="`/images/logo_schaledb.svg`"></inline-svg>
+            <span class="channel-label font-nexon">PREVIEW</span>
         </RouterLink>
         <ReuseTemplate v-if="!mobileView" />
-        <span class="text-muted ms-auto">
+        <span v-if="!mobileView" class="text-muted ms-auto me-3">
             <fa icon="globe" class="me-1"></fa>
             {{ translate('ServerName', settings.server) }}
         </span>
-        <div class="dropdown ms-3">
+        <div class="dropdown ms-auto">
             <a class="btn btn-dark" href="#" id="ba-navbar-settings" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" >
                 <font-awesome-icon :icon="['fas', 'gear']" />
             </a>
@@ -62,11 +63,20 @@ watch(route, () => {
 </template>
 
 <style lang="scss">
-
+@import '../../styles/mixins';
 @import '../../styles/theme';
 
 .navbar-logo {
     height: 40px;
+    text-decoration: none;
+    color: var(--col-theme-text);
+
+    .channel-label {
+        font-size: 12px;
+        padding: 0 4px;
+        align-self: end;
+        margin-bottom: 8px;
+    }
 }
 
 .logo {

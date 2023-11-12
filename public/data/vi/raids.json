@@ -44279,6 +44279,125 @@
                 210,
                 220
             ]
+        },
+        {
+            "Id": 21,
+            "IsReleased": [
+                true,
+                false,
+                false
+            ],
+            "DungeonType": "Escort",
+            "Icon": "enemyinfo_avantgardekun_millenium_ar",
+            "MaxDifficulty": [
+                3,
+                3,
+                3
+            ],
+            "Terrain": "Outdoor",
+            "BulletType": "Normal",
+            "ArmorType": "Unarmed",
+            "Level": [
+                25,
+                40,
+                65,
+                78
+            ],
+            "Formations": [
+                {
+                    "Id": 931200001,
+                    "LevelMinion": 25,
+                    "GradeMinion": 1,
+                    "EnemyList": [
+                        7832101,
+                        7832201,
+                        7832301,
+                        7832401
+                    ]
+                },
+                {
+                    "Id": 931200002,
+                    "LevelMinion": 40,
+                    "GradeMinion": 1,
+                    "EnemyList": [
+                        7832102,
+                        7832202,
+                        7832302,
+                        7832402
+                    ]
+                },
+                {
+                    "Id": 931200003,
+                    "LevelMinion": 65,
+                    "GradeMinion": 1,
+                    "EnemyList": [
+                        7832103,
+                        7832203,
+                        7832303,
+                        7832403
+                    ]
+                },
+                {
+                    "Id": 931200004,
+                    "LevelMinion": 78,
+                    "GradeMinion": 1,
+                    "EnemyList": [
+                        7832104,
+                        7832204,
+                        7832304,
+                        7832404
+                    ]
+                }
+            ],
+            "Rules": [
+                [
+                    {
+                        "Id": 990306261
+                    },
+                    {
+                        "Id": 2570956929
+                    }
+                ],
+                [
+                    {
+                        "Id": 990306261
+                    },
+                    {
+                        "Id": 2570956929
+                    }
+                ],
+                [
+                    {
+                        "Id": 990306261
+                    },
+                    {
+                        "Id": 2570956929
+                    },
+                    {
+                        "Id": 1419411391
+                    }
+                ],
+                [
+                    {
+                        "Id": 990306261
+                    },
+                    {
+                        "Id": 2570956929
+                    },
+                    {
+                        "Id": 1419411391
+                    },
+                    {
+                        "Id": 2234682839
+                    }
+                ]
+            ],
+            "BattleDuration": [
+                210,
+                210,
+                210,
+                210
+            ]
         }
     ],
     "TimeAttackRules": [
@@ -44551,6 +44670,18 @@
             "Icon": "timeattack_icon_buff_maxhp_enemy_01",
             "Name": "最大HP増加",
             "Desc": "敵の最大HPが増加します。"
+        },
+        {
+            "Id": 1419411391,
+            "Icon": "timeattack_icon_enemy_special_crowdcontrolgauge_1",
+            "Name": "CCゲージ満タン時にスキル中断、ノーマルスキル使用中の攻撃力増加",
+            "Desc": "敵がCC効果無効化になる代わりに、CCゲージを満タンにするとスキルが中断されます。\n敵がノーマルスキルを使用している間、攻撃力が増加します。"
+        },
+        {
+            "Id": 2234682839,
+            "Icon": "timeattack_icon_buff_defensepower_enemy_01",
+            "Name": "HP減少、防御力増加",
+            "Desc": "敵のHPが減少する代わりに、防御力が増加します。"
         }
     ],
     "WorldRaid": [
@@ -45930,13 +46061,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -46060,13 +46191,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -46196,13 +46327,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -46339,13 +46470,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -46488,13 +46619,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -46668,8 +46799,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -46802,13 +46933,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -46932,13 +47063,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -47068,13 +47199,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -47211,13 +47342,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -47360,13 +47491,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -47540,8 +47671,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -47732,13 +47863,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -47862,13 +47993,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -47998,13 +48129,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -48141,13 +48272,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -48290,13 +48421,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -48470,8 +48601,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -48604,13 +48735,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -48734,13 +48865,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -48870,13 +49001,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -49013,13 +49144,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -49162,13 +49293,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -49342,8 +49473,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -49509,13 +49640,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -49639,13 +49770,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -49775,13 +49906,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -49918,13 +50049,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -50067,13 +50198,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -50247,8 +50378,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -50381,13 +50512,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -50511,13 +50642,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -50647,13 +50778,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -50790,13 +50921,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -50939,13 +51070,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -51119,8 +51250,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -51292,13 +51423,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -51422,13 +51553,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -51558,13 +51689,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -51701,13 +51832,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -51850,13 +51981,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -52030,8 +52161,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -52164,13 +52295,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -52294,13 +52425,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -52430,13 +52561,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -52573,13 +52704,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -52722,13 +52853,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -52902,8 +53033,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -53069,13 +53200,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -53199,13 +53330,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -53335,13 +53466,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -53478,13 +53609,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -53627,13 +53758,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -53807,8 +53938,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -53941,13 +54072,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -54071,13 +54202,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -54207,13 +54338,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -54350,13 +54481,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -54499,13 +54630,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -54679,8 +54810,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -54852,13 +54983,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -54982,13 +55113,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -55118,13 +55249,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -55261,13 +55392,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -55410,13 +55541,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -55590,8 +55721,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -55724,13 +55855,13 @@
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.57
                     },
                     {
@@ -55854,13 +55985,13 @@
                         "Chance": 0.64
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.19
                     },
                     {
@@ -55990,13 +56121,13 @@
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.88
                     },
                     {
@@ -56133,13 +56264,13 @@
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.65
                     },
                     {
@@ -56282,13 +56413,13 @@
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Chance": 0.5
                     },
                     {
@@ -56462,8 +56593,8 @@
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100013,
+                        "Type": "GachaGroup",
+                        "Id": 310100,
                         "Amount": 22
                     },
                     {
@@ -56791,102 +56922,102 @@
                         "Id": 4
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015
+                        "Type": "GachaGroup",
+                        "Id": 300557
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Chance": 0.77
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016
+                        "Type": "GachaGroup",
+                        "Id": 300558
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Chance": 0.54
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017
+                        "Type": "GachaGroup",
+                        "Id": 300559
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Chance": 0.21
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018,
+                        "Type": "GachaGroup",
+                        "Id": 300560,
                         "Chance": 0.91
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019
+                        "Type": "GachaGroup",
+                        "Id": 300561
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Chance": 0.23
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020
+                        "Type": "GachaGroup",
+                        "Id": 300562
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Chance": 0.05
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021,
+                        "Type": "GachaGroup",
+                        "Id": 300563,
                         "Chance": 0.93
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022,
+                        "Type": "GachaGroup",
+                        "Id": 300564,
                         "Chance": 0.59
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Chance": 0.16
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024
+                        "Type": "GachaGroup",
+                        "Id": 300566
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Chance": 0.26
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Chance": 0.8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026,
+                        "Type": "GachaGroup",
+                        "Id": 300568,
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Chance": 0.65
                     },
                     {
@@ -56941,101 +57072,101 @@
                         "Chance": 0.15
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Chance": 0.19
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016
+                        "Type": "GachaGroup",
+                        "Id": 300558
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Chance": 0.91
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017
+                        "Type": "GachaGroup",
+                        "Id": 300559
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Chance": 0.32
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018
+                        "Type": "GachaGroup",
+                        "Id": 300560
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019
+                        "Type": "GachaGroup",
+                        "Id": 300561
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Chance": 0.38
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020
+                        "Type": "GachaGroup",
+                        "Id": 300562
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Chance": 0.13
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021
+                        "Type": "GachaGroup",
+                        "Id": 300563
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022,
+                        "Type": "GachaGroup",
+                        "Id": 300564,
                         "Chance": 0.62
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Chance": 0.4
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024
+                        "Type": "GachaGroup",
+                        "Id": 300566
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Chance": 0.4
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026,
+                        "Type": "GachaGroup",
+                        "Id": 300568,
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Chance": 0.5
                     },
                     {
@@ -57091,126 +57222,126 @@
                         "Chance": 0.2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Chance": 0.82
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Chance": 0.1
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Chance": 0.56
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018,
+                        "Type": "GachaGroup",
+                        "Id": 300560,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018,
+                        "Type": "GachaGroup",
+                        "Id": 300560,
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Chance": 0.7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Chance": 0.04
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021,
+                        "Type": "GachaGroup",
+                        "Id": 300563,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021,
+                        "Type": "GachaGroup",
+                        "Id": 300563,
                         "Chance": 0.7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022
+                        "Type": "GachaGroup",
+                        "Id": 300564
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022,
+                        "Type": "GachaGroup",
+                        "Id": 300564,
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Chance": 0.24
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Chance": 0.62
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Chance": 0.32
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026
+                        "Type": "GachaGroup",
+                        "Id": 300568
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026,
+                        "Type": "GachaGroup",
+                        "Id": 300568,
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Amount": 22
                     },
                     {
@@ -57279,102 +57410,102 @@
                         "Id": 4
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015
+                        "Type": "GachaGroup",
+                        "Id": 300557
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Chance": 0.77
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016
+                        "Type": "GachaGroup",
+                        "Id": 300558
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Chance": 0.54
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017
+                        "Type": "GachaGroup",
+                        "Id": 300559
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Chance": 0.21
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018,
+                        "Type": "GachaGroup",
+                        "Id": 300560,
                         "Chance": 0.91
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019
+                        "Type": "GachaGroup",
+                        "Id": 300561
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Chance": 0.23
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020
+                        "Type": "GachaGroup",
+                        "Id": 300562
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Chance": 0.05
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021,
+                        "Type": "GachaGroup",
+                        "Id": 300563,
                         "Chance": 0.93
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022,
+                        "Type": "GachaGroup",
+                        "Id": 300564,
                         "Chance": 0.59
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Chance": 0.16
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024
+                        "Type": "GachaGroup",
+                        "Id": 300566
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Chance": 0.26
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Chance": 0.8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026,
+                        "Type": "GachaGroup",
+                        "Id": 300568,
                         "Chance": 0.44
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Amount": 7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Chance": 0.65
                     },
                     {
@@ -57429,101 +57560,101 @@
                         "Chance": 0.15
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Chance": 0.19
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016
+                        "Type": "GachaGroup",
+                        "Id": 300558
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Chance": 0.91
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017
+                        "Type": "GachaGroup",
+                        "Id": 300559
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Chance": 0.32
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018
+                        "Type": "GachaGroup",
+                        "Id": 300560
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019
+                        "Type": "GachaGroup",
+                        "Id": 300561
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Chance": 0.38
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020
+                        "Type": "GachaGroup",
+                        "Id": 300562
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Chance": 0.13
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021
+                        "Type": "GachaGroup",
+                        "Id": 300563
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022,
+                        "Type": "GachaGroup",
+                        "Id": 300564,
                         "Chance": 0.62
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Chance": 0.4
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024
+                        "Type": "GachaGroup",
+                        "Id": 300566
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Chance": 0.4
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Chance": 0.9
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026,
+                        "Type": "GachaGroup",
+                        "Id": 300568,
                         "Chance": 0.5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Amount": 8
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Chance": 0.5
                     },
                     {
@@ -57579,126 +57710,126 @@
                         "Chance": 0.2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100015,
+                        "Type": "GachaGroup",
+                        "Id": 300557,
                         "Chance": 0.82
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Amount": 5
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100016,
+                        "Type": "GachaGroup",
+                        "Id": 300558,
                         "Chance": 0.1
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100017,
+                        "Type": "GachaGroup",
+                        "Id": 300559,
                         "Chance": 0.56
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018,
+                        "Type": "GachaGroup",
+                        "Id": 300560,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100018,
+                        "Type": "GachaGroup",
+                        "Id": 300560,
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100019,
+                        "Type": "GachaGroup",
+                        "Id": 300561,
                         "Chance": 0.7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100020,
+                        "Type": "GachaGroup",
+                        "Id": 300562,
                         "Chance": 0.04
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021,
+                        "Type": "GachaGroup",
+                        "Id": 300563,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100021,
+                        "Type": "GachaGroup",
+                        "Id": 300563,
                         "Chance": 0.7
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022
+                        "Type": "GachaGroup",
+                        "Id": 300564
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100022,
+                        "Type": "GachaGroup",
+                        "Id": 300564,
                         "Chance": 0.72
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Amount": 6
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100023,
+                        "Type": "GachaGroup",
+                        "Id": 300565,
                         "Chance": 0.24
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Amount": 3
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100024,
+                        "Type": "GachaGroup",
+                        "Id": 300566,
                         "Chance": 0.62
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Amount": 2
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100025,
+                        "Type": "GachaGroup",
+                        "Id": 300567,
                         "Chance": 0.32
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026
+                        "Type": "GachaGroup",
+                        "Id": 300568
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100026,
+                        "Type": "GachaGroup",
+                        "Id": 300568,
                         "Chance": 0.28
                     },
                     {
-                        "Type": "Item",
-                        "Id": 100014,
+                        "Type": "GachaGroup",
+                        "Id": 310110,
                         "Amount": 22
                     },
                     {

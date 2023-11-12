@@ -459,20 +459,36 @@ h1 small {
     background-color: var(--col-bg-item-ssr);
 }
 
-.col-item-n, .col-item-N {
+.col-bg-n, .col-bg-N {
     color: var(--col-bg-item-n);
 }
 
-.col-item-r, .col-item-R {
+.col-bg-r, .col-bg-R {
     color: var(--col-bg-item-r);
 }
 
-.col-item-sr, .col-item-SR {
+.col-bg-sr, .col-bg-SR {
     color: var(--col-bg-item-sr);
 }
 
-.col-item-ssr, .col-item-SSR {
+.col-bg-ssr, .col-bg-SSR {
     color: var(--col-bg-item-ssr);
+}
+
+.col-item-n, .col-item-N {
+    color: var(--col-text-item-n);
+}
+
+.col-item-r, .col-item-R {
+    color: var(--col-text-item-r);
+}
+
+.col-item-sr, .col-item-SR {
+    color: var(--col-text-item-sr);
+}
+
+.col-item-ssr, .col-item-SSR {
+    color: var(--col-text-item-ssr);
 }
 
 .ba-item-select-item {
@@ -722,6 +738,7 @@ hr {
     left: 4px;
     padding: 0.15rem 0.25rem;
     top: 0.2rem;
+    pointer-events: none;
 }
 
 .label-droptype {

@@ -130,7 +130,7 @@ const filtersClass = computed(() => {
                                 @click="filters.common.Rarity[key] = !filters.common.Rarity[key]"
                                 >
                                     <span class="label">
-                                        <fa icon="circle" class="me-2" :class="`col-item-${key.toLowerCase()}`" />
+                                        <fa icon="circle" class="me-2" :class="`col-bg-${key}`" />
                                         {{ key }}
                                     </span>
                                 </button>

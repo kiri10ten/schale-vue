@@ -65,6 +65,7 @@ const renderRaidRewards = computed(() => {
 
     for (const itemKey in totalItems) {
         rewards.push({
+            key: itemKey,
             itemType: itemKey.split('_')[0],
             itemId: +(itemKey.split('_')[1]),
             primaryLabel: `×${abbreviateNumber(totalItems[itemKey])}`
@@ -175,7 +176,7 @@ watch(() => props.raid, () => {
             </div>
             <div class="ba-panel p-2">
                 <div class="item-icon-list">
-                    <ItemIcon v-for="reward in renderRaidRewards" v-bind="reward" />
+                    <ItemIcon v-for="reward in renderRaidRewards" :key="reward.key" v-bind="reward" />
                 </div>
             </div>
         </div>

@@ -9,6 +9,7 @@ import { getItemById } from '../../composables/Items';
 import { translate, translateUi } from '../../composables/Localization';
 import Modal from './Modal.vue';
 import Tooltip from './Tooltip.vue';
+import { regionSettings } from '../../composables/RegionSettings';
 
 
 const props = defineProps({
@@ -22,11 +23,12 @@ const props = defineProps({
 });
 
 const contentsModal = ref(null);
+const tooltipEl = ref(null);
 
 const iconPath = computed(() => {return props.itemType.toLowerCase() == 'currency' ? 'item' : props.itemType.toLowerCase()});
 
 const isGroupItem = computed(() => {
-    return props.itemType.toLowerCase() == 'gachagroup'// || (props.itemType.toLowerCase() == 'item' && renderItem.value.ImmediateUse)
+    return props.itemType.toLowerCase() == 'gachagroup';
 })
 
 const activeSlide = computed(() => {
@@ -42,15 +44,9 @@ const groupItems = computed(() => {
 
     if (isGroupItem.value) {
 
-        for (const subItem of renderItem.value.ItemList) {
+        for (const subItem of renderItem.value[`Items${regionSettings.value.ServerName}`] ?? renderItem.value.Items ?? []) {
 
             let itemObj;
-            const item = {
-                id: subItem.Id,
-                type: subItem.Type,
-                chanceLabel: `${+(subItem.Chance * 100).toFixed(2)}%`,
-                amountLabel: `&times;${subItem.AmountMin}${subItem.AmountMax > subItem.AmountMin ? '~' + subItem.AmountMax : ''}`
-            };
 
             switch (subItem.Type) {
                 case 'Item':
@@ -67,18 +63,23 @@ const groupItems = computed(() => {
                     break;
             }
 
-            item.rarity = itemObj.Rarity;
-            item.name = itemObj.Name;
-            item.type = subItem.Type;
-            item.icon = `/images/${subItem.Type == 'Currency' ? 'item' : subItem.Type.toLowerCase()}/icon/${itemObj.Icon}.webp`;
+            if (itemObj === undefined) {
+                continue;
+            }
 
-
-            items.push(item);
+            items.push({
+                id: subItem.Id,
+                type: subItem.Type,
+                name: itemObj.Name,
+                rarity: itemObj.Rarity,
+                icon: `/images/${subItem.Type == 'Currency' ? 'item' : subItem.Type.toLowerCase()}/icon/${itemObj.Icon}.webp`,
+                chanceLabel: `${+(subItem.Chance * 100).toFixed(2)}%`,
+                amountLabel: `&times;${subItem.AmountMin}${subItem.AmountMax > subItem.AmountMin ? '~' + subItem.AmountMax : ''}`
+            });
         }
     }
 
     return items;
-
 })
 
 const renderItem = computed(() => {
@@ -107,7 +108,7 @@ const tooltip = computed(() => {
 
         for (const [i, subItem] of groupItems.value.entries()) {
             if (i >= 6) {
-                bodyText += `\n... (${groupItems.value.length - i} more)`;
+                bodyText += `\n... (Click to view ${groupItems.value.length - i} more items)`;
                 break;
             } else {
                 bodyText += `${i > 0 ? '\n' : ''}<span class='col-item-${subItem.rarity}'>${subItem.name}</span> <b>${subItem.amountLabel}</b> (${subItem.chanceLabel})`;                
@@ -123,7 +124,7 @@ const tooltip = computed(() => {
         return {
             title: renderItem.value.Name,
             subtitle: translate('ItemCategory', renderItem.value.SubCategory ?? renderItem.value.Category) ?? translate('ItemCategory', props.itemType),
-            rarity: renderItem.value.Rarity,
+            rarity: renderItem.value.Tier ? `T${renderItem.value.Tier}` : renderItem.value.Rarity,
             icon: `/images/${iconPath.value}/icon/${renderItem.value.Icon}.webp`,
             body: renderItem.value.Desc,
             iconClass: 'img-scale-larger'
@@ -138,14 +139,23 @@ const tooltip = computed(() => {
     <component :is="itemType.toLowerCase() == 'currency' || isGroupItem ? 'div' : 'RouterLink'"
         :class="{'cursor-pointer': isGroupItem}"
         :to="{name: itemType.toLowerCase() + 'view', params: { [itemType.toLowerCase() + 'id']: renderItem.Id }}"
-        v-on="isGroupItem ? {click: () => contentsModal.show()} : {}">
+        v-on="isGroupItem ? {click: () => {contentsModal.show();tooltipEl.hide();}} : {}">
 
-        <Tooltip v-bind="tooltip" class="item-drop position-relative">
-            <img v-if="isGroupItem" class="ba-item-icon" :class="{[`ba-item-${groupItems[activeSlide].rarity?.toLowerCase()}`]: true, 'mb-0': !primaryLabel && !iconLabel}" :src="groupItems[activeSlide].icon">
+        <Tooltip v-bind="tooltip" class="item-drop position-relative" ref="tooltipEl">
+            <template v-if="isGroupItem">
+                <!-- <img v-for="(item, index) in groupItems"
+                v-show="index == activeSlide"
+                class="ba-item-icon"
+                :class="{[`ba-item-${item.rarity?.toLowerCase()}`]: true, 'mb-0': !primaryLabel && !iconLabel}"
+                :src="item.icon"> -->
+                <img class="ba-item-icon" :class="{[`ba-item-${groupItems[activeSlide].rarity?.toLowerCase()}`]: true, 'mb-0': !primaryLabel && !iconLabel}" :src="groupItems[activeSlide].icon">
+                <!-- preload the next image-->
+                <img v-show="false" :src="groupItems[Math.min(activeSlide + 1, groupItems.length - 1)].icon">
+            </template>
             <img v-else class="ba-item-icon" :class="{[`ba-item-${renderItem.Rarity?.toLowerCase()}`]: true, 'mb-0': !primaryLabel && !iconLabel}" :src="`/images/${iconPath}/icon/${renderItem.Icon}.webp`" :alt="renderItem.Name">
             <span v-if="primaryLabel" class="ba-material-label">
                 <img v-if="iconLabel" class="label-icon" :src="iconLabel">
-                {{ primaryLabel }}
+                <span v-html="primaryLabel"></span>
             </span>
             <span v-if="secondaryLabel" class="label-droptype" v-html="secondaryLabel"></span>
             <!-- <img v-if="iconLabel" class="ba-favor-label" :src="iconLabel"> -->
