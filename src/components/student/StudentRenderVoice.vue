@@ -80,7 +80,7 @@ const voiceRenderData = computed(() => {
 
         <div class="py-2 d-flex flex-column gap-2 voice-list">
         
-            <template v-for="voice in voiceRenderData[activeTab]" :key="voice.Name">
+            <template v-for="voice in voiceRenderData[activeTab]" :key="voice.AudioClip">
                 <div class="d-flex flex-row align-items-center gap-2">
                     <h6 class="m-0">{{ voice.Name }}</h6>
                     <div class="flex-fill"></div>
