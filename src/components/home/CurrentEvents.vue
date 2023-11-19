@@ -57,7 +57,7 @@ setInterval(updateTime, 1000);
     <div class="ba-panel p-2 text-center">
         <h5>{{ translateUi('gacha_pickup') }}</h5>
         <div class="selection-grid student selection-grid-flex mb-2">
-            <StudentListItem v-for="studentId in gachaBanners[visibleBanner].characters" :student="getStudentById(studentId)" card-width="100" card-height="113"></StudentListItem>
+            <StudentListItem v-for="studentId in gachaBanners[visibleBanner].characters" :student="getStudentById(studentId)" :card-width="100" :card-height="113"></StudentListItem>
         </div>
         <p class="m-0">{{ timestampToDateString(gachaBanners[visibleBanner].start) }} - {{ timestampToDateString(gachaBanners[visibleBanner].end) }}</p>
         <p class="mb-1" v-html="eventEndingTime(gachaBanners[visibleBanner].end)"></p>
