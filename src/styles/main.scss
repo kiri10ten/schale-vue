@@ -1064,6 +1064,11 @@ a.nav-link.disabled {
     @include promote-layer;
     transition: transform 0.15s linear;
     transform: scale(0.9);
+
+    &.rich {
+        max-width: calc(100vw - 1rem);
+        width: 340px;
+    }
 }
 
 .bs-tooltip-top .tooltip-inner {
@@ -1080,6 +1085,10 @@ a.nav-link.disabled {
 
 .bs-tooltip-bottom .tooltip-inner {
     transform-origin: top;
+}
+
+.tooltip {
+    padding: 0 0.5rem;
 }
 
 .tooltip.show .tooltip-inner {
@@ -1268,10 +1277,6 @@ a.nav-link.disabled {
     max-width: 100px;
 }
 
-.ba-node-quality-1, .ba-item-node-1 {
-    background-color: var(--col-bg-node-normal);
-}
-
-.ba-node-quality-2, .ba-item-node-2 {
-    background-color: var(--col-bg-node-rare);
+.ba-craft-node {
+    background-color: var(--col-bg-craftnode);
 }

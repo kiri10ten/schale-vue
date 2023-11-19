@@ -33,10 +33,18 @@ const backgroundPath = computed(() => {
     }
 })
 
+const route = computed(() => {
+    if (props.stage.Category == 'Event') {
+        return {name: `eventStageView`, params: {eventid: props.stage.EventId, stageid: props.stage.Id}};
+    } else {
+        return {name: `stageview`, params: {stageid: props.stage.Id}};
+    }
+})
+
 </script>
 
 <template>
-    <component :is="noLink ? 'div' : 'RouterLink'" :to="{name: `stageview`, params: { 'stageid': stage.Id }}" class="selection-grid-card card-stage">
+    <component :is="noLink ? 'div' : 'RouterLink'" :to="route" class="selection-grid-card card-stage">
         <div class="card-img">
             <img loading="lazy" :src="`/images/campaign/${backgroundPath}.png`">
         </div>
@@ -47,6 +55,10 @@ const backgroundPath = computed(() => {
 </template>
 
 <style scoped lang="scss">
+
+.selection-grid-card {
+    cursor: pointer;
+}
 
 .icon-type {
     border-radius: 999px !important;

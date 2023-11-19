@@ -10,6 +10,9 @@ import { translate, translateUi } from '../../composables/Localization';
 import Modal from './Modal.vue';
 import Tooltip from './Tooltip.vue';
 import { regionSettings } from '../../composables/RegionSettings';
+import { abbreviateNumber } from '../../composables/Utilities';
+import { getStudentById } from '../../composables/Student';
+import { sum } from 'lodash';
 
 
 const props = defineProps({
@@ -19,16 +22,30 @@ const props = defineProps({
     primaryLabel: String,
     secondaryLabel: String,
     iconLabel: String,
-    slide: Number
+    slide: Number,
+    bonusStudents: Array
 });
 
 const contentsModal = ref(null);
 const tooltipEl = ref(null);
 
-const iconPath = computed(() => {return props.itemType.toLowerCase() == 'currency' ? 'item' : props.itemType.toLowerCase()});
+const iconPath = computed(() => {
+    switch (props.itemType.toLowerCase()) {
+        case 'character':
+            return `student/icon/${renderItem.value.Id}`;
+        case 'currency':
+            return `item/icon/${renderItem.value.Icon}`;
+        default:
+            return `${props.itemType.toLowerCase()}/icon/${renderItem.value.Icon}`;
+    }
+});
 
 const isGroupItem = computed(() => {
     return props.itemType.toLowerCase() == 'gachagroup';
+})
+
+const isCharacter = computed(() => {
+    return props.itemType.toLowerCase() == 'character';
 })
 
 const activeSlide = computed(() => {
@@ -74,7 +91,7 @@ const groupItems = computed(() => {
                 rarity: itemObj.Rarity,
                 icon: `/images/${subItem.Type == 'Currency' ? 'item' : subItem.Type.toLowerCase()}/icon/${itemObj.Icon}.webp`,
                 chanceLabel: `${+(subItem.Chance * 100).toFixed(2)}%`,
-                amountLabel: `&times;${subItem.AmountMin}${subItem.AmountMax > subItem.AmountMin ? '~' + subItem.AmountMax : ''}`
+                amountLabel: `&times;${abbreviateNumber(subItem.AmountMin)}${subItem.AmountMax > subItem.AmountMin ? '~' + abbreviateNumber(subItem.AmountMax) : ''}`
             });
         }
     }
@@ -97,9 +114,23 @@ const renderItem = computed(() => {
                 return getEquipmentById(props.itemId);
             case 'gachagroup':
                 return getGachaGroupById(props.itemId);
+            case 'character':
+                return getStudentById(props.itemId);
         }
     }
 });
+
+const targetRoute = computed(() => {
+    switch (props.itemType.toLowerCase()) {
+        case 'character':
+            return {name: 'studentview', params: {'studentid': renderItem.value.Id}};
+        case 'currency':
+        case 'gachagroup':
+            return null;
+        default:
+            return {name: `${props.itemType.toLowerCase()}view`, params: {[`${props.itemType.toLowerCase()}id`]: renderItem.value.Id}};
+    }
+}) 
 
 const tooltip = computed(() => {
     if (isGroupItem.value) {
@@ -120,13 +151,33 @@ const tooltip = computed(() => {
             title: 'Random Item',
             body: bodyText
         }
+    } else if (isCharacter.value) {
+        return {
+            title: renderItem.value.Name,
+            subtitle: translateUi('student'),
+            icon: `/images/student/icon/${renderItem.value.Id}.webp`,
+            body: renderItem.value.ProfileIntroduction.split('\n')[0],
+            iconClass: 'circle'
+        }
     } else {
+
+        let bodyText = renderItem.value.Desc;
+
+        if (props.bonusStudents) {
+            bodyText = `<div><i>${translateUi('max_bonus_amount', `+${sum(props.bonusStudents.map(b => b[1])) / 100}%`)}</i></div>`;
+            
+            for (const [studentId, amount] of props.bonusStudents) {
+                bodyText += `<img class="inline-student-img" src="/images/student/icon/${studentId}.webp">`
+            }
+
+        }
+
         return {
             title: renderItem.value.Name,
             subtitle: translate('ItemCategory', renderItem.value.SubCategory ?? renderItem.value.Category) ?? translate('ItemCategory', props.itemType),
             rarity: renderItem.value.Tier ? `T${renderItem.value.Tier}` : renderItem.value.Rarity,
-            icon: `/images/${iconPath.value}/icon/${renderItem.value.Icon}.webp`,
-            body: renderItem.value.Desc,
+            icon: `/images/${iconPath.value}.webp`,
+            body: bodyText,
             iconClass: 'img-scale-larger'
         }
     }
@@ -136,9 +187,9 @@ const tooltip = computed(() => {
 </script>
 
 <template>
-    <component :is="itemType.toLowerCase() == 'currency' || isGroupItem ? 'div' : 'RouterLink'"
+    <component :is="targetRoute ? 'RouterLink' : 'div'"
         :class="{'cursor-pointer': isGroupItem}"
-        :to="{name: itemType.toLowerCase() + 'view', params: { [itemType.toLowerCase() + 'id']: renderItem.Id }}"
+        :to="targetRoute"
         v-on="isGroupItem ? {click: () => {contentsModal.show();tooltipEl.hide();}} : {}">
 
         <Tooltip v-bind="tooltip" class="item-drop position-relative" ref="tooltipEl">
@@ -152,7 +203,7 @@ const tooltip = computed(() => {
                 <!-- preload the next image-->
                 <img v-show="false" :src="groupItems[Math.min(activeSlide + 1, groupItems.length - 1)].icon">
             </template>
-            <img v-else class="ba-item-icon" :class="{[`ba-item-${renderItem.Rarity?.toLowerCase()}`]: true, 'mb-0': !primaryLabel && !iconLabel}" :src="`/images/${iconPath}/icon/${renderItem.Icon}.webp`" :alt="renderItem.Name">
+            <img v-else :key="renderItem.Icon" class="ba-item-icon" :class="{[`ba-item-${renderItem.Rarity?.toLowerCase() ?? 'n'}`]: true, 'mb-0': !primaryLabel && !iconLabel}" :src="`/images/${iconPath}.webp`" :alt="renderItem.Name">
             <span v-if="primaryLabel" class="ba-material-label">
                 <img v-if="iconLabel" class="label-icon" :src="iconLabel">
                 <span v-html="primaryLabel"></span>

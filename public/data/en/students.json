@@ -82,6 +82,7 @@
                             "AttackIngDuration": 42,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -134,7 +135,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             27438,
                             31554,
@@ -150,7 +153,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             29207,
                             33584,
@@ -207,7 +212,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             15270,
                             16035,
@@ -223,7 +230,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             25102,
                             26355,
@@ -280,7 +289,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             15616,
                             16398,
@@ -296,7 +307,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             25669,
                             26956,
@@ -769,6 +782,7 @@
                             "AttackIngDuration": 22,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -849,7 +863,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             29741,
                             31232,
@@ -907,7 +923,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             40556,
                             42583,
@@ -1391,6 +1409,7 @@
                             "AttackIngDuration": 42,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -1432,7 +1451,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             50696,
                             58299,
@@ -1471,7 +1492,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             20021,
                             21025,
@@ -1931,13 +1954,14 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
             },
             "Ex": {
                 "Name": "Help Me, Peroro!",
-                "Desc": "Summons a Peroro plush with 160% of Hifumi's <b:MAXHP>, dealing <?1> damage to enemies in a circular area and inflicting <c:Provoke> for <?2>.",
+                "Desc": "Deals <?1> damage to enemies in a circular area and summons a Peroro plush with 160% of Hifumi's <b:MAXHP> that inflicts <c:Provoke> on enemies in a circular area around it for <?2>.",
                 "Parameters": [
                     [
                         "202%",
@@ -1983,12 +2007,13 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             10188,
                             11715,
@@ -2001,30 +2026,25 @@
                             28528,
                             30055
                         ]
-                    },
-                    {
-                        "Type": "CrowdControl",
-                        "Chance": "10000",
-                        "Icon": "Provoke",
-                        "Scale": [
-                            3400,
-                            3400,
-                            3400,
-                            3400,
-                            3900,
-                            3900,
-                            3900,
-                            3900,
-                            3900,
-                            3900
-                        ]
                     }
                 ]
             },
             "Public": {
                 "Name": "Peroro's Support",
-                "Desc": "Every 35s, deals 212% damage to one enemy and decrease their <d:HIT> by <?1> for 30s.",
+                "Desc": "Every 35s, deals <?1> damage to one enemy and decrease their <d:HIT> by <?2> for 30s.",
                 "Parameters": [
+                    [
+                        "212%",
+                        "212%",
+                        "212%",
+                        "212%",
+                        "212%",
+                        "212%",
+                        "212%",
+                        "212%",
+                        "212%",
+                        "212%"
+                    ],
                     [
                         "16.8%",
                         "17.7%",
@@ -2066,7 +2086,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             21281,
                             21281,
@@ -2512,6 +2534,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 80
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -2553,6 +2576,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -2566,7 +2590,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             63604,
                             73137,
@@ -2745,6 +2769,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             277,
@@ -3046,6 +3071,7 @@
                             "AttackIngDuration": 25,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -3099,6 +3125,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2000,
@@ -3107,7 +3134,7 @@
                             2000,
                             2000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             43599,
                             50138,
@@ -3621,6 +3648,7 @@
                             "AttackIngDuration": 41,
                             "AttackReloadDuration": 75
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -3662,13 +3690,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             35073,
                             40333,
@@ -3707,7 +3736,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             22983,
                             24136,
@@ -3842,6 +3873,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             2268,
@@ -4147,6 +4179,7 @@
                             "AttackReadyEndDuration": 27,
                             "AttackReloadDuration": 52
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -4193,6 +4226,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -4207,7 +4241,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             67617,
                             77767,
@@ -4409,6 +4443,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             1490,
@@ -4711,6 +4746,7 @@
                             "AttackIngDuration": 12,
                             "AttackReloadDuration": 65
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -4757,6 +4793,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             100,
@@ -4820,7 +4857,7 @@
                             181,
                             181
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             47679,
                             54831,
@@ -4837,6 +4874,7 @@
                     {
                         "Type": "DMGMulti",
                         "SubstituteCondition": "GearPublic",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             100,
@@ -4900,7 +4938,7 @@
                             181,
                             181
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 0,
                         "Scale": [
                             71518,
                             82246,
@@ -5503,6 +5541,7 @@
                             "AttackIngDuration": 10,
                             "AttackReloadDuration": 80
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -5608,6 +5647,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             714,
@@ -5625,7 +5665,7 @@
                             714,
                             714
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             27536,
                             28912,
@@ -5664,6 +5704,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             480,
@@ -5688,7 +5729,7 @@
                             476,
                             476
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             43181,
                             45340,
@@ -5835,6 +5876,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEchoWithScaling",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             220,
@@ -6167,6 +6209,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -6201,6 +6244,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -6214,7 +6258,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             40045,
                             46054,
@@ -6259,7 +6303,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             19365,
                             20334,
@@ -6304,7 +6350,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             29051,
                             30500,
@@ -6785,6 +6833,7 @@
                             "AttackIngDuration": 42,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -6831,6 +6880,7 @@
                         "Hits": [
                             10000
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             15312,
@@ -7053,6 +7103,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             5078,
@@ -7357,6 +7408,7 @@
                             "AttackIngDuration": 28,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -7398,13 +7450,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3334,
                             3333,
                             3333
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             74227,
                             85361,
@@ -7999,6 +8052,7 @@
                             "AttackIngDuration": 70,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -8063,6 +8117,7 @@
                             5000,
                             5000
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             13871,
@@ -8656,6 +8711,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -8702,7 +8758,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             54795,
                             63019,
@@ -8763,7 +8821,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             39680,
                             41667,
@@ -9202,6 +9262,7 @@
                             "AttackIngDuration": 18,
                             "AttackReloadDuration": 97
                         },
+                        "Block": 0,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -9261,11 +9322,12 @@
                             270,
                             300
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             5603,
                             6450,
@@ -9310,7 +9372,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             21927,
                             23023,
@@ -9748,6 +9812,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -9788,7 +9853,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             39211,
                             45086,
@@ -10270,6 +10337,7 @@
                             "AttackIngDuration": 42,
                             "AttackReloadDuration": 75
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -10304,7 +10372,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             57431,
                             66046,
@@ -10792,6 +10862,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 90
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -10833,12 +10904,13 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             5000,
                             5000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             43254,
                             49737,
@@ -11017,6 +11089,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             675,
@@ -11326,6 +11399,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -11378,7 +11452,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             34908,
                             40144,
@@ -11434,7 +11510,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             13283,
                             13944,
@@ -11586,6 +11664,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             7481,
@@ -11887,6 +11966,7 @@
                             "AttackIngDuration": 10,
                             "AttackReloadDuration": 43
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -11927,13 +12007,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             40972,
                             47120,
@@ -11978,13 +12059,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             33459,
                             35130,
@@ -12426,6 +12508,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -12467,6 +12550,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2500,
@@ -12474,7 +12558,7 @@
                             2500,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             74603,
                             85795,
@@ -12663,6 +12747,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEchoWithScaling",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             495,
@@ -13005,6 +13090,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -13083,6 +13169,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             909,
@@ -13097,7 +13184,7 @@
                             909,
                             910
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             22398,
                             23522,
@@ -13136,6 +13223,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             909,
@@ -13150,7 +13238,7 @@
                             909,
                             910
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             33597,
                             35280,
@@ -13637,6 +13725,7 @@
                             "AttackIngDuration": 13,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -14165,6 +14254,7 @@
                             "AttackIngDuration": 18,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -14248,6 +14338,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1112,
@@ -14260,7 +14351,7 @@
                             1111,
                             1111
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             30197,
                             31708,
@@ -14311,6 +14402,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1112,
@@ -14323,7 +14415,7 @@
                             1111,
                             1111
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             32942,
                             34591,
@@ -14811,6 +14903,7 @@
                             "AttackIngDuration": 22,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -14852,6 +14945,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1111,
@@ -14864,7 +14958,7 @@
                             1111,
                             1111
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             82124,
                             94443,
@@ -15360,6 +15454,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -15468,6 +15563,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             909,
@@ -15482,7 +15578,7 @@
                             909,
                             909
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             21913,
                             23013,
@@ -15926,6 +16022,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 90
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -16011,6 +16108,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             120,
@@ -16034,7 +16132,7 @@
                             840,
                             880
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             26931,
                             28279,
@@ -16477,6 +16575,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -16529,7 +16628,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             38914,
                             41021,
@@ -16585,6 +16686,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -16598,7 +16700,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             23331,
                             24498,
@@ -16637,6 +16739,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -16650,7 +16753,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             25452,
                             26725,
@@ -16802,6 +16905,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             2758,
@@ -17136,6 +17240,7 @@
                             "AttackReadyEndDuration": 30,
                             "AttackReloadDuration": 52
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -17705,6 +17810,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -17713,7 +17819,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             31143,
                             35812,
@@ -17758,7 +17864,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             14490,
                             15218,
@@ -18223,7 +18331,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             68726,
                             79037,
@@ -18239,7 +18349,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             48111,
                             48111,
@@ -18278,7 +18390,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             22365,
                             23485,
@@ -18765,11 +18879,12 @@
                             195,
                             215
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             12621,
                             14511,
@@ -19354,7 +19469,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             26544,
                             30527,
@@ -20881,7 +20998,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             27188,
                             31269,
@@ -23117,7 +23236,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             23730,
                             24920,
@@ -25121,7 +25242,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             22092,
                             25410,
@@ -25198,7 +25321,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             19173,
                             20132,
@@ -25658,7 +25783,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             41552,
                             47789,
@@ -25674,7 +25801,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 3,
                         "Scale": [
                             62328,
                             62328,
@@ -25719,7 +25848,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             15092,
                             15848,
@@ -26163,6 +26294,7 @@
                             "AttackIngDuration": 18,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -26243,7 +26375,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             44473,
                             46699,
@@ -26788,7 +26922,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             18480,
                             19404,
@@ -27261,6 +27397,7 @@
                             "AttackIngDuration": 80,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 0,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -27304,7 +27441,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             31115,
                             35781,
@@ -27320,7 +27459,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             46670,
                             53671,
@@ -27336,7 +27477,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 3,
                         "Scale": [
                             62225,
                             71561,
@@ -27878,6 +28021,7 @@
                             "AttackIngDuration": 45,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -27914,6 +28058,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -27922,7 +28067,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             11964,
                             13753,
@@ -28460,6 +28605,7 @@
                             "AttackIngDuration": 21,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -28503,13 +28649,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3333,
                             3333,
                             3334
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             33842,
                             38923,
@@ -29052,6 +29199,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -29087,6 +29235,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2500,
@@ -29094,7 +29243,7 @@
                             2500,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             51583,
                             54183,
@@ -29697,7 +29846,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             22176,
                             23289,
@@ -30161,6 +30312,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 45
                         },
+                        "Block": 0,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -30202,7 +30354,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             31292,
                             35988,
@@ -30247,7 +30401,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             14040,
                             14739,
@@ -30697,6 +30853,7 @@
                             "AttackIngDuration": 14,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -30726,6 +30883,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             417,
@@ -30742,7 +30900,7 @@
                             417,
                             5000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             106601,
                             122545,
@@ -30793,7 +30951,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             29267,
                             30739,
@@ -30950,6 +31110,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             4662,
@@ -31860,6 +32021,7 @@
                             "AttackIngDuration": 41,
                             "AttackReloadDuration": 47
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -31902,7 +32064,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             22731,
                             26133,
@@ -32396,6 +32560,7 @@
                             "AttackIngDuration": 14,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -32432,7 +32597,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             65165,
                             65165,
@@ -32961,7 +33128,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             64064,
                             73675,
@@ -33487,6 +33656,7 @@
                             "AttackIngDuration": 65,
                             "AttackReloadDuration": 53
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -33533,10 +33703,12 @@
                         "Hits": [
                             5000,
                             5000
-                        ]
+                        ],
+                        "Block": 0
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             6700,
@@ -33576,7 +33748,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             19075,
                             20030,
@@ -34086,7 +34260,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             15904,
                             16702,
@@ -34143,7 +34319,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             21693,
                             22771,
@@ -34159,7 +34337,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             5425,
                             5698,
@@ -34640,6 +34820,7 @@
                             "AttackIngDuration": 29,
                             "AttackReloadDuration": 78
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -34676,6 +34857,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             500,
@@ -34699,7 +34881,7 @@
                             500,
                             500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             23240,
                             26718,
@@ -34750,7 +34932,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             14169,
                             14876,
@@ -34818,7 +35002,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             29546,
                             31024,
@@ -35319,6 +35505,7 @@
                             "AttackIngDuration": 37,
                             "AttackReloadDuration": 75
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -35354,13 +35541,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3333,
                             3333,
                             3333
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             46337,
                             53285,
@@ -35411,7 +35599,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             18609,
                             19537,
@@ -35871,6 +36061,7 @@
                             "AttackIngDuration": 29,
                             "AttackReloadDuration": 79
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -35913,7 +36104,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             33269,
                             38257,
@@ -36493,6 +36686,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -36535,7 +36729,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             43183,
                             49659,
@@ -36603,6 +36799,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1111,
@@ -36615,7 +36812,7 @@
                             1111,
                             1111
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             19450,
                             20421,
@@ -36750,6 +36947,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             386,
@@ -37060,6 +37258,7 @@
                             "AttackIngDuration": 48,
                             "AttackReloadDuration": 77
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -37096,7 +37295,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             59312,
                             65590,
@@ -37147,7 +37348,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             16730,
                             17569,
@@ -37198,7 +37401,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             18250,
                             19165,
@@ -37693,6 +37898,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -37735,7 +37941,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             33787,
                             38856,
@@ -37808,7 +38016,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             19990,
                             20487,
@@ -38305,11 +38515,12 @@
                             570,
                             600
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             4004,
                             4599,
@@ -38354,7 +38565,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             20517,
                             21546,
@@ -38411,7 +38624,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             22386,
                             23506,
@@ -38912,6 +39127,7 @@
                             "AttackIngDuration": 21,
                             "AttackReloadDuration": 65
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -38961,6 +39177,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             200,
@@ -38997,7 +39214,7 @@
                             200,
                             3600
                         ],
-                        "HitsParameter": 2,
+                        "DescParamId": 2,
                         "Scale": [
                             36661,
                             39410,
@@ -39209,6 +39426,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             325,
@@ -39518,6 +39736,7 @@
                             "AttackIngDuration": 33,
                             "AttackReloadDuration": 80
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -39561,7 +39780,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             32593,
                             37481,
@@ -39630,7 +39851,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             11168,
                             11727,
@@ -40094,6 +40317,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -40136,7 +40360,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             27404,
                             31516,
@@ -40745,6 +40971,7 @@
                             "AttackIngDuration": 19,
                             "AttackReloadDuration": 45
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -41323,7 +41550,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             19173,
                             20132,
@@ -42932,7 +43161,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             13678,
                             14364,
@@ -42989,7 +43220,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             14924,
                             15673,
@@ -43012,11 +43245,12 @@
                             112,
                             140
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000
                         ],
-                        "HitsParameter": 2,
+                        "DescParamId": 2,
                         "Scale": [
                             2618,
                             2744,
@@ -43500,6 +43734,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 50
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -44038,6 +44273,7 @@
                             "AttackIngDuration": 39,
                             "AttackReloadDuration": 62
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -44188,7 +44424,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             23533,
                             24711,
@@ -44323,6 +44561,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             5712,
@@ -44677,7 +44916,7 @@
             },
             "Public": {
                 "Name": "The Hostess' Welcome",
-                "Desc": "Every 25s, increases the <b:HealEffectiveness> of the ally with the lowest HP by <?1>.",
+                "Desc": "Every 25s, increases the <b:HealEffectiveness> of the ally with the lowest HP by <?1> for 20s.",
                 "Parameters": [
                     [
                         "16.6%",
@@ -45157,6 +45396,7 @@
                             "AttackIngDuration": 40,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -45199,7 +45439,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             17936,
                             20629,
@@ -45244,7 +45486,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             16938,
                             17789,
@@ -45712,6 +45956,7 @@
                             "AttackIngDuration": 43,
                             "AttackReloadDuration": 72
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -45749,6 +45994,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2000,
@@ -45757,7 +46003,7 @@
                             2000,
                             2000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             15935,
                             18350,
@@ -45815,6 +46061,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1111,
@@ -45827,7 +46074,7 @@
                             1111,
                             1112
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             21745,
                             22292,
@@ -45843,6 +46090,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1111,
@@ -45855,7 +46103,7 @@
                             1111,
                             1112
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 2,
                         "Scale": [
                             11713,
                             12002,
@@ -46329,6 +46577,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -46342,7 +46591,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             24745,
                             28455,
@@ -46867,6 +47116,7 @@
                             "AttackIngDuration": 42,
                             "AttackReloadDuration": 75
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -46903,6 +47153,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1200,
@@ -46912,7 +47163,7 @@
                             1200,
                             4000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             20348,
                             23400,
@@ -46966,7 +47217,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             19469,
                             20444,
@@ -47005,13 +47258,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             6250,
                             1875,
                             1875
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             33991,
                             35695,
@@ -47146,6 +47400,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             1566,
@@ -47488,6 +47743,7 @@
                             "AttackIngDuration": 19,
                             "AttackReloadDuration": 49
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -47573,13 +47829,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 2,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3334,
                             3333,
                             3333
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             22582,
                             23716,
@@ -48598,7 +48855,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             25795,
                             29666,
@@ -49111,6 +49370,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -49789,6 +50049,7 @@
                             "AttackIngDuration": 42,
                             "AttackReloadDuration": 74
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -50335,6 +50596,7 @@
                             "AttackBurstRoundOverDelay": 40,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -50370,6 +50632,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -50378,7 +50641,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             25083,
                             28846,
@@ -50417,13 +50680,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3000,
                             3000,
                             4000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             22386,
                             23504,
@@ -50480,13 +50744,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3000,
                             3000,
                             4000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             29300,
                             30770,
@@ -50502,7 +50767,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             7816,
                             8205,
@@ -50637,6 +50904,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             2184,
@@ -50989,6 +51257,7 @@
                             "AttackBurstRoundOverDelay": 40,
                             "AttackReloadDuration": 45
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -51033,6 +51302,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             500,
@@ -51056,7 +51326,7 @@
                             500,
                             500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             33514,
                             38540,
@@ -51566,6 +51836,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -51602,7 +51873,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             34081,
                             39201,
@@ -51658,6 +51931,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -51666,7 +51940,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             8424,
                             8845,
@@ -51717,6 +51991,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -51725,7 +52000,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             9189,
                             9649,
@@ -52250,6 +52525,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             800,
@@ -52263,7 +52539,7 @@
                             800,
                             800
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             41650,
                             47894,
@@ -52331,7 +52607,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             18543,
                             19467,
@@ -52802,6 +53080,7 @@
                             "AttackIngDuration": 44,
                             "AttackReloadDuration": 72
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -52870,7 +53149,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             14895,
                             15641,
@@ -53887,6 +54168,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -53894,7 +54176,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             4389,
                             4606,
@@ -54349,6 +54631,7 @@
                             "AttackIngDuration": 25,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -54392,7 +54675,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             50199,
                             57727,
@@ -54953,6 +55238,7 @@
                             "AttackBurstRoundOverDelay": 40,
                             "AttackReloadDuration": 40
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -55066,7 +55352,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             41845,
                             43936,
@@ -55537,6 +55825,7 @@
                             "AttackIngDuration": 36,
                             "AttackReloadDuration": 90
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -55580,6 +55869,7 @@
                         "Type": "DMGZone",
                         "ZoneHitInterval": 120,
                         "ZoneDuration": 1490,
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -55590,7 +55880,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             755,
                             868,
@@ -55817,6 +56107,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             110,
@@ -55833,6 +56124,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             220,
@@ -55849,6 +56141,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             330,
@@ -55865,6 +56158,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             440,
@@ -55881,6 +56175,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             546,
@@ -56219,7 +56514,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             20706,
                             23814,
@@ -56304,7 +56601,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             25585,
                             26866,
@@ -56778,6 +57077,7 @@
                             "AttackIngDuration": 18,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -57313,6 +57613,7 @@
                             "AttackIngDuration": 45,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -57356,6 +57657,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1200,
@@ -57365,7 +57667,7 @@
                             1200,
                             4000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             56539,
                             65023,
@@ -57687,6 +57989,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             5166,
@@ -58002,6 +58305,7 @@
                             "AttackIngDuration": 23,
                             "AttackReloadDuration": 90
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -58038,6 +58342,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             250,
@@ -58081,7 +58386,7 @@
                             250,
                             250
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             69586,
                             80024,
@@ -58283,6 +58588,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             1099,
@@ -58680,7 +58986,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             14875,
                             15246,
@@ -59148,6 +59456,7 @@
                             "AttackIngDuration": 17,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -59281,7 +59590,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             28379,
                             29796,
@@ -60345,6 +60656,7 @@
                             "AttackIngDuration": 18,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -60379,7 +60691,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             42323,
                             48673,
@@ -60430,6 +60744,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1425,
@@ -60440,7 +60755,7 @@
                             1425,
                             1450
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             41845,
                             43936,
@@ -60913,6 +61228,7 @@
                             "AttackIngDuration": 19,
                             "AttackReloadDuration": 93
                         },
+                        "Block": 0,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -60995,13 +61311,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             23272,
                             26760,
@@ -61034,13 +61351,14 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
                             10000,
                             10000
                         ],
-                        "HitsParameter": 3,
+                        "DescParamId": 3,
                         "Scale": [
                             46535,
                             53520,
@@ -61122,7 +61440,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             28252,
                             29666,
@@ -61202,7 +61522,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             40692,
                             42720,
@@ -61721,6 +62043,7 @@
                             "AttackBurstRoundOverDelay": 40,
                             "AttackReloadDuration": 54
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -61756,6 +62079,7 @@
                     {
                         "Type": "DMGMulti",
                         "Critical": 2,
+                        "Block": 1,
                         "CriticalCheck": "Always",
                         "Hits": [
                             4500,
@@ -61764,7 +62088,7 @@
                             1000,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             67143,
                             77212,
@@ -61838,7 +62162,9 @@
                     {
                         "Type": "DMGSingle",
                         "Critical": 2,
+                        "Block": 1,
                         "CriticalCheck": "Always",
+                        "DescParamId": 2,
                         "Scale": [
                             20881,
                             21926,
@@ -62341,6 +62667,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1430,
@@ -62351,7 +62678,7 @@
                             1430,
                             1420
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             30618,
                             35210,
@@ -62420,6 +62747,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -62428,7 +62756,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             10052,
                             10556,
@@ -62898,6 +63226,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -62932,6 +63261,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             760,
@@ -62948,7 +63278,7 @@
                             770,
                             770
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             93328,
                             107329,
@@ -63467,6 +63797,7 @@
                             "AttackIngDuration": 30,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -64001,6 +64332,7 @@
                             "AttackIngDuration": 38,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -64051,6 +64383,7 @@
                             1400,
                             1600
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             11537,
@@ -64102,6 +64435,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2500,
@@ -64109,7 +64443,7 @@
                             2500,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             16611,
                             17446,
@@ -64125,6 +64459,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2500,
@@ -64132,7 +64467,7 @@
                             2500,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 2,
                         "Scale": [
                             28424,
                             29841,
@@ -64280,6 +64615,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             512,
@@ -64590,6 +64926,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 55
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -64669,6 +65006,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -64682,7 +65020,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             39937,
                             41936,
@@ -65132,6 +65470,7 @@
                             "AttackReadyStartDuration": 70,
                             "AttackReadyEndDuration": 40
                         },
+                        "Block": 0,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -65190,7 +65529,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             10788,
                             10788,
@@ -65411,6 +65752,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEchoWithScaling",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             341,
@@ -65740,7 +66082,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             35154,
                             40425,
@@ -65785,7 +66129,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             21637,
                             22715,
@@ -66249,6 +66595,7 @@
                             "AttackIngDuration": 25,
                             "AttackReloadDuration": 50
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -66822,6 +67169,7 @@
                             "AttackIngDuration": 25,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -67379,6 +67727,7 @@
                             "AttackIngDuration": 33,
                             "AttackReloadDuration": 76
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -67413,7 +67762,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             45252,
                             52038,
@@ -67429,7 +67780,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             58828,
                             67649,
@@ -67445,7 +67798,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 3,
                         "Scale": [
                             72403,
                             83261,
@@ -67495,7 +67850,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             24745,
                             25984,
@@ -67630,6 +67987,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Scale": [
                             2184,
@@ -68009,7 +68367,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             18592,
                             18592,
@@ -68488,6 +68848,7 @@
                             "AttackIngDuration": 23,
                             "AttackReloadDuration": 92
                         },
+                        "Block": 0,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -68547,6 +68908,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2500,
@@ -68554,7 +68916,7 @@
                             2500,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             42596,
                             48988,
@@ -68812,6 +69174,7 @@
                         "Hits": [
                             10000
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             6167,
@@ -69124,6 +69487,7 @@
                             "AttackIngDuration": 31,
                             "AttackReloadDuration": 51
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -70708,6 +71072,7 @@
                             "AttackBurstRoundOverDelay": 30,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -70760,6 +71125,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -70768,7 +71134,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             10664,
                             12265,
@@ -70784,6 +71150,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000,
@@ -70792,7 +71159,7 @@
                             10000,
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 2,
                         "Scale": [
                             5202,
                             5983,
@@ -71801,6 +72168,7 @@
                             "AttackIngDuration": 28,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -71841,7 +72209,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             34407,
                             39573,
@@ -71880,6 +72250,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -71893,7 +72264,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             40027,
                             42027,
@@ -72346,6 +72717,7 @@
                             "AttackIngDuration": 25,
                             "AttackReloadDuration": 85
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -72398,7 +72770,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             10343,
                             11892,
@@ -72586,8 +72960,10 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "SourceStat": "DefensePower",
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             47508,
                             49881,
@@ -73113,6 +73489,7 @@
                             "AttackIngDuration": 32,
                             "AttackReloadDuration": 66
                         },
+                        "Block": 1,
                         "CriticalCheck": "Always"
                     }
                 ]
@@ -73165,6 +73542,7 @@
                             "SliderLabelSuffix": "%",
                             "SimulatePerHit": true
                         },
+                        "Block": 2,
                         "CriticalCheck": "Always",
                         "Hits": [
                             500,
@@ -73179,7 +73557,7 @@
                             500,
                             5000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             81071,
                             93234,
@@ -73236,7 +73614,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Always",
+                        "DescParamId": 1,
                         "Scale": [
                             8945,
                             9395,
@@ -73252,13 +73632,14 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Always",
                         "Hits": [
                             3333,
                             3333,
                             3334
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 2,
                         "Scale": [
                             17889,
                             18783,
@@ -73746,6 +74127,7 @@
                             "AttackBurstRoundOverDelay": 45,
                             "AttackReloadDuration": 64
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -73806,7 +74188,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             35401,
                             40705,
@@ -73885,11 +74269,12 @@
                             255,
                             285
                         ],
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             1796,
                             1883,
@@ -74447,7 +74832,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             5292,
                             6090,
@@ -74513,7 +74900,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             19775,
                             20769,
@@ -74996,6 +75385,7 @@
                             "AttackBurstRoundOverDelay": 50,
                             "AttackReloadDuration": 68
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -75042,6 +75432,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             250,
@@ -75066,7 +75457,7 @@
                             250,
                             5000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             39087,
                             44954,
@@ -75082,6 +75473,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Scale": [
                             939,
@@ -75261,6 +75653,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             481,
@@ -75571,6 +75964,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 65
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -75692,7 +76086,8 @@
                             2213,
                             2213,
                             2219
-                        ]
+                        ],
+                        "Block": 0
                     },
                     {
                         "Type": "Buff",
@@ -75762,7 +76157,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 3,
                         "Scale": [
                             8791,
                             10110,
@@ -75790,6 +76187,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1250,
@@ -75801,7 +76199,7 @@
                             1250,
                             1250
                         ],
-                        "HitsParameter": 4,
+                        "DescParamId": 4,
                         "Scale": [
                             60707,
                             69813,
@@ -75829,6 +76227,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1250,
@@ -75840,7 +76239,7 @@
                             1250,
                             1250
                         ],
-                        "HitsParameter": 5,
+                        "DescParamId": 5,
                         "Scale": [
                             12147,
                             13970,
@@ -75903,6 +76302,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1111,
@@ -75915,7 +76315,7 @@
                             1111,
                             1112
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             48670,
                             51106,
@@ -75931,6 +76331,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             500,
@@ -75954,7 +76355,7 @@
                             500,
                             500
                         ],
-                        "HitsParameter": -1,
+                        "DescParamId": -1,
                         "Scale": [
                             48670,
                             51106,
@@ -76150,6 +76551,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             1764,
@@ -76178,6 +76580,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             3528,
@@ -76206,6 +76609,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             5292,
@@ -76572,6 +76976,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             500,
@@ -76595,7 +77000,7 @@
                             500,
                             500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             48251,
                             55489,
@@ -77151,6 +77556,7 @@
                             "AttackIngDuration": 41,
                             "AttackReloadDuration": 70
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -77215,6 +77621,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -77228,7 +77635,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             23380,
                             26889,
@@ -77244,13 +77651,14 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3334,
                             3334,
                             3334
                         ],
-                        "HitsParameter": 2,
+                        "DescParamId": 2,
                         "Scale": [
                             22176,
                             25503,
@@ -77266,11 +77674,12 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             10000
                         ],
-                        "HitsParameter": 3,
+                        "DescParamId": 3,
                         "Scale": [
                             20967,
                             24117,
@@ -77315,6 +77724,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             250,
@@ -77358,7 +77768,7 @@
                             250,
                             250
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             20280,
                             21294,
@@ -77856,6 +78266,7 @@
                             "AttackBurstRoundOverDelay": 40,
                             "AttackReloadDuration": 73
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -78480,13 +78891,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3333,
                             3333,
                             3334
                         ],
-                        "HitsParameter": 2,
+                        "DescParamId": 2,
                         "Scale": [
                             18200,
                             20930,
@@ -79030,6 +79442,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 60
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -79064,6 +79477,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             400,
@@ -79083,7 +79497,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             74519,
                             85693,
@@ -79274,6 +79688,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             556,
@@ -79582,6 +79997,7 @@
                             "AttackIngDuration": 80,
                             "AttackReloadDuration": 50
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -79616,7 +80032,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             59405,
                             68316,
@@ -79841,6 +80259,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             1586,
@@ -80154,6 +80573,7 @@
                             "AttackBurstRoundOverDelay": 30,
                             "AttackReloadDuration": 73
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -80188,6 +80608,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             650,
@@ -80215,7 +80636,7 @@
                             325,
                             2200
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             55037,
                             63299,
@@ -80266,7 +80687,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             31135,
                             32693,
@@ -80775,7 +81198,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             68243,
                             78477,
@@ -80791,7 +81216,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             13650,
                             15701,
@@ -80836,7 +81263,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             11781,
                             12369,
@@ -81210,7 +81639,7 @@
         "Id": 10068,
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
         "DefaultOrder": 139,
@@ -81243,16 +81672,16 @@
         "PersonalName": "Reisa",
         "SchoolYear": "1st Year",
         "CharacterAge": "15 years old",
-        "Birthday": "5月31日",
-        "CharacterSSRNew": "正義を求める人の元に……私あり……そう私こそがスーパースター。\n宇沢レイサ、見参です！",
-        "ProfileIntroduction": "トリニティのあちこちに出没し、治安の維持活動をしているトリニティ総合学園所属、自警団のメンバー。\n\n掴みどころのない事を言うため、いたずら通報だと思われる時もあるが、誰よりも真剣に自警団活動をしているのだとか。名乗りあげる口上が、毎回少しずつ変わる模様。",
-        "Hobby": "決闘申込み、自己紹介",
+        "Birthday": "May 31st",
+        "CharacterSSRNew": "The ace, hero, arbitrator, knight, and star. I am...Uzawa Reisa!",
+        "ProfileIntroduction": "A member of the Vigilante Crew who tends to show up suddenly and unannounced.\n\nReisa is rambunctious and loud, so much so that she's often taken for a joke. But there's no one more passionate about Vigilante Crew activities than she is. She likes to make an entrance when she bursts on to the scene, and is always testing out different heroic introductions.",
+        "Hobby": "Challenging people to duels, self-introductions",
         "CharacterVoice": "Miyari Nemoto",
         "BirthDay": "5/31",
         "Illustrator": "kokosando",
         "Designer": "kokosando",
         "CharHeightMetric": "153cm",
-        "CharHeightImperial": null,
+        "CharHeightImperial": "5'0\"",
         "StabilityPoint": 1812,
         "AttackPower1": 171,
         "AttackPower100": 1711,
@@ -81294,12 +81723,13 @@
                             "AttackIngDuration": 36,
                             "AttackReloadDuration": 62
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
             },
             "Ex": {
-                "Name": "Accept My Challenge!",
+                "Name": "Duel Me!",
                 "Desc": "Deals <?1> damage to enemies in a fan-shaped area. Removes one debuff from self.",
                 "Parameters": [
                     [
@@ -81335,13 +81765,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3333,
                             3333,
                             3334
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             37221,
                             42807,
@@ -81397,7 +81828,7 @@
                 ]
             },
             "Passive": {
-                "Name": "All Day Long!",
+                "Name": "I Can Do This All Day",
                 "Desc": "Increases <b:ATK> by <?1> and <b:MAXHP> by <?2>.",
                 "Parameters": [
                     [
@@ -81474,7 +81905,7 @@
                 ]
             },
             "WeaponPassive": {
-                "Name": "All Day Long!+",
+                "Name": "I Can Do This All Day+",
                 "Desc": "Increases <b:ATK> by <?1> plus a further <?3> and <b:MAXHP> by <?2> plus a further <?4>.",
                 "Parameters": [
                     [
@@ -81575,7 +82006,7 @@
                 ]
             },
             "ExtraPassive": {
-                "Name": "Uzawa Reisa's Presence",
+                "Name": "The Reisa Effect",
                 "Desc": "Reisa's EX skill also decreases the <d:DEF> of enemies hit by <?1> for 25s and inflicts <c:Provoke> for 1s.",
                 "Parameters": [
                     [
@@ -81672,7 +82103,7 @@
         "FavorAlts": [],
         "MemoryLobby": [
             6,
-            0,
+            6,
             0
         ],
         "MemoryLobbyBGM": 67,
@@ -81683,7 +82114,12 @@
                     3
                 ]
             ],
-            [],
+            [
+                [
+                    9106,
+                    0
+                ]
+            ],
             []
         ],
         "FavorItemTags": [
@@ -81697,8 +82133,8 @@
         ],
         "IsLimited": 0,
         "Weapon": {
-            "Name": "シューティング☆スター",
-            "Desc": "レイサの大切なショットガン。丁寧にカスタマイズされた銃身は誰が見てもレイサの銃だ。\n\nかわいい外観とは異なり、数々の戦場をくぐり抜けたであろう痕跡が見て取れる。",
+            "Name": "Shooting☆Star",
+            "Desc": "Reisa's precious shotgun.\n\nIt's immediately obvious whose weapon this is with the carefully customized gun barrel. She may be small and cute, but her experience defending justice in Trinity makes her just as fierce!",
             "AdaptationType": "Indoor",
             "AdaptationValue": 1,
             "AttackPower1": 75,
@@ -81925,6 +82361,7 @@
                             "AttackIngDuration": 25,
                             "AttackReloadDuration": 49
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -82049,6 +82486,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -82062,7 +82500,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             22680,
                             23808,
@@ -82526,6 +82964,7 @@
                             "AttackBurstRoundOverDelay": 25,
                             "AttackReloadDuration": 75
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -82584,13 +83023,14 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             2500,
                             2500,
                             5000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             31243,
                             35928,
@@ -82731,7 +83171,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             22283,
                             23394,
@@ -82747,6 +83189,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Scale": [
                             44565,
@@ -82763,6 +83206,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Scale": [
                             66840,
@@ -82779,6 +83223,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Scale": [
                             89122,
@@ -83296,7 +83741,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             46212,
                             53148,
@@ -83312,7 +83759,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             62386,
                             71750,
@@ -83328,7 +83777,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 3,
                         "Scale": [
                             78560,
                             90352,
@@ -83344,7 +83795,9 @@
                     },
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 4,
                         "Scale": [
                             94735,
                             108953,
@@ -83401,7 +83854,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             7784,
                             8176,
@@ -83854,6 +84309,7 @@
                             "AttackIngDuration": 25,
                             "AttackReloadDuration": 58
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -83900,12 +84356,13 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             5000,
                             5000
                         ],
-                        "HitsParameter": 2,
+                        "DescParamId": 2,
                         "Scale": [
                             25676,
                             29526,
@@ -84425,6 +84882,7 @@
                             "AttackIngDuration": 37,
                             "AttackReloadDuration": 69
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -84471,7 +84929,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             29057,
                             33418,
@@ -84595,6 +85055,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             500,
@@ -84613,7 +85074,7 @@
                             727,
                             727
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             19550,
                             20528,
@@ -84629,6 +85090,7 @@
                     },
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             500,
@@ -84647,7 +85109,7 @@
                             727,
                             727
                         ],
-                        "HitsParameter": 2,
+                        "DescParamId": 2,
                         "Scale": [
                             9775,
                             10268,
@@ -85117,6 +85579,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Always",
                         "Hits": [
                             1250,
@@ -85128,7 +85591,7 @@
                             1250,
                             1250
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             38822,
                             44646,
@@ -85174,7 +85637,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             36981,
                             38829,
@@ -85648,7 +86113,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 2,
                         "Scale": [
                             58800,
                             67620,
@@ -86165,6 +86632,7 @@
                             "AttackIngDuration": 42,
                             "AttackReloadDuration": 78
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -86737,6 +87205,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             666,
@@ -86755,7 +87224,7 @@
                             666,
                             676
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             47950,
                             55146,
@@ -86824,7 +87293,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             8631,
                             9065,
@@ -87287,6 +87758,7 @@
                             "AttackBurstRoundOverDelay": 30,
                             "AttackReloadDuration": 75
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -87327,12 +87799,13 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             3333,
                             6667
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             43904,
                             50496,
@@ -87512,6 +87985,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             1046,
@@ -87821,6 +88295,7 @@
                             "AttackIngDuration": 20,
                             "AttackReloadDuration": 75
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -87862,6 +88337,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1670,
@@ -87871,7 +88347,7 @@
                             1666,
                             1666
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             33794,
                             38859,
@@ -87928,7 +88404,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             11882,
                             12481,
@@ -89027,6 +89505,7 @@
                             "AttackIngDuration": 36,
                             "AttackReloadDuration": 56
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -89085,6 +89564,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             600,
@@ -89095,7 +89575,7 @@
                             2000,
                             2700
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             9116,
                             10485,
@@ -89180,7 +89660,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             3573,
                             3751,
@@ -89333,7 +89815,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             13939,
                             14636,
@@ -89637,6 +90121,7 @@
                             "AttackIngDuration": 140,
                             "AttackReloadDuration": 40
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ],
@@ -89683,7 +90168,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             18783,
                             21599,
@@ -90188,6 +90675,7 @@
                             "AttackIngDuration": 32,
                             "AttackReloadDuration": 77
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -90229,6 +90717,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             833,
@@ -90244,7 +90733,7 @@
                             833,
                             834
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             20527,
                             23606,
@@ -90833,7 +91322,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             16149,
                             16954,
@@ -91308,6 +91799,7 @@
                             "AttackIngDuration": 35,
                             "AttackReloadDuration": 78
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -91349,6 +91841,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1250,
@@ -91360,7 +91853,7 @@
                             1250,
                             1250
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             72674,
                             83573,
@@ -91551,6 +92044,7 @@
                 "Effects": [
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Scale": [
                             238,
@@ -91856,6 +92350,7 @@
                             "AttackBurstRoundOverDelay": 30,
                             "AttackReloadDuration": 65
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -91908,6 +92403,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 0,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1428,
@@ -91918,7 +92414,7 @@
                             1428,
                             1428
                         ],
-                        "HitsParameter": 2,
+                        "DescParamId": 2,
                         "Scale": [
                             22764,
                             26194,
@@ -91985,7 +92481,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             22741,
                             23880,
@@ -92120,7 +92618,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             63391,
                             66556,
@@ -92929,6 +93429,7 @@
                             "AttackIngDuration": 24,
                             "AttackReloadDuration": 72
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -92970,7 +93471,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 1,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             54458,
                             62622,
@@ -93039,7 +93542,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             12021,
                             12617,
@@ -93534,6 +94039,7 @@
                             "AttackIngDuration": 52,
                             "AttackReloadDuration": 65
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -93586,7 +94092,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             77272,
                             88864,
@@ -93648,6 +94156,7 @@
                 "Effects": [
                     {
                         "Type": "DMGMulti",
+                        "Block": 1,
                         "CriticalCheck": "Check",
                         "Hits": [
                             1000,
@@ -93661,7 +94170,7 @@
                             1000,
                             1000
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             31828,
                             33424,
@@ -94166,7 +94675,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             44611,
                             51303,
@@ -94678,6 +95189,7 @@
                             "AttackBurstRoundOverDelay": 30,
                             "AttackReloadDuration": 80
                         },
+                        "Block": 1,
                         "CriticalCheck": "Check"
                     }
                 ]
@@ -94730,7 +95242,9 @@
                 "Effects": [
                     {
                         "Type": "DMGSingle",
+                        "Block": 0,
                         "CriticalCheck": "Check",
+                        "DescParamId": 1,
                         "Scale": [
                             15927,
                             18312,
@@ -94746,6 +95260,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Always",
                         "Scale": [
                             11760,
@@ -94762,6 +95277,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Always",
                         "Scale": [
                             23520,
@@ -94778,6 +95294,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Always",
                         "Scale": [
                             35280,
@@ -94794,6 +95311,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Always",
                         "Scale": [
                             47032,
@@ -94810,6 +95328,7 @@
                     },
                     {
                         "Type": "DMGEcho",
+                        "Block": 0,
                         "CriticalCheck": "Always",
                         "Scale": [
                             58792,

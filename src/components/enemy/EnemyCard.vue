@@ -7,7 +7,8 @@ const props = defineProps({
         type: Object,
         required: true
     },
-    level: Number
+    level: Number,
+    grade: Number,
 })
 
 const settings = useSettingsStore().settings;
@@ -20,7 +21,7 @@ const smallTextCharacters = {'en':12, 'jp':6, 'kr':8, 'tw':6, 'cn':6, 'zh':6, 't
 
 <div class="selection-grid-card card-enemy">
     <div class="card-img"><img :src="enemy.Icon ? `/images/enemy/${enemy.Icon}.webp` : '/images/enemy/noicon.webp'"></div>
-    <div class="card-badge enemy-level">Lv.{{ level }}</div>
+    <div class="card-badge enemy-level">Lv.{{ level }}<template v-if="grade > 1"> ★{{ grade }}</template></div>
     <div class="card-badge enemy-atk" :class="`bg-atk-${enemy.BulletType.toLowerCase()}`"><img src="/images/ui/Type_Attack_s.png" style="width:100%;"></div>
     <div class="card-badge enemy-def" :class="`bg-def-${enemy.ArmorType.toLowerCase()}`"><img src="/images/ui/Type_Defense_s.png" style="width:100%;"></div>
     <span v-if="enemy.IsNPC" class="card-badge enemy-npc">NPC</span>

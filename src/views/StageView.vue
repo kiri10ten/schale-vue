@@ -30,7 +30,7 @@ const renderStage = computed(() => {
 
 });
 
-setBackground('BG_HQ.jpg');
+setBackground('/images/background/BG_HQ.jpg');
 
 </script>
 
@@ -50,7 +50,7 @@ setBackground('BG_HQ.jpg');
                 </RouterLink>
             </div>
 
-            <StageRender :stage="renderStage" />
+            <StageRender :stage="renderStage" class="card" />
         </div>
     </div>
 </div>

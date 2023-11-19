@@ -33,7 +33,7 @@ const renderItem = computed(() => {
 const breakpoints = useBreakpoints(breakpointsBootstrapV5);
 const hideItemList = breakpoints.smaller('lg');
 
-setBackground('BG_MainOffice_Night2.jpg');
+setBackground('/images/background/BG_MainOffice_Night2.jpg');
 
 </script>
 

@@ -214,7 +214,7 @@ onMounted(() => {
                 </span>
             </template>
             <div v-if="tile.formation || tile.pair > -1" class="formation-info">
-                <span v-if="tile.pair > -1" class="tile-pair" :class="`pair-${tile.pair}`">
+                <span v-if="tile.pair > -1" class="tile-pair" :class="`pair-${tile.pair % 5}`">
                     <span class="font-nexon">{{ numberToLetter(tile.pair + 1) }}</span>
                     <!-- <fa :icon="pairSymbol[tile.pair]" /> -->
                 </span>
@@ -319,19 +319,22 @@ onMounted(() => {
             }
 
             &.pair-0 {
-                background-color: var(--col-map-pair-5)
+                background-color: var(--col-map-pair-1)
             }
 
             &.pair-1 {
-                background-color: var(--col-map-pair-6)
+                background-color: var(--col-map-pair-2)
             }
 
             &.pair-2 {
-                background-color: var(--col-map-pair-7)
+                background-color: var(--col-map-pair-3)
             }
 
             &.pair-3 {
                 background-color: var(--col-map-pair-4)
+            }
+            &.pair-4 {
+                background-color: var(--col-map-pair-5)
             }
         }
 
@@ -357,11 +360,11 @@ onMounted(() => {
             padding: 3px;
 
             &.guard {
-                background-color: var(--col-map-pair-3);
+                background-color: var(--col-map-guard);
             }
 
             &.pursuit {
-                background-color: var(--col-map-pair-4);
+                background-color: var(--col-map-pursuit);
             }
         }
     }

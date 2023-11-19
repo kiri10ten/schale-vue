@@ -91,7 +91,7 @@ const armorTypeTooltip = useArmorTypeTooltip(computed(() => props.enemy.ArmorTyp
                             <span class="label font-nexon">{{ translate('SquadType', enemy.SquadType) }}</span>
                         </span>
                         <span class="ba-info-pill-s bg-theme text-bold">
-                            <span class="label">Lv.{{ level }}</span>
+                            <span class="label">Lv.{{ level }}<template v-if="grade > 1"> ★{{ grade }}</template></span>
                         </span>
                         <Tooltip v-bind="bulletTypeTooltip" class="ba-info-pill-s bg-theme text-bold">
                             <span class="icon-type" :class="`bg-atk-${enemy.BulletType.toLowerCase()}`"><img src="/images/ui/Type_Attack_s.png"></span>

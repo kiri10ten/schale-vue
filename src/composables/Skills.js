@@ -76,9 +76,7 @@ export function getNormalSkill(skill, range) {
         normalSkill.Icon = 'COMMON_SKILLICON_TARGET';
     }
 
-    if (normalSkill.Effects[0].Type == 'DMGMulti') {
-        normalSkill.Effects[0].HitsParameter = 1;
-    }
+    normalSkill.Effects[0].DescParamId = 1;
 
     return normalSkill;
 

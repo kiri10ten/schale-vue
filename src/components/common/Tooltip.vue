@@ -55,8 +55,19 @@ function hookTooltip(element, tooltip) {
     bsTooltip.value = new Tooltip(element, {
         title: tooltip,
         html: true,
-        template: '<div class="tooltip" role="tooltip"><div class="tooltip-inner"></div></div>',
-        placement: props.placement
+        template: '<div class="tooltip" role="tooltip"><div class="tooltip-inner rich"></div></div>',
+        // placement: props.placement,
+        popperConfig: () => {
+            return {
+                placement: props.placement,
+                modifiers: [
+                    {name: 'flip', options: {fallbackPlacements: ['bottom']}},
+                    {name: 'offset', options: {offset: [0, 6]}},
+                    {name: 'preventOverflow', options: {boundary: 'clippingParents'}},
+                    {name: 'preSetPlacement', enabled: true, phase: 'beforeMain'}
+                ]
+            };
+        }
     });
 
     tooltip.remove();

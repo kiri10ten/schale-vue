@@ -329,7 +329,7 @@ function scrollToCurrentItem() {
 
                 </div>
 
-                <div class="d-flex px-2 pb-2 card-body">
+                <div class="d-flex pb-2 card-body" :class="{'px-2': sidebarMode}">
                     <RecycleScroller
                         :page-mode="!sidebarMode"
                         class="w-100"
@@ -354,7 +354,9 @@ function scrollToCurrentItem() {
                             </div>
 
                     </RecycleScroller>
-                    <p v-show="resultItemList.length == 0" class="w-100 my-3 text-center">{{ translateUi('no_results') }}</p>
+                    <div class="flex-fill">
+                        <p v-show="resultItemList.length == 0" class="text-center py-2 m-0" :class="{card: mobileView && !sidebarMode}">{{ translateUi('no_results') }}</p>
+                    </div>
                     
                 </div>
                 

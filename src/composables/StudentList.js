@@ -3,6 +3,7 @@ import { useStudentStore } from "../stores/StudentStore";
 import { getEquipmentStats } from "./Equipment";
 import { regionSettings } from "./RegionSettings";
 import { useStudentBondStats } from './Bond';
+import { useCharacterStats, useGearStats, useWeaponStats } from "./CharacterStats";
 
 export function getMaximumAttributes(student, useCollection = false) {
 

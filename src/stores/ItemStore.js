@@ -1,9 +1,8 @@
-import { ref } from 'vue'
-import { defineStore } from 'pinia'
-import { useLocalStorage, useSessionStorage } from '@vueuse/core'
-import { useSettingsStore } from './SettingsStore'
-import { useDataStore } from "../stores/DataStore";
-import merge from 'lodash/merge'
+import { useLocalStorage } from '@vueuse/core';
+import merge from 'lodash/merge';
+import { defineStore } from 'pinia';
+import { ref } from 'vue';
+import { useDataStore } from "./DataStore";
 
 
 export const useItemStore = defineStore('itemstore', {

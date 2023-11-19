@@ -87,7 +87,7 @@
     &.craft {
         --var-grid-gap: 0.5rem;
         --var-grid-card-width: 86px;
-        --var-grid-card-height: 64px;
+        --var-grid-card-height: 72px;
     }
 
 }
@@ -645,7 +645,8 @@
         .card-img {
 
             img {
-                max-height: 42px;
+                max-height: 48px;
+                padding: 4px;
                 object-fit: contain;
             }
         }

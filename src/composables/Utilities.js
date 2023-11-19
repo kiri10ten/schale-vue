@@ -12,7 +12,7 @@ export function setBackground(src) {
     newBackground.onload = function(){
         document.getElementById('ba-background').style.backgroundImage = `url('${newBackground.src}')`;
     }
-    newBackground.src = `/images/background/${src}`;
+    newBackground.src = src;
 }
 
 export function setNoBackground() {
@@ -149,8 +149,8 @@ export function numberToLetter(number) {
 
 export function getMixedTypeGradient(types) {
     const steps = types.map((type, i) => {
-        const start = Math.round((i / types.length) * 100);
-        const end = Math.round(((i + 1) / types.length) * 100);
+        const start = Math.round((i == 0 ? 0 : 15) + (i / types.length) * 70);
+        const end = Math.round((i == types.length - 1 ? 30 : 15) + ((i + 1) / types.length) * 70);
         return `var(--col-bg-${type}) ${start}% ${end}%`;
     })
 

@@ -53,6 +53,11 @@ export const useDataStore = defineStore('dataStore', {
             isLangSpecfic: true,
             loaded: false       
         },
+        events: {
+            data: {},
+            isLangSpecfic: true,
+            loaded: false       
+        },
         enemies: {
             data: {},
             isLangSpecfic: true,
@@ -64,6 +69,11 @@ export const useDataStore = defineStore('dataStore', {
             loaded: false
         },
         groups: {
+            data: {},
+            isLangSpecfic: false,
+            loaded: false
+        },
+        crafting: {
             data: {},
             isLangSpecfic: false,
             loaded: false

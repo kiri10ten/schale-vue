@@ -8707,7 +8707,7 @@
         "Desc": "A large table, useful for utilizing a big space.",
         "Interaction": [
             true,
-            false,
+            true,
             false
         ],
         "Templates": [
@@ -13149,7 +13149,7 @@
         "CraftQuality": 20,
         "SubCategory": "Chair",
         "SetGroupId": 111,
-        "Name": "Game Development Department Ottoman",
+        "Name": "White Game Development Department Stool",
         "Desc": "A white ottoman with a quilted top. Its soft cushioning provides optimum comfort no matter how long you need to sit.",
         "Interaction": [
             false,

@@ -157,7 +157,7 @@ onUnmounted(() => {
                         <b class="ms-1" :class="{conflict: effect.isConflict}">
                             {{ effect.amount }}
                         </b>
-                        <fa icon="warning" v-if="effect.isConflict" class="ms-1" v-tooltip="'Multiple bonuses of the same type and skill slot do not stack with each other.'" />
+                        <fa icon="warning" v-if="effect.isConflict" class="ms-1" v-tooltip="'Overwritten by similar buff.'" />
                     </template>
                 </p>
 

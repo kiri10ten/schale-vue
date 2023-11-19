@@ -47,7 +47,7 @@ const renderRaid = computed(() => {
     }
 });
 
-setBackground('BG_Raid.jpg');
+setBackground('/images/background/BG_Raid.jpg');
 
 </script>
 

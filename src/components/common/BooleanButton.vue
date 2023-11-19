@@ -17,9 +17,9 @@ const state = useVModel(props, 'modelValue', emit);
     <span class="label">
         <fa icon="square" class="off" />
         <fa icon="square-check" class="on" />
-        <slot name="label">
-
-        </slot>
+        <span class="ms-2">
+            <slot></slot>
+        </span>
     </span>
 </button>
 

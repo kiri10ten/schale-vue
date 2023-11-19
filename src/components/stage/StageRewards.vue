@@ -35,26 +35,41 @@ const renderRewards = computed(() => {
             }
         }
 
-        if (reward.AmountMin > 0 && reward.AmountMax > reward.AmountMin) {
-            const amount = `×${abbreviateNumber(reward.AmountMin)}~${abbreviateNumber(reward.AmountMax)}`;
-            if (primaryLabel) {
-                secondaryLabel = amount;
-            } else {
-                primaryLabel = amount;
+        if (reward.AmountMin > 0) {
+            if (reward.AmountMax > reward.AmountMin) {
+                const amount = `×${abbreviateNumber(reward.AmountMin)}~${abbreviateNumber(reward.AmountMax)}`;
+                if (primaryLabel) {
+                    secondaryLabel = amount;
+                } else {
+                    primaryLabel = amount;
+                }
+            } else if (reward.AmountMin > 1) {
+                const amount = `×${abbreviateNumber(reward.AmountMin)}`;
+                if (secondaryLabel === undefined) {
+                    secondaryLabel = amount;
+                }
             }
+
         }
 
-        if (reward.RewardType == 'FirstClear') {
-            secondaryLabel = translateUi("stage_reward_firstclear");
-        } else if (reward.RewardType == 'ThreeStar') {
-            secondaryLabel = '★★★';
+        switch (reward.RewardType) {
+            case 'FirstClear':
+                secondaryLabel = translateUi('stage_reward_firstclear');
+                break;
+            case 'EventBonus':
+                secondaryLabel = translateUi('stage_reward_bonus');
+                break;
+            case 'ThreeStar':
+                secondaryLabel = '★★★';
+                break;
         }
 
         rewards.push({
             itemType: reward.Type,
             itemId: reward.Id,
             primaryLabel: primaryLabel,
-            secondaryLabel: secondaryLabel
+            secondaryLabel: secondaryLabel,
+            bonusStudents: reward.BonusStudents
         })
 
     }

@@ -126,7 +126,7 @@ p {
     width: 100vw;
     height: 100vh;
     z-index: -1000;
-    filter: blur(0.75rem) brightness(var(--var-background-brightness));
+    filter: blur(20px) brightness(var(--var-background-brightness));
     transform: scale(1.05);
     @include transition(background-image);
 }
@@ -1035,6 +1035,15 @@ p a {
     width: auto;
 }
 
+.inline-student-img {
+    @include circular;
+    display: inline;
+    height: 32px;
+    width: auto;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
 textarea {
     width: 100%;
     height: 100%;
@@ -1055,4 +1064,15 @@ textarea {
     @include backdrop-filter(var(--var-glass-filter-navbar));
     background-color: var(--col-theme-glass-navbar) !important;
     border-radius: 0.5rem;
+}
+
+.craft-image {
+    .node-icon {
+
+        filter: sepia(1) saturate(10) hue-rotate(150deg) !important;
+
+        &.rare {
+            filter: sepia(1) saturate(20) hue-rotate(325deg) !important;
+        }
+    }
 }

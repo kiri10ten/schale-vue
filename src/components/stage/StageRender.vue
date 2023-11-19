@@ -11,25 +11,49 @@ import { regionSettings } from '../../composables/RegionSettings';
 import Tooltip from '../common/Tooltip.vue';
 import { getCurrencyById } from '../../composables/Currency';
 import { getItemById } from '../../composables/Items';
+import { inRange } from 'lodash';
+import { getEventItemBonus } from '../../composables/EventItems';
 
 const props = defineProps({
     stage: {
         type: Object,
         required: true
-    }
+    },
+    forceVertical: Boolean
 })
 
 const breakpoints = useBreakpoints(breakpointsBootstrapV5);
 const mobileView = breakpoints.smaller('md');
-const useThreeCol = inject('useThreeCol');
+const useThreeCol = props.forceVertical ? ref(false) : inject('useThreeCol');
 
 const settings = useSettingsStore().settings;
 
 const activeTab = ref('Enemies');
 const unitFilter = ref(0);
 
+const rewardList = computed(() => props.stage.Rewards[regionSettings.value.ServerName] ?? props.stage.Rewards.Jp);
+
 const stageRewards = computed(() => {
-    return props.stage[`Rewards${regionSettings.value.ServerName}`] ?? props.stage.Rewards;
+    const rewards = [...rewardList.value];
+
+    if (props.stage.Category == 'Event') {
+        rewardList.value.filter((reward) => !reward.RewardType && reward.Type == 'Item' && inRange(reward.Id, 80000, 90000)).forEach((reward) => {
+            const bonus = getEventItemBonus(reward.Id, props.stage.HexaMap?.filter(t => t.Start).length || 1);
+            const bonusAmount = Math.ceil(reward.Amount * (bonus.total / 10000));
+
+            if (bonusAmount > 0) {
+                rewards.push({
+                    Type: 'Item',
+                    Id: reward.Id,
+                    Amount: bonusAmount,
+                    RewardType: 'EventBonus',
+                    BonusStudents: bonus.students
+                })
+            }
+        })
+    }
+
+    return rewards;
 })
 
 const stageEnemies = computed(() => {
@@ -44,8 +68,8 @@ const stageEnemies = computed(() => {
 
         for (const enemyId of formation.EnemyList) {
             const enemyObj = getEnemyById(enemyId);
-            const enemyLevel = formation[`Level${enemyObj.Rank}`] ?? formation.LevelMinion;
-            const enemyGrade = formation[`Grade${enemyObj.Rank}`] ?? formation.GradeMinion;
+            const enemyLevel = formation[`Level${enemyObj.IsNPC ? 'NPC' : enemyObj.Rank}`] ?? formation.LevelMinion;
+            const enemyGrade = formation[`Grade${enemyObj.IsNPC ? 'NPC' : enemyObj.Rank}`] ?? formation.GradeMinion;
 
             const uniqueKey = `${enemyId}_${enemyLevel}_${enemyGrade}`;
 
@@ -97,6 +121,11 @@ const stageConditions = computed(() => {
                 stars.push(translateUi('starcondition_earnrewards', 1));
                 stars.push(translateUi('starcondition_earnrewards', 4));
                 stars.push(translateUi('starcondition_earnrewards', 5));
+                break;
+            case 'Conquest':
+                stars.push(translateUi('starcondition_defeatall'));
+                stars.push(translateUi('starcondition_defeatalltime', props.stage.StarCondition[1]));
+                stars.push(translateUi('starcondition_allsurvive'));
                 break;
             default:
                 stars.push(translateUi('starcondition_defeatall'));
@@ -162,14 +191,14 @@ watch(() => props.stage, (newVal) => {
 </script>
 
 <template>
-    <div class="card h-100">
+    <div class="h-100">
         <div class="d-flex h-100 flex-column gap-3 py-2">
 
             <div class="d-flex" :class="{'flex-column gap-3': !useThreeCol}">
 
                 <div class="px-2 column-half align-self-start d-flex flex-column" :class="{'col-50': useThreeCol}">
 
-                    <div class="pt-2">
+                    <div class="">
                         <h5 class="px-1 mb-0">{{ stage.Title ?? translate('StageType', stage.Type) }}</h5>
                         <h2 class="title-text px-1 mb-2">{{ stage.Name }}</h2>
                         <div class="d-flex align-items-center flex-wrap gap-2">
@@ -187,7 +216,7 @@ watch(() => props.stage, (newVal) => {
                         </div>
                     </div>
 
-                    <div class="ba-panel p-2 mt-2">
+                    <div v-if="!stage.SubStage" class="ba-panel p-2 mt-2">
                         <div v-for="condition of stageConditions.stars">
                             <fa icon="star" class="condition-icon star" /><span v-html="condition"></span>
                         </div>
@@ -200,7 +229,7 @@ watch(() => props.stage, (newVal) => {
 
                 <div class="column-half align-self-end px-2" :class="{'col-50': useThreeCol}">
                     <h5 class="text-bold mb-2">{{ translateUi('rewards') }}</h5>
-                    <div class="ba-panel d-flex align-items-center justify-content-center p-2 h-100">
+                    <div class="ba-panel d-flex align-items-center justify-content-center p-2">
                         <div class="">
                             <StageRewards :rewards="stageRewards" />
                         </div>                        

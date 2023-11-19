@@ -53,7 +53,7 @@ function initialiseStudentPage() {
         student.value = getStudentByPathName(studentId);
     }
 
-    setBackground(student.value.CollectionBG + '.jpg');
+    setBackground(`/images/background/${student.value.CollectionBG}.jpg`);
     localStorage.setItem('student_last', student.value.Id);
 
     if (studentStore.collectionExists(student.value.Id)) {

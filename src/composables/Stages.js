@@ -10,12 +10,6 @@ const stageCampaignDifficulty = {
     1: 'Hard'
 }
 
-const stageEventDifficulty = {
-    0: 'Story',
-    1: 'Quest',
-    2: 'Challenge'
-}
-
 for (const stage of stageData.Campaign) {
     stage.Category = 'Campaign';
     stage.Title = `${translate('StageType', stageCampaignDifficulty[stage.Difficulty])} ${stage.Area}-${stage.Stage}`;

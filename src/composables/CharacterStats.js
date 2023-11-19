@@ -85,11 +85,11 @@ export function useCharacterStats(charRef, level, starGrade) {
     });
 
     const growthType = ref(char.StatLevelUpType ?? 'Standard');
-    const transcendence = {
+    const transcendence = computed(() => {return {
         AttackPower: char.Transcendence?.[0] ?? [0, 1000, 1200, 1400, 1700],
         MaxHP: char.Transcendence?.[1] ?? [0, 500, 700, 900, 1400],
         HealPower: char.Transcendence?.[2] ?? [0, 750, 1000, 1200, 1500],
-    };
+    }});
 
     const buffs = reactive({});
 
@@ -112,7 +112,7 @@ export function useCharacterStats(charRef, level, starGrade) {
         let base = stats.value[stat];
 
         if (Array.isArray(base)) {
-            base = interpolateStat(base, toValue(level), 1 + ((transcendence[stat]?.slice(0, toValue(starGrade)).reduce((pv, cv) => pv + cv, 0) ?? 0) / 10000), growthType);
+            base = interpolateStat(base, toValue(level), 1 + ((transcendence.value[stat]?.slice(0, toValue(starGrade)).reduce((pv, cv) => pv + cv, 0) ?? 0) / 10000), growthType);
         }
 
         const bonuses = {
@@ -131,7 +131,7 @@ export function useCharacterStats(charRef, level, starGrade) {
         const uniqueKeys = [];
         const conflicts = {};
 
-        for (const id in buffs) {
+        for (const id of Object.keys(buffs).reverse()) {
 
             for (let i = 0; i < buffs[id].length; i++) {
                 const buff = buffs[id][i];
@@ -170,7 +170,7 @@ export function useCharacterStats(charRef, level, starGrade) {
                         specialBonuses[buff.type] += amount
                     }
 
-                    bonuses.BonusList.push({
+                    bonuses.BonusList.unshift({
                         Name: buff.label,
                         Type: buff.type,
                         Amount: buff.amount

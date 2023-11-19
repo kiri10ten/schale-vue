@@ -3,7 +3,7 @@ import StudentList from '../components/student/StudentList.vue';
 import { translateUi } from '../composables/Localization';
 import { setBackground, setPageTitle } from '../composables/Utilities';
 
-setBackground('BG_MainOffice_Night.jpg');
+setBackground('/images/background/BG_MainOffice_Night.jpg');
 setPageTitle(translateUi('navbar_students'));
 
 </script>

@@ -30,7 +30,9 @@ watch(route, () => {
             <!-- <RouterLink to="/" class="nav-link px-3 circle" :class="{active: route.name == 'home' }" >{{ translateUi('navbar_home') }}</RouterLink> -->
             <RouterLink to="/student" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/student') }" >{{ translateUi('navbar_students') }}</RouterLink>
             <RouterLink to="/item" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/item') || route.path.startsWith('/furniture') || route.path.startsWith('/equipment') }">{{ translateUi('item') }}</RouterLink>
+            <RouterLink to="/crafting" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/crafting') }">{{ translateUi('crafting') }}</RouterLink>
             <RouterLink to="/stage" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/stage') }">{{ translateUi('stages') }}</RouterLink>
+            <RouterLink to="/event" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/event') }">{{ translateUi('events') }}</RouterLink>
             <RouterLink to="/raid" class="nav-link px-3 circle" :class="{active: route.path.startsWith('/raid') || route.path.startsWith('/timeattack') || route.path.startsWith('/worldraid') }">{{ translateUi('raids') }}</RouterLink>
         </ul>
     </div>
@@ -43,11 +45,11 @@ watch(route, () => {
             <span class="channel-label font-nexon">PREVIEW</span>
         </RouterLink>
         <ReuseTemplate v-if="!mobileView" />
-        <span v-if="!mobileView" class="text-muted ms-auto me-3">
+        <span class="text-muted ms-auto me-3">
             <fa icon="globe" class="me-1"></fa>
             {{ translate('ServerName', settings.server) }}
         </span>
-        <div class="dropdown ms-auto">
+        <div class="dropdown">
             <a class="btn btn-dark" href="#" id="ba-navbar-settings" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" >
                 <font-awesome-icon :icon="['fas', 'gear']" />
             </a>
@@ -70,12 +72,13 @@ watch(route, () => {
     height: 40px;
     text-decoration: none;
     color: var(--col-theme-text);
+    position: relative;
 
     .channel-label {
+        position: absolute;
+        left: 24px;
+        bottom: -4px;
         font-size: 12px;
-        padding: 0 4px;
-        align-self: end;
-        margin-bottom: 8px;
     }
 }
 

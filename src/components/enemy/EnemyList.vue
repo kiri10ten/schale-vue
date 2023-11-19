@@ -35,7 +35,7 @@ watch(() => props.enemies, () => {
     <div :style="{width: horizontalMode ? '50%' : 'auto'}">
         <div class="ba-panel p-2">
             <div class="selection-grid enemy selection-grid-flex hover enemy-list p-2">
-                <EnemyCard v-for="(enemy, index) in enemies" :key="enemy.enemy.Id" :class="{selected: selectedIndex == index}" v-bind="enemy" @click="selectedIndex = index" />
+                <EnemyCard v-for="(enemy, index) in enemies" :key="`${enemy.enemy.Id}_${enemy.level}_${enemy.grade}`" :class="{selected: selectedIndex == index}" v-bind="enemy" @click="selectedIndex = index" />
             </div>
         </div>
         <button v-if="unitFilter" class="btn-pill mt-2" @click="emit('clearUnitFilter')">

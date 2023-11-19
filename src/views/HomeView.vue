@@ -3,7 +3,7 @@ import CurrentEvents from '../components/home/CurrentEvents.vue';
 import { translateUi } from '../composables/Localization';
 import { setBackground, setPageTitle } from '../composables/Utilities';
 
-setBackground('BG_ReceptionRoom.jpg');
+setBackground('/images/background/BG_ReceptionRoom.jpg');
 setPageTitle(translateUi('navbar_home'));
 
 </script>

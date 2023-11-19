@@ -647,7 +647,7 @@ watch(toRefs(useSettingsStore().settings).server, (newVal, oldVal) => {
 
                     </RecycleScroller>
 
-                    <p v-show="resultStudentList.length == 0" class="text-center m-0">{{ translateUi('no_results') }}</p>
+                    <p v-show="resultStudentList.length == 0" class="text-center py-2 m-0" :class="{card: useOffCanvas}">{{ translateUi('no_results') }}</p>
                 </div>
             </div>
 

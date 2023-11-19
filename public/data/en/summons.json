@@ -544,7 +544,7 @@
                             2500,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             29757,
                             31241,
@@ -605,7 +605,46 @@
     },
     {
         "Id": 40002,
-        "Skills": [],
+        "Skills": [
+            {
+                "Name": "Help Me, Peroro!",
+                "Desc": "Inflicts <c:Provoke> on enemies in a circular area for <?1>.",
+                "Parameters": [
+                    [
+                        "3.4s",
+                        "3.4s",
+                        "3.4s",
+                        "3.4s",
+                        "3.9s",
+                        "3.9s",
+                        "3.9s",
+                        "3.9s",
+                        "3.9s",
+                        "3.9s"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_PROVOKE",
+                "SkillType": "passive",
+                "IsSummonSkill": true,
+                "Effects": [
+                    {
+                        "Type": "CrowdControl",
+                        "Scale": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            }
+        ],
         "Name": "Peroro Plush",
         "DevName": "HihumiDecoy_default",
         "Type": "Summoned",

@@ -1,4 +1,5 @@
 // Put all CSS variables for theming here
+@use 'sass:color';
 
 :root {
     /* Colors */
@@ -23,27 +24,45 @@
     --col-theme-textshadow: rgba(255, 255, 255, 0.8);
     --col-theme-row-stripe: rgba(0, 0, 0, 0.08);
 
-    --col-bg-explosive: rgba(167, 12, 25, 1);
+    $Explosion: rgb(167, 12, 25);
+    $Pierce: rgb(178, 109, 31);
+    $Mystic: rgb(33, 111, 156);
+    $Sonic: rgb(148, 49, 165);
+    $Normal: rgb(72, 85, 130);
+
+    --col-bg-normal: #{$Normal};
+    --col-bg-Normal: var(--col-bg-normal);
+
+    --col-bg-explosive: #{$Explosion};
     --col-bg-Explosion: var(--col-bg-explosive);
     --col-bg-LightArmor: var(--col-bg-explosive);
-    --col-bg-piercing: rgba(178, 109, 31, 1);
+
+    --col-bg-piercing: #{$Pierce};
     --col-bg-Pierce: var(--col-bg-piercing);
     --col-bg-HeavyArmor: var(--col-bg-piercing);
-    --col-bg-mystic: rgba(33, 111, 156, 1);
+
+    --col-bg-mystic: #{$Mystic};
     --col-bg-Mystic: var(--col-bg-mystic);
     --col-bg-Unarmed: var(--col-bg-mystic);
-    --col-bg-sonic: rgba(148, 49, 165, 1);
+
+    --col-bg-sonic: #{$Sonic};
     --col-bg-Sonic: var(--col-bg-sonic);
     --col-bg-ElasticArmor: var(--col-bg-sonic);
-    --col-bg-explosive-t: rgba(167, 12, 25, 0.835);
-    --col-bg-piercing-t: rgba(178, 109, 31, 0.835);
-    --col-bg-mystic-t: rgba(33, 111, 156, 0.835);
-    --col-bg-sonic-t: rgba(148, 49, 165, 0.835);
+
+    $textbg-adjust-saturation: -25%;
+    $textbg-adjust-lightness: 40%;
+    $textbg-adjust-alpha: -70%;
+
+    --col-textbg-Explosion: #{scale-color($Explosion, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+    --col-textbg-Pierce: #{scale-color($Pierce, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+    --col-textbg-Mystic: #{scale-color($Mystic, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+    --col-textbg-Sonic: #{scale-color($Sonic, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+
     --col-bg-buff: rgba(255, 79, 50, 0.122);
     --col-bg-debuff: rgba(63, 158, 238, 0.122);
     --col-bg-cc: rgba(175, 105, 246, 0.122);
     --col-bg-status: rgba(255, 200, 50, 0.122);
-    --col-bg-normal: rgb(72, 85, 130);
+
     --col-bg-striker: rgba(204, 26, 37, 1);
     --col-bg-special: rgba(0, 107, 255, 1);
     --col-bg-striker-t: rgba(204, 26, 37, 0.835);
@@ -55,8 +74,7 @@
     --col-bg-item-r: rgb(144, 186, 236);
     --col-bg-item-sr: rgb(214, 173, 129);
     --col-bg-item-ssr: rgb(168, 138, 236);
-    --col-bg-node-normal: rgb(72, 94, 121);
-    --col-bg-node-rare: rgb(162, 125, 39);
+    --col-bg-craftnode: rgb(34, 69, 103);
     --col-bg-msg-success: rgba(0, 128, 68, 0.5);
     --col-bg-msg-alert: rgba(178, 109, 31, 0.5);
     --col-bg-msg-failure: rgba(204, 26, 37, 0.5);
@@ -97,13 +115,15 @@
     --col-bg-ally: rgba(0, 128, 68, 0.75);
 
     --col-map-tile: rgba(40, 40, 40, 0.75);
-    --col-map-pair-1: rgb(167, 12, 25);
-    --col-map-pair-2: rgb(0, 107, 255);
-    --col-map-pair-3: rgb(178, 109, 31);
+
+    --col-map-guard: rgb(178, 109, 31);
+    --col-map-pursuit: rgb(0, 128, 68);
+    
+    --col-map-pair-1: rgb(162, 105, 255);
+    --col-map-pair-2: rgb(252, 95, 48);
+    --col-map-pair-3: rgb(0, 163, 204);
     --col-map-pair-4: rgb(0, 128, 68);
-    --col-map-pair-5: rgb(162, 105, 255);
-    --col-map-pair-6: rgb(252, 95, 48);
-    --col-map-pair-7: rgb(0, 163, 204);
+    --col-map-pair-5: rgb(230, 65, 142);
 
     --col-conquest-team-1: #3193bc;
     --col-conquest-team-2: #712614;
@@ -145,6 +165,22 @@
     --col-theme-textshadow: rgba(0, 0, 0, 0.8);
     --col-theme-row-stripe: rgba(255, 255, 255, 0.03);
 
+
+    $Explosion: rgb(167, 12, 25);
+    $Pierce: rgb(161, 90, 11);
+    $Mystic: rgb(33, 111, 156);
+    $Sonic: rgb(148, 49, 165);
+    $Normal: rgb(72, 85, 130);
+
+    $textbg-adjust-saturation: -25%;
+    $textbg-adjust-lightness: -60%;
+    $textbg-adjust-alpha: -50%;
+
+    --col-textbg-Explosion: #{scale-color($Explosion, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+    --col-textbg-Pierce: #{scale-color($Pierce, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+    --col-textbg-Mystic: #{scale-color($Mystic, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+    --col-textbg-Sonic: #{scale-color($Sonic, $saturation: $textbg-adjust-saturation, $lightness: $textbg-adjust-lightness, $alpha: $textbg-adjust-alpha)};
+
     --col-bg-buff: rgba(76, 15, 12, 0.431);
     --col-bg-debuff: rgba(12, 39, 76, 0.439);
     --col-bg-cc: rgba(50, 12, 78, 0.361);
@@ -153,17 +189,17 @@
     --col-bg-item-r: rgb(101, 141, 191);
     --col-bg-item-sr: rgb(168, 125, 81);
     --col-bg-item-ssr: rgb(122, 91, 190);
-    --col-bg-node-normal: rgb(48, 70, 97);
-    --col-bg-node-rare: rgb(139, 101, 16);
 
     --col-text-explosive: rgb(255, 46, 64);
     --col-text-piercing: rgb(218, 141, 52);
     --col-text-mystic: rgb(45, 150, 210);
     --col-text-sonic: rgb(184, 78, 202);
+
     --col-text-explosive-t: rgba(255, 46, 64, 0.4);
     --col-text-piercing-t: rgba(218, 141, 52, 0.4);
     --col-text-mystic-t: rgba(45, 150, 210, 0.4);
     --col-text-sonic-t: rgba(184, 78, 202, 0.4);
+
     --col-text-buff: rgb(255, 79, 50);
     --col-text-debuff: rgb(63, 158, 238);
     --col-text-cc: rgb(174, 106, 247);
